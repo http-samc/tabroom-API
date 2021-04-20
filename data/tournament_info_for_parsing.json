@@ -29,10 +29,13 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17785",
         "acceptsUnaffiliated": false
     },
-    "Bronx Winter Local Redux 2021": {
+    "2020 John Lewis Invitational": {
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16740"
+    },
+    "Bronx Science New York City Invitational 2020": {
         "meta": "2021 NSDA Campus, NY/US - 2/6 (oct)",
-        "link": null,
-        "acceptsUnaffiliated": null
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15710",
+        "acceptsUnaffiliated": false
     },
     "47th Annual Harvard National Forensics Tournament": {
         "meta": "2021 Cambridge, MA/US - 2/12 to 2/15 (oct)",
@@ -277,7 +280,7 @@
     },
     "Jack Howe Memorial Tournament": {
         "meta": "2020 NSDA Campus, CA/US - 9/19 to 9/21",
-        "link": "https://www.tabroom.com/index/tourn/results/round_results.mhtml?tourn_id=16814&round_id=582407",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16814",
         "acceptsUnaffiliated": true
     },
     "The Dempsey Cronin Memorial Invitational": {

@@ -44,7 +44,7 @@ def getEntries(URL) -> list:
     return codes
 
 def getData():
-    with open(resource_path('team_data.json'), 'r') as f:
+    with open(resource_path('data/team_data.json'), 'r') as f:
         return json.loads(f.read())
 
 def generatePDF(Name, URL):
@@ -60,16 +60,22 @@ def generatePDF(Name, URL):
     team_data = ""
     most_wins = ["", 0]
     highest_win_pct = ["", 0]
+    
+    all_teams = list(data.keys())
 
-    for team in teams:
-
-        if team not in data:
-            continue
+    for t in teams:
         
+        team = None
+        for z in all_teams:
+            if t in z:
+                team = z
+        if team is None:
+            continue
+
         tournaments = list(data[team].keys())
         numTournaments = len(tournaments)
 
-        team_data += team + " (" + data[team][tournaments[0]]["names"][:-1] + "):\n" 
+        team_data += t + " (" + data[team][tournaments[0]]["names"][:-1] + "):\n" 
         team_data +=  "    Stats: (Tournaments: " + str(numTournaments) + ") "
         i = len(team_data)
         running_record = [0,0]
@@ -100,11 +106,11 @@ def generatePDF(Name, URL):
         win_pct = str(int(100*running_record[0]/(running_record[1]+running_record[0])))
 
         if running_record[0] > most_wins[1]:
-            most_wins[0] = team
+            most_wins[0] = t
             most_wins[1] = running_record[0]
         
         if int(win_pct) > highest_win_pct[1]:
-            highest_win_pct[0] = team
+            highest_win_pct[0] = t
             highest_win_pct[1] = int(win_pct)
 
         team_data = team_data[:i]  + " (Record: " + cum_record + ") (Win Rate: " + win_pct + "%)\n" + team_data[i:]
@@ -113,6 +119,14 @@ def generatePDF(Name, URL):
     pdf.multi_cell(200, 5, team_data, 0, 'L', False)
     pdf.output(f"{Name}.pdf")
 
+# with open("data/tournament_data.json") as f:
+#     data = json.loads(f.read())
+
+# i = 0
+# for t in list(data.keys()):
+#     print(t)
+#     i += 1
+# print(i)
 while True:
     print(Fore.CYAN + "Welcome to Offtime Roadmap's Tabroom Competitor Report API!")
     Name = input("What is the name of the tournament? ")

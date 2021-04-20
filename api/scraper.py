@@ -3,7 +3,13 @@ from bs4 import BeautifulSoup
 from colorama import Fore
 import json
 import os
+from scrape_by_entry import entryResults
 
+"""
+<head>
+    <link href="http://json2table.com/viewer.css" rel="stylesheet">
+</head>
+"""
 """
 Did not Scrape:
 Essex (no available URL)
@@ -245,7 +251,7 @@ class CompetitorData:
             return divisionNames[choice]
         except Exception:
             return None
-                        
+    @staticmethod       
     def parsePrelims(self, URL) -> dict:
 
         r = requests.get(URL)
@@ -462,11 +468,13 @@ class CompetitorData:
             formatted_data[team] = result
 
         return formatted_data
-
+d = CompetitorData.parsePrelims("", "https://www.tabroom.com/index/tourn/results/ranked_list.mhtml?event_id=153766&tourn_id=16714")
+with open('ta.json', 'w') as f:
+    json.dump(d,f )
 # PATH = 'data/tournament_info_for_parsing.json'
 # KEYWORDS = [['TOC', 'Public', 'Forum'], ['VPF'], [' v ', ' pf'], ['varsity', 'public'], ['PF'], ['Varsity', 'PF'], ['Open', 'PF'], ['O', 'PF']]
 
-# c = CompetitorData(PATH, KEYWORDS, False)
+# c = CompetitorData(PATH, KEYWORDS, True)
 # c.scrapeAll()
 
 def condense_data():
@@ -524,8 +532,9 @@ def condense_data():
 
             m[tournament][team] = team_data
 
-    with open('data/tournament_data.json', 'w') as f:
+    with open('data/tournament_data2.json', 'w') as f:
         json.dump(m, f)
+#condense_data()
 
 def team_data():
 
@@ -549,6 +558,24 @@ def team_data():
     
     with open('data/team_data.json', 'w') as f:
         json.dump(m, f)
+
+    #filter_independent.main()
+
+#team_data()
+
+# def merge():
+#     with open('data/tournament_data.json', 'r') as f:
+#         og = json.loads(f.read())
+
+#     with open('data/tournament_data2.json', 'r') as f:
+#         data = json.loads(f.read())
+    
+#     for tournament in list(data.keys()):
+#         og[tournament] = data[tournament]
+    
+#     with open('data/tournament_data.json', 'w') as f:
+#         json.dump(og, f)
+# #merge()
 
 def numTeams():
     with open('data/team_data.json', 'r') as f:
