@@ -228,7 +228,8 @@ def entryResults(URL: str):
         decision = [numBallots, (len(decisions))-numBallots]
 
         meta = row.find_all(class_="white") # Has opponent and judge info
-        oppCode = clean(meta[0].get_text())
+        if len(meta) != 0:
+            oppCode = clean(meta[0].get_text())
         meta = meta[1:]
 
         for elem in meta:
@@ -286,6 +287,17 @@ def entryResults(URL: str):
     for round in tableData["rounds"]:
 
         if round["isPrelim"]:
+            
+            # Checking to make sure index exists
+            if (len(speakerOneScores)-1) >= i and (len(speakerTwoScores)-1) >= i:
+
+                # Filtering for byes
+                s_1 = speakerOneScores[i] if round["side"] != "Bye" else None
+                s_2 = speakerTwoScores[i] if round["side"] != "Bye" else None
+            else:
+                # Adding default of 0; todo -> add filter to remove rounds from avg calc w/o speaks
+                s_1 = 0
+                s_2 = 0
 
             master[code]["rounds"]["prelims"].append(
                 {
@@ -298,18 +310,18 @@ def entryResults(URL: str):
                         "speaks" : [
                             {
                                 "name" : speakerOneName,
-                                "points" : speakerOneScores[i]
+                                "points" : s_1
                             },
                             {
                                 "name" : speakerTwoName,
-                                "points" : speakerTwoScores[i]
+                                "points" : s_2
                             }
                         ]
                     }
                 }
             )
 
-            i += 1
+            i += 1 if round["side"] != "Bye" else 0
         
         else:
 
@@ -327,8 +339,3 @@ def entryResults(URL: str):
 
     return master
 
-# Testing
-e = entryResults("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16714&entry_id=3306083")
-
-with open('ta.json', 'w') as f:
-    json.dump(e,f)
