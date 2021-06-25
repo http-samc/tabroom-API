@@ -1,5 +1,9 @@
-import json
 from argparse import Namespace
+
+"""This file contains specific constants that are used
+universally and can be updated quickly here in the event
+that Tabroom makes a backend change
+"""
 
 """This Namespace holds specific round abbreviations and
 the maximum number of competitors in them
@@ -26,3 +30,11 @@ breakNames = [
     "Triple Octafinals",
     "Quadruple Octafinals"
 ]
+
+"Accepted decisions for a round"
+WIN = ["W", "w"]
+LOSS = ["L", "l"]
+
+"Accepted sides"
+PRO = ["Pro", "Aff"]
+CON = ["Con", "Neg"]

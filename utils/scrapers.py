@@ -4,9 +4,9 @@ import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 if __name__ == "__main__":
-    from const import size, breakNames
+    from const import (size, breakNames, WIN, LOSS, PRO, CON)
 else:
-    from utils.const import size, breakNames
+    from utils.const import (size, breakNames, WIN, LOSS, PRO, CON)
 
 """This file contains various functions used to scrape parts
 of the Tabroom.com website
@@ -25,6 +25,7 @@ def _clean(string: str, stripNum: bool = False) -> str | None:
     """
     if stripNum: string = ''.join([i for i in string if not i.isdigit()])
     string = string.replace('\n', '').replace('\t', '').replace('.', '').replace('(', ' (')
+    string = string.replace('Jesuit', 'Jesuit ').replace('vs ', '')
 
     return string if string != "" else None
 
@@ -85,17 +86,17 @@ def bracket(URL: str) -> dict:
         cols = row.find_all("td") # all the columns in the row
 
         i = 0
-        for col in cols:
-            code = _clean(col.get_text(), stripNum=True)
-            if not code: continue
+        for col in cols: # Not using enumerate() - more lines required
+            code = _clean(col.get_text(), stripNum=True) # get text & remove seed nums
+            if not code: continue # Skip if we don't have a team at this pos
 
-            if 'rowspan' in col.attrs and int(col['rowspan']) > numBroken:
+            # If our rowspan is larger than our numBroken we have a "champion" col to skip
+            if 'rowspan' in col.attrs and int(col['rowspan']) >= numBroken:
                 numBreaks -= 1
-                print(numBreaks)
                 continue
 
-            if code not in data: data[code] = i
-            data[code] = i if i > data[code] else data[code]
+            if code not in data: data[code] = i # Create key if DNE
+            data[code] = i if i > data[code] else data[code] # Overwrite if current col >
             i += 1
 
     # Condensing data & calculating additional information
@@ -112,6 +113,62 @@ def bracket(URL: str) -> dict:
 
     return data
 
+def entry(URL: str) -> dict:
+    """Returns the results from a team's individual entry page
+
+    Args:
+        URL (str): the URL of a team's entry page
+
+    Returns:
+        dict: contains team code, full names, prelim records,
+            break round data, opponent names, judge data,
+            decision data, speaker point data
+
+            RETURN SCHEMA:
+            {
+                "code" : <(str) entry's team code>,
+                "names" : <(str) both partner's full names, separated by an '&'>,
+                "speaks" : [
+                    ''' We do not include outround speaks since they are rarely provided & skew sample sizes '''
+                    {
+                        "name" : <(str) speaker's name>,
+                        "rawAVG" : <(float) [round: 3 dec.] the mean of each prelims's speaks>,
+                        "adjAVG" : <(float) [round: 3 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                    },
+                    {
+                        "name" : <(str) speaker's name>,
+                        "rawAVG" : <(float) [round: 3 dec.] the mean of each prelims's speaks>,
+                        "adjAVG" : <(float) [round: 3 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                    }
+                ],
+                "prelims" : [
+                    <variable number of round dictionaries>
+                ],
+                "breaks" : [
+                    <variable number of round dictionaries>
+                ]
+            }
+
+            ROUND SCHEMA:
+            ''' If there was no opponent, all keys will be null except for the round name & win (-> True) '''
+            {
+                "round" : <(str) round name>,
+                "win" : <(bool) whether or not the team won {null if draw}>,
+                "side" : <(str) what side the team was on -> PRO or CON>,
+                "opp" : <(str) opponent's team code>,
+                "decision" : [
+                    <(int) numBallotsWon>,
+                    <(int) numBallotsLost>
+                ],
+                "judges" : [
+                    {
+                        "name" : <(str) name of judge>,
+                        "profile" : <(str) URL to judge's tabroom profile>
+                    },
+                    ...
+                ]
+            },
+    """
 if __name__ == "__main__":
     from pprint import pprint
     pprint(bracket("https://www.tabroom.com/index/tourn/results/bracket.mhtml?tourn_id=16768&result_id=160238"))
