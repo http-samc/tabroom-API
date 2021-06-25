@@ -1,6 +1,8 @@
 import json
+from types import CodeType
 
 import requests
+import numpy as np
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 if __name__ == "__main__":
@@ -23,11 +25,32 @@ def _clean(string: str, stripNum: bool = False) -> str | None:
         str: cleaned version of string
         None: if string had no characters
     """
-    if stripNum: string = ''.join([i for i in string if not i.isdigit()])
-    string = string.replace('\n', '').replace('\t', '').replace('.', '').replace('(', ' (')
-    string = string.replace('Jesuit', 'Jesuit ').replace('vs ', '')
+    if stripNum: string = ''.join([i for i in string if not i.isdigit()]).replace('.', '')
+    string = string.replace('\n', '').replace('\t', '').replace('(', ' (')
+    string = string.replace('Jesuit', 'Jesuit ')
 
     return string if string != "" else None
+
+def _adjScores(x: list, outlierConstant: float = 2) -> list:
+    """Filters a list by removing outliers
+
+    Args:
+        x (list): the list to filter
+        outlierConstant (float, optional): what value used to determine outlier status. Defaults to 2.
+
+    Returns:
+        list: the outlier-filtered list
+    """
+    a = np.array(x)
+    upper_quartile = np.percentile(a, 75)
+    lower_quartile = np.percentile(a, 25)
+    IQR = (upper_quartile - lower_quartile) * outlierConstant
+    quartileSet = (lower_quartile - IQR, upper_quartile + IQR)
+    resultList = []
+    for y in a.tolist():
+        if y >= quartileSet[0] and y <= quartileSet[1]:
+            resultList.append(y)
+    return resultList
 
 def bracket(URL: str) -> dict:
     """Scrapes a Tabroom bracket as an HTML table & returns
@@ -121,24 +144,29 @@ def entry(URL: str) -> dict:
 
     Returns:
         dict: contains team code, full names, prelim records,
-            break round data, opponent names, judge data,
+            break round data, opponent names,
             decision data, speaker point data
 
             RETURN SCHEMA:
             {
                 "code" : <(str) entry's team code>,
                 "names" : <(str) both partner's full names, separated by an '&'>,
+                "prelimRecord" : [
+                    <(int) prelim wins (incl. byes)>,
+                    <(int) prelim losses>
+                ],
+                "debatedPrelims" : <(int) the number of debated (non-bye) preliminary rounds>, # used in OPwpm calculation
+                "elimIn" : <(str) nonstandardized final break round ["prelim" if none]>
                 "speaks" : [
-                    ''' We do not include outround speaks since they are rarely provided & skew sample sizes '''
                     {
                         "name" : <(str) speaker's name>,
-                        "rawAVG" : <(float) [round: 3 dec.] the mean of each prelims's speaks>,
-                        "adjAVG" : <(float) [round: 3 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                        "rawAVG" : <(float) [round: 2 dec.] the mean of each prelims's speaks>,
+                        "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
                     },
                     {
                         "name" : <(str) speaker's name>,
-                        "rawAVG" : <(float) [round: 3 dec.] the mean of each prelims's speaks>,
-                        "adjAVG" : <(float) [round: 3 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                        "rawAVG" : <(float) [round: 2 dec.] the mean of each prelims's speaks>,
+                        "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
                     }
                 ],
                 "prelims" : [
@@ -150,7 +178,7 @@ def entry(URL: str) -> dict:
             }
 
             ROUND SCHEMA:
-            ''' If there was no opponent, all keys will be null except for the round name & win (-> True) '''
+            ''' If there was no opponent, all keys will be null except for the round name, side (-> bye), & win (-> True) '''
             {
                 "round" : <(str) round name>,
                 "win" : <(bool) whether or not the team won {null if draw}>,
@@ -159,16 +187,143 @@ def entry(URL: str) -> dict:
                 "decision" : [
                     <(int) numBallotsWon>,
                     <(int) numBallotsLost>
-                ],
-                "judges" : [
-                    {
-                        "name" : <(str) name of judge>,
-                        "profile" : <(str) URL to judge's tabroom profile>
-                    },
-                    ...
                 ]
             },
     """
+    # Getting page and setting up parser
+    r = requests.get(URL)
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    # Getting Team Attrs
+    code = _clean(soup.find("h2").get_text())
+    names = _clean(soup.find_all("h4")[3].get_text()).replace("&", " & ")
+
+    # Creating round framework
+    prelims = []
+    breaks = []
+
+    # Round counters
+    numPrelims = 0 # num of "real" non-bye prelims
+    prelimRecord = [0, 0] # running prelim record
+
+    # Getting round names and appending to appropriate list
+    rows = soup.find_all(class_="row")
+
+    for row in rows:
+        meta = row.find_all(class_="tenth")
+
+        # Getting round name and figuring out if it's a break round
+        roundName = _clean(meta[0].get_text())
+        isBreak = False if "round" in roundName.lower() else True
+
+        # Getting side and standardizing it
+        side = _clean(meta[1].get_text())
+        if side in PRO: side = "PRO"
+        elif side in CON: side = "CON"
+        else: side = "BYE"
+
+        # If we have a BYE -> append data with null values and go onto next iter
+        if side == "BYE":
+            if not isBreak: prelimRecord[0] += 1
+            roundData = {"round":roundName,"win":True,"side":side,"opp":None,"decision":None}
+            if isBreak: breaks.append(roundData)
+            else: prelims.append(roundData)
+            continue
+
+        # Find opponent code
+        opp = _clean(row.find(class_="threetenths padno").get_text()).replace('vs ', '')
+
+        # Trimming to only include decisions
+        meta = meta[2:]
+
+        # Tabulating decisions
+        decision = [0, 0]
+        for node in meta:
+            node = _clean(node.get_text())
+            if node not in WIN and node not in LOSS: continue
+            decision[0] += 1 if node in WIN else 0
+            decision[1] += 1 if node in LOSS else 0
+
+        # Determining win/loss/draw
+        if decision[0] > decision[1]: win = True
+        elif decision[1] > decision[0]: win = False
+        else: win = None
+
+        # Updating counters
+        if not isBreak:
+            if win: prelimRecord[0] += 1
+            else: prelimRecord[1] += 1
+            numPrelims += 1
+
+        roundData = {
+            "round" : roundName,
+            "win" : win,
+            "side" : side,
+            "opp" : opp,
+            "decision" : decision
+        }
+
+        # Appending data
+        if isBreak: breaks.append(roundData)
+        else: prelims.append(roundData)
+
+    # Polling speaker data
+    speakerNames = soup.find_all(class_="threefifths")
+    speakerOne = _clean(speakerNames[0].get_text()) if len(speakerNames) > 1 else None
+    speakerTwo = _clean(speakerNames[1].get_text()) if len(speakerNames) > 1 else None
+    speakerOnePTS = []
+    speakerTwoPTS = []
+
+    speakerData = soup.find_all(class_="fifth")
+
+    i = 0
+    for score in speakerData:
+        score = _clean(score.get_text())
+
+        if len(score) == 1: continue
+        else: score = float(score)
+
+        if i % 2 == 0:
+            speakerOnePTS.append(score)
+        else:
+            speakerTwoPTS.append(score)
+
+        i += 1
+
+    # Generating raw averages
+    speakerOneRAW = round(sum(speakerOnePTS)/len(speakerOnePTS), 2)
+    speakerTwoRAW = round(sum(speakerTwoPTS)/len(speakerTwoPTS), 2)
+
+    # Generating adjusted averages
+    speakerOneTRIM = _adjScores(speakerOnePTS, outlierConstant=1.5)
+    speakerTwoTRIM = _adjScores(speakerTwoPTS, outlierConstant=1.5)
+
+    speakerOneADJ = round(sum(speakerOneTRIM)/len(speakerOneTRIM), 2)
+    speakerTwoADJ = round(sum(speakerTwoTRIM)/len(speakerTwoTRIM), 2)
+
+    data = {
+        "code" : code,
+        "names" : names,
+        "prelimRecord" : prelimRecord,
+        "debatedPrelims" : numPrelims,
+        "elimIn" : breaks[0]["round"] if breaks != [] else "Prelims",
+        "speaks" : [
+            {
+                "name" : speakerOne,
+                "rawAVG" : speakerOneRAW,
+                "adjAVG" : speakerOneADJ
+            },
+            {
+                "name" : speakerTwo,
+                "rawAVG" : speakerTwoRAW,
+                "adjAVG" : speakerTwoADJ
+            }
+        ],
+        "prelims" : prelims,
+        "breaks" : breaks
+    }
+
+    return data
+
 if __name__ == "__main__":
-    from pprint import pprint
-    pprint(bracket("https://www.tabroom.com/index/tourn/results/bracket.mhtml?tourn_id=16768&result_id=160238"))
+    print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16768&entry_id=3383460"))
