@@ -325,5 +325,149 @@ def entry(URL: str) -> dict:
 
     return data
 
+def prelims(URL: str) -> dict:
+    """Parses the prelims page of a tournament
+
+    Args:
+        URL (str): the URL of the prelims page of a certain division
+
+    Returns:
+        dict: a dict containing the parsed prelim data
+
+        RETURN SCHEMA:
+        {
+            <(str) team code> : {
+                ''' used in condensor / master dataset merger '''
+                'names' : [
+                    ''' These names are what Tabroom provides and might
+                    not represent the speaking order of the entry '''
+                    <(str) speaker #1 last name>,
+                    <(str) speaker #2 last name>
+                ],
+                'prelimWins' : <(int) number of prelim wins>, ''' used for cross verification with entry() '''
+                ''' used as a statistic '''
+                'prelimRank' : [
+                    <(int) position>,
+                    <(int) total entries>
+                ]
+            }
+        }
+    """
+    data = {}
+
+    # Getting page and setting up parser
+    r = requests.get(URL)
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    # Getting all rows except for the first header
+    rawData = soup.find_all("tr")
+    rawData = rawData[1:len(rawData)]
+
+    # Getting number of entries
+    numEntries = len(rawData)
+
+    for r, element in enumerate(rawData, start = 1):
+
+        rawEntryData = element.find_all("td")
+        textData = []
+
+        for node in rawEntryData:
+            nodeText = node.get_text().replace('  ', '').replace('\t','').split('\n')
+            textData.append(nodeText)
+        try:
+            data[textData[2][2]] = {
+                'names' : textData[1][2].replace(' ', '').split('&'),
+                'wins' : int(textData[0][1]),
+                'prelimRank' : [r, numEntries]
+            }
+
+        except Exception as e:
+            print(e)
+
+    return data
+
+def breaks(URL: str) -> dict:
+    """Parses the final places page of a tournament
+
+    Args:
+        URL (str): the URL of the final places page of a certain division
+
+    Returns:
+        dict: a dict containing the parsed break round data
+
+        RETURN SCHEMA:
+        {
+            <(str) team code> : [
+                <(int) roundPrestige [num of break rounds debated]>,
+                <(str) name of final break round debated as provided>,
+                <(str) name of final break round debated, standardized>
+            ],
+            ...
+        }
+    """
+    data = {}
+
+    # Getting page and setting up parser
+    r = requests.get(URL)
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    # Getting all rows except for the first header
+    table = soup.find('table') # only gets break rounds table
+    rawData = table.find_all("tr")
+    rawData = rawData[1:len(rawData)]
+
+    # Storing as list initially
+    teams = []
+
+    for element in rawData:
+
+        rawEntryData = element.find_all("td")
+        textData = []
+
+        for node in rawEntryData:
+            nodeText = node.get_text().replace('  ', '').replace('\t','').split('\n')
+            textData.append(nodeText)
+
+        try:
+            struct = {
+                'code' : textData[1][1],
+                'names' : textData[2][1].replace(' ', '').split('&'),
+                'break' : textData[0][1]
+            }
+            teams.append(struct)
+
+        except Exception as e:
+            print(e)
+
+    i = 1
+    prevIDX = 0
+    while True:
+        # Handle for uneven first break round (byes)
+        roundEndIDX = len(teams) if pow(2, i) > len(teams) else pow(2, i)
+
+        # Get team data
+        teamsElim = teams[prevIDX:roundEndIDX]
+        for team in teamsElim:
+            data[team["code"]] = [
+                i, # what break round it was (finals = 1, ...)
+                team["break"], # provided round name
+                breakNames[i-1] # std round name
+            ]
+
+        # Break if we evenly filled the exponential growth
+        if roundEndIDX == len(teams): break
+
+        # Preparing for next iter
+        i += 1
+        prevIDX = roundEndIDX
+
+    currI = i + 1 # Helps us reorganize
+
+    # Reorganizing to include roundPrestige
+    for team in data:
+        data[team][0] = currI - data[team][0]
+
+    print(data)
+
 if __name__ == "__main__":
-    print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16768&entry_id=3383460"))
+    print(breaks("https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=16768&result_id=161317"))
