@@ -1,343 +1,411 @@
 {
-    "Glenbrooks Speech and Debate Tournament": {
-        "meta": "2020 Classrooms.Cloud, IL/US - 11/21 to 11/23 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991",
-        "acceptsUnaffiliated": false
-    },
-    "Yale University Invitational": {
-        "meta": "2020 Online, US - 10/1 to 10/4 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16790",
-        "acceptsUnaffiliated": false
-    },
-    "Apple Valley MinneApple Debate Tournament": {
-        "meta": "2020 NSDA Campus, MN/US - 11/6 to 11/8 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16856",
-        "acceptsUnaffiliated": true
-    },
-    "Arizona State HDSHC Invitational": {
-        "meta": "2021 NSDA Campus, AZ/US - 1/8 to 1/10 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18419",
-        "acceptsUnaffiliated": true
-    },
-    "Cal Invitational UC Berkeley": {
-        "meta": "2021 Berkeley, CA/US - 2/12 to 2/16 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19701",
-        "acceptsUnaffiliated": true
-    },
-    "John Edie Holiday Debates Hosted by The Blake School": {
-        "meta": "2020 Online, MN/US - 12/18 to 12/22 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17785",
-        "acceptsUnaffiliated": false
-    },
     "2020 John Lewis Invitational": {
-        "meta": "2020 — Santa Clara/ Online, CA/US - 11/20 to 11/22 (sem)",
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16740",
-        "acceptsUnaffiliated": false
-    },
-    "Bronx Science New York City Invitational 2020": {
-        "meta": "2021 NSDA Campus, NY/US - 2/6 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15710",
-        "acceptsUnaffiliated": false
-    },
-    "47th Annual Harvard National Forensics Tournament": {
-        "meta": "2021 Cambridge, MA/US - 2/12 to 2/15 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16776",
-        "acceptsUnaffiliated": true
-    },
-    "The Princeton Classic": {
-        "meta": "2020 NSDA Campus, NJ/US - 12/3 to 12/6 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16551",
-        "acceptsUnaffiliated": false
+        "meta": "2020 \u00e2\u20ac\u201d Santa Clara/ Online, CA/US - 11/20 to 11/22 "
     },
     "2021 Sunvite": {
-        "meta": "2021 Virtual, FL/US - 1/8 to 1/10 (oct)",
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16458",
-        "acceptsUnaffiliated": true
+        "meta": "2021 Virtual, FL/US - 1/8 to 1/10 "
     },
     "35th Annual Stanford Invitational": {
-        "meta": "2021 Classrooms.Cloud, CA/US - 2/6 to 2/8 (oct)",
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16861",
-        "acceptsUnaffiliated": true
-    },
-    "National Speech and Debate Season Opener Hosted by UK": {
-        "meta": "2020 Lexington, KY/US - 9/12 to 9/14 (oct)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16315",
-        "acceptsUnaffiliated": true
+        "meta": "2021 Classrooms.Cloud, CA/US - 2/6 to 2/8 "
     },
     "46th University of Pennsylvania Tournament": {
-        "meta": "2021 Philadelphia / Online, PA/US - 2/12 to 2/14 (oct)",
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16429",
-        "acceptsUnaffiliated": false
+        "meta": "2021 Philadelphia / Online, PA/US - 2/12 to 2/14 "
     },
-    "Alta Silver and Black Invitational": {
-        "meta": "2020 ONLINE, UT/US - 12/3 to 12/5 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15129",
-        "acceptsUnaffiliated": false
-    },
-    "Bellaire Forensic Tournament": {
-        "meta": "2020 Online, TX/US - 9/26 to 10/4 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16513",
-        "acceptsUnaffiliated": false
-    },
-    "Columbia University Invitational": {
-        "meta": "2021 NSDA Campus, NY/US - 1/29 to 1/31 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18023",
-        "acceptsUnaffiliated": false
-    },
-    "The Paradigm Dowling Catholic": {
-        "meta": "2020 Online, IA/US - 12/11 to 12/13 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16764",
-        "acceptsUnaffiliated": true
-    },
-    "Cavalier Invitational at Durham Academy": {
-        "meta": "2021 Online, NC/US - 1/15 to 1/18 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15550",
-        "acceptsUnaffiliated": false
-    },
-    "Golden Desert Debate Tournament at UNLV 2021": {
-        "meta": "2021 Online, NV/US - 1/30 to 2/1 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18420",
-        "acceptsUnaffiliated": true
-    },
-    "Grapevine Classic": {
-        "meta": "2020 Online, US - 9/11 to 9/15 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16616",
-        "acceptsUnaffiliated": false
-    },
-    "James Logan Martin Luther King Jr Invitational": {
-        "meta": "2021 Online, CA/US - 1/15 to 1/18 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15483",
-        "acceptsUnaffiliated": false
-    },
-    "La Costa Canyon Winter Classic": {
-        "meta": "2020 Online, CA/US - 12/4 to 12/6 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17135",
-        "acceptsUnaffiliated": false
-    },
-    "Lexington Winter Invitational": {
-        "meta": "2021 NSDA Campus, MA/US - 1/16 to 1/18 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18135",
-        "acceptsUnaffiliated": false
-    },
-    "The Milo Cup at Millard North": {
-        "meta": "2021 NSDA Campus, NE/US - 2/19 to 2/20 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18671",
-        "acceptsUnaffiliated": true
+    "47th Annual Harvard National Forensics Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16776",
+        "meta": "2021 Cambridge, MA/US - 2/12 to 2/15 "
     },
     "48th Annual Laird Lewis Invitational at Myers Park HS": {
-        "meta": "2021 NSDA Campus, NC/US - 1/9 to 1/10 (qtr)",
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18572",
-        "acceptsUnaffiliated": true
+        "meta": "2021 NSDA Campus, NC/US - 1/9 to 1/10 "
     },
-    "Bingham PF and Policy Invitational": {
-        "meta": "2021 NSDA Campus, UT/US - 2/12 to 2/14 (sem)*",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18118",
-        "acceptsUnaffiliated": true
+    "Alta Silver and Black Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15129",
+        "meta": "2020 ONLINE, UT/US - 12/3 to 12/5 "
     },
-    "Essex Forensics": {
-        "meta": "2020 Essex, VT/US - 1/18 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14543",
-        "acceptsUnaffiliated": false
+    "Apple Valley MinneApple Debate Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16856",
+        "meta": "2020 NSDA Campus, MN/US - 11/6 to 11/8 "
+    },
+    "Arizona State HDSHC Invitational": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18419",
+        "meta": "2021 NSDA Campus, AZ/US - 1/8 to 1/10 "
     },
     "Badgerland Chung vitational": {
-        "meta": "2020 NSDA Campus (Middleton), WI/US - 11/13 to 11/15 (sem)",
+        "acceptsUnaffiliated": true,
+        "bidLevel": "sem",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17711",
-        "acceptsUnaffiliated": true
-    },
-    "CFL SuperDebate 2 Milpitas": {
-        "meta": "2020 Milpitas, CA/US - 1/25 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13639",
-        "acceptsUnaffiliated": null
-    },
-    "Nova Titan Invitational": {
-        "meta": "2020 NSDA Campus, FL/US - 10/10 to 10/11 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16463",
-        "acceptsUnaffiliated": false
-    },
-    "Pennsbury Falcon Invitational": {
-        "meta": "2021 Fairless Hills (Online), PA/US - 2/5 to 2/7 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15682",
-        "acceptsUnaffiliated": false
-    },
-    "Plano West TFATOC Qualifier": {
-        "meta": "2020 Plano West, US - 10/23 to 10/26 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17336",
-        "acceptsUnaffiliated": false
-    },
-    "Ridge Invitational": {
-        "meta": "2021 Online, NJ/US - 1/30 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17524",
-        "acceptsUnaffiliated": false
-    },
-    "Virtual Scarsdale Invitational Scarvite": {
-        "meta": "2020 NSDA Campus, NY/US - 11/14 to 11/15 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17824",
-        "acceptsUnaffiliated": false
-    },
-    "Villiger 41": {
-        "meta": "2020 NSDA Campus, PA/US - 11/19 to 11/22 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17283",
-        "acceptsUnaffiliated": true
-    },
-    "Bethel Park Black Hawk Invitational": {
-        "meta": "2021 NSDA Campus, PA/US - 2/12 to 2/13 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18530",
-        "acceptsUnaffiliated": false
-    },
-    "Colleyville Heritage Winter Invitational": {
-        "meta": "2021 NSDA Campus, TX/US - 2/4 to 2/7 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18206",
-        "acceptsUnaffiliated": false
-    },
-    "ETHS Superb Owl": {
-        "meta": "2021 Evanston, IL/US - 1/29 to 1/31 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16768",
-        "acceptsUnaffiliated": true
-    },
-    "Georgetown Spring 2021 Tournament": {
-        "meta": "2021 Washington, NY/US - 4/3 to 4/4 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16777",
-        "other_link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18792",
-        "acceptsUnaffiliated": true
-    },
-    "The Ed Long Invitational at The Hockaday School": {
-        "meta": "2020 virtual.txfa.org, TX/US - 11/6 to 11/7 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16829",
-        "acceptsUnaffiliated": false
-    },
-    "Holy Cross Navy and Old Gold Debate and Speech Exhibition": {
-        "meta": "2020 NSDA Campus, LA/US - 9/24 to 9/27 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15551",
-        "acceptsUnaffiliated": false
-    },
-    "Isidore Newman School Invitational": {
-        "meta": "2020 NSDA Campus, LA/US - 12/11 to 12/13 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17033",
-        "acceptsUnaffiliated": false
-    },
-    "Katy Taylor TFA TOC NIETOC Fall Classic": {
-        "meta": "2020 Online, TX/US - 11/12 to 11/14 (fin)*",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17622",
-        "acceptsUnaffiliated": true
-    },
-    "Lakeland Westchester Classic 2021": {
-        "meta": "2021 Online, NY/US - 2/26 to 2/28 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18401",
-        "acceptsUnaffiliated": true
-    },
-    "Lewis and Clark Invitational 2020": {
-        "meta": "2020 Yankton, SD/US - 1/31 to 2/1 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14768",
-        "acceptsUnaffiliated": null
-    },
-    "Lincoln Southwest Silver Talon": {
-        "meta": "2020 NSDA Campus, NE/US - 11/7 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17755",
-        "acceptsUnaffiliated": null
-    },
-    "Millard West Wildcat Online Debate Tournament": {
-        "meta": "2020 NSDA Campus, NE/US - 12/5 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17893",
-        "acceptsUnaffiliated": null
-    },
-    "Peninsula Invitational": {
-        "meta": "2021 Rolling Hills Estates, CA/US - 1/23 to 1/25 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16316",
-        "acceptsUnaffiliated": true
-    },
-    "Puget Sound High School Invitational": {
-        "meta": "2020 Tacoma, WA/US - 1/10 to 1/11 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13932",
-        "acceptsUnaffiliated": null
-    },
-    "PLUPuyallup TOH Karl High School Speech and Debate Invitational": {
-        "meta": "2020 Tacoma, WA/US - 1/31 to 2/1 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19192",
-        "acceptsUnaffiliated": null
-    },
-    "Seattle Academy Invitational": {
-        "meta": "2020 Online, WA/US - 11/5 to 11/7 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16426",
-        "acceptsUnaffiliated": null
-    },
-    "SF Roosevelt Sweetstakes": {
-        "meta": "2020 Online, SD/US - 11/12 to 11/14 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16369",
-        "acceptsUnaffiliated": null
-    },
-    "The Cougar Classic at the University of Houston": {
-        "meta": "2021 Online, TX/US - 1/15 to 1/17 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17392",
-        "acceptsUnaffiliated": null
-    },
-    "University of Michigan HS Debate Tournament": {
-        "meta": "2020 NSDA Campus, MI/US - 11/5 to 11/9 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17057",
-        "acceptsUnaffiliated": true
-    },
-    "Winston Churchill Classic TOC and NIETOC Qualifier": {
-        "meta": "2021 San Antonio, TX/US - 1/6 to 1/9 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17809",
-        "acceptsUnaffiliated": null
-    },
-    "Jack Howe Memorial Tournament": {
-        "meta": "2020 NSDA Campus, CA/US - 9/19 to 9/21 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16814",
-        "acceptsUnaffiliated": true
-    },
-    "The Dempsey Cronin Memorial Invitational": {
-        "meta": "2021 NSDA Campus, CA/US - 1/30 to 1/31 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18821",
-        "acceptsUnaffiliated": null
-    },
-    "The Longhorn Classic Online": {
-        "meta": "2020 Austin, TX/US - 12/4 to 12/6 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16900",
-        "acceptsUnaffiliated": true
-    },
-    "Holiday Classic": {
-        "meta": "2020 NSDA Campus, WY/US - 12/18 to 12/19 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16947",
-        "acceptsUnaffiliated": null
-    },
-    "Virtually the Saints Classic": {
-        "meta": "2021 NSDA Campus, MS/US - 1/7 to 1/9 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18465",
-        "acceptsUnaffiliated": null
-    },
-    "The Tradition": {
-        "meta": "2020 Nsda Campus, US - 11/14 to 11/15 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16462",
-        "acceptsUnaffiliated": null
-    },
-    "Raymond B Furlong Tournament at Saint James": {
-        "meta": "2020 NSDA Campus, AL/US - 10/9 to 10/10 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17281",
-        "acceptsUnaffiliated": null
-    },
-    "Nano Nagle Classic Formerly Voices": {
-        "meta": "2020 classrooms.cloud, CA/US - 10/5 to 10/12 (qtr)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16924",
-        "acceptsUnaffiliated": true
-    },
-    "Cal State Fullerton Invitational": {
-        "meta": "2020 Fullerton, CA/US - 10/16 to 10/18 (fin)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16759",
-        "acceptsUnaffiliated": true
-    },
-    "Peach State Classic": {
-        "meta": "2020 NSDA Campus, GA/US - 11/13 to 11/18 (sem)",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16932",
-        "acceptsUnaffiliated": false
+        "meta": "2020 NSDA Campus (Middleton), WI/US - 11/13 to 11/15 "
     },
     "Barkley Forum for High Schools": {
-        "meta": "2021 classrooms.cloud, GA/US - 1/29 to 1/31 (oct)",
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16030",
-        "acceptsUnaffiliated": false
+        "meta": "2021 classrooms.cloud, GA/US - 1/29 to 1/31 "
+    },
+    "Bellaire Forensic Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16513",
+        "meta": "2020 Online, TX/US - 9/26 to 10/4 "
+    },
+    "Bethel Park Black Hawk Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18530",
+        "meta": "2021 NSDA Campus, PA/US - 2/12 to 2/13 "
+    },
+    "Bingham PF and Policy Invitational": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18118",
+        "meta": "2021 NSDA Campus, UT/US - 2/12 to 2/14 *"
+    },
+    "Bronx Science New York City Invitational 2020": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15710",
+        "meta": "2021 NSDA Campus, NY/US - 2/6 "
+    },
+    "CFL SuperDebate 2 Milpitas": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13639",
+        "meta": "2020 Milpitas, CA/US - 1/25 "
+    },
+    "Cal Invitational UC Berkeley": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19701",
+        "meta": "2021 Berkeley, CA/US - 2/12 to 2/16 "
+    },
+    "Cal State Fullerton Invitational": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16759",
+        "meta": "2020 Fullerton, CA/US - 10/16 to 10/18 "
+    },
+    "Cavalier Invitational at Durham Academy": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15550",
+        "meta": "2021 Online, NC/US - 1/15 to 1/18 "
+    },
+    "Colleyville Heritage Winter Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18206",
+        "meta": "2021 NSDA Campus, TX/US - 2/4 to 2/7 "
+    },
+    "Columbia University Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18023",
+        "meta": "2021 NSDA Campus, NY/US - 1/29 to 1/31 "
+    },
+    "ETHS Superb Owl": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16768",
+        "meta": "2021 Evanston, IL/US - 1/29 to 1/31 "
+    },
+    "Essex Forensics": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14543",
+        "meta": "2020 Essex, VT/US - 1/18 "
     },
     "Florida Blue Key Speech and Debate Tournament": {
-        "meta": "2020 Online, FL/US - 10/30 to 11/1 (oct)",
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16182",
-        "acceptsUnaffiliated": false
+        "meta": "2020 Online, FL/US - 10/30 to 11/1 "
+    },
+    "Georgetown Spring 2021 Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16777",
+        "meta": "2021 Washington, NY/US - 4/3 to 4/4 ",
+        "other_link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18792"
+    },
+    "Glenbrooks Speech and Debate Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991",
+        "meta": "2020 Classrooms.Cloud, IL/US - 11/21 to 11/23 "
+    },
+    "Golden Desert Debate Tournament at UNLV 2021": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18420",
+        "meta": "2021 Online, NV/US - 1/30 to 2/1 "
+    },
+    "Grapevine Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16616",
+        "meta": "2020 Online, US - 9/11 to 9/15 "
+    },
+    "Holiday Classic": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16947",
+        "meta": "2020 NSDA Campus, WY/US - 12/18 to 12/19 "
+    },
+    "Holy Cross Navy and Old Gold Debate and Speech Exhibition": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15551",
+        "meta": "2020 NSDA Campus, LA/US - 9/24 to 9/27 "
+    },
+    "Isidore Newman School Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17033",
+        "meta": "2020 NSDA Campus, LA/US - 12/11 to 12/13 "
+    },
+    "Jack Howe Memorial Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16814",
+        "meta": "2020 NSDA Campus, CA/US - 9/19 to 9/21 "
+    },
+    "James Logan Martin Luther King Jr Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15483",
+        "meta": "2021 Online, CA/US - 1/15 to 1/18 "
+    },
+    "John Edie Holiday Debates Hosted by The Blake School": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17785",
+        "meta": "2020 Online, MN/US - 12/18 to 12/22 "
+    },
+    "Katy Taylor TFA TOC NIETOC Fall Classic": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17622",
+        "meta": "2020 Online, TX/US - 11/12 to 11/14 *"
+    },
+    "La Costa Canyon Winter Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17135",
+        "meta": "2020 Online, CA/US - 12/4 to 12/6 "
+    },
+    "Lakeland Westchester Classic 2021": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18401",
+        "meta": "2021 Online, NY/US - 2/26 to 2/28 "
+    },
+    "Lewis and Clark Invitational 2020": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14768",
+        "meta": "2020 Yankton, SD/US - 1/31 to 2/1 "
+    },
+    "Lexington Winter Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18135",
+        "meta": "2021 NSDA Campus, MA/US - 1/16 to 1/18 "
+    },
+    "Lincoln Southwest Silver Talon": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17755",
+        "meta": "2020 NSDA Campus, NE/US - 11/7 "
+    },
+    "Millard West Wildcat Online Debate Tournament": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17893",
+        "meta": "2020 NSDA Campus, NE/US - 12/5 "
+    },
+    "Nano Nagle Classic Formerly Voices": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16924",
+        "meta": "2020 classrooms.cloud, CA/US - 10/5 to 10/12 "
+    },
+    "National Speech and Debate Season Opener Hosted by UK": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16315",
+        "meta": "2020 Lexington, KY/US - 9/12 to 9/14 "
+    },
+    "Nova Titan Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16463",
+        "meta": "2020 NSDA Campus, FL/US - 10/10 to 10/11 "
+    },
+    "PLUPuyallup TOH Karl High School Speech and Debate Invitational": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19192",
+        "meta": "2020 Tacoma, WA/US - 1/31 to 2/1 "
+    },
+    "Peach State Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16932",
+        "meta": "2020 NSDA Campus, GA/US - 11/13 to 11/18 "
+    },
+    "Peninsula Invitational": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16316",
+        "meta": "2021 Rolling Hills Estates, CA/US - 1/23 to 1/25 "
+    },
+    "Pennsbury Falcon Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15682",
+        "meta": "2021 Fairless Hills (Online), PA/US - 2/5 to 2/7 "
+    },
+    "Plano West TFATOC Qualifier": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17336",
+        "meta": "2020 Plano West, US - 10/23 to 10/26 "
+    },
+    "Puget Sound High School Invitational": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13932",
+        "meta": "2020 Tacoma, WA/US - 1/10 to 1/11 "
+    },
+    "Raymond B Furlong Tournament at Saint James": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17281",
+        "meta": "2020 NSDA Campus, AL/US - 10/9 to 10/10 "
+    },
+    "Ridge Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17524",
+        "meta": "2021 Online, NJ/US - 1/30 "
+    },
+    "SF Roosevelt Sweetstakes": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16369",
+        "meta": "2020 Online, SD/US - 11/12 to 11/14 "
+    },
+    "Seattle Academy Invitational": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16426",
+        "meta": "2020 Online, WA/US - 11/5 to 11/7 "
+    },
+    "The Cougar Classic at the University of Houston": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17392",
+        "meta": "2021 Online, TX/US - 1/15 to 1/17 "
+    },
+    "The Dempsey Cronin Memorial Invitational": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18821",
+        "meta": "2021 NSDA Campus, CA/US - 1/30 to 1/31 "
+    },
+    "The Ed Long Invitational at The Hockaday School": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16829",
+        "meta": "2020 virtual.txfa.org, TX/US - 11/6 to 11/7 "
+    },
+    "The Longhorn Classic Online": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16900",
+        "meta": "2020 Austin, TX/US - 12/4 to 12/6 "
+    },
+    "The Milo Cup at Millard North": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18671",
+        "meta": "2021 NSDA Campus, NE/US - 2/19 to 2/20 "
+    },
+    "The Paradigm Dowling Catholic": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16764",
+        "meta": "2020 Online, IA/US - 12/11 to 12/13 "
+    },
+    "The Princeton Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16551",
+        "meta": "2020 NSDA Campus, NJ/US - 12/3 to 12/6 "
+    },
+    "The Tradition": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "qtr",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16462",
+        "meta": "2020 Nsda Campus, US - 11/14 to 11/15 "
+    },
+    "University of Michigan HS Debate Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17057",
+        "meta": "2020 NSDA Campus, MI/US - 11/5 to 11/9 "
+    },
+    "Villiger 41": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17283",
+        "meta": "2020 NSDA Campus, PA/US - 11/19 to 11/22 "
+    },
+    "Virtual Scarsdale Invitational Scarvite": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "sem",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17824",
+        "meta": "2020 NSDA Campus, NY/US - 11/14 to 11/15 "
+    },
+    "Virtually the Saints Classic": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18465",
+        "meta": "2021 NSDA Campus, MS/US - 1/7 to 1/9 "
+    },
+    "Winston Churchill Classic TOC and NIETOC Qualifier": {
+        "acceptsUnaffiliated": null,
+        "bidLevel": "fin",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17809",
+        "meta": "2021 San Antonio, TX/US - 1/6 to 1/9 "
+    },
+    "Yale University Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "oct",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16790",
+        "meta": "2020 Online, US - 10/1 to 10/4 "
     }
 }
