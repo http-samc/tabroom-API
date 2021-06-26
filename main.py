@@ -7,6 +7,7 @@ def scrapeAll():
     with open("data/tournInfo.json", 'r') as f:
         data = json.loads(f.read())
     for tournament in data:
+        if tournament.startswith("!"): continue
         bidLevel = data[tournament]["bidLevel"]
 
         if bidLevel == "Octafinals":
@@ -20,8 +21,10 @@ def scrapeAll():
 
         print(Fore.CYAN + "Scraping: " + tournament)
         getTournamentData(data[tournament]["link"], tournamentBoost)
-        print(Fore.CYAN + "Scraped: " + tournament)
+        print(Fore.GREEN + "Scraped: " + tournament)
 
 if __name__ == "__main__":
-    print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16740&entry_id=3183877"))
-    #scrapeAll()
+    #print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16740&entry_id=3183877"))
+    scrapeAll()
+    from pprint import pprint
+    #pprint(breaks("https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=16458&result_id=154825"))

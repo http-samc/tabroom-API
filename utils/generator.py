@@ -96,8 +96,10 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     # Choosing either bracket or final places page
     if finalsURL:
         resultData = breaks(finalsURL)
-    if bracketURL:
+        print("Using final places page")
+    elif bracketURL:
         resultData = bracket(bracketURL)
+        print("Using bracket page")
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
 

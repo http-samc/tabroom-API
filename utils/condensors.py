@@ -1,6 +1,9 @@
 import json
 
+from colorama import Fore
+
 from utils.helpers import *
+
 
 def condense(data: dict) -> dict:
     """Condenses redundant data from various scrapers
@@ -152,7 +155,11 @@ def condense(data: dict) -> dict:
 
         else:
             t = teamData["prelimWins"]
-            print(f"Error validating prelim wins for: {team} - {prelimRecord[0]} vs {t}")
+            print(Fore.YELLOW + f"Error validating prelim wins for: {team} - {prelimRecord[0]} vs {t}")
+            if t > prelimRecord[0]: # unpublished rounds, prelim page will have them ALL
+                prelimRecord[0] = t
+                print(Fore.CYAN + f"Giving {team} benefit of doubt (likely unpublished round): {t} wins")
+
 
         # Updating team data
         teamData["fullNames"] = fullNames

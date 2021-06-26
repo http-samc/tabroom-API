@@ -27,60 +27,61 @@ def getDivision(URL: str) -> str | None:
     for division in divisions:
         divisionData[division.get_text()] = division['value']
 
-    for name in divisionData:
-        # Storing orignal divisionName for return reference
-        originalDivisionName = name
+    # for name in divisionData:
+    #     # Storing orignal divisionName for return reference
+    #     originalDivisionName = name
 
-        # Lowering divisionName
-        name = name.lower()
+    #     # Lowering divisionName
+    #     name = name.lower()
 
-        # Checking autoreject
-        autoreject = False
-        for keyword in REJECT:
-            if keyword in name: autoreject = True
-        if autoreject: continue
+    #     # Checking autoreject
+    #     autoreject = False
+    #     for keyword in REJECT:
+    #         if keyword in name: autoreject = True
+    #     if autoreject: continue
 
-        # Iterating through all combos of keywords
-        for keywordSet in DIVISIONS:
+    #     # Iterating through all combos of keywords
+    #     for keywordSet in DIVISIONS:
 
-            # Setting counter to 0
-            i = 0
+    #         # Setting counter to 0
+    #         i = 0
 
-            # Adding every positive keyword to counter
-            for keyword in keywordSet:
+    #         # Adding every positive keyword to counter
+    #         for keyword in keywordSet:
 
-                if not keyword.startswith("-"):
-                    i += 1
+    #             if not keyword.startswith("-"):
+    #                 i += 1
 
-            # Iterating through all keywords
-            for keyword in keywordSet:
+    #         # Iterating through all keywords
+    #         for keyword in keywordSet:
 
-                # Lowering keyword (to match divisionName)
-                keyword = keyword.lower()
+    #             # Lowering keyword (to match divisionName)
+    #             keyword = keyword.lower()
 
-                # If negative keyword in name -> make it impossible to get counter back to 0
-                if keyword.startswith("-") and keyword[1:len(keyword)] in name:
-                    i += 69420
+    #             # If negative keyword in name -> make it impossible to get counter back to 0
+    #             if keyword.startswith("-") and keyword[1:len(keyword)] in name:
+    #                 i += 69420
 
-                # If keyword in name, lowering counter by 1
-                elif keyword in name:
-                    i -= 1
+    #             # If keyword in name, lowering counter by 1
+    #             elif keyword in name:
+    #                 print(keyword)
+    #                 i -= 1
 
-                # If all keywords in name and no negative keywords -> return the original name
-                if i == 0:
-                    print(Fore.LIGHTMAGENTA_EX + "Found division: " + originalDivisionName)
-                    return divisionData[originalDivisionName]
+    #             # If all keywords in name and no negative keywords -> return the original name
+    #             if i == 0:
+    #                 print(Fore.LIGHTMAGENTA_EX + "Found division: " + originalDivisionName)
+    #                 return divisionData[originalDivisionName]
 
     # Manual scraping if not found
     i = 0
-    print(Fore.YELLOW + "Division Not Found, Scrape Manually: ")
+    print(Fore.WHITE + "Choose Division: ")
     for name in divisionData:
         print(f"[{i}] - {name}")
         i += 1
     choice = int(input("Enter Selection: "))
 
     try:
-        return divisionData[choice]
+        return divisionData[list(divisionData.keys())[choice]]
     except Exception:
         return None
 

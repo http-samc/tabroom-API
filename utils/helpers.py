@@ -77,9 +77,11 @@ def calcOPwpm(data: dict) -> dict:
         oppWins = 0
         for opp in opps:
             oppWins += data[tourn][opp]["prelimRecord"][0]
-
-        OPwpm = round(oppWins/len(opps), 3)
-        data[tourn][team]["OPwpm"] = OPwpm
+        if len(opps) > 0:
+            OPwpm = round(oppWins/len(opps), 3)
+            data[tourn][team]["OPwpm"] = OPwpm
+        else:
+            print(team)
 
     return data
 

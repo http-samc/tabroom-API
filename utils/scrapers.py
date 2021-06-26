@@ -271,7 +271,11 @@ def entry(URL: str) -> dict:
 
     # Getting Team Attrs
     code = _clean(soup.find("h2").get_text())
-    names = _clean(soup.find_all("h4")[3].get_text()).replace("&", " & ")
+    nodes = (soup.find_all("h4"))
+    if len(nodes) > 3:
+        names = _clean(nodes[3].get_text()).replace("&", " & ")
+    else:
+        names = _clean(nodes[2].get_text()).replace("&", " & ")
 
     # Creating round framework
     prelims = []
@@ -343,6 +347,7 @@ def entry(URL: str) -> dict:
         else: prelims.append(roundData)
 
     # Polling speaker data
+
     speakerNames = soup.find_all(class_="threefifths")
     speakerOne = _clean(speakerNames[0].get_text()) if len(speakerNames) > 1 else None
     speakerTwo = _clean(speakerNames[1].get_text()) if len(speakerNames) > 1 else None
@@ -365,16 +370,23 @@ def entry(URL: str) -> dict:
 
         i += 1
 
-    # Generating raw averages
-    speakerOneRAW = round(sum(speakerOnePTS)/len(speakerOnePTS), 2)
-    speakerTwoRAW = round(sum(speakerTwoPTS)/len(speakerTwoPTS), 2)
+    if len(speakerOnePTS) and len(speakerTwoPTS) != 0:
+        # Generating raw averages
+        speakerOneRAW = round(sum(speakerOnePTS)/len(speakerOnePTS), 2)
+        speakerTwoRAW = round(sum(speakerTwoPTS)/len(speakerTwoPTS), 2)
 
-    # Generating adjusted averages
-    speakerOneTRIM = _adjScores(speakerOnePTS, outlierConstant=1.5)
-    speakerTwoTRIM = _adjScores(speakerTwoPTS, outlierConstant=1.5)
+        # Generating adjusted averages
+        speakerOneTRIM = _adjScores(speakerOnePTS, outlierConstant=1.5)
+        speakerTwoTRIM = _adjScores(speakerTwoPTS, outlierConstant=1.5)
 
-    speakerOneADJ = round(sum(speakerOneTRIM)/len(speakerOneTRIM), 2)
-    speakerTwoADJ = round(sum(speakerTwoTRIM)/len(speakerTwoTRIM), 2)
+        speakerOneADJ = round(sum(speakerOneTRIM)/len(speakerOneTRIM), 2)
+        speakerTwoADJ = round(sum(speakerTwoTRIM)/len(speakerTwoTRIM), 2)
+    else:
+        speakerOneRAW = None
+        speakerTwoRAW = None
+
+        speakerOneADJ = None
+        speakerTwoADJ = None
 
     data = {
         "code" : code,
