@@ -23,7 +23,7 @@ def _clean(string: str, stripNum: bool = False) -> str | None:
     """
     if stripNum: string = ''.join([i for i in string if not i.isdigit()]).replace('.', '')
     string = string.replace('\n', '').replace('\t', '').replace('(', ' (')
-    string = string.replace('Jesuit', 'Jesuit ')
+    string = string.replace('  ', ' ')
 
     return string if string != "" else None
 
@@ -174,7 +174,7 @@ def breaks(URL: str) -> dict:
 
         try:
             struct = {
-                'code' : textData[1][1],
+                'code' : _clean(textData[1][1]),
                 'break' : textData[0][1]
             }
             teams.append(struct)
@@ -191,7 +191,7 @@ def breaks(URL: str) -> dict:
         # Get team data
         teamsElim = teams[prevIDX:roundEndIDX]
         for team in teamsElim:
-            data[team["code"]] = [
+            data[_clean(team["code"])] = [
                 i, # what break round it was (finals = 1, ...)
                 team["break"], # provided round name
                 breakNames[i-1] # std round name
@@ -451,10 +451,11 @@ def prelims(URL: str) -> dict:
         entryPage = "https://www.tabroom.com" + rawEntryData[1].find("a")['href']
 
         for node in rawEntryData:
-            nodeText = node.get_text().replace('  ', '').replace('\t','').split('\n')
+            nodeText = node.get_text().replace('\t','').split('\n')
             textData.append(nodeText)
         try:
-            data[textData[2][2]] = {
+            code = _clean(textData[2][2])
+            data[code] = {
                 'names' : textData[1][2].replace(' ', '').split('&'),
                 'entryPage' : entryPage,
                 'wins' : int(textData[0][1]),
@@ -466,5 +467,22 @@ def prelims(URL: str) -> dict:
 
     return data
 
+def name(URL: str) -> str:
+    """Scrapes the name of a tournament
+
+    Args:
+        URL (str): the homepage URL of a Tabroom tournament
+
+    Returns:
+        str: the name of the tournament
+    """
+
+    r = requests.get(URL)
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    name = soup.find(class_="centeralign marno").get_text()
+
+    return _clean(name)
+
 if __name__ == "__main__":
-    print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=14991&entry_id=3137041"))
+    print(name("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991"))

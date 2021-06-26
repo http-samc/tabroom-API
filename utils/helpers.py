@@ -47,3 +47,35 @@ def calcBid(data: dict) -> dict:
             data[tournName][team]["silverBid"] = False
 
     return data
+
+def calcOPwpm(data: dict) -> dict:
+    """Adds OPwpm to semi-condensed tournament-level dataset.
+    Required to be called before round data is removed to preserve
+    the opponent data needed in order to gen OPwpm.
+
+    Args:
+        data (dict): semi-condensed tournament-level dataset
+
+    Returns:
+        dict: dataset with OPwpm for each team included
+    """
+    tourn = list(data.keys())[0]
+
+    for team in data[tourn]:
+        prelims = data[tourn][team]["prelims"]
+        opps = []
+        for prelimRound in prelims:
+            opp = prelimRound["opp"]
+            if not opp: continue # bye
+            if opp in data[tourn]:
+                opps.append(opp)
+            else:
+                print("Can't find " + opp) # handle mid-tourn dropped entries
+        oppWins = 0
+        for opp in opps:
+            oppWins += data[tourn][opp]["prelimRecord"][0]
+
+        OPwpm = round(oppWins/len(opps), 3)
+        data[tourn][team]["OPwpm"] = OPwpm
+
+    return data

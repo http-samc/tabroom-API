@@ -60,6 +60,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
             ...
         }
     """
+    NAME = name(URL)
 
     ID = URL.replace("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=", "")
     RESULTS = "https://www.tabroom.com/index/tourn/results/index.mhtml?tourn_id=" + ID
@@ -95,7 +96,9 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
 
-    masterData = {"prelimData": prelimData, "entryData": entryData, "resultData": resultData}
+    masterData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
+        "entryData": entryData, "resultData": resultData}
+
     with open('uncondensedTourn.json', 'w') as f:
         json.dump(masterData, f)
 

@@ -90,6 +90,7 @@ def condense(data: dict = None) -> dict:
     # Adding all competitors
     prelimData = data["prelimData"]
     for team in prelimData:
+
         lastNames = prelimData[team]["names"]
         prelimWins = prelimData[team]["wins"]
         prelimRank = prelimData[team]["prelimRank"]
@@ -111,6 +112,9 @@ def condense(data: dict = None) -> dict:
         fullNames =  entryData[team]["names"]
         prelimRecord = entryData[team]["prelimRecord"]
         speaks = entryData[team]["speaks"]
+
+        # Temporarily adding prelim round data
+        prelims = entryData[team]["prelims"]
 
         # Getting break data if applicable
         if len(entryData[team]["breaks"]) != 0:
@@ -158,9 +162,13 @@ def condense(data: dict = None) -> dict:
         teamData["speaks"] = speaks
         teamData["eliminated"] = eliminated
         teamData["breakRecord"] = breakRecord
+        teamData["prelims"] = prelims
 
         # Merging into condensed
         condensed[name][team] = teamData
+
+    # Calling OPwpm calculation
+    condensed = calcOPwpm(condensed)
 
     # Getting breakBoost & std name of final round
     resultData = data["resultData"]
