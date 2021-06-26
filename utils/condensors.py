@@ -1,7 +1,9 @@
 import json
-from helpers import *
 
-def condense(data: dict = None) -> dict:
+from utils.helpers import *
+
+
+def condense(data: dict) -> dict:
     """Condenses redundant data from various scrapers
     into a single file. The redundant data exists to
     check back against the accuracy of each scraper.
@@ -77,10 +79,6 @@ def condense(data: dict = None) -> dict:
             }
         }
     """
-    # TODO gen OPwpm while entryData b4 we overwrite, write bid helpers
-    with open("uncondensedTourn.json", 'r') as f:
-        data = json.loads(f.read())
-
     name = data["tournamentName"]
     tournamentBoost = data["tournamentBoost"]
 
@@ -124,9 +122,9 @@ def condense(data: dict = None) -> dict:
             outLosses = 0
 
             for round in entryData[team]["breaks"]:
-                decision = round["decision"]
-                outWins += decision[0]
-                outLosses += decision[1]
+                win = round["win"]
+                outWins += 1 if win else 0
+                outLosses += 1 if not win else 0
 
             breakRecord = [outWins, outLosses]
 
@@ -187,6 +185,9 @@ def condense(data: dict = None) -> dict:
 
     # Calculating tournamentComp
     condensed = calcTournamentComp(condensed)
+
+    # Organizing
+    condensed = orderCond(condensed)
 
     return condensed
 

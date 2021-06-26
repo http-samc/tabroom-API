@@ -1,5 +1,7 @@
 import json
-from const import breakNames
+
+from utils.const import breakNames
+
 
 def calcBid(data: dict) -> dict:
     """Adds bid data to condensed tournament-level dataset
@@ -13,7 +15,7 @@ def calcBid(data: dict) -> dict:
 
     tournName = list(data.keys())[0]
 
-    with open('utils/tournInfo.json', 'r') as f:
+    with open('data/tournInfo.json', 'r') as f:
         tournData = json.loads(f.read())
 
     if tournName not in tournData:
@@ -107,3 +109,35 @@ def calcTournamentComp(data: dict) -> dict:
         data[tourn][team]["tournamentComp"] = tournamentComp
 
     return data
+
+def orderCond(data: dict) -> dict:
+    """Orders all keys in the given condensed tournament dict
+
+    Args:
+        data (dict): condensed tournament dict
+
+    Returns:
+        dict: ordered dict (matches schema)
+    """
+    tourn = list(data.keys())[0]
+
+    ordered = {tourn: {}}
+
+    for team in data[tourn]:
+        ordered[tourn][team] = {
+            "tournamentComp" : data[tourn][team]["tournamentComp"],
+            "fullNames" : data[tourn][team]["fullNames"],
+            "lastNames" : data[tourn][team]["lastNames"],
+            "prelimRecord" : data[tourn][team]["prelimRecord"],
+            "prelimRank" : data[tourn][team]["prelimRank"],
+            "breakRecord" : data[tourn][team]["breakRecord"],
+            "eliminated" : data[tourn][team]["eliminated"],
+            "speaks" : data[tourn][team]["speaks"],
+            "goldBid" : data[tourn][team]["goldBid"],
+            "silverBid" : data[tourn][team]["silverBid"],
+            "breakBoost" : data[tourn][team]["breakBoost"],
+            "tournamentBoost" : data[tourn][team]["tournamentBoost"],
+            "OPwpm" : data[tourn][team]["OPwpm"],
+        }
+
+    return ordered

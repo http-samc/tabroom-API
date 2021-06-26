@@ -1,7 +1,9 @@
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup
 from colorama import Fore
-from const import DIVISIONS, REJECT
+
+from utils.const import DIVISIONS, REJECT
+
 
 def getDivision(URL: str) -> str | None:
     """Finds the target division from the

@@ -1,28 +1,27 @@
-import json
-
-import requests
 import numpy as np
-from bs4 import BeautifulSoup, NavigableString, Tag
+import requests
+from bs4 import BeautifulSoup, NavigableString
 
-from const import (size, breakNames, WIN, LOSS, PRO, CON)
+from utils.const import CON, LOSS, PRO, WIN, breakNames
 
 """This file contains various functions used to scrape parts
 of the Tabroom.com website
 """
 
-def _clean(string: str, stripNum: bool = False) -> str | None:
+def _clean(string: str, stripNum: bool = False, stripPeriods: bool = True) -> str | None:
     """Removes tabs, periods, newlines, nums (opt) from a string
 
     Args:
         string (str): string to clean
         stripNum (bool): whether or not to remove numbers. Defaults to False.
-
+        stripPreiods (bool) whether or not to remove periods. Defaults to True.
     Returns:
         str: cleaned version of string
         None: if string had no characters
     """
-    if stripNum: string = ''.join([i for i in string if not i.isdigit()]).replace('.', '')
+    if stripNum: string = ''.join([i for i in string if not i.isdigit()])
     string = string.replace('\n', '').replace('\t', '').replace('(', ' (')
+    if stripPeriods: string = string.replace('.', '')
     string = string.replace('  ', ' ')
 
     return string if string != "" else None
@@ -354,7 +353,7 @@ def entry(URL: str) -> dict:
 
     i = 0
     for score in speakerData:
-        score = _clean(score.get_text())
+        score = _clean(score.get_text(), stripPeriods=False)
 
         if len(score) == 1: continue
         else: score = float(score)

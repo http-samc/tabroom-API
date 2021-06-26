@@ -1,6 +1,11 @@
-from parsers import *
-from scrapers import *
+import json
+
 from colorama import Fore
+
+from utils.condensors import condense
+from utils.parsers import *
+from utils.scrapers import *
+
 
 def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     """Generates all available tournament data
@@ -89,18 +94,20 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         entryData[team] = entry(prelimData[team]["entryPage"])
 
     # Choosing either bracket or final places page
-    # if finalsURL:
-    #     resultData = breaks(finalsURL)
+    if finalsURL:
+        resultData = breaks(finalsURL)
     if bracketURL:
         resultData = bracket(bracketURL)
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
 
-    masterData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
+    rawData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
         "entryData": entryData, "resultData": resultData}
-
-    with open('uncondensedTourn.json', 'w') as f:
-        json.dump(masterData, f)
+    with open(f'data/tournaments/{NAME}.json', 'w') as f:
+        json.dump(rawData, f)
+    data = condense(rawData)
+    with open(f'data/tournaments/{NAME}.json', 'w') as f:
+        json.dump(data, f)
 
 if __name__ == "__main__":
     import time
