@@ -184,7 +184,7 @@ def condense(data: dict) -> dict:
         finalRdSTD = resultData[team][2]
 
         teamData["breakBoost"] = breakBoost
-        if teamData["eliminated"] is not None: # Champion was never elim
+        if teamData["eliminated"] is not None and isinstance(teamData["eliminated"], list): # Champion was never elim
             teamData["eliminated"].insert(3, finalRdSTD)
 
     # Calculating bids
