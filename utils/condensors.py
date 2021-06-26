@@ -2,7 +2,6 @@ import json
 
 from utils.helpers import *
 
-
 def condense(data: dict) -> dict:
     """Condenses redundant data from various scrapers
     into a single file. The redundant data exists to
@@ -152,7 +151,8 @@ def condense(data: dict) -> dict:
             del teamData["prelimWins"] # if the two match -> delete the ref
 
         else:
-            print("Error validating prelim wins for: " + team)
+            t = teamData["prelimWins"]
+            print(f"Error validating prelim wins for: {team} - {prelimRecord[0]} vs {t}")
 
         # Updating team data
         teamData["fullNames"] = fullNames

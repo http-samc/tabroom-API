@@ -68,6 +68,7 @@ def getDivision(URL: str) -> str | None:
 
                 # If all keywords in name and no negative keywords -> return the original name
                 if i == 0:
+                    print(Fore.LIGHTMAGENTA_EX + "Found division: " + originalDivisionName)
                     return divisionData[originalDivisionName]
 
     # Manual scraping if not found

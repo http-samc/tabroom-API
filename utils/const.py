@@ -21,8 +21,8 @@ WIN = ["W", "w"]
 LOSS = ["L", "l"]
 
 "Accepted sides"
-PRO = ["Pro", "Aff"]
-CON = ["Con", "Neg"]
+PRO = ["Pro", "PRO", "Aff"]
+CON = ["Con", "CON", "Neg"]
 
 "Accepted divisions, starting with most specific -> generic"
 DIVISIONS = [
