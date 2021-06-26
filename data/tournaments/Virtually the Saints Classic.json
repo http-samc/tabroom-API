@@ -1,0 +1,840 @@
+{
+    "Virtually the Saints Classic": {
+        "Mississippi School For Mathematics and Science LW": {
+            "tournamentComp": 6.4,
+            "fullNames": "Michael Lu & Aaron Wan",
+            "lastNames": [
+                "Lu",
+                "Wan"
+            ],
+            "prelimRecord": [
+                5,
+                0
+            ],
+            "prelimRank": [
+                1,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Duchesne Academy Of The Sacred Heart BB"
+            ],
+            "speaks": [
+                {
+                    "name": "Lu Michael",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.5
+                },
+                {
+                    "name": "Wan Aaron",
+                    "rawAVG": 28.7,
+                    "adjAVG": 28.7
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.2
+        },
+        "Bergen County Academies NN": {
+            "tournamentComp": 7.68,
+            "fullNames": "Avital Nozic & Elaine Nam",
+            "lastNames": [
+                "Nozic",
+                "Nam"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                2,
+                22
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Semis",
+                "Semifinals",
+                "Mississippi School For Mathematics and Science YN"
+            ],
+            "speaks": [
+                {
+                    "name": "Nozic Avital",
+                    "rawAVG": 28.7,
+                    "adjAVG": 28.7
+                },
+                {
+                    "name": "Nam Elaine",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 3.2
+        },
+        "Delbarton BS": {
+            "tournamentComp": 6.72,
+            "fullNames": "Alexander Banker & Matthew Sebastian",
+            "lastNames": [
+                "Banker",
+                "Sebastian"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                3,
+                22
+            ],
+            "breakRecord": [
+                0,
+                2
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Semis",
+                "Semifinals",
+                "Duchesne Academy Of The Sacred Heart BB"
+            ],
+            "speaks": [
+                {
+                    "name": "Banker Alexander",
+                    "rawAVG": 28.2,
+                    "adjAVG": 28.2
+                },
+                {
+                    "name": "Sebastian Matthew",
+                    "rawAVG": 28.7,
+                    "adjAVG": 28.7
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Delbarton MS": {
+            "tournamentComp": 4.48,
+            "fullNames": "Eric Moldoveanu & Alexander Sun",
+            "lastNames": [
+                "Moldoveanu",
+                "Sun"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                4,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Quarters",
+                "Quarterfinals",
+                "Delbarton BS"
+            ],
+            "speaks": [
+                {
+                    "name": "Moldoveanu Eric",
+                    "rawAVG": 27.5,
+                    "adjAVG": 27.5
+                },
+                {
+                    "name": "Sun Alexander",
+                    "rawAVG": 27.8,
+                    "adjAVG": 27.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Mississippi School For Mathematics and Science YN": {
+            "tournamentComp": 5.76,
+            "fullNames": "Andrew Yu & Lyem Ningthou",
+            "lastNames": [
+                "Yu",
+                "Ningthou"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                5,
+                22
+            ],
+            "breakRecord": [
+                2,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Finals",
+                "Finals",
+                "Duchesne Academy Of The Sacred Heart BB"
+            ],
+            "speaks": [
+                {
+                    "name": "Yu Andrew",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.9
+                },
+                {
+                    "name": "Ningthou Lyem",
+                    "rawAVG": 28.3,
+                    "adjAVG": 28.3
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 1.8
+        },
+        "Baton Rouge AT": {
+            "tournamentComp": 4.08,
+            "fullNames": "Hannah Anderson & Lillian Thibaut",
+            "lastNames": [
+                "Anderson",
+                "Thibaut"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                6,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Bergen County Academies NN"
+            ],
+            "speaks": [
+                {
+                    "name": "Anderson Hannah",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.6
+                },
+                {
+                    "name": "Thibaut Lillian",
+                    "rawAVG": 28.1,
+                    "adjAVG": 28.88
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.4
+        },
+        "Bergen County Academies CK": {
+            "tournamentComp": 1.5,
+            "fullNames": "Andrew Chun & Neil Kreibich",
+            "lastNames": [
+                "Chun",
+                "Kreibich"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                7,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Chun Andrew",
+                    "rawAVG": 27.5,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Kreibich Neil",
+                    "rawAVG": 27.12,
+                    "adjAVG": 27.12
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "Cabot CB": {
+            "tournamentComp": 1.32,
+            "fullNames": "Alexis Childs & Joelle Buckner",
+            "lastNames": [
+                "Childs",
+                "Buckner"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                8,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Childs Alexis",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Buckner Joelle",
+                    "rawAVG": 27.3,
+                    "adjAVG": 27.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Delbarton FE": {
+            "tournamentComp": 1.68,
+            "fullNames": "Michael Fialcowitz & Ezekiel Ehrenberg",
+            "lastNames": [
+                "Fialcowitz",
+                "Ehrenberg"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                9,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Fialcowitz Michael",
+                    "rawAVG": 27.3,
+                    "adjAVG": 27.3
+                },
+                {
+                    "name": "Ehrenberg Ezekiel",
+                    "rawAVG": 27.8,
+                    "adjAVG": 27.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Duchesne Academy Of The Sacred Heart BB": {
+            "tournamentComp": 5.28,
+            "fullNames": "Brooke Blanton & Mimi Bhalla",
+            "lastNames": [
+                "Blanton",
+                "Bhalla"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                10,
+                22
+            ],
+            "breakRecord": [
+                3,
+                0
+            ],
+            "eliminated": null,
+            "speaks": [
+                {
+                    "name": "Blanton Brooke",
+                    "rawAVG": 28.2,
+                    "adjAVG": 28.2
+                },
+                {
+                    "name": "Bhalla Mimi",
+                    "rawAVG": 27.1,
+                    "adjAVG": 27.1
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Oak Grove HK": {
+            "tournamentComp": 3.36,
+            "fullNames": "Susom Hait & Ayaan Kamal",
+            "lastNames": [
+                "Hait",
+                "Kamal"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                11,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Quarters",
+                "Quarterfinals",
+                "Mississippi School For Mathematics and Science YN"
+            ],
+            "speaks": [
+                {
+                    "name": "Hait Susom",
+                    "rawAVG": 28.4,
+                    "adjAVG": 28.4
+                },
+                {
+                    "name": "Kamal Ayaan",
+                    "rawAVG": 29.0,
+                    "adjAVG": 29.25
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Baton Rouge FP": {
+            "tournamentComp": 1.04,
+            "fullNames": "Jane Foreman & Kriya Patel",
+            "lastNames": [
+                "Foreman",
+                "Patel"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                12,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Foreman Jane",
+                    "rawAVG": 27.3,
+                    "adjAVG": 27.88
+                },
+                {
+                    "name": "Patel Kriya",
+                    "rawAVG": 27.7,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "Cabot BT": {
+            "tournamentComp": 1.04,
+            "fullNames": "Amber Beard & Jasmine Turnage",
+            "lastNames": [
+                "Beard",
+                "Turnage"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                13,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Beard Amber",
+                    "rawAVG": 27.4,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Turnage Jasmine",
+                    "rawAVG": 27.8,
+                    "adjAVG": 27.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "Cabot MR": {
+            "tournamentComp": 0.8,
+            "fullNames": "Kiya Massery & Haley Robbins",
+            "lastNames": [
+                "Massery",
+                "Robbins"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                14,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Massery Kiya",
+                    "rawAVG": 26.7,
+                    "adjAVG": 27.0
+                },
+                {
+                    "name": "Robbins Haley",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.33
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.0
+        },
+        "Duchesne Academy Of The Sacred Heart SH": {
+            "tournamentComp": 1.04,
+            "fullNames": "Julianne Sellers & Sophia Hellman",
+            "lastNames": [
+                "Sellers",
+                "Hellman"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                15,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Sellers Julianne",
+                    "rawAVG": 27.1,
+                    "adjAVG": 27.1
+                },
+                {
+                    "name": "Hellman Sophia",
+                    "rawAVG": 27.5,
+                    "adjAVG": 27.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "Jonesboro AY": {
+            "tournamentComp": 0.8,
+            "fullNames": "David Adams & Bennett Young",
+            "lastNames": [
+                "Adams",
+                "Young"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                16,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Adams David",
+                    "rawAVG": 27.3,
+                    "adjAVG": 27.3
+                },
+                {
+                    "name": "Young Bennett",
+                    "rawAVG": 26.7,
+                    "adjAVG": 26.7
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.0
+        },
+        "Laurel Christian HP": {
+            "tournamentComp": 0.72,
+            "fullNames": "Fletcher Horne & John Pickering",
+            "lastNames": [
+                "Horne",
+                "Pickering"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                17,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Horne Fletcher",
+                    "rawAVG": 26.5,
+                    "adjAVG": 26.5
+                },
+                {
+                    "name": "Pickering John",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.2
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 1.8
+        },
+        "Madison Central EE": {
+            "tournamentComp": 1.28,
+            "fullNames": "Sofia Elenkov & Jessica Eibert",
+            "lastNames": [
+                "Elenkov",
+                "Eibert"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                18,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Elenkov Sofia",
+                    "rawAVG": 27.3,
+                    "adjAVG": 27.3
+                },
+                {
+                    "name": "Eibert Jessica",
+                    "rawAVG": 27.5,
+                    "adjAVG": 27.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.2
+        },
+        "Cabot HO": {
+            "tournamentComp": 0.52,
+            "fullNames": "Remington Hicks & Jace Owens",
+            "lastNames": [
+                "Hicks",
+                "Owens"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                19,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Hicks Remington",
+                    "rawAVG": 27.7,
+                    "adjAVG": 27.7
+                },
+                {
+                    "name": "Owens Jace",
+                    "rawAVG": 26.9,
+                    "adjAVG": 27.38
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "Cabot PR": {
+            "tournamentComp": 0.45,
+            "fullNames": "Isabella Parker & Ebony Robertson",
+            "lastNames": [
+                "Parker",
+                "Robertson"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                20,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Parker Isabella",
+                    "rawAVG": 26.25,
+                    "adjAVG": 26.25
+                },
+                {
+                    "name": "Robertson Ebony",
+                    "rawAVG": 26.12,
+                    "adjAVG": 26.12
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.25
+        },
+        "Madison Central SH": {
+            "tournamentComp": 0.44,
+            "fullNames": "Avery Smith & Audrey Houston",
+            "lastNames": [
+                "Smith",
+                "Houston"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                21,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Smith Avery",
+                    "rawAVG": 26.6,
+                    "adjAVG": 26.6
+                },
+                {
+                    "name": "Houston Audrey",
+                    "rawAVG": 26.7,
+                    "adjAVG": 27.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Jonesboro SS": {
+            "tournamentComp": 0.0,
+            "fullNames": "Webb Storer & Nathan Sammons",
+            "lastNames": [
+                "Storer",
+                "Sammons"
+            ],
+            "prelimRecord": [
+                0,
+                5
+            ],
+            "prelimRank": [
+                22,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Storer Webb",
+                    "rawAVG": 25.8,
+                    "adjAVG": 25.67
+                },
+                {
+                    "name": "Sammons Nathan",
+                    "rawAVG": 26.2,
+                    "adjAVG": 26.75
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        }
+    }
+}

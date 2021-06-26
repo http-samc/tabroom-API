@@ -190,6 +190,8 @@ def breaks(URL: str) -> dict:
         # Get team data
         teamsElim = teams[prevIDX:roundEndIDX]
         for team in teamsElim:
+            if team["code"] is None: # Blank col
+                continue
             data[_clean(team["code"])] = [
                 i, # what break round it was (finals = 1, ...)
                 team["break"], # provided round name
@@ -293,7 +295,7 @@ def entry(URL: str) -> dict:
 
         # Getting round name and figuring out if it's a break round
         roundName = _clean(meta[0].get_text())
-        isBreak = False if "round" in roundName.lower() else True
+        isBreak = False if "round" in roundName.lower() or "R" == roundName[0:1] else True
 
         # Getting side and standardizing it
         side = _clean(meta[1].get_text())

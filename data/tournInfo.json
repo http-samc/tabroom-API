@@ -245,157 +245,157 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17893",
         "meta": "2020 NSDA Campus, NE/US - 12/5 "
     },
-    "Nano Nagle Classic Formerly Voices": {
+    "!Nano Nagle Classic Formerly Voices": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16924",
         "meta": "2020 classrooms.cloud, CA/US - 10/5 to 10/12 "
     },
-    "National Speech and Debate Season Opener Hosted by UK": {
+    "!National Speech and Debate Season Opener Hosted by UK": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16315",
         "meta": "2020 Lexington, KY/US - 9/12 to 9/14 "
     },
-    "Nova Titan Invitational": {
+    "!Nova Titan Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16463",
         "meta": "2020 NSDA Campus, FL/US - 10/10 to 10/11 "
     },
-    "PLUPuyallup TOH Karl High School Speech and Debate Invitational": {
+    "!*PLUPuyallup TOH Karl High School Speech and Debate Invitational": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19192",
         "meta": "2020 Tacoma, WA/US - 1/31 to 2/1 "
     },
-    "Peach State Classic": {
+    "!Peach State Classic": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16932",
         "meta": "2020 NSDA Campus, GA/US - 11/13 to 11/18 "
     },
-    "Peninsula Invitational": {
+    "!Peninsula Invitational": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16316",
         "meta": "2021 Rolling Hills Estates, CA/US - 1/23 to 1/25 "
     },
-    "Pennsbury Falcon Invitational": {
+    "!Pennsbury Falcon Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15682",
         "meta": "2021 Fairless Hills (Online), PA/US - 2/5 to 2/7 "
     },
-    "Plano West TFATOC Qualifier": {
+    "!Plano West TFATOC Qualifier": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17336",
         "meta": "2020 Plano West, US - 10/23 to 10/26 "
     },
-    "Puget Sound High School Invitational": {
+    "!*Puget Sound High School Invitational": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13932",
         "meta": "2020 Tacoma, WA/US - 1/10 to 1/11 "
     },
-    "Raymond B Furlong Tournament at Saint James": {
+    "!Raymond B Furlong Tournament at Saint James": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17281",
         "meta": "2020 NSDA Campus, AL/US - 10/9 to 10/10 "
     },
-    "Ridge Invitational": {
+    "!Ridge Debates": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17524",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17113",
         "meta": "2021 Online, NJ/US - 1/30 "
     },
-    "SF Roosevelt Sweetstakes": {
+    "!SF Roosevelt Sweetstakes": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16369",
         "meta": "2020 Online, SD/US - 11/12 to 11/14 "
     },
-    "Seattle Academy Invitational": {
+    "!Seattle Academy Invitational": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16426",
         "meta": "2020 Online, WA/US - 11/5 to 11/7 "
     },
-    "The Cougar Classic at the University of Houston": {
+    "!The Cougar Classic at the University of Houston": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17392",
         "meta": "2021 Online, TX/US - 1/15 to 1/17 "
     },
-    "The Dempsey Cronin Memorial Invitational": {
+    "!**NOBID**The Dempsey Cronin Memorial Invitational": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18821",
         "meta": "2021 NSDA Campus, CA/US - 1/30 to 1/31 "
     },
-    "The Ed Long Invitational at The Hockaday School": {
+    "!The Ed Long Invitational at The Hockaday School": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16829",
         "meta": "2020 virtual.txfa.org, TX/US - 11/6 to 11/7 "
     },
-    "The Longhorn Classic Online": {
+    "!The Longhorn Classic Online": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16900",
         "meta": "2020 Austin, TX/US - 12/4 to 12/6 "
     },
-    "The Milo Cup at Millard North": {
+    "!The Milo Cup at Millard North": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18671",
         "meta": "2021 NSDA Campus, NE/US - 2/19 to 2/20 "
     },
-    "The Paradigm Dowling Catholic": {
+    "!The Paradigm Dowling Catholic": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16764",
         "meta": "2020 Online, IA/US - 12/11 to 12/13 "
     },
-    "The Princeton Classic": {
+    "!The Princeton Classic": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16551",
         "meta": "2020 NSDA Campus, NJ/US - 12/3 to 12/6 "
     },
-    "The Tradition": {
+    "!The Tradition": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16462",
         "meta": "2020 Nsda Campus, US - 11/14 to 11/15 "
     },
-    "University of Michigan HS Debate Tournament": {
+    "!University of Michigan HS Debate Tournament": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17057",
         "meta": "2020 NSDA Campus, MI/US - 11/5 to 11/9 "
     },
-    "Villiger 41": {
+    "!Villiger 41": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17283",
         "meta": "2020 NSDA Campus, PA/US - 11/19 to 11/22 "
     },
-    "Virtual Scarsdale Invitational Scarvite": {
+    "!Virtual Scarsdale Invitational Scarvite": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17824",
         "meta": "2020 NSDA Campus, NY/US - 11/14 to 11/15 "
     },
-    "Virtually the Saints Classic": {
+    "!Virtually the Saints Classic": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18465",
         "meta": "2021 NSDA Campus, MS/US - 1/7 to 1/9 "
     },
-    "Winston Churchill Classic TOC and NIETOC Qualifier": {
+    "!The 46th Winston Churchill Classic TOC and NIETOC Qualifier": {
         "acceptsUnaffiliated": null,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17809",
