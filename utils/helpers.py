@@ -1,5 +1,7 @@
 import json
 
+from colorama import Fore
+
 from utils.const import breakNames
 
 
@@ -81,7 +83,7 @@ def calcOPwpm(data: dict) -> dict:
             OPwpm = round(oppWins/len(opps), 3)
             data[tourn][team]["OPwpm"] = OPwpm
         else:
-            print(team)
+            print(Fore.YELLOW + f"No opponents found for {team}")
 
     return data
 

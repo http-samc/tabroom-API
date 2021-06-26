@@ -27,4 +27,4 @@ if __name__ == "__main__":
     #print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16740&entry_id=3183877"))
     scrapeAll()
     from pprint import pprint
-    #pprint(breaks("https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=16458&result_id=154825"))
+    #print(bracket("https://www.tabroom.com/index/tourn/results/bracket.mhtml?tourn_id=18420&result_id=161547"))
