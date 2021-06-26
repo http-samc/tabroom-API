@@ -1,7 +1,7 @@
 {
     "Glenbrooks Speech and Debate Tournament": {
         "BASIS Independent Silicon Valley AV": {
-            "tournamentComp": 20.0,
+            "tournamentComp": 2.857,
             "fullNames": "Ayush Agarwal & Vinay Vellore",
             "lastNames": [
                 "Agarwal",
@@ -45,7 +45,7 @@
             "OPwpm": 5.0
         },
         "Bethesda Chevy Chase GT": {
-            "tournamentComp": 67.998,
+            "tournamentComp": 9.714,
             "fullNames": "Eli Glickman & Roy Tiefer",
             "lastNames": [
                 "Glickman",
@@ -83,7 +83,7 @@
             "OPwpm": 4.857
         },
         "Horace Mann HN": {
-            "tournamentComp": 25.716,
+            "tournamentComp": 3.674,
             "fullNames": "Lauren Ho & Alex Nagin",
             "lastNames": [
                 "Ho",
@@ -127,7 +127,7 @@
             "OPwpm": 4.286
         },
         "Acton-Boxborough CH": {
-            "tournamentComp": 29.39,
+            "tournamentComp": 4.199,
             "fullNames": "Michael Cai & Isaac Han",
             "lastNames": [
                 "Cai",
@@ -171,7 +171,7 @@
             "OPwpm": 4.286
         },
         "BASIS Peoria SS": {
-            "tournamentComp": 15.672,
+            "tournamentComp": 2.239,
             "fullNames": "Mateen Sekandari & Pranav Saravanan",
             "lastNames": [
                 "Sekandari",
@@ -215,7 +215,7 @@
             "OPwpm": 4.571
         },
         "Bellaire LT": {
-            "tournamentComp": 12.734,
+            "tournamentComp": 1.819,
             "fullNames": "Bryce Liu & Sernry Tu",
             "lastNames": [
                 "Liu",
@@ -259,7 +259,7 @@
             "OPwpm": 3.714
         },
         "Bellaire RS": {
-            "tournamentComp": 14.205,
+            "tournamentComp": 2.029,
             "fullNames": "Vedanth Ramabhadran & Andrew Sun",
             "lastNames": [
                 "Ramabhadran",
@@ -303,7 +303,7 @@
             "OPwpm": 4.143
         },
         "Chaska OV": {
-            "tournamentComp": 51.429,
+            "tournamentComp": 7.347,
             "fullNames": "Kian O'Connor & Ekaanth Veerakumar",
             "lastNames": [
                 "O'Connor",
@@ -347,7 +347,7 @@
             "OPwpm": 5.0
         },
         "College Prep BB": {
-            "tournamentComp": 25.714,
+            "tournamentComp": 3.673,
             "fullNames": "Claire Beamer & Elliot Beamer",
             "lastNames": [
                 "Beamer",
@@ -391,7 +391,7 @@
             "OPwpm": 5.0
         },
         "Coppell BC": {
-            "tournamentComp": 30.37,
+            "tournamentComp": 4.339,
             "fullNames": "Shabbir Bohri & Sahil Chiniwala",
             "lastNames": [
                 "Bohri",
@@ -435,7 +435,7 @@
             "OPwpm": 4.429
         },
         "Edgemont Junior-Senior MM": {
-            "tournamentComp": 14.287,
+            "tournamentComp": 2.041,
             "fullNames": "Abhiram Masam & Anisha Musti",
             "lastNames": [
                 "Masam",
@@ -479,7 +479,7 @@
             "OPwpm": 4.167
         },
         "Edina MJ": {
-            "tournamentComp": 28.409,
+            "tournamentComp": 4.058,
             "fullNames": "Arya Mirza & Ryan Jiang",
             "lastNames": [
                 "Mirza",
@@ -523,7 +523,7 @@
             "OPwpm": 4.143
         },
         "Horace Mann LG": {
-            "tournamentComp": 13.714,
+            "tournamentComp": 1.959,
             "fullNames": "Sean Lee & Maeve Goldman",
             "lastNames": [
                 "Lee",
@@ -567,7 +567,7 @@
             "OPwpm": 4.0
         },
         "Hunter WK": {
-            "tournamentComp": 24.855,
+            "tournamentComp": 3.551,
             "fullNames": "Jazmyn Wang & Joseph Karaganis",
             "lastNames": [
                 "Wang",
@@ -611,7 +611,7 @@
             "OPwpm": 4.833
         },
         "Lambert MY": {
-            "tournamentComp": 14.695,
+            "tournamentComp": 2.099,
             "fullNames": "Vinayak Menon & Brian Yoo",
             "lastNames": [
                 "Menon",
@@ -655,7 +655,7 @@
             "OPwpm": 4.286
         },
         "Park City EP": {
-            "tournamentComp": 26.283,
+            "tournamentComp": 3.755,
             "fullNames": "Will Efrusy & Tom Perret",
             "lastNames": [
                 "Efrusy",
@@ -699,7 +699,7 @@
             "OPwpm": 3.833
         },
         "Ransom Everglades JR": {
-            "tournamentComp": 14.695,
+            "tournamentComp": 2.099,
             "fullNames": "Andre Joseph & Nicole Rodriguez",
             "lastNames": [
                 "Joseph",
@@ -743,7 +743,7 @@
             "OPwpm": 4.286
         },
         "Seven Lakes ZS": {
-            "tournamentComp": 17.143,
+            "tournamentComp": 2.449,
             "fullNames": "Justin Zhang & Arjun Surya",
             "lastNames": [
                 "Zhang",
@@ -787,7 +787,7 @@
             "OPwpm": 5.0
         },
         "Blake EW": {
-            "tournamentComp": 19.101,
+            "tournamentComp": 2.729,
             "fullNames": "Joshua Enebo & Skylar Wang",
             "lastNames": [
                 "Enebo",
@@ -831,7 +831,7 @@
             "OPwpm": 3.714
         },
         "Blake OP": {
-            "tournamentComp": 13.224,
+            "tournamentComp": 1.889,
             "fullNames": "Ava Olson & Alessandro Perri",
             "lastNames": [
                 "Olson",
@@ -875,7 +875,7 @@
             "OPwpm": 3.857
         },
         "Blake PR": {
-            "tournamentComp": 27.429,
+            "tournamentComp": 3.918,
             "fullNames": "Samrat Pradhan & Keaton Rannow",
             "lastNames": [
                 "Pradhan",
@@ -919,7 +919,7 @@
             "OPwpm": 4.0
         },
         "Acton-Boxborough MG": {
-            "tournamentComp": 15.917,
+            "tournamentComp": 2.274,
             "fullNames": "Sivapriya Marimuthu & Alicia Gu",
             "lastNames": [
                 "Marimuthu",
@@ -963,7 +963,7 @@
             "OPwpm": 3.714
         },
         "BASIS Independent Silicon Valley BC": {
-            "tournamentComp": 13.06,
+            "tournamentComp": 1.866,
             "fullNames": "Stefan Boone & Daniel Chen",
             "lastNames": [
                 "Boone",
@@ -1007,7 +1007,7 @@
             "OPwpm": 4.571
         },
         "BASIS Peoria PL": {
-            "tournamentComp": 19.59,
+            "tournamentComp": 2.799,
             "fullNames": "Samuel Parau & Yash Lal",
             "lastNames": [
                 "Parau",
@@ -1051,7 +1051,7 @@
             "OPwpm": 4.571
         },
         "Centennial AV": {
-            "tournamentComp": 13.809,
+            "tournamentComp": 1.973,
             "fullNames": "Advaith Anakala & Akhil Vinjamaram",
             "lastNames": [
                 "Anakala",
@@ -1095,7 +1095,7 @@
             "OPwpm": 4.833
         },
         "Chanhassen FS": {
-            "tournamentComp": 13.877,
+            "tournamentComp": 1.982,
             "fullNames": "Ella Furman & Olivia Schaefer",
             "lastNames": [
                 "Furman",
@@ -1139,7 +1139,7 @@
             "OPwpm": 4.857
         },
         "Delbarton SM": {
-            "tournamentComp": 15.304,
+            "tournamentComp": 2.186,
             "fullNames": "Alexander Sun & Eric Moldoveanu",
             "lastNames": [
                 "Sun",
@@ -1183,7 +1183,7 @@
             "OPwpm": 3.571
         },
         "Flintridge Prep VZ": {
-            "tournamentComp": 26.529,
+            "tournamentComp": 3.79,
             "fullNames": "Sienna Vaughn & Daniel Zhao",
             "lastNames": [
                 "Vaughn",
@@ -1227,7 +1227,7 @@
             "OPwpm": 3.714
         },
         "Hackley KY": {
-            "tournamentComp": 17.96,
+            "tournamentComp": 2.566,
             "fullNames": "Ben Kirsch & Zach Yusaf",
             "lastNames": [
                 "Kirsch",
@@ -1271,7 +1271,7 @@
             "OPwpm": 3.143
         },
         "Hackley YL": {
-            "tournamentComp": 18.369,
+            "tournamentComp": 2.624,
             "fullNames": "Zara Yusaf & Michael Lee",
             "lastNames": [
                 "Yusaf",
@@ -1315,7 +1315,7 @@
             "OPwpm": 4.286
         },
         "Hawken TB": {
-            "tournamentComp": 10.611,
+            "tournamentComp": 1.516,
             "fullNames": "Tim Toliver & Julien Benchek",
             "lastNames": [
                 "Toliver",
@@ -1359,7 +1359,7 @@
             "OPwpm": 3.714
         },
         "Hawken VV": {
-            "tournamentComp": 11.429,
+            "tournamentComp": 1.633,
             "fullNames": "Daniel van Heeckeren & Ishan Vyas",
             "lastNames": [
                 "vanHeeckeren",
@@ -1403,7 +1403,7 @@
             "OPwpm": 4.0
         },
         "Hawken WaMa": {
-            "tournamentComp": 30.609,
+            "tournamentComp": 4.373,
             "fullNames": "Alex Watson & Claire Marrie",
             "lastNames": [
                 "Watson",
@@ -1447,7 +1447,7 @@
             "OPwpm": 3.571
         },
         "Hunter GF": {
-            "tournamentComp": 16.53,
+            "tournamentComp": 2.361,
             "fullNames": "Anabel Giacobbi & Victoria Freeman",
             "lastNames": [
                 "Giacobbi",
@@ -1491,7 +1491,7 @@
             "OPwpm": 3.857
         },
         "Lakeville South GN": {
-            "tournamentComp": 4.899,
+            "tournamentComp": 0.7,
             "fullNames": "Gus Gerlach & Henry Nomeland",
             "lastNames": [
                 "Gerlach",
@@ -1526,7 +1526,7 @@
             "OPwpm": 3.429
         },
         "Lynbrook RG": {
-            "tournamentComp": 17.756,
+            "tournamentComp": 2.537,
             "fullNames": "Vaibhav Rangan & Kunal Goel",
             "lastNames": [
                 "Rangan",
@@ -1570,7 +1570,7 @@
             "OPwpm": 4.143
         },
         "Lynbrook SC": {
-            "tournamentComp": 5.919,
+            "tournamentComp": 0.846,
             "fullNames": "Naman Singhal & Derrick Cai",
             "lastNames": [
                 "Singhal",
@@ -1605,7 +1605,7 @@
             "OPwpm": 4.143
         },
         "Montgomery Blair GC": {
-            "tournamentComp": 11.02,
+            "tournamentComp": 1.574,
             "fullNames": "Iris Gupta & Eric Chen",
             "lastNames": [
                 "Gupta",
@@ -1649,7 +1649,7 @@
             "OPwpm": 3.857
         },
         "Montgomery Blair HW": {
-            "tournamentComp": 23.674,
+            "tournamentComp": 3.382,
             "fullNames": "Michael Hu & Jonathan Wen",
             "lastNames": [
                 "Hu",
@@ -1693,7 +1693,7 @@
             "OPwpm": 4.143
         },
         "Montgomery Blair JQ": {
-            "tournamentComp": 11.02,
+            "tournamentComp": 1.574,
             "fullNames": "Alex Jiang & Eli Qian",
             "lastNames": [
                 "Jiang",
@@ -1737,7 +1737,7 @@
             "OPwpm": 3.857
         },
         "NSU FR": {
-            "tournamentComp": 28.571,
+            "tournamentComp": 4.082,
             "fullNames": "Amanda Frank & Peyton Ronkin",
             "lastNames": [
                 "Frank",
@@ -1781,7 +1781,7 @@
             "OPwpm": 4.0
         },
         "Northview CM": {
-            "tournamentComp": 11.429,
+            "tournamentComp": 1.633,
             "fullNames": "Sonal Churiwal & Sanjh Mahatme",
             "lastNames": [
                 "Churiwal",
@@ -1825,7 +1825,7 @@
             "OPwpm": 4.0
         },
         "Nova RG": {
-            "tournamentComp": 13.469,
+            "tournamentComp": 1.924,
             "fullNames": "Benjamin Redler & Spencer Grosso",
             "lastNames": [
                 "Redler",
@@ -1869,7 +1869,7 @@
             "OPwpm": 4.714
         },
         "Plano West GS": {
-            "tournamentComp": 10.611,
+            "tournamentComp": 1.516,
             "fullNames": "Priyanka Gupta & Kaustubh Sonawane",
             "lastNames": [
                 "Gupta",
@@ -1913,7 +1913,7 @@
             "OPwpm": 3.714
         },
         "Plano West SW": {
-            "tournamentComp": 29.593,
+            "tournamentComp": 4.228,
             "fullNames": "Meghna Subramanium & Grace Wang",
             "lastNames": [
                 "Subramanium",
@@ -1957,7 +1957,7 @@
             "OPwpm": 4.143
         },
         "Ransom Everglades GM": {
-            "tournamentComp": 13.334,
+            "tournamentComp": 1.905,
             "fullNames": "Noah Gold & Zach Marcus",
             "lastNames": [
                 "Gold",
@@ -2001,7 +2001,7 @@
             "OPwpm": 4.667
         },
         "Riverdale Country VL": {
-            "tournamentComp": 11.02,
+            "tournamentComp": 1.574,
             "fullNames": "Jack Volpert & Andrew Lipschultz",
             "lastNames": [
                 "Volpert",
@@ -2045,7 +2045,7 @@
             "OPwpm": 3.857
         },
         "Sharon BC": {
-            "tournamentComp": 11.429,
+            "tournamentComp": 1.633,
             "fullNames": "Craig Blatte & Ethan Cooperman",
             "lastNames": [
                 "Blatte",
@@ -2089,7 +2089,7 @@
             "OPwpm": 4.0
         },
         "Strake Jesuit AD": {
-            "tournamentComp": 45.71,
+            "tournamentComp": 6.53,
             "fullNames": "Zain Ashraf & Ishan Dubey",
             "lastNames": [
                 "Ashraf",
@@ -2133,7 +2133,7 @@
             "OPwpm": 4.571
         },
         "Strake Jesuit GK": {
-            "tournamentComp": 10.611,
+            "tournamentComp": 1.516,
             "fullNames": "Nicholas Goodman & David Kennedy",
             "lastNames": [
                 "Goodman",
@@ -2177,7 +2177,7 @@
             "OPwpm": 3.714
         },
         "Strake Jesuit GW": {
-            "tournamentComp": 10.611,
+            "tournamentComp": 1.516,
             "fullNames": "Ty Gribble & Charlie Walker",
             "lastNames": [
                 "Gribble",
@@ -2221,7 +2221,7 @@
             "OPwpm": 3.714
         },
         "Blake DH": {
-            "tournamentComp": 13.06,
+            "tournamentComp": 1.866,
             "fullNames": "Wyatt Dayhoff & Grace Homan",
             "lastNames": [
                 "Dayhoff",
@@ -2265,7 +2265,7 @@
             "OPwpm": 4.571
         },
         "Blake EX": {
-            "tournamentComp": 18.981,
+            "tournamentComp": 2.712,
             "fullNames": "Dennis Eum & Leon Xue",
             "lastNames": [
                 "Eum",
@@ -2309,7 +2309,7 @@
             "OPwpm": 4.429
         },
         "Blake TP": {
-            "tournamentComp": 17.859,
+            "tournamentComp": 2.551,
             "fullNames": "Elizabeth Terveen & Sofia Perri",
             "lastNames": [
                 "Perri",
@@ -2353,7 +2353,7 @@
             "OPwpm": 4.167
         },
         "Bronx Science DG": {
-            "tournamentComp": 15.917,
+            "tournamentComp": 2.274,
             "fullNames": "Tenzin Dadak & Ayanava Ganguly",
             "lastNames": [
                 "Dadak",
@@ -2397,7 +2397,7 @@
             "OPwpm": 3.714
         },
         "Bronx Science MY": {
-            "tournamentComp": 10.611,
+            "tournamentComp": 1.516,
             "fullNames": "Carson Michel & Vivian Yellen",
             "lastNames": [
                 "Michel",
@@ -2441,7 +2441,7 @@
             "OPwpm": 3.714
         },
         "Dalton SY": {
-            "tournamentComp": 31.636,
+            "tournamentComp": 4.519,
             "fullNames": "Lila Sternoff & Leonardo Yu",
             "lastNames": [
                 "Sternoff",
@@ -2485,7 +2485,7 @@
             "OPwpm": 4.429
         },
         "Harker LK": {
-            "tournamentComp": 12.246,
+            "tournamentComp": 1.749,
             "fullNames": "Caden Lin & Vedant Kenkare",
             "lastNames": [
                 "Lin",
@@ -2529,7 +2529,7 @@
             "OPwpm": 4.286
         },
         "Trinity CN": {
-            "tournamentComp": 14.696,
+            "tournamentComp": 2.099,
             "fullNames": "Emmett Chen & Sebastien Nordensen",
             "lastNames": [
                 "Chen",
@@ -2573,7 +2573,7 @@
             "OPwpm": 3.429
         },
         "University MN": {
-            "tournamentComp": 11.429,
+            "tournamentComp": 1.633,
             "fullNames": "Ananth Menon & Marcus Novak",
             "lastNames": [
                 "Menon",
@@ -2617,7 +2617,7 @@
             "OPwpm": 4.0
         },
         "University YP": {
-            "tournamentComp": 16.427,
+            "tournamentComp": 2.347,
             "fullNames": "Daniel Yan & Abraham Paik",
             "lastNames": [
                 "Yan",
@@ -2661,7 +2661,7 @@
             "OPwpm": 3.833
         },
         "Valencia NP": {
-            "tournamentComp": 11.429,
+            "tournamentComp": 1.633,
             "fullNames": "Aqil Naeem & Aarav Patel",
             "lastNames": [
                 "Naeem",
@@ -2705,7 +2705,7 @@
             "OPwpm": 4.0
         },
         "Vista Ridge KN": {
-            "tournamentComp": 11.02,
+            "tournamentComp": 1.574,
             "fullNames": "Nayeon Kim & Ramya Nambala",
             "lastNames": [
                 "Kim",
@@ -2749,7 +2749,7 @@
             "OPwpm": 3.857
         },
         "Westlake CW": {
-            "tournamentComp": 17.143,
+            "tournamentComp": 2.449,
             "fullNames": "Haley Clawsie & Cherie Wang",
             "lastNames": [
                 "Clawsie",
@@ -2793,7 +2793,7 @@
             "OPwpm": 4.0
         },
         "Westlake RW": {
-            "tournamentComp": 12.246,
+            "tournamentComp": 1.749,
             "fullNames": "Allie Robinson & Caroline Wehring",
             "lastNames": [
                 "Robinson",
@@ -2837,7 +2837,7 @@
             "OPwpm": 4.286
         },
         "Westwood SP": {
-            "tournamentComp": 5.306,
+            "tournamentComp": 0.758,
             "fullNames": "Anand Singh & Sidh Pandit",
             "lastNames": [
                 "Singh",
@@ -2872,7 +2872,7 @@
             "OPwpm": 3.714
         },
         "William Fremd GS": {
-            "tournamentComp": 22.04,
+            "tournamentComp": 3.149,
             "fullNames": "Souvik Ghosh & Gabe Seidman",
             "lastNames": [
                 "Ghosh",
@@ -2916,7 +2916,7 @@
             "OPwpm": 3.857
         },
         "Acton-Boxborough LM": {
-            "tournamentComp": 3.592,
+            "tournamentComp": 0.513,
             "fullNames": "Samuel Liu & Anirudh Manoj",
             "lastNames": [
                 "Liu",
@@ -2951,7 +2951,7 @@
             "OPwpm": 3.143
         },
         "Albuquerque AL": {
-            "tournamentComp": 5.062,
+            "tournamentComp": 0.723,
             "fullNames": "Noor Ali & Sophia Liem",
             "lastNames": [
                 "Ali",
@@ -2986,7 +2986,7 @@
             "OPwpm": 4.429
         },
         "American Heritage Plantation SR": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Sharvaa Selvan & Ethan Roytman",
             "lastNames": [
                 "Selvan",
@@ -3021,7 +3021,7 @@
             "OPwpm": 3.0
         },
         "Archbishop Mitty BK": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Gabriel Brenner & Jeffrey Ke",
             "lastNames": [
                 "Brenner",
@@ -3056,7 +3056,7 @@
             "OPwpm": 4.143
         },
         "BASIS San Antonio Shavano JS": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Ansh Jakatimath & Suran Somawardana",
             "lastNames": [
                 "Jakatimath",
@@ -3091,7 +3091,7 @@
             "OPwpm": 3.429
         },
         "BASIS Scottsdale RS": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Gina Ryu & Madhura Shembekar",
             "lastNames": [
                 "Ryu",
@@ -3126,7 +3126,7 @@
             "OPwpm": 4.0
         },
         "Belvidere North KK": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Joseph Kallal & Kai Kozlov",
             "lastNames": [
                 "Kallal",
@@ -3161,7 +3161,7 @@
             "OPwpm": 3.286
         },
         "British International PC": {
-            "tournamentComp": 5.062,
+            "tournamentComp": 0.723,
             "fullNames": "Kishan Patel & Rory Carabok",
             "lastNames": [
                 "Patel",
@@ -3196,7 +3196,7 @@
             "OPwpm": 4.429
         },
         "Cambrian II": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Adarsh Iyyavoo & Anish Iyyavoo",
             "lastNames": [
                 "Iyyavoo",
@@ -3231,7 +3231,7 @@
             "OPwpm": 3.714
         },
         "Centennial CN": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Arav Chedda & Shivansh Nikhra",
             "lastNames": [
                 "Chedda",
@@ -3266,7 +3266,7 @@
             "OPwpm": 3.429
         },
         "College Prep PZ": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Angelina Peng & May Zhang",
             "lastNames": [
                 "Peng",
@@ -3301,7 +3301,7 @@
             "OPwpm": 3.429
         },
         "College Prep SW": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Simrun Sakhrani & Benjamin Wornow",
             "lastNames": [
                 "Sakhrani",
@@ -3336,7 +3336,7 @@
             "OPwpm": 3.857
         },
         "Cosby MM": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Eric Murray & Jack Merkel",
             "lastNames": [
                 "Murray",
@@ -3371,7 +3371,7 @@
             "OPwpm": 3.429
         },
         "Cranbrook CR": {
-            "tournamentComp": 3.592,
+            "tournamentComp": 0.513,
             "fullNames": "Jonathan Chang & Jeff Ren",
             "lastNames": [
                 "Chang",
@@ -3406,7 +3406,7 @@
             "OPwpm": 3.143
         },
         "Cranbrook HW": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Lily Hu & Ben Walter",
             "lastNames": [
                 "Hu",
@@ -3441,7 +3441,7 @@
             "OPwpm": 4.143
         },
         "Delbarton TL": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Connor Teehan & William Li",
             "lastNames": [
                 "Teehan",
@@ -3476,7 +3476,7 @@
             "OPwpm": 3.714
         },
         "Dougherty Valley GP": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Nitya Garg & Ananya Pinnamaneni",
             "lastNames": [
                 "Garg",
@@ -3511,7 +3511,7 @@
             "OPwpm": 3.286
         },
         "Dublin CA": {
-            "tournamentComp": 3.809,
+            "tournamentComp": 0.544,
             "fullNames": "Katie Cheng & Samyutha Ayalasomayajula",
             "lastNames": [
                 "Cheng",
@@ -3546,7 +3546,7 @@
             "OPwpm": 3.333
         },
         "Eagan AN": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Abhilash Ari & Sriram Nutulapati",
             "lastNames": [
                 "Ari",
@@ -3581,7 +3581,7 @@
             "OPwpm": 3.857
         },
         "Eagan MN": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Nina Mirfakhraie & Akeela Naqvi",
             "lastNames": [
                 "Mirfakhraie",
@@ -3616,7 +3616,7 @@
             "OPwpm": 3.571
         },
         "East Ridge BM": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Matthew Bi & Caleb Moon",
             "lastNames": [
                 "Bi",
@@ -3651,7 +3651,7 @@
             "OPwpm": 3.286
         },
         "Edina SM": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Jay Shapiro & Ashwin Maheshwari",
             "lastNames": [
                 "Shapiro",
@@ -3686,7 +3686,7 @@
             "OPwpm": 4.0
         },
         "Fishers DH": {
-            "tournamentComp": 3.265,
+            "tournamentComp": 0.466,
             "fullNames": "Srilekha Davuluri & Lauren Hobson",
             "lastNames": [
                 "Davuluri",
@@ -3721,7 +3721,7 @@
             "OPwpm": 2.857
         },
         "Flintridge Prep SH": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Neel Sadda & Ian Hunte",
             "lastNames": [
                 "Sadda",
@@ -3756,7 +3756,7 @@
             "OPwpm": 4.143
         },
         "Flintridge Prep SS": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Ashwin Sivakumar & Scott Schuster",
             "lastNames": [
                 "Sivakumar",
@@ -3791,7 +3791,7 @@
             "OPwpm": 4.143
         },
         "George Washington DS": {
-            "tournamentComp": 5.143,
+            "tournamentComp": 0.735,
             "fullNames": "Nick Drewes & Luke Stratton",
             "lastNames": [
                 "Drewes",
@@ -3826,7 +3826,7 @@
             "OPwpm": 4.5
         },
         "George Washington KJ": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Kalina Kulig & Katie Jack",
             "lastNames": [
                 "Kulig",
@@ -3861,7 +3861,7 @@
             "OPwpm": 3.714
         },
         "Glen Rock SO": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Alyssa Serebrenik & Elijah Onik",
             "lastNames": [
                 "Serebrenik",
@@ -3896,7 +3896,7 @@
             "OPwpm": 3.857
         },
         "Hackley AS": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Ben Aybar & Sid Shah",
             "lastNames": [
                 "Aybar",
@@ -3931,7 +3931,7 @@
             "OPwpm": 4.0
         },
         "Hawken CO": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Franny Connors & Parker O'Keefe",
             "lastNames": [
                 "Connors",
@@ -3966,7 +3966,7 @@
             "OPwpm": 3.571
         },
         "Hawken LG": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Mehul Lakhanpal & Henry Gallagher",
             "lastNames": [
                 "Lakhanpal",
@@ -4001,7 +4001,7 @@
             "OPwpm": 3.286
         },
         "Hawken WM": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Madi Wayt & Krishna Mukunda",
             "lastNames": [
                 "Wayt",
@@ -4036,7 +4036,7 @@
             "OPwpm": 4.143
         },
         "Henry Clay HR": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Tag Howard & Jasir Rahman",
             "lastNames": [
                 "Howard",
@@ -4071,7 +4071,7 @@
             "OPwpm": 3.571
         },
         "Hunter KG": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Maya Karri & Leo Greenberg",
             "lastNames": [
                 "Karri",
@@ -4106,7 +4106,7 @@
             "OPwpm": 3.571
         },
         "Iowa City West YD": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Catherine Yang & Alice Doresca",
             "lastNames": [
                 "Yang",
@@ -4141,7 +4141,7 @@
             "OPwpm": 4.0
         },
         "La Salle HG": {
-            "tournamentComp": 3.238,
+            "tournamentComp": 0.463,
             "fullNames": "Gavin Hussain & Gus Gladstein",
             "lastNames": [
                 "Hussain",
@@ -4176,7 +4176,7 @@
             "OPwpm": 2.833
         },
         "Lambert BZ": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Varnica Basavaraj & Rick Zhao",
             "lastNames": [
                 "Basavaraj",
@@ -4211,7 +4211,7 @@
             "OPwpm": 3.429
         },
         "Lambert DD": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Vishnu Dontu & Amrutha Dhulipudi",
             "lastNames": [
                 "Dontu",
@@ -4246,7 +4246,7 @@
             "OPwpm": 3.714
         },
         "Lambert ES": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Jason Eappen & Hanming Sun",
             "lastNames": [
                 "Eappen",
@@ -4281,7 +4281,7 @@
             "OPwpm": 3.0
         },
         "Lynbrook GY": {
-            "tournamentComp": 5.062,
+            "tournamentComp": 0.723,
             "fullNames": "Ojas Gupta & Selena Yuan",
             "lastNames": [
                 "Gupta",
@@ -4316,7 +4316,7 @@
             "OPwpm": 4.429
         },
         "Miami Beach TG": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Sebastian Toole & Max Gelber",
             "lastNames": [
                 "Toole",
@@ -4351,7 +4351,7 @@
             "OPwpm": 3.857
         },
         "NSU GR": {
-            "tournamentComp": 4.762,
+            "tournamentComp": 0.68,
             "fullNames": "Bradley Ginsburg & Maria Riofrio",
             "lastNames": [
                 "Ginsburg",
@@ -4386,7 +4386,7 @@
             "OPwpm": 4.167
         },
         "National Cathedral AB": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Sarang Arun & Emma Bennett",
             "lastNames": [
                 "Arun",
@@ -4421,7 +4421,7 @@
             "OPwpm": 3.286
         },
         "National Cathedral CL": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Rania Chowdhury & Anita Li",
             "lastNames": [
                 "Chowdhury",
@@ -4456,7 +4456,7 @@
             "OPwpm": 3.429
         },
         "Newton South DD": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Jasper Datta & Theo Datta",
             "lastNames": [
                 "Datta",
@@ -4491,7 +4491,7 @@
             "OPwpm": 3.286
         },
         "Newton South KW": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Aeden Kamadolli & Kenji Walker",
             "lastNames": [
                 "Kamadolli",
@@ -4526,7 +4526,7 @@
             "OPwpm": 3.571
         },
         "Northview BW": {
-            "tournamentComp": 5.523,
+            "tournamentComp": 0.789,
             "fullNames": "Adya Bhatta & Ashley Wang",
             "lastNames": [
                 "Bhatta",
@@ -4561,7 +4561,7 @@
             "OPwpm": 4.833
         },
         "Oakwood CM": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Monie Choi & Gabrielle Mostow",
             "lastNames": [
                 "Choi",
@@ -4596,7 +4596,7 @@
             "OPwpm": 3.857
         },
         "Park City GW": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Jack Gladson & Caroline Waldmann",
             "lastNames": [
                 "Gladson",
@@ -4631,7 +4631,7 @@
             "OPwpm": 3.571
         },
         "Park City OB": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Max O'Reilly & Isabella Crockett",
             "lastNames": [
                 "O'Reilly",
@@ -4666,7 +4666,7 @@
             "OPwpm": 4.0
         },
         "Plano East NK": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Jay Namdhari & Neel Kanamangala",
             "lastNames": [
                 "Namdhari",
@@ -4701,7 +4701,7 @@
             "OPwpm": 4.0
         },
         "Plano West BS": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Farhan Buvvaji & Shivam Siddaiya",
             "lastNames": [
                 "Buvvaji",
@@ -4736,7 +4736,7 @@
             "OPwpm": 3.714
         },
         "Rowland Hall BD": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Emery Bahna & Mahit Dagar",
             "lastNames": [
                 "Bahna",
@@ -4771,7 +4771,7 @@
             "OPwpm": 3.714
         },
         "Rowland Hall CG": {
-            "tournamentComp": 4.408,
+            "tournamentComp": 0.63,
             "fullNames": "Maddie Carlin & Amanda Green",
             "lastNames": [
                 "Carlin",
@@ -4806,7 +4806,7 @@
             "OPwpm": 3.857
         },
         "St Francis BC": {
-            "tournamentComp": 4.898,
+            "tournamentComp": 0.7,
             "fullNames": "Anika Bastin & Alexander Chang",
             "lastNames": [
                 "Bastin",
@@ -4841,7 +4841,7 @@
             "OPwpm": 4.286
         },
         "Scarsdale DK": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "David Diao & Sameer Kini",
             "lastNames": [
                 "Diao",
@@ -4876,7 +4876,7 @@
             "OPwpm": 4.0
         },
         "Seven Lakes LW": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Ethan Liu & Michael Wu",
             "lastNames": [
                 "Liu",
@@ -4911,7 +4911,7 @@
             "OPwpm": 3.571
         },
         "Sharon IG": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Felix Ivanov & Rowan Gray",
             "lastNames": [
                 "Ivanov",
@@ -4946,7 +4946,7 @@
             "OPwpm": 4.143
         },
         "Southlake Carroll SP": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Eesha Suri & Shriya Punreddy",
             "lastNames": [
                 "Suri",
@@ -4981,7 +4981,7 @@
             "OPwpm": 3.714
         },
         "Blake GK": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Jay Gulati & Nikko Kim",
             "lastNames": [
                 "Gulati",
@@ -5016,7 +5016,7 @@
             "OPwpm": 3.286
         },
         "Bronx Science AE": {
-            "tournamentComp": 3.919,
+            "tournamentComp": 0.56,
             "fullNames": "Katia Anastas & Sela Emery",
             "lastNames": [
                 "Anastas",
@@ -5051,7 +5051,7 @@
             "OPwpm": 3.429
         },
         "Bronx Science HW": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Khandker Shabnan Habib & William Wang",
             "lastNames": [
                 "Habib",
@@ -5086,7 +5086,7 @@
             "OPwpm": 3.714
         },
         "Bronx Science MR": {
-            "tournamentComp": 3.592,
+            "tournamentComp": 0.513,
             "fullNames": "Aerin Mann & Kate Reynolds",
             "lastNames": [
                 "Mann",
@@ -5121,7 +5121,7 @@
             "OPwpm": 3.143
         },
         "Dalton MH": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Arjun Mehra & Brett Hammerman",
             "lastNames": [
                 "Mehra",
@@ -5156,7 +5156,7 @@
             "OPwpm": 3.0
         },
         "Quarry Lane KJ": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Kushal Kodnad & Aarushi Jain",
             "lastNames": [
                 "Kodnad",
@@ -5191,7 +5191,7 @@
             "OPwpm": 3.286
         },
         "Trinity Prep CK": {
-            "tournamentComp": 3.102,
+            "tournamentComp": 0.443,
             "fullNames": "Nathaniel Cohen & Frank Kogan",
             "lastNames": [
                 "Cohen",
@@ -5226,7 +5226,7 @@
             "OPwpm": 2.714
         },
         "Trinity AB": {
-            "tournamentComp": 5.062,
+            "tournamentComp": 0.723,
             "fullNames": "Sanya Arora & Ramsay Bader",
             "lastNames": [
                 "Arora",
@@ -5261,7 +5261,7 @@
             "OPwpm": 4.429
         },
         "Trinity DB": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Sam Davidson & Coby Brown",
             "lastNames": [
                 "Davidson",
@@ -5296,7 +5296,7 @@
             "OPwpm": 4.0
         },
         "University CT": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "James Cullers & Varun Tamaskar",
             "lastNames": [
                 "Cullers",
@@ -5331,7 +5331,7 @@
             "OPwpm": 3.714
         },
         "Vista Ridge HD": {
-            "tournamentComp": 4.735,
+            "tournamentComp": 0.676,
             "fullNames": "Jack Hayes & Amod Daherkar",
             "lastNames": [
                 "Hayes",
@@ -5366,7 +5366,7 @@
             "OPwpm": 4.143
         },
         "Wayland SZ": {
-            "tournamentComp": 4.571,
+            "tournamentComp": 0.653,
             "fullNames": "Prashanth Subbiah & Skyler Zhou",
             "lastNames": [
                 "Subbiah",
@@ -5401,7 +5401,7 @@
             "OPwpm": 4.0
         },
         "Westlake BL": {
-            "tournamentComp": 4.898,
+            "tournamentComp": 0.7,
             "fullNames": "Jawad Bataineh & Teresa Luo",
             "lastNames": [
                 "Bataineh",
@@ -5436,7 +5436,7 @@
             "OPwpm": 4.286
         },
         "Westlake LR": {
-            "tournamentComp": 4.381,
+            "tournamentComp": 0.626,
             "fullNames": "Nathan Laude & Alex Rodgers",
             "lastNames": [
                 "Laude",
@@ -5471,7 +5471,7 @@
             "OPwpm": 3.833
         },
         "Westlake SW": {
-            "tournamentComp": 3.755,
+            "tournamentComp": 0.536,
             "fullNames": "Justin Shim & Leo Weihe",
             "lastNames": [
                 "Shim",
@@ -5506,7 +5506,7 @@
             "OPwpm": 3.286
         },
         "Westridge HE": {
-            "tournamentComp": 4.081,
+            "tournamentComp": 0.583,
             "fullNames": "Layla Hoffman & Katie Evenfield",
             "lastNames": [
                 "Hoffman",
@@ -5541,7 +5541,7 @@
             "OPwpm": 3.571
         },
         "Westwood FG": {
-            "tournamentComp": 3.102,
+            "tournamentComp": 0.443,
             "fullNames": "Jeff Freeman & Arnav Gunwani",
             "lastNames": [
                 "Freeman",
@@ -5576,7 +5576,7 @@
             "OPwpm": 2.714
         },
         "William Fremd ML": {
-            "tournamentComp": 4.245,
+            "tournamentComp": 0.606,
             "fullNames": "Giuliana Martinez & Amelia Lin",
             "lastNames": [
                 "Martinez",
@@ -5611,7 +5611,7 @@
             "OPwpm": 3.714
         },
         "Albuquerque WJ": {
-            "tournamentComp": 4.041,
+            "tournamentComp": 0.577,
             "fullNames": "Sofia Wolinski & Ankit Jaiswal",
             "lastNames": [
                 "Wolinski",
@@ -5646,7 +5646,7 @@
             "OPwpm": 4.714
         },
         "BASIS Phoenix YJ": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Andrew Yuan & Siddarth Jandhyala",
             "lastNames": [
                 "Yuan",
@@ -5681,7 +5681,7 @@
             "OPwpm": 3.0
         },
         "BASIS Scottsdale GJ": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Rachana Gurudu & Catherine Jiang",
             "lastNames": [
                 "Gurudu",
@@ -5716,7 +5716,7 @@
             "OPwpm": 3.429
         },
         "BASIS Scottsdale SS": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Sahil Sud & Enaya Shareef",
             "lastNames": [
                 "Sud",
@@ -5751,7 +5751,7 @@
             "OPwpm": 4.0
         },
         "BASIS Scottsdale YE": {
-            "tournamentComp": 2.449,
+            "tournamentComp": 0.35,
             "fullNames": "Cayla Younger & Candice Estrada",
             "lastNames": [
                 "Younger",
@@ -5786,7 +5786,7 @@
             "OPwpm": 2.857
         },
         "Bergen County Academies DS": {
-            "tournamentComp": 2.326,
+            "tournamentComp": 0.332,
             "fullNames": "Rachel Disler & Lea Smolyanskiy",
             "lastNames": [
                 "Disler",
@@ -5821,7 +5821,7 @@
             "OPwpm": 2.714
         },
         "Brophy SM": {
-            "tournamentComp": 2.715,
+            "tournamentComp": 0.388,
             "fullNames": "Joey Schillinger & Davis McHenry",
             "lastNames": [
                 "Schillinger",
@@ -5856,7 +5856,7 @@
             "OPwpm": 3.167
         },
         "Centennial WB": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Parth Wokhlu & Sai Mihith Bommineni",
             "lastNames": [
                 "Wokhlu",
@@ -5891,7 +5891,7 @@
             "OPwpm": 4.0
         },
         "Charlotte Latin HR": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Jack Hollingsworth & Vivek Rao",
             "lastNames": [
                 "Hollingsworth",
@@ -5926,7 +5926,7 @@
             "OPwpm": 3.429
         },
         "Clovis North LL": {
-            "tournamentComp": 2.326,
+            "tournamentComp": 0.332,
             "fullNames": "Joshua Lin & Kyleen Lin",
             "lastNames": [
                 "Lin",
@@ -5961,7 +5961,7 @@
             "OPwpm": 2.714
         },
         "College Prep BP": {
-            "tournamentComp": 3.551,
+            "tournamentComp": 0.507,
             "fullNames": "Tanishq Bhatnagar & William Pirone",
             "lastNames": [
                 "Bhatnagar",
@@ -5996,7 +5996,7 @@
             "OPwpm": 4.143
         },
         "Colleyville Heritage BL": {
-            "tournamentComp": 2.082,
+            "tournamentComp": 0.297,
             "fullNames": "Samarth Bhat & Alex Lee",
             "lastNames": [
                 "Bhat",
@@ -6031,7 +6031,7 @@
             "OPwpm": 2.429
         },
         "Colleyville Heritage LS": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Hannah Lewis & Clint Stalnaker",
             "lastNames": [
                 "Lewis",
@@ -6066,7 +6066,7 @@
             "OPwpm": 3.429
         },
         "Cranbrook BL": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Neema Baddam & Andrew Li",
             "lastNames": [
                 "Baddam",
@@ -6101,7 +6101,7 @@
             "OPwpm": 3.143
         },
         "Delbarton GM": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Sachin Gulati & Pierce Munsey",
             "lastNames": [
                 "Gulati",
@@ -6136,7 +6136,7 @@
             "OPwpm": 3.571
         },
         "Delbarton SB": {
-            "tournamentComp": 3.674,
+            "tournamentComp": 0.525,
             "fullNames": "Matthew Sebastian & Alexander Banker",
             "lastNames": [
                 "Sebastian",
@@ -6171,7 +6171,7 @@
             "OPwpm": 4.286
         },
         "Desert Vista GJ": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Deborah Garcia & Ny\u00e2\u0080\u0099lynn Johnson",
             "lastNames": [
                 "Johnson",
@@ -6206,7 +6206,7 @@
             "OPwpm": 3.429
         },
         "Dougherty Valley HS": {
-            "tournamentComp": 3.143,
+            "tournamentComp": 0.449,
             "fullNames": "Yifei Han & Rishit Srinivas",
             "lastNames": [
                 "Han",
@@ -6241,7 +6241,7 @@
             "OPwpm": 3.667
         },
         "Dougherty Valley NN": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Sandhya Nayar & Pujitha Nachuri",
             "lastNames": [
                 "Nayar",
@@ -6276,7 +6276,7 @@
             "OPwpm": 3.857
         },
         "Dougherty Valley PK": {
-            "tournamentComp": 2.715,
+            "tournamentComp": 0.388,
             "fullNames": "Sriaarya Pradeepkumar & Shreya Korlipara",
             "lastNames": [
                 "Pradeepkumar",
@@ -6311,7 +6311,7 @@
             "OPwpm": 3.167
         },
         "Dowling Catholic HP": {
-            "tournamentComp": 2.204,
+            "tournamentComp": 0.315,
             "fullNames": "Zachary Harnden & Christopher Pierson",
             "lastNames": [
                 "Harnden",
@@ -6346,7 +6346,7 @@
             "OPwpm": 2.571
         },
         "East Ridge DM": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Lan Do & Srujan Miryala",
             "lastNames": [
                 "Do",
@@ -6381,7 +6381,7 @@
             "OPwpm": 3.0
         },
         "Fishers CR": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Milan Colzani & Cassidy Robertson",
             "lastNames": [
                 "Colzani",
@@ -6416,7 +6416,7 @@
             "OPwpm": 3.571
         },
         "Flintridge Prep KG": {
-            "tournamentComp": 2.817,
+            "tournamentComp": 0.402,
             "fullNames": "Lauren Kim & Eliza Gunter",
             "lastNames": [
                 "Kim",
@@ -6451,7 +6451,7 @@
             "OPwpm": 3.286
         },
         "Flintridge Prep YZ": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Ava Ye & Kevin Zhang",
             "lastNames": [
                 "Ye",
@@ -6486,7 +6486,7 @@
             "OPwpm": 3.857
         },
         "Hackley CD": {
-            "tournamentComp": 2.449,
+            "tournamentComp": 0.35,
             "fullNames": "Zack Couzens & Sydney DeFilippo",
             "lastNames": [
                 "DeFilippo",
@@ -6521,7 +6521,7 @@
             "OPwpm": 2.857
         },
         "Hunter BC": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "James Bae & Gaang Choi",
             "lastNames": [
                 "Bae",
@@ -6556,7 +6556,7 @@
             "OPwpm": 3.429
         },
         "Interlake CW": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Janelle Chan & Chloe Wu",
             "lastNames": [
                 "Chan",
@@ -6591,7 +6591,7 @@
             "OPwpm": 3.0
         },
         "Interlake LT": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Anna Li & Jonathan Tao",
             "lastNames": [
                 "Li",
@@ -6626,7 +6626,7 @@
             "OPwpm": 3.0
         },
         "La Salle NW": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Joseph Nahas & Isabel Wong",
             "lastNames": [
                 "Nahas",
@@ -6661,7 +6661,7 @@
             "OPwpm": 3.143
         },
         "La Salle SR": {
-            "tournamentComp": 2.817,
+            "tournamentComp": 0.402,
             "fullNames": "John Skipper & Darya Rytova",
             "lastNames": [
                 "Skipper",
@@ -6696,7 +6696,7 @@
             "OPwpm": 3.286
         },
         "Lake Highland Prep GK": {
-            "tournamentComp": 2.204,
+            "tournamentComp": 0.315,
             "fullNames": "Sebastian Glos & Sid Kasi",
             "lastNames": [
                 "Glos",
@@ -6731,7 +6731,7 @@
             "OPwpm": 2.571
         },
         "Lakeville North SN": {
-            "tournamentComp": 2.326,
+            "tournamentComp": 0.332,
             "fullNames": "Marco Sciamanda & Tejas Nenneman",
             "lastNames": [
                 "Sciamanda",
@@ -6766,7 +6766,7 @@
             "OPwpm": 2.714
         },
         "Lynbrook KZ": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Pramesh Karthikeyan & Luke Zhao",
             "lastNames": [
                 "Karthikeyan",
@@ -6801,7 +6801,7 @@
             "OPwpm": 3.429
         },
         "Mission San Jose BW": {
-            "tournamentComp": 2.326,
+            "tournamentComp": 0.332,
             "fullNames": "Tannvi Banerjee & Yuvraj Walia",
             "lastNames": [
                 "Banerjee",
@@ -6836,7 +6836,7 @@
             "OPwpm": 2.714
         },
         "Mission San Jose DK": {
-            "tournamentComp": 3.918,
+            "tournamentComp": 0.56,
             "fullNames": "Tushar Dalmia & Selina Kao",
             "lastNames": [
                 "Dalmia",
@@ -6871,7 +6871,7 @@
             "OPwpm": 4.571
         },
         "Montgomery Blair CL": {
-            "tournamentComp": 3.796,
+            "tournamentComp": 0.542,
             "fullNames": "Kaden Chien & Sean Li",
             "lastNames": [
                 "Chien",
@@ -6906,7 +6906,7 @@
             "OPwpm": 4.429
         },
         "Montgomery Blair FL": {
-            "tournamentComp": 3.796,
+            "tournamentComp": 0.542,
             "fullNames": "Jonathan Fan & Alex Liu",
             "lastNames": [
                 "Fan",
@@ -6941,7 +6941,7 @@
             "OPwpm": 4.429
         },
         "Mountain Brook LS": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Sophia Li & Sophia Self",
             "lastNames": [
                 "Li",
@@ -6976,7 +6976,7 @@
             "OPwpm": 3.143
         },
         "Mountain Brook SS": {
-            "tournamentComp": 2.817,
+            "tournamentComp": 0.402,
             "fullNames": "Henry Stallcup & Jackson Short",
             "lastNames": [
                 "Stallcup",
@@ -7011,7 +7011,7 @@
             "OPwpm": 3.286
         },
         "Munster IK": {
-            "tournamentComp": 3.183,
+            "tournamentComp": 0.455,
             "fullNames": "Shriya Iyer & Mallika Keralavarma",
             "lastNames": [
                 "Iyer",
@@ -7046,7 +7046,7 @@
             "OPwpm": 3.714
         },
         "North Broward Prep TS": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Lea Toledano & Fabian Salvador",
             "lastNames": [
                 "Toledano",
@@ -7081,7 +7081,7 @@
             "OPwpm": 4.0
         },
         "Oakwood BT": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Eliana Balle & Sylvie Turk",
             "lastNames": [
                 "Balle",
@@ -7116,7 +7116,7 @@
             "OPwpm": 3.143
         },
         "Paradise Valley NS": {
-            "tournamentComp": 2.428,
+            "tournamentComp": 0.347,
             "fullNames": "Rohan Nair & Diya Setia",
             "lastNames": [
                 "Nair",
@@ -7151,7 +7151,7 @@
             "OPwpm": 2.833
         },
         "Park City BO": {
-            "tournamentComp": 3.183,
+            "tournamentComp": 0.455,
             "fullNames": "Natalie Best & Alex O'Brien",
             "lastNames": [
                 "Best",
@@ -7186,7 +7186,7 @@
             "OPwpm": 3.714
         },
         "Phoenix Country Day KM": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Sedona Korzay & Sammy Marks",
             "lastNames": [
                 "Korzay",
@@ -7221,7 +7221,7 @@
             "OPwpm": 3.0
         },
         "Pine View PM": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Madison Ponder & Zander Moricz",
             "lastNames": [
                 "Ponder",
@@ -7256,7 +7256,7 @@
             "OPwpm": 3.143
         },
         "Plano West PS": {
-            "tournamentComp": 3.551,
+            "tournamentComp": 0.507,
             "fullNames": "Alexander Parachini & Darren Sung",
             "lastNames": [
                 "Parachini",
@@ -7291,7 +7291,7 @@
             "OPwpm": 4.143
         },
         "Plano West SS": {
-            "tournamentComp": 2.449,
+            "tournamentComp": 0.35,
             "fullNames": "Andy Shufer & Tirth Shah",
             "lastNames": [
                 "Shah",
@@ -7326,7 +7326,7 @@
             "OPwpm": 2.857
         },
         "Ransom Everglades KG": {
-            "tournamentComp": 3.183,
+            "tournamentComp": 0.455,
             "fullNames": "Dina Kaplan & Cecilia Granda-Scott",
             "lastNames": [
                 "Kaplan",
@@ -7361,7 +7361,7 @@
             "OPwpm": 3.714
         },
         "Ravenwood BK": {
-            "tournamentComp": 2.082,
+            "tournamentComp": 0.297,
             "fullNames": "Ella Bullock-Papa & Riya Koranne",
             "lastNames": [
                 "Bullock-Papa",
@@ -7396,7 +7396,7 @@
             "OPwpm": 2.429
         },
         "Ravenwood MB": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Frank Moser & Ishita Bhatia",
             "lastNames": [
                 "Moser",
@@ -7431,7 +7431,7 @@
             "OPwpm": 3.571
         },
         "Riverside BG": {
-            "tournamentComp": 2.857,
+            "tournamentComp": 0.408,
             "fullNames": "Rohan Bafna & Arjun Gramopadhye",
             "lastNames": [
                 "Bafna",
@@ -7466,7 +7466,7 @@
             "OPwpm": 3.333
         },
         "St Mary's Hall CT": {
-            "tournamentComp": 3.429,
+            "tournamentComp": 0.49,
             "fullNames": "Nicholas Campos & Andres Trujillo",
             "lastNames": [
                 "Campos",
@@ -7501,7 +7501,7 @@
             "OPwpm": 4.0
         },
         "Seven Lakes CH": {
-            "tournamentComp": 3.551,
+            "tournamentComp": 0.507,
             "fullNames": "Jessica Chai & Nicole He",
             "lastNames": [
                 "Chai",
@@ -7536,7 +7536,7 @@
             "OPwpm": 4.143
         },
         "St Andrew's Episcopal BC": {
-            "tournamentComp": 2.857,
+            "tournamentComp": 0.408,
             "fullNames": "Austin Brown & Abhirup Chatterjee",
             "lastNames": [
                 "Brown",
@@ -7571,7 +7571,7 @@
             "OPwpm": 3.333
         },
         "Blake KZ": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Davin Khan & Julia Zhang",
             "lastNames": [
                 "Khan",
@@ -7606,7 +7606,7 @@
             "OPwpm": 3.143
         },
         "Bronx Science KS": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Ava Kawamura & Norah Smith",
             "lastNames": [
                 "Kawamura",
@@ -7641,7 +7641,7 @@
             "OPwpm": 3.571
         },
         "Nueva RA": {
-            "tournamentComp": 3.183,
+            "tournamentComp": 0.455,
             "fullNames": "Elena Rawlinson & Nikki Agrawal",
             "lastNames": [
                 "Rawlinson",
@@ -7676,7 +7676,7 @@
             "OPwpm": 3.714
         },
         "Quarry Lane GT": {
-            "tournamentComp": 2.571,
+            "tournamentComp": 0.367,
             "fullNames": "Vir Goel & Elliot Tong",
             "lastNames": [
                 "Goel",
@@ -7711,7 +7711,7 @@
             "OPwpm": 3.0
         },
         "Quarry Lane NG": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Sahana Nellian & Aditya Goel",
             "lastNames": [
                 "Nellian",
@@ -7746,7 +7746,7 @@
             "OPwpm": 3.429
         },
         "Quarry Lane SW": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Amrit Sharma & Aarav Wattal",
             "lastNames": [
                 "Sharma",
@@ -7781,7 +7781,7 @@
             "OPwpm": 3.857
         },
         "Thomas S Wootton CC": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Digonto Chatterjee & Sreejato Chatterjee",
             "lastNames": [
                 "Chatterjee",
@@ -7816,7 +7816,7 @@
             "OPwpm": 3.571
         },
         "Tompkins VD": {
-            "tournamentComp": 3.285,
+            "tournamentComp": 0.469,
             "fullNames": "Srihitha Valluri & Pooja Dave",
             "lastNames": [
                 "Valluri",
@@ -7851,7 +7851,7 @@
             "OPwpm": 3.833
         },
         "Trinity Prep MS": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Matthew Mapa & Nico Santiago",
             "lastNames": [
                 "Mapa",
@@ -7886,7 +7886,7 @@
             "OPwpm": 3.857
         },
         "Trinity MC": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Shaye Martin & Sofia Cipriano",
             "lastNames": [
                 "Martin",
@@ -7921,7 +7921,7 @@
             "OPwpm": 3.143
         },
         "Trinity UE": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Oscar Uzdelewicz & Nathaniel Edelson",
             "lastNames": [
                 "Uzdelewicz",
@@ -7956,7 +7956,7 @@
             "OPwpm": 3.571
         },
         "Wayland FW": {
-            "tournamentComp": 2.694,
+            "tournamentComp": 0.385,
             "fullNames": "Serena Field & Gina Wang",
             "lastNames": [
                 "Field",
@@ -7991,7 +7991,7 @@
             "OPwpm": 3.143
         },
         "Wayland JW": {
-            "tournamentComp": 2.939,
+            "tournamentComp": 0.42,
             "fullNames": "Tully Jay & Aditya Weling",
             "lastNames": [
                 "Jay",
@@ -8026,7 +8026,7 @@
             "OPwpm": 3.429
         },
         "Westlake GB": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Emma Guan & Morgan Burkhardt",
             "lastNames": [
                 "Guan",
@@ -8061,7 +8061,7 @@
             "OPwpm": 3.857
         },
         "Westlake YL": {
-            "tournamentComp": 2.817,
+            "tournamentComp": 0.402,
             "fullNames": "Daniel Yang & Harvey Li",
             "lastNames": [
                 "Li",
@@ -8096,7 +8096,7 @@
             "OPwpm": 3.286
         },
         "Westridge WW": {
-            "tournamentComp": 3.306,
+            "tournamentComp": 0.472,
             "fullNames": "Tanya Wei & Mia Moore Walker",
             "lastNames": [
                 "Wei",
@@ -8131,7 +8131,7 @@
             "OPwpm": 3.857
         },
         "Westwood NQ": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Inesh Nambiar & Jessamine Qu",
             "lastNames": [
                 "Nambiar",
@@ -8166,7 +8166,7 @@
             "OPwpm": 3.571
         },
         "William Fremd CZ": {
-            "tournamentComp": 3.061,
+            "tournamentComp": 0.437,
             "fullNames": "Samarth Chitgopekar & Sophia Zhao",
             "lastNames": [
                 "Chitgopekar",
@@ -8201,7 +8201,7 @@
             "OPwpm": 3.571
         },
         "Acton-Boxborough MS": {
-            "tournamentComp": 1.959,
+            "tournamentComp": 0.28,
             "fullNames": "Johan Mathew & Shashank Sastry",
             "lastNames": [
                 "Mathew",
@@ -8236,7 +8236,7 @@
             "OPwpm": 3.429
         },
         "Albuquerque CC": {
-            "tournamentComp": 2.041,
+            "tournamentComp": 0.292,
             "fullNames": "Ethan Cruz & Aiden Cruz",
             "lastNames": [
                 "Cruz",
@@ -8271,7 +8271,7 @@
             "OPwpm": 3.571
         },
         "Archbishop Mitty BM": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Sanay Bordia & Rohan Menon",
             "lastNames": [
                 "Bordia",
@@ -8306,7 +8306,7 @@
             "OPwpm": 2.857
         },
         "BASIS Scottsdale DS": {
-            "tournamentComp": 1.796,
+            "tournamentComp": 0.257,
             "fullNames": "Daryl Day & Nandita Shankar",
             "lastNames": [
                 "Day",
@@ -8341,7 +8341,7 @@
             "OPwpm": 3.143
         },
         "British International CC": {
-            "tournamentComp": 1.551,
+            "tournamentComp": 0.222,
             "fullNames": "Suhail Couto & Julian Cohen",
             "lastNames": [
                 "Couto",
@@ -8376,7 +8376,7 @@
             "OPwpm": 2.714
         },
         "Brookfield Central HB": {
-            "tournamentComp": 1.878,
+            "tournamentComp": 0.268,
             "fullNames": "Erin Hu & Ananya Bhatt",
             "lastNames": [
                 "Hu",
@@ -8411,7 +8411,7 @@
             "OPwpm": 3.286
         },
         "Brookfield Central NM": {
-            "tournamentComp": 2.0,
+            "tournamentComp": 0.286,
             "fullNames": "Kevin Niu & Umika Menaria",
             "lastNames": [
                 "Niu",
@@ -8446,7 +8446,7 @@
             "OPwpm": 3.5
         },
         "Centennial RC": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Arjun Ramprasad & Kartike Chawla",
             "lastNames": [
                 "Ramprasad",
@@ -8481,7 +8481,7 @@
             "OPwpm": 2.857
         },
         "Cheyenne East YP": {
-            "tournamentComp": 1.306,
+            "tournamentComp": 0.187,
             "fullNames": "YuYu Yuan & Jesser Perez",
             "lastNames": [
                 "Yuan",
@@ -8516,7 +8516,7 @@
             "OPwpm": 2.286
         },
         "Cinco Ranch CW": {
-            "tournamentComp": 1.878,
+            "tournamentComp": 0.268,
             "fullNames": "Charles Chen & Ethan Wang",
             "lastNames": [
                 "Chen",
@@ -8551,7 +8551,7 @@
             "OPwpm": 3.286
         },
         "Clovis North VJ": {
-            "tournamentComp": 1.959,
+            "tournamentComp": 0.28,
             "fullNames": "Akhil Vallabh & Dhruv Javangula",
             "lastNames": [
                 "Vallabh",
@@ -8586,7 +8586,7 @@
             "OPwpm": 3.429
         },
         "Cypress Bay LB": {
-            "tournamentComp": 1.959,
+            "tournamentComp": 0.28,
             "fullNames": "Jackson LaFrance & Grace Baek",
             "lastNames": [
                 "Baek",
@@ -8621,7 +8621,7 @@
             "OPwpm": 3.429
         },
         "Dougherty Valley PM": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Rikin Patel & Yuvika Mukherjee",
             "lastNames": [
                 "Patel",
@@ -8656,7 +8656,7 @@
             "OPwpm": 2.857
         },
         "Fishers MT": {
-            "tournamentComp": 1.225,
+            "tournamentComp": 0.175,
             "fullNames": "Sreya Myneni & Kaelyn Tai",
             "lastNames": [
                 "Myneni",
@@ -8691,7 +8691,7 @@
             "OPwpm": 2.143
         },
         "Flintridge Prep CN": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Daniel Choi & Colin Ng",
             "lastNames": [
                 "Choi",
@@ -8726,7 +8726,7 @@
             "OPwpm": 2.857
         },
         "Hawken HY": {
-            "tournamentComp": 1.306,
+            "tournamentComp": 0.187,
             "fullNames": "Edward Huang & Cody Yang",
             "lastNames": [
                 "Yang",
@@ -8761,7 +8761,7 @@
             "OPwpm": 2.286
         },
         "Hawken YS": {
-            "tournamentComp": 2.041,
+            "tournamentComp": 0.292,
             "fullNames": "Ellie Yang & John Shin",
             "lastNames": [
                 "Shin",
@@ -8796,7 +8796,7 @@
             "OPwpm": 3.571
         },
         "James Logan AM": {
-            "tournamentComp": 1.796,
+            "tournamentComp": 0.257,
             "fullNames": "Divya Arjun & Varsha Meda",
             "lastNames": [
                 "Arjun",
@@ -8831,7 +8831,7 @@
             "OPwpm": 3.143
         },
         "James Logan ZD": {
-            "tournamentComp": 1.551,
+            "tournamentComp": 0.222,
             "fullNames": "Luqman Zaceria & Anuj Dharmendran",
             "lastNames": [
                 "Zaceria",
@@ -8866,7 +8866,7 @@
             "OPwpm": 2.714
         },
         "Lansing TY": {
-            "tournamentComp": 1.551,
+            "tournamentComp": 0.222,
             "fullNames": "Gage Thompson & Alexa Ymker",
             "lastNames": [
                 "Thompson",
@@ -8901,7 +8901,7 @@
             "OPwpm": 2.714
         },
         "McDowell FL": {
-            "tournamentComp": 1.469,
+            "tournamentComp": 0.21,
             "fullNames": "Gabriella Farrell & Nora Lane",
             "lastNames": [
                 "Farrell",
@@ -8936,7 +8936,7 @@
             "OPwpm": 2.571
         },
         "Mountain Brook FB": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Wells Finch & Thomas Bazemore",
             "lastNames": [
                 "Finch",
@@ -8971,7 +8971,7 @@
             "OPwpm": 2.857
         },
         "Munster BK": {
-            "tournamentComp": 1.796,
+            "tournamentComp": 0.257,
             "fullNames": "Madeline Bell & Anagha Kodukula",
             "lastNames": [
                 "Bell",
@@ -9006,7 +9006,7 @@
             "OPwpm": 3.143
         },
         "Munster SF": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Sydney Skrobot & Megan Flynn",
             "lastNames": [
                 "Skrobot",
@@ -9041,7 +9041,7 @@
             "OPwpm": 3.0
         },
         "NSU AB": {
-            "tournamentComp": 1.388,
+            "tournamentComp": 0.198,
             "fullNames": "Ilan Arias & Logan Bratter",
             "lastNames": [
                 "Arias",
@@ -9076,7 +9076,7 @@
             "OPwpm": 2.429
         },
         "Oakwood CG": {
-            "tournamentComp": 1.796,
+            "tournamentComp": 0.257,
             "fullNames": "Dean Cohen & Miles Gardner-Berg",
             "lastNames": [
                 "Cohen",
@@ -9111,7 +9111,7 @@
             "OPwpm": 3.143
         },
         "Oxbridge Academy of the Palm Beaches LS": {
-            "tournamentComp": 1.633,
+            "tournamentComp": 0.233,
             "fullNames": "Conrad Luce & Wilson Stewart",
             "lastNames": [
                 "Luce",
@@ -9146,7 +9146,7 @@
             "OPwpm": 2.857
         },
         "Park City AR": {
-            "tournamentComp": 1.469,
+            "tournamentComp": 0.21,
             "fullNames": "Jack Allison & Cody Rutkowski",
             "lastNames": [
                 "Allison",
@@ -9181,7 +9181,7 @@
             "OPwpm": 2.571
         },
         "Park City OG": {
-            "tournamentComp": 1.905,
+            "tournamentComp": 0.272,
             "fullNames": "Michael O'Brien & Jack Goodman",
             "lastNames": [
                 "O'Brien",
@@ -9216,7 +9216,7 @@
             "OPwpm": 3.333
         },
         "Ransom Everglades ZS": {
-            "tournamentComp": 1.551,
+            "tournamentComp": 0.222,
             "fullNames": "Marco Zhao & Oliver Segal",
             "lastNames": [
                 "Zhao",
@@ -9251,7 +9251,7 @@
             "OPwpm": 2.714
         },
         "Ravenwood MC": {
-            "tournamentComp": 1.959,
+            "tournamentComp": 0.28,
             "fullNames": "Milind Muthiah & Aryn Chadha",
             "lastNames": [
                 "Muthiah",
@@ -9286,7 +9286,7 @@
             "OPwpm": 3.429
         },
         "Riverdale Country SD": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Ayaan Sheikh & Luca DiFelice",
             "lastNames": [
                 "Sheikh",
@@ -9321,7 +9321,7 @@
             "OPwpm": 3.0
         },
         "Riverside RH": {
-            "tournamentComp": 1.469,
+            "tournamentComp": 0.21,
             "fullNames": "Neeharika Ramasubramanian & Leo Hu",
             "lastNames": [
                 "Ramasubramanian",
@@ -9356,7 +9356,7 @@
             "OPwpm": 2.571
         },
         "Summit FA": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Sophia Fu & Scott Au-Yeung",
             "lastNames": [
                 "Fu",
@@ -9391,7 +9391,7 @@
             "OPwpm": 3.0
         },
         "Dalton RK": {
-            "tournamentComp": 1.388,
+            "tournamentComp": 0.198,
             "fullNames": "Lucas Ribadeneira & Ryan Katz",
             "lastNames": [
                 "Katz",
@@ -9426,7 +9426,7 @@
             "OPwpm": 2.429
         },
         "Harker NS": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Ayan Nath & Dhruv Saoji",
             "lastNames": [
                 "Nath",
@@ -9461,7 +9461,7 @@
             "OPwpm": 3.0
         },
         "Harker VS": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Andrew Vodinh-Ho & Vinay Sudarsaman",
             "lastNames": [
                 "Vodinh-Ho",
@@ -9496,7 +9496,7 @@
             "OPwpm": 3.0
         },
         "Quarry Lane PS": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Sachi Patel & Kaival Shah",
             "lastNames": [
                 "Shah",
@@ -9531,7 +9531,7 @@
             "OPwpm": 3.0
         },
         "Trinity EL": {
-            "tournamentComp": 1.551,
+            "tournamentComp": 0.222,
             "fullNames": "Evan Epstein & Benjamin Levy",
             "lastNames": [
                 "Epstein",
@@ -9566,7 +9566,7 @@
             "OPwpm": 2.714
         },
         "Trinity HB": {
-            "tournamentComp": 1.796,
+            "tournamentComp": 0.257,
             "fullNames": "Farah Husain & Molly Bordoff",
             "lastNames": [
                 "Husain",
@@ -9601,7 +9601,7 @@
             "OPwpm": 3.143
         },
         "West HS SLC MS": {
-            "tournamentComp": 2.041,
+            "tournamentComp": 0.292,
             "fullNames": "Lydia May & Sharayu Senthilkumar",
             "lastNames": [
                 "May",
@@ -9636,7 +9636,7 @@
             "OPwpm": 3.571
         },
         "Westridge CL": {
-            "tournamentComp": 1.714,
+            "tournamentComp": 0.245,
             "fullNames": "Claire Chen & Celine Li",
             "lastNames": [
                 "Chen",
@@ -9671,7 +9671,7 @@
             "OPwpm": 3.0
         },
         "Westridge YW": {
-            "tournamentComp": 1.469,
+            "tournamentComp": 0.21,
             "fullNames": "Katherine Yuan & Elizabeth Wiley",
             "lastNames": [
                 "Yuan",
@@ -9706,7 +9706,7 @@
             "OPwpm": 2.571
         },
         "William Fremd TM": {
-            "tournamentComp": 2.286,
+            "tournamentComp": 0.327,
             "fullNames": "Siya Taparia & Nina Milojkovic",
             "lastNames": [
                 "Taparia",
@@ -9741,7 +9741,7 @@
             "OPwpm": 4.0
         },
         "BASIS Phoenix CV": {
-            "tournamentComp": 0.857,
+            "tournamentComp": 0.122,
             "fullNames": "Shankar Chakkera & Abhinav Vishnuvajhala",
             "lastNames": [
                 "Chakkera",
@@ -9776,7 +9776,7 @@
             "OPwpm": 3.0
         },
         "Clovis North RC": {
-            "tournamentComp": 0.612,
+            "tournamentComp": 0.087,
             "fullNames": "Aruthra Ranjithprabhu & Jaylyn Cha",
             "lastNames": [
                 "Ranjithprabhu",
@@ -9811,7 +9811,7 @@
             "OPwpm": 2.143
         },
         "Gulliver Prep GP": {
-            "tournamentComp": 1.048,
+            "tournamentComp": 0.15,
             "fullNames": "Maya Gowda & Neelesh Pandey",
             "lastNames": [
                 "Gowda",
@@ -9846,7 +9846,7 @@
             "OPwpm": 3.667
         },
         "Horace Mann KB": {
-            "tournamentComp": 0.857,
+            "tournamentComp": 0.122,
             "fullNames": "Brett Karpf & Rohan Buluswar",
             "lastNames": [
                 "Karpf",
@@ -9881,7 +9881,7 @@
             "OPwpm": 3.0
         },
         "McDowell HL": {
-            "tournamentComp": 0.653,
+            "tournamentComp": 0.093,
             "fullNames": "Derek Hillhouse & Sharon Liu",
             "lastNames": [
                 "Liu",
@@ -9916,7 +9916,7 @@
             "OPwpm": 2.286
         },
         "Munster SK": {
-            "tournamentComp": 0.939,
+            "tournamentComp": 0.134,
             "fullNames": "Emily Sun & Sana Khan",
             "lastNames": [
                 "Sun",
@@ -9951,7 +9951,7 @@
             "OPwpm": 3.286
         },
         "Plano East AR": {
-            "tournamentComp": 0.762,
+            "tournamentComp": 0.109,
             "fullNames": "Faizul Anis & Kyle Randle",
             "lastNames": [
                 "Anis",
@@ -9986,7 +9986,7 @@
             "OPwpm": 2.667
         },
         "Ramsay BP": {
-            "tournamentComp": 0.857,
+            "tournamentComp": 0.122,
             "fullNames": "Shatavia Bellmon & Destiny Patton",
             "lastNames": [
                 "Bellmon",
@@ -10021,7 +10021,7 @@
             "OPwpm": 3.0
         },
         "Ramsay HW": {
-            "tournamentComp": 0.667,
+            "tournamentComp": 0.095,
             "fullNames": "DeRenn Hollman & Kaila Wood",
             "lastNames": [
                 "Hollman",
@@ -10056,7 +10056,7 @@
             "OPwpm": 2.333
         },
         "Riverdale Country GC": {
-            "tournamentComp": 0.735,
+            "tournamentComp": 0.105,
             "fullNames": "Casey Gottlieb & Julien Chodry",
             "lastNames": [
                 "Gottlieb",
@@ -10091,7 +10091,7 @@
             "OPwpm": 2.571
         },
         "Riverdale Country MC": {
-            "tournamentComp": 0.735,
+            "tournamentComp": 0.105,
             "fullNames": "Jai Malhotra & Jake Craner",
             "lastNames": [
                 "Malhotra",
@@ -10126,7 +10126,7 @@
             "OPwpm": 2.571
         },
         "Riverdale Country MP": {
-            "tournamentComp": 0.653,
+            "tournamentComp": 0.093,
             "fullNames": "Alex Michael & Savannah Phillips",
             "lastNames": [
                 "Michael",
@@ -10161,7 +10161,7 @@
             "OPwpm": 2.286
         },
         "Rock Springs TB": {
-            "tournamentComp": 0.571,
+            "tournamentComp": 0.082,
             "fullNames": "Kennedy Thompson & Tim Baker",
             "lastNames": [
                 "Thompson",
@@ -10196,7 +10196,7 @@
             "OPwpm": 2.0
         },
         "Trinity AT": {
-            "tournamentComp": 0.775,
+            "tournamentComp": 0.111,
             "fullNames": "Annabel Alderman & Madeleine Tierney",
             "lastNames": [
                 "Alderman",
@@ -10231,7 +10231,7 @@
             "OPwpm": 2.714
         },
         "West Des Moines Valley GT": {
-            "tournamentComp": 0.762,
+            "tournamentComp": 0.109,
             "fullNames": "Spencer George & Brady Thompson",
             "lastNames": [
                 "George",
@@ -10266,7 +10266,7 @@
             "OPwpm": 2.667
         },
         "Westridge HN": {
-            "tournamentComp": 0.816,
+            "tournamentComp": 0.117,
             "fullNames": "Morgan Hoang & Kat Northrop",
             "lastNames": [
                 "Hoang",

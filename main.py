@@ -24,13 +24,20 @@ def scrapeAll():
         print(Fore.GREEN + "Scraped: " + tournament)
 
 if __name__ == "__main__":
+    from utils.helpers import *
+
     from os import listdir
     from os.path import isfile, join
     onlyfiles = [f for f in listdir('data/tournaments') if isfile(join('data/tournaments', f))]
-    print(len(onlyfiles))
-    #print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16740&entry_id=3183877"))
-    #x = entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=17622&entry_id=3132883")
+    for P in onlyfiles:
+        PATH = 'data/tournaments/' + P
+        with open(PATH, 'r') as f:
+            data = json.loads(f.read())
+        try:
+            data = calcTournamentComp(data)
+        except Exception as e:
+            print(P, e)
+        with open(PATH, 'w') as f:
+            json.dump(data, f)
+    #print(len(onlyfiles))
     #scrapeAll()
-    from pprint import pprint
-   # pprint(x)
-    #print(bracket("https://www.tabroom.com/index/tourn/results/bracket.mhtml?tourn_id=18420&result_id=161547"))

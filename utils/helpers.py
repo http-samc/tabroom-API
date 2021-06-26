@@ -109,7 +109,7 @@ def calcTournamentComp(data: dict) -> dict:
         breakBoost = data[tourn][team]["breakBoost"]
         tournamentBoost = data[tourn][team]["tournamentBoost"]
 
-        tournamentComp = round(((OPwpm * wins)/numPrelims)*breakBoost*tournamentBoost, 3)
+        tournamentComp = round(((OPwpm * wins)/(numPrelims*numPrelims))*breakBoost*tournamentBoost, 3)
         data[tourn][team]["tournamentComp"] = tournamentComp
 
     return data
