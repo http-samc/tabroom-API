@@ -1,5 +1,5 @@
 import json
-from scrapers import entry
+from helpers import *
 
 def condense(data: dict = None) -> dict:
     """Condenses redundant data from various scrapers
@@ -174,7 +174,12 @@ def condense(data: dict = None) -> dict:
         if teamData["eliminated"] is not None: # Champion was never elim
             teamData["eliminated"].insert(3, finalRdSTD)
 
+    # Calculating bids
+    condensed = calcBid(condensed)
+
     return condensed
 
 if __name__ == "__main__":
-    condense()
+    data = condense()
+    with open('condense.json', 'w') as f:
+        json.dump(data, f)
