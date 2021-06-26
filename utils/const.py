@@ -38,3 +38,26 @@ LOSS = ["L", "l"]
 "Accepted sides"
 PRO = ["Pro", "Aff"]
 CON = ["Con", "Neg"]
+
+"Accepted divisions, starting with most specific -> generic"
+DIVISIONS = [
+        ['TOC', 'Public', 'Forum'],
+        ['VPF'],
+        ['V', 'PF'],
+        ['varsity', 'public'],
+        ['Varsity', 'PF'],
+        ['Open', 'PF'],
+        ['O', 'PF'],
+        ['PF'],
+        ['Public', 'Forum']
+]
+
+"Partial keywords that trigger an auto-reject of a division"
+REJECT = ["round robin",
+    "middle",
+    "jv",
+    "novice",
+    "ms",
+    "junior varsity",
+    "npf",
+]
