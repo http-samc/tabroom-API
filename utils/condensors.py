@@ -178,6 +178,7 @@ def condense(data: dict) -> dict:
     # Getting breakBoost & std name of final round
     resultData = data["resultData"]
     for team in resultData:
+        #t = team.replace("Nova", "Nova 42")
         teamData = condensed[name][team] # Shorthand for ref
 
         breakBoost = resultData[team][0] + 1 # roundPrestige + 1 = breakBoost

@@ -102,6 +102,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         print("Using bracket page")
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
+        resultData = None
 
     rawData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
         "entryData": entryData, "resultData": resultData}

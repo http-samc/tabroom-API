@@ -25,6 +25,8 @@ def scrapeAll():
 
 if __name__ == "__main__":
     #print(entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=16740&entry_id=3183877"))
+    #x = entry("https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=17622&entry_id=3132883")
     scrapeAll()
     from pprint import pprint
+   # pprint(x)
     #print(bracket("https://www.tabroom.com/index/tourn/results/bracket.mhtml?tourn_id=18420&result_id=161547"))
