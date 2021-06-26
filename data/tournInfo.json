@@ -95,47 +95,47 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=13639",
         "meta": "2020 Milpitas, CA/US - 1/25 "
     },
-    "Cal Invitational UC Berkeley": {
+    "!Cal Invitational UC Berkeley": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16917",
         "meta": "2021 Berkeley, CA/US - 2/12 to 2/16 "
     },
-    "Cal State Fullerton Invitational": {
+    "!Cal State Fullerton Invitational": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16759",
         "meta": "2020 Fullerton, CA/US - 10/16 to 10/18 "
     },
-    "Cavalier Invitational at Durham Academy": {
+    "!Cavalier Invitational at Durham Academy": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=15550",
         "meta": "2021 Online, NC/US - 1/15 to 1/18 "
     },
-    "Colleyville Heritage Winter Invitational": {
+    "!Colleyville Heritage Winter Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18206",
         "meta": "2021 NSDA Campus, TX/US - 2/4 to 2/7 "
     },
-    "Columbia University Invitational": {
+    "!Columbia University Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18023",
         "meta": "2021 NSDA Campus, NY/US - 1/29 to 1/31 "
     },
-    "ETHS Superb Owl": {
+    "!ETHS Superb Owl": {
         "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16768",
         "meta": "2021 Evanston, IL/US - 1/29 to 1/31 "
     },
-    "Essex Forensics": {
+    "!Tim Averill Invitational online": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14543",
-        "meta": "2020 Essex, VT/US - 1/18 "
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17599",
+        "meta": "2020 — NSDA Campus, MA/US "
     },
     "Florida Blue Key Speech and Debate Tournament": {
         "acceptsUnaffiliated": false,
