@@ -167,7 +167,7 @@ def condense(data: dict = None) -> dict:
         # Merging into condensed
         condensed[name][team] = teamData
 
-    # Calling OPwpm calculation
+    # Calling OPwpm calculation (auto-removes unneeded temp round data)
     condensed = calcOPwpm(condensed)
 
     # Getting breakBoost & std name of final round
@@ -184,6 +184,9 @@ def condense(data: dict = None) -> dict:
 
     # Calculating bids
     condensed = calcBid(condensed)
+
+    # Calculating tournamentComp
+    condensed = calcTournamentComp(condensed)
 
     return condensed
 

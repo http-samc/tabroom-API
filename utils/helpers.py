@@ -16,7 +16,9 @@ def calcBid(data: dict) -> dict:
     with open('utils/tournInfo.json', 'r') as f:
         tournData = json.loads(f.read())
 
-    if tournName not in list(tournData.keys()): return data
+    if tournName not in tournData:
+        print(tournData[tournName])
+        return data
 
     gold = breakNames.index(tournData[tournName]["bidLevel"])
     silver = gold + 1
@@ -63,19 +65,45 @@ def calcOPwpm(data: dict) -> dict:
 
     for team in data[tourn]:
         prelims = data[tourn][team]["prelims"]
+        del data[tourn][team]["prelims"] # removing unneeded data from main
         opps = []
         for prelimRound in prelims:
             opp = prelimRound["opp"]
             if not opp: continue # bye
-            if opp in data[tourn]:
+            if opp in data[tourn]: # no data for entries that drop in the middle of the tournament
                 opps.append(opp)
-            else:
-                print("Can't find " + opp) # handle mid-tourn dropped entries
         oppWins = 0
         for opp in opps:
             oppWins += data[tourn][opp]["prelimRecord"][0]
 
         OPwpm = round(oppWins/len(opps), 3)
         data[tourn][team]["OPwpm"] = OPwpm
+
+    return data
+
+def calcTournamentComp(data: dict) -> dict:
+    """Adds tournamentComp to condensed tournament-level dataset.
+    Required to be called last, after OPwpm calculation
+
+    Args:
+        data (dict): condensed tournament-level dataset
+
+    Returns:
+        dict: dataset with tournamentComp for each team included
+    """
+    tourn = list(data.keys())[0]
+
+    for team in data[tourn]:
+        OPwpm = data[tourn][team]["OPwpm"]
+        wins = data[tourn][team]["prelimRecord"][0]
+
+        losses = data[tourn][team]["prelimRecord"][1]
+        numPrelims = wins + losses
+
+        breakBoost = data[tourn][team]["breakBoost"]
+        tournamentBoost = data[tourn][team]["tournamentBoost"]
+
+        tournamentComp = round(((OPwpm * wins)/numPrelims)*breakBoost*tournamentBoost, 3)
+        data[tourn][team]["tournamentComp"] = tournamentComp
 
     return data

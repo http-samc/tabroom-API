@@ -169,7 +169,7 @@ def breaks(URL: str) -> dict:
         textData = []
 
         for node in rawEntryData:
-            nodeText = node.get_text().replace('  ', '').replace('\t','').split('\n')
+            nodeText = node.get_text().replace('\t','').split('\n')
             textData.append(nodeText)
 
         try:
@@ -482,7 +482,7 @@ def name(URL: str) -> str:
 
     name = soup.find(class_="centeralign marno").get_text()
 
-    return _clean(name)
+    return _clean(name)[:-1]
 
 if __name__ == "__main__":
     print(name("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991"))
