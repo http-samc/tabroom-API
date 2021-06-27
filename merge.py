@@ -59,12 +59,14 @@ def merge():
                     "prelimRecord" : [0, 0],
                     "breakRecord" : [0, 0],
                     "breakPCT" : None,
-                    "tournaments" : []
+                    "tournaments" : [],
+                    "fullNames" : None
                 }
                 target = keyName
 
             teamData = master[target]
             newData = data[name][team]
+            newData["name"] = name
 
             # Updating codes
             if team not in teamData["codes"]: teamData["codes"].append(team)
@@ -82,14 +84,15 @@ def merge():
                 teamData["breakRecord"][1] += newData["breakRecord"][1]
 
             # Adding tournament to list
-            teamData["tournaments"].append({name : newData})
+            teamData["tournaments"].append(newData)
 
             breaks = 0
             comps = 0
             numTourns = len(teamData["tournaments"]) # We can assume non0 len
 
             for tourn in teamData["tournaments"]:
-                tourn = tourn[list(tourn.keys())[0]]
+                if not teamData["fullNames"]:
+                    teamData["fullNames"] = tourn["fullNames"]
                 if tourn["breakRecord"] is not None: breaks += 1
                 comps += tourn["tournamentComp"]
 

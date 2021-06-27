@@ -1,0 +1,4420 @@
+{
+    "leaders": [
+        {
+            "pos": 1,
+            "score": 4.357,
+            "golds": 12,
+            "silvers": 1,
+            "code": "Bethesda Chevy Chase GT",
+            "names": "Eli Glickman & Roy Tiefer"
+        },
+        {
+            "pos": 2,
+            "score": 1.896,
+            "golds": 6,
+            "silvers": 1,
+            "code": "Richard Montgomery GL",
+            "names": "Carina Guo & Jennifer Lin"
+        },
+        {
+            "pos": 3,
+            "score": 1.846,
+            "golds": 5,
+            "silvers": 1,
+            "code": "Lynbrook RG",
+            "names": "Vaibhav Rangan & Kunal Goel"
+        },
+        {
+            "pos": 4,
+            "score": 1.839,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Charlotte Latin IS",
+            "names": "Shreyas Iyer & Zoe Spicer"
+        },
+        {
+            "pos": 5,
+            "score": 1.773,
+            "golds": 6,
+            "silvers": 1,
+            "code": "Hackley YK",
+            "names": "Zach Yusaf & Ben Kirsch"
+        },
+        {
+            "pos": 6,
+            "score": 1.773,
+            "golds": 5,
+            "silvers": 2,
+            "code": "BASIS Independent Silicon Valley AV",
+            "names": "Ayush Agarwal & Vinay Vellore"
+        },
+        {
+            "pos": 7,
+            "score": 1.769,
+            "golds": 7,
+            "silvers": 1,
+            "code": "NSU FR",
+            "names": "Amanda Frank & Peyton Ronkin"
+        },
+        {
+            "pos": 8,
+            "score": 1.687,
+            "golds": 6,
+            "silvers": 1,
+            "code": "Coppell BC",
+            "names": "Shabbir Bohri & Sahil Chiniwala"
+        },
+        {
+            "pos": 9,
+            "score": 1.663,
+            "golds": 5,
+            "silvers": 1,
+            "code": "Lakeville South GN",
+            "names": "Gus Gerlach & Henry Nomeland"
+        },
+        {
+            "pos": 10,
+            "score": 1.645,
+            "golds": 5,
+            "silvers": 2,
+            "code": "Strake Jesuit AD",
+            "names": "Zain Ashraf & Ishan Dubey"
+        },
+        {
+            "pos": 11,
+            "score": 1.628,
+            "golds": 5,
+            "silvers": 2,
+            "code": "Chaska OV",
+            "names": "Kian O'Connor & Ekaanth Veerakumar"
+        },
+        {
+            "pos": 12,
+            "score": 1.596,
+            "golds": 4,
+            "silvers": 3,
+            "code": "DNHS Independent BP",
+            "names": "Tejas Balaji & Shiv Puliady"
+        },
+        {
+            "pos": 13,
+            "score": 1.577,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Lambert MY",
+            "names": "Vinayak Menon & Brian Yoo"
+        },
+        {
+            "pos": 14,
+            "score": 1.55,
+            "golds": 4,
+            "silvers": 3,
+            "code": "Lambert SM",
+            "names": "Prajwal Saokar & Bobby Missell"
+        },
+        {
+            "pos": 15,
+            "score": 1.544,
+            "golds": 5,
+            "silvers": 2,
+            "code": "University YP",
+            "names": "Daniel Yan & Abraham Paik"
+        },
+        {
+            "pos": 16,
+            "score": 1.532,
+            "golds": 4,
+            "silvers": 3,
+            "code": "Carmel Valley Independent LM",
+            "names": "Iain Law & Syon Mansur"
+        },
+        {
+            "pos": 17,
+            "score": 1.5,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Blake EW",
+            "names": "Joshua Enebo & Skylar Wang"
+        },
+        {
+            "pos": 18,
+            "score": 1.487,
+            "golds": 4,
+            "silvers": 0,
+            "code": "Hawken MW",
+            "names": "Claire Marrie & Alex Watson"
+        },
+        {
+            "pos": 19,
+            "score": 1.48,
+            "golds": 6,
+            "silvers": 1,
+            "code": "Bellaire RS",
+            "names": "Vedanth Ramabhadran & Andrew Sun"
+        },
+        {
+            "pos": 20,
+            "score": 1.441,
+            "golds": 5,
+            "silvers": 1,
+            "code": "Edgemont Junior-Senior MM",
+            "names": "Abhiram Masam & Anisha Musti"
+        },
+        {
+            "pos": 21,
+            "score": 1.398,
+            "golds": 3,
+            "silvers": 4,
+            "code": "Seven Lakes ZS",
+            "names": "Justin Zhang & Arjun Surya"
+        },
+        {
+            "pos": 22,
+            "score": 1.388,
+            "golds": 3,
+            "silvers": 1,
+            "code": "University MN",
+            "names": "Ananth Menon & Marcus Novak"
+        },
+        {
+            "pos": 23,
+            "score": 1.376,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Fairmont Prep AG",
+            "names": "Dean Alamy & Ryan Gumlia"
+        },
+        {
+            "pos": 24,
+            "score": 1.369,
+            "golds": 5,
+            "silvers": 0,
+            "code": "Fort Lee PK",
+            "names": "Niko Papaioannou & Matthew Koretsky"
+        },
+        {
+            "pos": 25,
+            "score": 1.363,
+            "golds": 3,
+            "silvers": 3,
+            "code": "Durham WS",
+            "names": "Teddy Wallen & Anirudh Sukhija"
+        },
+        {
+            "pos": 26,
+            "score": 1.361,
+            "golds": 3,
+            "silvers": 1,
+            "code": "Dalton YS",
+            "names": "JJ Yu & Rebecca Solomon"
+        },
+        {
+            "pos": 27,
+            "score": 1.331,
+            "golds": 5,
+            "silvers": 0,
+            "code": "Dougherty Valley PR",
+            "names": "Sanjita Pamidimukkala & Sanjana Ranganathan"
+        },
+        {
+            "pos": 28,
+            "score": 1.312,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Independent Campbell Hall EL",
+            "names": "David Eick & Nathan Lee"
+        },
+        {
+            "pos": 29,
+            "score": 1.285,
+            "golds": 2,
+            "silvers": 3,
+            "code": "BASIS Independent Silicon Valley BC",
+            "names": "Stefan Boone & Daniel Chen"
+        },
+        {
+            "pos": 30,
+            "score": 1.241,
+            "golds": 3,
+            "silvers": 2,
+            "code": "Foothill AS",
+            "names": "Sanjay Adhikesaven & Aadithyaa Sridharbaskari"
+        },
+        {
+            "pos": 31,
+            "score": 1.234,
+            "golds": 3,
+            "silvers": 1,
+            "code": "NSU AG",
+            "names": "Ariel Arias & Daniel Gutkin"
+        },
+        {
+            "pos": 32,
+            "score": 1.212,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Lynbrook SC",
+            "names": "Naman Singhal & Derrick Cai"
+        },
+        {
+            "pos": 33,
+            "score": 1.207,
+            "golds": 2,
+            "silvers": 3,
+            "code": "Quarry Lane GN",
+            "names": "Aditya Goel & Sahana Nellian"
+        },
+        {
+            "pos": 34,
+            "score": 1.206,
+            "golds": 3,
+            "silvers": 2,
+            "code": "College Prep BB",
+            "names": "Claire Beamer & Elliot Beamer"
+        },
+        {
+            "pos": 35,
+            "score": 1.197,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Blake HD",
+            "names": "Grace Homan & Wyatt Dayhoff"
+        },
+        {
+            "pos": 36,
+            "score": 1.19,
+            "golds": 3,
+            "silvers": 2,
+            "code": "Peddie LL",
+            "names": "Louis Layman & Dennis Liu"
+        },
+        {
+            "pos": 37,
+            "score": 1.187,
+            "golds": 6,
+            "silvers": 0,
+            "code": "Mission San Jose CM",
+            "names": "Sabrina Cai & Serena Mao"
+        },
+        {
+            "pos": 38,
+            "score": 1.179,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Hamilton CS",
+            "names": "Raj Chopra & Arjun Singh"
+        },
+        {
+            "pos": 39,
+            "score": 1.161,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Charles W Flanagan DG",
+            "names": "Manuel De Leon & Michael Gold"
+        },
+        {
+            "pos": 40,
+            "score": 1.152,
+            "golds": 3,
+            "silvers": 1,
+            "code": "Lambert BZ",
+            "names": "Varnica Basavaraj & Rick Zhao"
+        },
+        {
+            "pos": 41,
+            "score": 1.137,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Newton South DD",
+            "names": "Theo Datta & Jasper Datta"
+        },
+        {
+            "pos": 42,
+            "score": 1.125,
+            "golds": 3,
+            "silvers": 0,
+            "code": "Livingston ZS",
+            "names": "Matthew Zhang & Rahul Shah"
+        },
+        {
+            "pos": 43,
+            "score": 1.111,
+            "golds": 3,
+            "silvers": 2,
+            "code": "Walt Whitman DS",
+            "names": "Vishnu Dandi & Christopher Sylvester"
+        },
+        {
+            "pos": 44,
+            "score": 1.106,
+            "golds": 4,
+            "silvers": 2,
+            "code": "Sidwell PW",
+            "names": "Asmi Pareek & Sean Wallace"
+        },
+        {
+            "pos": 45,
+            "score": 1.085,
+            "golds": 3,
+            "silvers": 1,
+            "code": "BergenTech GK",
+            "names": "Samuel Grinberg & Akil Kasubhai"
+        },
+        {
+            "pos": 46,
+            "score": 1.07,
+            "golds": 2,
+            "silvers": 3,
+            "code": "Strake Jesuit BG",
+            "names": "Simon Bloesch & Ben Goldin"
+        },
+        {
+            "pos": 47,
+            "score": 1.059,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Miramonte BM",
+            "names": "Grace Barmmer & Josh Morganstein"
+        },
+        {
+            "pos": 48,
+            "score": 1.054,
+            "golds": 2,
+            "silvers": 4,
+            "code": "Marist VL",
+            "names": "Sydney Vance & Claire Lauterbach"
+        },
+        {
+            "pos": 49,
+            "score": 1.052,
+            "golds": 2,
+            "silvers": 4,
+            "code": "Marist OW",
+            "names": "Anthony Ovadje & Lauryn Walker"
+        },
+        {
+            "pos": 50,
+            "score": 1.031,
+            "golds": 0,
+            "silvers": 5,
+            "code": "Lynbrook YG",
+            "names": "Selena Yuan & Ojas Gupta"
+        },
+        {
+            "pos": 51,
+            "score": 1.028,
+            "golds": 4,
+            "silvers": 1,
+            "code": "Ardrey Kell RS",
+            "names": "Emma Rogers & Sreyas Sureneni"
+        },
+        {
+            "pos": 52,
+            "score": 1.022,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Independent Campbell Hall GT",
+            "names": "Matlock Grossman & Nikola Tran-Mihail"
+        },
+        {
+            "pos": 53,
+            "score": 1.019,
+            "golds": 3,
+            "silvers": 2,
+            "code": "Blake OP",
+            "names": "Ava Olson & Alessandro Perri"
+        },
+        {
+            "pos": 54,
+            "score": 0.987,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Acton-Boxborough EF",
+            "names": "Manas Erramilli & Rishi Francis"
+        },
+        {
+            "pos": 55,
+            "score": 0.982,
+            "golds": 3,
+            "silvers": 0,
+            "code": "Bronx Science AE",
+            "names": "Katia Anastas & Sela Emery"
+        },
+        {
+            "pos": 56,
+            "score": 0.96,
+            "golds": 3,
+            "silvers": 1,
+            "code": "Walt Whitman ML",
+            "names": "Jack McGuire & Felix Leonhardt"
+        },
+        {
+            "pos": 57,
+            "score": 0.957,
+            "golds": 1,
+            "silvers": 4,
+            "code": "Blake EX",
+            "names": "Dennis Eum & Leon Xue"
+        },
+        {
+            "pos": 58,
+            "score": 0.952,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Montgomery Blair JQ",
+            "names": "Alex Jiang & Eli Qian"
+        },
+        {
+            "pos": 59,
+            "score": 0.945,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Winston Churchill DM",
+            "names": "Navin Durbhakula & Allison Moon"
+        },
+        {
+            "pos": 60,
+            "score": 0.937,
+            "golds": 0,
+            "silvers": 4,
+            "code": "Bronx Science DG",
+            "names": "Tenzin Dadak & Ayanava Ganguly"
+        },
+        {
+            "pos": 61,
+            "score": 0.937,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Poly Prep Country Day SH",
+            "names": "Jonah Sah & Etta Humes"
+        },
+        {
+            "pos": 62,
+            "score": 0.925,
+            "golds": 0,
+            "silvers": 4,
+            "code": "Gunn JC",
+            "names": "Hetva Joshi & Catherine Chu"
+        },
+        {
+            "pos": 63,
+            "score": 0.919,
+            "golds": 1,
+            "silvers": 0,
+            "code": "La Salle GH",
+            "names": "Gus Gladstein & Gavin Hussain"
+        },
+        {
+            "pos": 64,
+            "score": 0.911,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Delbarton MS",
+            "names": "Eric Moldoveanu & Alexander Sun"
+        },
+        {
+            "pos": 65,
+            "score": 0.91,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Seven Lakes LW",
+            "names": "Ethan Liu & Michael Wu"
+        },
+        {
+            "pos": 66,
+            "score": 0.905,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Mission San Jose DK",
+            "names": "Tushar Dalmia & Selina Kao"
+        },
+        {
+            "pos": 67,
+            "score": 0.901,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Richard Montgomery SX",
+            "names": "Evelyn Shue & Junzhi Xie"
+        },
+        {
+            "pos": 68,
+            "score": 0.887,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Harker LK",
+            "names": "Caden Lin & Vedant Kenkare"
+        },
+        {
+            "pos": 69,
+            "score": 0.882,
+            "golds": 3,
+            "silvers": 0,
+            "code": "AandM Consolidated SD",
+            "names": "Srikar Satish & Lars Deutz"
+        },
+        {
+            "pos": 70,
+            "score": 0.877,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Richard Montgomery SW",
+            "names": "Johnathan Sun & Amanda Wu"
+        },
+        {
+            "pos": 71,
+            "score": 0.861,
+            "golds": 3,
+            "silvers": 0,
+            "code": "Princeton BS",
+            "names": "Nicholas Budny & Chris Shen"
+        },
+        {
+            "pos": 72,
+            "score": 0.857,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Winston Churchill MZ",
+            "names": "Raymond Ma & Faaris Zuberi"
+        },
+        {
+            "pos": 73,
+            "score": 0.853,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Torrey Pines FL",
+            "names": "Benjamin Feng & Jason Li"
+        },
+        {
+            "pos": 74,
+            "score": 0.851,
+            "golds": 3,
+            "silvers": 1,
+            "code": "Southlake Carroll RS",
+            "names": "Nikhil Reddy & Anbu Subramanian"
+        },
+        {
+            "pos": 75,
+            "score": 0.841,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Acton-Boxborough CH",
+            "names": "Michael Cai & Isaac Han"
+        },
+        {
+            "pos": 76,
+            "score": 0.84,
+            "golds": 1,
+            "silvers": 4,
+            "code": "Newton South AT",
+            "names": "Nolan Anthony & Arman Tendulkar"
+        },
+        {
+            "pos": 77,
+            "score": 0.839,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Evergreen Valley PS",
+            "names": "Pranav Palleti & Sanjit Shirol"
+        },
+        {
+            "pos": 78,
+            "score": 0.827,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Westlake YS",
+            "names": "Daniel Yang & Zain Syed"
+        },
+        {
+            "pos": 79,
+            "score": 0.825,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Leland XH",
+            "names": "Daniel Xie & Leon Huang"
+        },
+        {
+            "pos": 80,
+            "score": 0.824,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Bronx Science MR",
+            "names": "Aerin Mann & Kate Reynolds"
+        },
+        {
+            "pos": 81,
+            "score": 0.818,
+            "golds": 3,
+            "silvers": 1,
+            "code": "Summit CY",
+            "names": "Jeremiah Cohn & Anthony Yu"
+        },
+        {
+            "pos": 82,
+            "score": 0.805,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Strake Jesuit GW",
+            "names": "Ty Gribble & Charlie Walker"
+        },
+        {
+            "pos": 83,
+            "score": 0.799,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Acton-Boxborough BV",
+            "names": "Suchir Baradwaj & Ansh Viswanathan"
+        },
+        {
+            "pos": 84,
+            "score": 0.799,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Harker XW",
+            "names": "Max Xing & Carol Wininger"
+        },
+        {
+            "pos": 85,
+            "score": 0.798,
+            "golds": 2,
+            "silvers": 0,
+            "code": "College Prep OH",
+            "names": "Amy O'Connor & Hamed Hekmat"
+        },
+        {
+            "pos": 86,
+            "score": 0.791,
+            "golds": 2,
+            "silvers": 3,
+            "code": "Edina JM",
+            "names": "Ryan Jiang & Arya Mirza"
+        },
+        {
+            "pos": 87,
+            "score": 0.791,
+            "golds": 2,
+            "silvers": 1,
+            "code": "ParCit EP",
+            "names": "Will Efrusy & Tom Perret"
+        },
+        {
+            "pos": 88,
+            "score": 0.783,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Northview CM",
+            "names": "Sonal Churiwal & Sanjh Mahatme"
+        },
+        {
+            "pos": 89,
+            "score": 0.779,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Westlake CW",
+            "names": "Haley Clawsie & Cherie Wang"
+        },
+        {
+            "pos": 90,
+            "score": 0.775,
+            "golds": 1,
+            "silvers": 4,
+            "code": "Blake PR",
+            "names": "Samrat Pradhan & Keaton Rannow"
+        },
+        {
+            "pos": 91,
+            "score": 0.77,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Plano West SW",
+            "names": "Meghna Subramanium & Grace Wang"
+        },
+        {
+            "pos": 92,
+            "score": 0.767,
+            "golds": 3,
+            "silvers": 1,
+            "code": "University CT",
+            "names": "James Cullers & Varun Tamaskar"
+        },
+        {
+            "pos": 93,
+            "score": 0.764,
+            "golds": 2,
+            "silvers": 2,
+            "code": "Oakton ML",
+            "names": "Anmol Malviya & Karin Liu"
+        },
+        {
+            "pos": 94,
+            "score": 0.761,
+            "golds": 3,
+            "silvers": 0,
+            "code": "Walt Whitman DP",
+            "names": "Katheryne Dwyer & Sophia Polley-Fisanich"
+        },
+        {
+            "pos": 95,
+            "score": 0.748,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Flintridge Prep VZ",
+            "names": "Sienna Vaughn & Daniel Zhao"
+        },
+        {
+            "pos": 96,
+            "score": 0.748,
+            "golds": 1,
+            "silvers": 2,
+            "code": "BASIS Scottsdale WW",
+            "names": "Mitchel Wang & Karsen Wahal"
+        },
+        {
+            "pos": 97,
+            "score": 0.746,
+            "golds": 1,
+            "silvers": 3,
+            "code": "Ransom Everglades TR",
+            "names": "Eva Tariko & Sophia Rubinstein"
+        },
+        {
+            "pos": 98,
+            "score": 0.731,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Cambrian II",
+            "names": "Adarsh Iyyavoo & Anish Iyyavoo"
+        },
+        {
+            "pos": 99,
+            "score": 0.729,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Centennial Independent AV",
+            "names": "Advaith Anakala & Akhil Vinjamaram"
+        },
+        {
+            "pos": 100,
+            "score": 0.729,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Park City GW",
+            "names": "Jack Gladson & Caroline Waldmann"
+        },
+        {
+            "pos": 101,
+            "score": 0.721,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Westborough CH",
+            "names": "Tanav Chinthapatla & Amir Hameed"
+        },
+        {
+            "pos": 102,
+            "score": 0.718,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Mountain Brook AB",
+            "names": "Caroline Allen & Jane Grey Battle"
+        },
+        {
+            "pos": 103,
+            "score": 0.715,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Jasper MZ",
+            "names": "Satvik Mahendra & Brady Zeng"
+        },
+        {
+            "pos": 104,
+            "score": 0.714,
+            "golds": 3,
+            "silvers": 0,
+            "code": "Plano West LY",
+            "names": "Renee Li & Lillian Ye"
+        },
+        {
+            "pos": 105,
+            "score": 0.714,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Oakwood CM",
+            "names": "Monie Choi & Gabrielle Mostow"
+        },
+        {
+            "pos": 106,
+            "score": 0.711,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Richard Montgomery LW",
+            "names": "Charles Liang & Emily Wu"
+        },
+        {
+            "pos": 107,
+            "score": 0.71,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Torrey Pines KT",
+            "names": "Jae Kim & Andrew Tsai"
+        },
+        {
+            "pos": 108,
+            "score": 0.71,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Brentwood KM",
+            "names": "Parker Kasiewicz & Sully Mrkva"
+        },
+        {
+            "pos": 109,
+            "score": 0.709,
+            "golds": 2,
+            "silvers": 1,
+            "code": "DNHS Independent BH",
+            "names": "Tanuj Balaji & Ishraq Hossain"
+        },
+        {
+            "pos": 110,
+            "score": 0.705,
+            "golds": 3,
+            "silvers": 1,
+            "code": "L C Anderson CE",
+            "names": "Dylan Canyon & William Erard"
+        },
+        {
+            "pos": 111,
+            "score": 0.696,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Nueva AR",
+            "names": "Nikki Agrawal & Elena Rawlinson"
+        },
+        {
+            "pos": 112,
+            "score": 0.689,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Blake ST",
+            "names": "Hannah Sweet & Elizabeth Terveen"
+        },
+        {
+            "pos": 113,
+            "score": 0.684,
+            "golds": 0,
+            "silvers": 1,
+            "code": "SouCar SP",
+            "names": "Eesha Suri & Shriya Punreddy"
+        },
+        {
+            "pos": 114,
+            "score": 0.683,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Mission San Jose KZ",
+            "names": "Vedesh Kodnani & Florence Zhu"
+        },
+        {
+            "pos": 115,
+            "score": 0.682,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Blake HS",
+            "names": "Graham Heathcote & Tobin Spiller"
+        },
+        {
+            "pos": 116,
+            "score": 0.678,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Newton South KG",
+            "names": "Enya Kamadolli & Maya Garg"
+        },
+        {
+            "pos": 117,
+            "score": 0.66,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Newton South RJ",
+            "names": "Wasan Rafat & Natalie Jones"
+        },
+        {
+            "pos": 118,
+            "score": 0.642,
+            "golds": 2,
+            "silvers": 0,
+            "code": "American Heritage Broward SR",
+            "names": "Sharvaa Selvan & Ethan Roytman"
+        },
+        {
+            "pos": 119,
+            "score": 0.64,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Foothill KS",
+            "names": "Abhishek Koul & Kiran Suresh"
+        },
+        {
+            "pos": 120,
+            "score": 0.638,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Bronx Science MY",
+            "names": "Carson Michel & Vivian Yellen"
+        },
+        {
+            "pos": 121,
+            "score": 0.63,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Lambert TS",
+            "names": "George Tian & Sahil Sood"
+        },
+        {
+            "pos": 122,
+            "score": 0.63,
+            "golds": 1,
+            "silvers": 0,
+            "code": "National Cathedral AB",
+            "names": "Sarang Arun & Emma Bennett"
+        },
+        {
+            "pos": 123,
+            "score": 0.629,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Walt Whitman BW",
+            "names": "Ben Baisinger-Rosen & Kushan Weerakoon"
+        },
+        {
+            "pos": 124,
+            "score": 0.617,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Evergreen Valley KS",
+            "names": "Shray Kudva & Aaryan Shukla"
+        },
+        {
+            "pos": 125,
+            "score": 0.614,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Evergreen Valley KaSi",
+            "names": "Ankit Kapoor & Nemerjit Singh"
+        },
+        {
+            "pos": 126,
+            "score": 0.612,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Westwood BM",
+            "names": "Akhil Bhale & Amogh Mahambare"
+        },
+        {
+            "pos": 127,
+            "score": 0.611,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Glen Rock OS",
+            "names": "Elijah Onik & Alyssa Serebrenik"
+        },
+        {
+            "pos": 128,
+            "score": 0.609,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Plano West BS",
+            "names": "Farhan Buvvaji & Shivam Siddaiya"
+        },
+        {
+            "pos": 129,
+            "score": 0.609,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Centennial Independent WB",
+            "names": "Parth Wokhlu & Sai Bommineni"
+        },
+        {
+            "pos": 130,
+            "score": 0.601,
+            "golds": 1,
+            "silvers": 1,
+            "code": "BASIS Peoria PL",
+            "names": "Samuel Parau & Yash Lal"
+        },
+        {
+            "pos": 131,
+            "score": 0.597,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Madison West CG",
+            "names": "Sorin Caldararu & Charlie Grabois"
+        },
+        {
+            "pos": 132,
+            "score": 0.595,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Dougherty Valley SS",
+            "names": "Owen Spargo & Stephanie Su"
+        },
+        {
+            "pos": 133,
+            "score": 0.59,
+            "golds": 0,
+            "silvers": 1,
+            "code": "St Francis BC",
+            "names": "Anika Bastin & Alexander Chang"
+        },
+        {
+            "pos": 134,
+            "score": 0.59,
+            "golds": 1,
+            "silvers": 1,
+            "code": "College Prep SW",
+            "names": "Simrun Sakhrani & Benjamin Wornow"
+        },
+        {
+            "pos": 135,
+            "score": 0.589,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Mountain Brook CD",
+            "names": "Marielle Cornes & Maggie Doyle"
+        },
+        {
+            "pos": 136,
+            "score": 0.588,
+            "golds": 0,
+            "silvers": 1,
+            "code": "DuPont Manual BW",
+            "names": "Sarvesh Babu & Samuel Watkins"
+        },
+        {
+            "pos": 137,
+            "score": 0.588,
+            "golds": 0,
+            "silvers": 1,
+            "code": "BASIS Peoria SS",
+            "names": "Pranav Saravanan & Mateen Sekandari"
+        },
+        {
+            "pos": 138,
+            "score": 0.588,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Delbarton LT",
+            "names": "William Li & Connor Teehan"
+        },
+        {
+            "pos": 139,
+            "score": 0.58,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Lake Highland Prep CP",
+            "names": "Santiago Calderon & Zeal Patel"
+        },
+        {
+            "pos": 140,
+            "score": 0.579,
+            "golds": 3,
+            "silvers": 0,
+            "code": "RowHal BD",
+            "names": "Emery Bahna & Mahit Dagar"
+        },
+        {
+            "pos": 141,
+            "score": 0.576,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Blake KZ",
+            "names": "Davin Khan & Julia Zhang"
+        },
+        {
+            "pos": 142,
+            "score": 0.576,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Sidwell ZC",
+            "names": "Irene Zhao & Milan Chander"
+        },
+        {
+            "pos": 143,
+            "score": 0.575,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Horace Mann XS",
+            "names": "Annabelle Xing & Emily Shi"
+        },
+        {
+            "pos": 144,
+            "score": 0.575,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Regis BG",
+            "names": "Thomas Barone & Marko Gural"
+        },
+        {
+            "pos": 145,
+            "score": 0.572,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Blake GK",
+            "names": "Jay Gulati & Nikko Kim"
+        },
+        {
+            "pos": 146,
+            "score": 0.571,
+            "golds": 0,
+            "silvers": 3,
+            "code": "Ransom Everglades JR",
+            "names": "Andre Joseph & Nicole Rodriguez"
+        },
+        {
+            "pos": 147,
+            "score": 0.551,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Millard North RZ",
+            "names": "Jack Rankin & Kenny Zhu"
+        },
+        {
+            "pos": 148,
+            "score": 0.55,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Milton YC",
+            "names": "Can (Jon) Yildirim & Tamsin Connerly"
+        },
+        {
+            "pos": 149,
+            "score": 0.549,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Westlake BL",
+            "names": "Jawad Bataineh & Teresa Luo"
+        },
+        {
+            "pos": 150,
+            "score": 0.547,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Montgomery Blair WH",
+            "names": "Jonathan Wen & Michael Hu"
+        },
+        {
+            "pos": 151,
+            "score": 0.545,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Westlake LR",
+            "names": "Nathan Laude & Alex Rodgers"
+        },
+        {
+            "pos": 152,
+            "score": 0.544,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Blacksburg FK",
+            "names": "Sydney Fritz & Neal Klemba"
+        },
+        {
+            "pos": 153,
+            "score": 0.541,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Westwood FG",
+            "names": "Jeff Freeman & Arnav Gunwani"
+        },
+        {
+            "pos": 154,
+            "score": 0.53,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Westridge WO",
+            "names": "Cara Wilson & Hana Odawara"
+        },
+        {
+            "pos": 155,
+            "score": 0.527,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Plano West KS",
+            "names": "Rohan Kamalakantha & Andy Shufer"
+        },
+        {
+            "pos": 156,
+            "score": 0.524,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Brooklyn Technical QC",
+            "names": "Roberto Quesada & Gabrielle Cayo"
+        },
+        {
+            "pos": 157,
+            "score": 0.523,
+            "golds": 1,
+            "silvers": 1,
+            "code": "McDowell BH",
+            "names": "Caleb Brobst & Derek Hillhouse"
+        },
+        {
+            "pos": 158,
+            "score": 0.521,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Lake Mary Prep PV",
+            "names": "Andrew Petrousky & Alex Vihlan"
+        },
+        {
+            "pos": 159,
+            "score": 0.519,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hunter BC",
+            "names": "James Bae & Gaang Choi"
+        },
+        {
+            "pos": 160,
+            "score": 0.516,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Carmel Valley GN",
+            "names": "Yash Gupta & Razeen Nasar"
+        },
+        {
+            "pos": 161,
+            "score": 0.508,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Montgomery Blair CG",
+            "names": "Eric Chen & Iris Gupta"
+        },
+        {
+            "pos": 162,
+            "score": 0.508,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Duchesne Academy Of The Sacred Heart BB",
+            "names": "Brooke Blanton & Mimi Bhalla"
+        },
+        {
+            "pos": 163,
+            "score": 0.505,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Sharon IG",
+            "names": "Felix Ivanov & Rowan Gray"
+        },
+        {
+            "pos": 164,
+            "score": 0.503,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Hamilton PM",
+            "names": "Shravan Pejavar & Raunak Mukherjee"
+        },
+        {
+            "pos": 165,
+            "score": 0.499,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Bellaire BF",
+            "names": "Omar Busaidy & William Fan"
+        },
+        {
+            "pos": 166,
+            "score": 0.498,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Quarry Lane KJ",
+            "names": "Kushal Kodnad & Aarushi Jain"
+        },
+        {
+            "pos": 167,
+            "score": 0.493,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Horace Mann HN",
+            "names": "Lauren Ho & Alex Nagin"
+        },
+        {
+            "pos": 168,
+            "score": 0.491,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Winston Churchill HW",
+            "names": "Abigail Hill & Lindsey Wu"
+        },
+        {
+            "pos": 169,
+            "score": 0.487,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Brentwood RH",
+            "names": "Nelson Rose & William Hong"
+        },
+        {
+            "pos": 170,
+            "score": 0.487,
+            "golds": 1,
+            "silvers": 2,
+            "code": "St John's LF",
+            "names": "Oliver Lin & Austin Fiorito"
+        },
+        {
+            "pos": 171,
+            "score": 0.484,
+            "golds": 2,
+            "silvers": 1,
+            "code": "Hunter GF",
+            "names": "Anabel Giacobbi & Victoria Freeman"
+        },
+        {
+            "pos": 172,
+            "score": 0.483,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Exeter CU",
+            "names": "Albert Chu & Shrayes Upadhyayula"
+        },
+        {
+            "pos": 173,
+            "score": 0.481,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Poly Prep Country Day LM",
+            "names": "Claudia Leduc & Nicholas Menegatos"
+        },
+        {
+            "pos": 174,
+            "score": 0.478,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Bergen County Academies NN",
+            "names": "Avital Nozic & Elaine Nam"
+        },
+        {
+            "pos": 175,
+            "score": 0.478,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Walt Whitman OL",
+            "names": "Greg O'Connell & Matthew Lennie"
+        },
+        {
+            "pos": 176,
+            "score": 0.478,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Hamilton PS",
+            "names": "Pinak Panda & Neha Shakir"
+        },
+        {
+            "pos": 177,
+            "score": 0.475,
+            "golds": 1,
+            "silvers": 2,
+            "code": "William Fremd independent GS",
+            "names": "Souvik Ghosh & Gabe Seidman"
+        },
+        {
+            "pos": 178,
+            "score": 0.471,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Mission San Jose WB",
+            "names": "Yuvraj Walia & Tannvi Banerjee"
+        },
+        {
+            "pos": 179,
+            "score": 0.466,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Durham BK",
+            "names": "Anna Brent-Levenstein & Stacey Kang"
+        },
+        {
+            "pos": 180,
+            "score": 0.465,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Dublin CK",
+            "names": "Katie Cheng & Anish Kataria"
+        },
+        {
+            "pos": 181,
+            "score": 0.463,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Ransom Everglades GM",
+            "names": "Noah Gold & Zach Marcus"
+        },
+        {
+            "pos": 182,
+            "score": 0.46,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Mount Si MS",
+            "names": "Mariam Mohammed & Ray Silverman"
+        },
+        {
+            "pos": 183,
+            "score": 0.457,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bellaire DN",
+            "names": "Pramit De & Milan Narayan"
+        },
+        {
+            "pos": 184,
+            "score": 0.455,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bronx Science HW",
+            "names": "Khandker Shabnan Habib & William Wang"
+        },
+        {
+            "pos": 185,
+            "score": 0.454,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Chelmsford ML",
+            "names": "Prateek Motagi & Arjun Lingala"
+        },
+        {
+            "pos": 186,
+            "score": 0.452,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Mountain View DZ",
+            "names": "Archer Date & Jason Zhang"
+        },
+        {
+            "pos": 187,
+            "score": 0.448,
+            "golds": 1,
+            "silvers": 0,
+            "code": "North Broward Prep SM",
+            "names": "Karina Samuel & Matthew Metzner"
+        },
+        {
+            "pos": 188,
+            "score": 0.445,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Acton-Boxborough LM",
+            "names": "Samuel Liu & Anirudh Manoj"
+        },
+        {
+            "pos": 189,
+            "score": 0.444,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Leland TW",
+            "names": "Arya Tandon & Tobias Worledge"
+        },
+        {
+            "pos": 190,
+            "score": 0.443,
+            "golds": 0,
+            "silvers": 3,
+            "code": "Potomac LP",
+            "names": "Daniel Liu & Andrew Pan"
+        },
+        {
+            "pos": 191,
+            "score": 0.442,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Lake Highland Prep HK",
+            "names": "Aliza Hasan & Nithya Kunta"
+        },
+        {
+            "pos": 192,
+            "score": 0.441,
+            "golds": 1,
+            "silvers": 2,
+            "code": "James Madison Memorial Augustus Liu & Sugeeth Sathish",
+            "names": "Augustus Liu & Sugeeth Sathish"
+        },
+        {
+            "pos": 193,
+            "score": 0.438,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bethesda Chevy Chase SS",
+            "names": "Sanjana Surendran & Isabel Stares"
+        },
+        {
+            "pos": 194,
+            "score": 0.435,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Folsom JP",
+            "names": "Kristen Jacob & Raghuram Padmanabhuni"
+        },
+        {
+            "pos": 195,
+            "score": 0.427,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Hackley AS",
+            "names": "Ben Aybar & Sid Shah"
+        },
+        {
+            "pos": 196,
+            "score": 0.427,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Bellaire LT",
+            "names": "Bryce Liu & Sernry Tu"
+        },
+        {
+            "pos": 197,
+            "score": 0.426,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Providence MP",
+            "names": "Arvindh Manian & William Pan"
+        },
+        {
+            "pos": 198,
+            "score": 0.419,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Regis OZ",
+            "names": "Alex O'Donnell & Julian Zeitlinger"
+        },
+        {
+            "pos": 199,
+            "score": 0.418,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Newton South KW",
+            "names": "Aeden Kamadolli & Kenji Walker"
+        },
+        {
+            "pos": 200,
+            "score": 0.415,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Harker JR",
+            "names": "Arnav Jain & Rohan Rashingkar"
+        },
+        {
+            "pos": 201,
+            "score": 0.415,
+            "golds": 1,
+            "silvers": 2,
+            "code": "Shrewsbury KY",
+            "names": "Daniel Kalashian & Sanjana Yadav"
+        },
+        {
+            "pos": 202,
+            "score": 0.415,
+            "golds": 2,
+            "silvers": 0,
+            "code": "FaiPre GB",
+            "names": "Rohun Gupta & Courtnie Bui"
+        },
+        {
+            "pos": 203,
+            "score": 0.413,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Acton-Boxborough GM",
+            "names": "Alicia Gu & Sivapriya Marimuthu"
+        },
+        {
+            "pos": 204,
+            "score": 0.411,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Strake Jesuit KG",
+            "names": "David Kennedy & Nicholas Goodman"
+        },
+        {
+            "pos": 205,
+            "score": 0.407,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Notre Dame San Jose CP",
+            "names": "Ameera Chughtai & Ridhima Prashanth"
+        },
+        {
+            "pos": 206,
+            "score": 0.403,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Newton South RI",
+            "names": "Akshay Ramana & Akhil Ibrahim"
+        },
+        {
+            "pos": 207,
+            "score": 0.401,
+            "golds": 1,
+            "silvers": 1,
+            "code": "American Heritage Broward BF",
+            "names": "Evan Burkeen & Odin Farkas"
+        },
+        {
+            "pos": 208,
+            "score": 0.4,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Winston Churchill HY",
+            "names": "Thomas Huang & Andrew Yu"
+        },
+        {
+            "pos": 209,
+            "score": 0.4,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bergen County Academies CK",
+            "names": "Andrew Chun & Neil Kreibich"
+        },
+        {
+            "pos": 210,
+            "score": 0.396,
+            "golds": 2,
+            "silvers": 0,
+            "code": "Ardrey Kell VM",
+            "names": "Rushil Vashee & Aaditya Malapati"
+        },
+        {
+            "pos": 211,
+            "score": 0.394,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Westwood FW",
+            "names": "Mika Freund & Sophia Wang"
+        },
+        {
+            "pos": 212,
+            "score": 0.39,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Centennial NC",
+            "names": "Shivansh Nikhra & Arav Chedda"
+        },
+        {
+            "pos": 213,
+            "score": 0.385,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Mission San Jose VP",
+            "names": "Zaid Vellani & Rahil Pasha"
+        },
+        {
+            "pos": 214,
+            "score": 0.385,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Mission San Jose ZZ",
+            "names": "Derek Zhang & Tiffany Zhang"
+        },
+        {
+            "pos": 215,
+            "score": 0.384,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Hunter WK",
+            "names": "Jazmyn Wang & Joseph Karaganis"
+        },
+        {
+            "pos": 216,
+            "score": 0.381,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Montgomery Blair CL",
+            "names": "Kaden Chien & Sean Li"
+        },
+        {
+            "pos": 217,
+            "score": 0.381,
+            "golds": 0,
+            "silvers": 1,
+            "code": "New Jersey Independent GK",
+            "names": "Rohith Gudati & Arjun Khanna"
+        },
+        {
+            "pos": 218,
+            "score": 0.38,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Riverdale Country VL",
+            "names": "Jack Volpert & Andrew Lipschultz"
+        },
+        {
+            "pos": 219,
+            "score": 0.378,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Ridge SK",
+            "names": "Benny Sun & Nurah Kutty"
+        },
+        {
+            "pos": 220,
+            "score": 0.378,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Centennial LY",
+            "names": "Matthew Liu & Lucas Yang"
+        },
+        {
+            "pos": 221,
+            "score": 0.376,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Westlake GB",
+            "names": "Emma Guan & Morgan Burkhardt"
+        },
+        {
+            "pos": 222,
+            "score": 0.374,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Palm Beach Independent AL",
+            "names": "Duaa Ali & Jenna Lee"
+        },
+        {
+            "pos": 223,
+            "score": 0.373,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Scarsdale DK",
+            "names": "David Diao & Sameer Kini"
+        },
+        {
+            "pos": 224,
+            "score": 0.372,
+            "golds": 0,
+            "silvers": 0,
+            "code": "St Paul Academy and Summit BH",
+            "names": "Spencer Burris-Brown & Jack Hlavka"
+        },
+        {
+            "pos": 225,
+            "score": 0.371,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Foothill DaRe",
+            "names": "Abyan Das & Aarnav Reddy"
+        },
+        {
+            "pos": 226,
+            "score": 0.363,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Ransom Everglades KG",
+            "names": "Dina Kaplan & Cecilia Granda-Scott"
+        },
+        {
+            "pos": 227,
+            "score": 0.363,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Plano West GS",
+            "names": "Priyanka Gupta & Kaustubh Sonawane"
+        },
+        {
+            "pos": 228,
+            "score": 0.361,
+            "golds": 1,
+            "silvers": 1,
+            "code": "Hawken LB",
+            "names": "Mehul Lakhanpal & Julien Benchek"
+        },
+        {
+            "pos": 229,
+            "score": 0.361,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Evergreen Valley PR",
+            "names": "Daleep Pannu & Adrian Rozario"
+        },
+        {
+            "pos": 230,
+            "score": 0.36,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Seven Lakes CH",
+            "names": "Jessica Chai & Nicole He"
+        },
+        {
+            "pos": 231,
+            "score": 0.359,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Trinity CM",
+            "names": "Sofia Cipriano & Shaye Martin"
+        },
+        {
+            "pos": 232,
+            "score": 0.358,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Fairmont Prep BJ",
+            "names": "Martand Bhagavatula & Sophia Jansen"
+        },
+        {
+            "pos": 233,
+            "score": 0.356,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Poly Prep Country Day WT",
+            "names": "Brianna Wright & George Tiesi"
+        },
+        {
+            "pos": 234,
+            "score": 0.354,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Horace Mann LG",
+            "names": "Sean Lee & Maeve Goldman"
+        },
+        {
+            "pos": 235,
+            "score": 0.353,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Stuyvesant SH",
+            "names": "Justin Sword & Eric Han"
+        },
+        {
+            "pos": 236,
+            "score": 0.351,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Acton-Boxborough GB",
+            "names": "Advay Goel & Ankith Bharadwaj"
+        },
+        {
+            "pos": 237,
+            "score": 0.349,
+            "golds": 0,
+            "silvers": 1,
+            "code": "La Salle CH",
+            "names": "Madison Cahill & Rhyen Hunt"
+        },
+        {
+            "pos": 238,
+            "score": 0.349,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Hackley LY",
+            "names": "Michael Lee & Zara Yusaf"
+        },
+        {
+            "pos": 239,
+            "score": 0.343,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Delbarton BS",
+            "names": "Alexander Banker & Matthew Sebastian"
+        },
+        {
+            "pos": 240,
+            "score": 0.343,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lakeville SN",
+            "names": "Marco Sciamanda & Tejas Nenneman"
+        },
+        {
+            "pos": 241,
+            "score": 0.342,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Westborough JV",
+            "names": "Anton Jayavendra & Khang Vo"
+        },
+        {
+            "pos": 242,
+            "score": 0.341,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mission San Jose TS",
+            "names": "Darren Tang & Raj Saravanan"
+        },
+        {
+            "pos": 243,
+            "score": 0.34,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Hawken MW",
+            "names": "Krishna Mukunda & Madi Wayt"
+        },
+        {
+            "pos": 244,
+            "score": 0.338,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Acton-Boxborough WW",
+            "names": "Jefferson Wu & Keshav Warrier"
+        },
+        {
+            "pos": 245,
+            "score": 0.336,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lakeville North HS",
+            "names": "Andrew Hentges & Roman Sciamanda"
+        },
+        {
+            "pos": 246,
+            "score": 0.336,
+            "golds": 0,
+            "silvers": 1,
+            "code": "El Camino Real Charter DL",
+            "names": "Srujam Dave & Dan Lehavi"
+        },
+        {
+            "pos": 247,
+            "score": 0.332,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Paradise Valley NS",
+            "names": "Rohan Nair & Diya Setia"
+        },
+        {
+            "pos": 248,
+            "score": 0.332,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Boston Latin HT",
+            "names": "Nadine Han & Selina Tang"
+        },
+        {
+            "pos": 249,
+            "score": 0.33,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Winston Churchill SZ",
+            "names": "Yucheng Shao & Faith Zhang"
+        },
+        {
+            "pos": 250,
+            "score": 0.33,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Newton South LL",
+            "names": "Cat Lu & Joshua Lim"
+        },
+        {
+            "pos": 251,
+            "score": 0.329,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Cosby MM",
+            "names": "Eric Murray & Jack Merkel"
+        },
+        {
+            "pos": 252,
+            "score": 0.329,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Madison West CS",
+            "names": "Aiden Cohen & Amitabha Shatdal"
+        },
+        {
+            "pos": 253,
+            "score": 0.328,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Golden State RM",
+            "names": "ishan rao & Gautam Mohandas"
+        },
+        {
+            "pos": 254,
+            "score": 0.327,
+            "golds": 0,
+            "silvers": 0,
+            "code": "St Mary's Hall CT",
+            "names": "Nicholas Campos & Andres Trujillo"
+        },
+        {
+            "pos": 255,
+            "score": 0.326,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Acton-Boxborough CL",
+            "names": "Emma Chen & Katherine Lee"
+        },
+        {
+            "pos": 256,
+            "score": 0.321,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Wayland SZ",
+            "names": "Prashanth Subbiah & Skyler Zhou"
+        },
+        {
+            "pos": 257,
+            "score": 0.319,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Montgomery Blair KW",
+            "names": "Dheeraj Keshav & Jonathan Wen"
+        },
+        {
+            "pos": 258,
+            "score": 0.317,
+            "golds": 0,
+            "silvers": 0,
+            "code": "L C Anderson BD",
+            "names": "Ilan Ben-Avi & Zachary Domsch"
+        },
+        {
+            "pos": 259,
+            "score": 0.315,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Albuqu LA",
+            "names": "Sophia Liem & Noor Ali"
+        },
+        {
+            "pos": 260,
+            "score": 0.314,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Trinity AB",
+            "names": "Sanya Arora & Ramsay Bader"
+        },
+        {
+            "pos": 261,
+            "score": 0.314,
+            "golds": 0,
+            "silvers": 0,
+            "code": "La Salle SR",
+            "names": "John Skipper & Darya Rytova"
+        },
+        {
+            "pos": 262,
+            "score": 0.311,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Coronado WB",
+            "names": "Seth Winterton & Justin Bayani"
+        },
+        {
+            "pos": 263,
+            "score": 0.309,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Milton CH",
+            "names": "Timothy Colledge & Yaman Habip"
+        },
+        {
+            "pos": 264,
+            "score": 0.308,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Foothill PZ",
+            "names": "Graydon Perry & Michael Zong"
+        },
+        {
+            "pos": 265,
+            "score": 0.308,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Palleti AJ",
+            "names": "Aadit Agrahara & Amogh Jani"
+        },
+        {
+            "pos": 266,
+            "score": 0.307,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Montville ML",
+            "names": "Veeank Maniar & Dilan Luhana"
+        },
+        {
+            "pos": 267,
+            "score": 0.307,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lambert ES",
+            "names": "Jason Eappen & Hanming Sun"
+        },
+        {
+            "pos": 268,
+            "score": 0.304,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Lynbrook SB",
+            "names": "Anshul Singh & Aahaan Bandopadhyay"
+        },
+        {
+            "pos": 269,
+            "score": 0.303,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Palleti GS",
+            "names": "Ethan Gibbons & Shiven Shekar"
+        },
+        {
+            "pos": 270,
+            "score": 0.301,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Regis BaGr",
+            "names": "Donovan Barcelona & Alexander Greene"
+        },
+        {
+            "pos": 271,
+            "score": 0.3,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Hamilton ST",
+            "names": "Orli Sanyal & Medha Tambe"
+        },
+        {
+            "pos": 272,
+            "score": 0.298,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Trinity CN",
+            "names": "Emmett Chen & Sebastien Nordensen"
+        },
+        {
+            "pos": 273,
+            "score": 0.295,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Millburn HW",
+            "names": "Yuliu Huang & Sophia Wang"
+        },
+        {
+            "pos": 274,
+            "score": 0.294,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Plano East NK",
+            "names": "Jay Namdhari & Neel Kanamangala"
+        },
+        {
+            "pos": 275,
+            "score": 0.289,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Newton South MM",
+            "names": "Maya Makarovsky & Anais Mobarak"
+        },
+        {
+            "pos": 276,
+            "score": 0.289,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westlake RW",
+            "names": "Allie Robinson & Caroline Wehring"
+        },
+        {
+            "pos": 277,
+            "score": 0.284,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bergen County SK",
+            "names": "Hannah Shakarov & Yasmine Kahtane"
+        },
+        {
+            "pos": 278,
+            "score": 0.284,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Burbank Senior CF",
+            "names": "Mihika Chechi & Kacey Fifield"
+        },
+        {
+            "pos": 279,
+            "score": 0.284,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Foothill MS",
+            "names": "Monish Muralicharan & Milan Suresh"
+        },
+        {
+            "pos": 280,
+            "score": 0.284,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Centennial RC",
+            "names": "Arjun Ramprasad & Kartike Chawla"
+        },
+        {
+            "pos": 281,
+            "score": 0.284,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Stuyvesant TY",
+            "names": "Cynthia Tan & Daniel Yu"
+        },
+        {
+            "pos": 282,
+            "score": 0.283,
+            "golds": 0,
+            "silvers": 1,
+            "code": "BASIS Scottsdale DS",
+            "names": "Daryl Day & Nandita Shankar"
+        },
+        {
+            "pos": 283,
+            "score": 0.283,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Elkins BN",
+            "names": "Sayok Bose & Tharun Nayar"
+        },
+        {
+            "pos": 284,
+            "score": 0.281,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Nueva TM",
+            "names": "Mia Tavares & Nick Mahdavi"
+        },
+        {
+            "pos": 285,
+            "score": 0.277,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Elkins KV",
+            "names": "Emad Khalid & Danny Vilson"
+        },
+        {
+            "pos": 286,
+            "score": 0.276,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Vista Ridge HD",
+            "names": "Jack Hayes & Amod Daherkar"
+        },
+        {
+            "pos": 287,
+            "score": 0.276,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Flintridge Prep SC",
+            "names": "Samuel Sullivan & Nolan Costin"
+        },
+        {
+            "pos": 288,
+            "score": 0.273,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Riverdale Country MG",
+            "names": "Sana Mehra & Jessica Gold"
+        },
+        {
+            "pos": 289,
+            "score": 0.272,
+            "golds": 0,
+            "silvers": 1,
+            "code": "SFRoo SK",
+            "names": "Jonathan Skelton & Srishti Kumari"
+        },
+        {
+            "pos": 290,
+            "score": 0.271,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Milpitas PB",
+            "names": "Veedita Pirta & Ellie Bi"
+        },
+        {
+            "pos": 291,
+            "score": 0.27,
+            "golds": 0,
+            "silvers": 0,
+            "code": "West Windsor Plainsboro South GZ",
+            "names": "Donna Ghosh & Miriam Zola"
+        },
+        {
+            "pos": 292,
+            "score": 0.268,
+            "golds": 0,
+            "silvers": 0,
+            "code": "North Allegheny JP",
+            "names": "Milun Jain & Kolitha Perera"
+        },
+        {
+            "pos": 293,
+            "score": 0.267,
+            "golds": 0,
+            "silvers": 1,
+            "code": "DuPont Manual GC",
+            "names": "Aditya Gollamudi & Naren Chittem"
+        },
+        {
+            "pos": 294,
+            "score": 0.264,
+            "golds": 0,
+            "silvers": 2,
+            "code": "Acton-Boxborough HN",
+            "names": "Ethan Handel & Kam Narra"
+        },
+        {
+            "pos": 295,
+            "score": 0.262,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Dougherty Valley CD",
+            "names": "Romir Chandra & Aniket Dey"
+        },
+        {
+            "pos": 296,
+            "score": 0.262,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Half Hollow Hills HS East EB",
+            "names": "Amir Estejab & Abby Bonat"
+        },
+        {
+            "pos": 297,
+            "score": 0.26,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Independent Campbell Hall ZP",
+            "names": "Aminda Zou & Oliver Pozil"
+        },
+        {
+            "pos": 298,
+            "score": 0.259,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oakwood BT",
+            "names": "Eliana Balle & Sylvie Turk"
+        },
+        {
+            "pos": 299,
+            "score": 0.259,
+            "golds": 0,
+            "silvers": 1,
+            "code": "GeoWas RW",
+            "names": "Will Ryan & Remington White"
+        },
+        {
+            "pos": 300,
+            "score": 0.259,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Henry Clay WL",
+            "names": "Karson Whitley & Justine Lofwall"
+        },
+        {
+            "pos": 301,
+            "score": 0.258,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Thomas S Wootton CC",
+            "names": "Digonto Chatterjee & Sreejato Chatterjee"
+        },
+        {
+            "pos": 302,
+            "score": 0.258,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Walt Whitman YH",
+            "names": "Justin Yang & William Hallward-Driemeier"
+        },
+        {
+            "pos": 303,
+            "score": 0.258,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mission San Jose GB",
+            "names": "Jiya Gupta & Krisha Bhat"
+        },
+        {
+            "pos": 304,
+            "score": 0.256,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Regis GS",
+            "names": "Dylan Gunn & Daniel Smith"
+        },
+        {
+            "pos": 305,
+            "score": 0.255,
+            "golds": 0,
+            "silvers": 1,
+            "code": "JR Masterman EK",
+            "names": "Noah Eggerts & Sammie Keenan"
+        },
+        {
+            "pos": 306,
+            "score": 0.255,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lake Travis AJ",
+            "names": "Jace Arnold & Hayes Johnston"
+        },
+        {
+            "pos": 307,
+            "score": 0.251,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Altamont SG",
+            "names": "Wesley Sudarshan & Pranav Goli"
+        },
+        {
+            "pos": 308,
+            "score": 0.251,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Ravenwood MM",
+            "names": "Milind Muthiah & Riya Mitra"
+        },
+        {
+            "pos": 309,
+            "score": 0.251,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Lincoln Independent FT",
+            "names": "Mikil Foss & Kevin Tran"
+        },
+        {
+            "pos": 310,
+            "score": 0.25,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Regis KM",
+            "names": "Nicholas Kwasnik & Keith Macias"
+        },
+        {
+            "pos": 311,
+            "score": 0.247,
+            "golds": 0,
+            "silvers": 0,
+            "code": "College Prep BK",
+            "names": "Tanishq Bhatnagar & Ethan Kabatchnik"
+        },
+        {
+            "pos": 312,
+            "score": 0.244,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Flintridge Prep NC",
+            "names": "Colin Ng & Daniel Choi"
+        },
+        {
+            "pos": 313,
+            "score": 0.243,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Nova GR",
+            "names": "Spencer Grosso & Benjamin Redler"
+        },
+        {
+            "pos": 314,
+            "score": 0.243,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westlake SW",
+            "names": "Justin Shim & Leo Weihe"
+        },
+        {
+            "pos": 315,
+            "score": 0.242,
+            "golds": 0,
+            "silvers": 0,
+            "code": "PinVie PM",
+            "names": "Madison Ponder & Zander Moricz"
+        },
+        {
+            "pos": 316,
+            "score": 0.242,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Stuyvesant KZ",
+            "names": "Edward Kemelmakher & Karen Zhang"
+        },
+        {
+            "pos": 317,
+            "score": 0.24,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Western PK",
+            "names": "Roodarnley Pierre-Louis & Shawn Kapersaud"
+        },
+        {
+            "pos": 318,
+            "score": 0.239,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cranbrook CR",
+            "names": "Jonathan Chang & Jeff Ren"
+        },
+        {
+            "pos": 319,
+            "score": 0.238,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Chantilly HS Independant WN",
+            "names": "Jack Wolff & Vikas Nanduri"
+        },
+        {
+            "pos": 320,
+            "score": 0.238,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Regis MM",
+            "names": "Liam McGraw & Andre Monteiro"
+        },
+        {
+            "pos": 321,
+            "score": 0.235,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Brooklyn Technical OS",
+            "names": "Eric Osipov & Lucas Schulte-Vogelhe"
+        },
+        {
+            "pos": 322,
+            "score": 0.235,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Mira Loma JC",
+            "names": "Luke Jones & Holden Carrillo"
+        },
+        {
+            "pos": 323,
+            "score": 0.234,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Stuyvesant LM",
+            "names": "Miranda Lepri & Joshua Melamed"
+        },
+        {
+            "pos": 324,
+            "score": 0.231,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Myers Park Unaffiliated MW",
+            "names": "Anika Misra & Miranda Wilson"
+        },
+        {
+            "pos": 325,
+            "score": 0.227,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Lake Highland Prep GK",
+            "names": "Sebastian Glos & Sid Kasi"
+        },
+        {
+            "pos": 326,
+            "score": 0.224,
+            "golds": 1,
+            "silvers": 0,
+            "code": "College Prep BP",
+            "names": "Tanishq Bhatnagar & William Pirone"
+        },
+        {
+            "pos": 327,
+            "score": 0.223,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Carmel Valley Independent GD",
+            "names": "Maanas Gantla & Ishan Deshpande"
+        },
+        {
+            "pos": 328,
+            "score": 0.219,
+            "golds": 0,
+            "silvers": 1,
+            "code": "North Mecklenburg MS",
+            "names": "Robert Murray-Gramlich & Bernie Shen"
+        },
+        {
+            "pos": 329,
+            "score": 0.214,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Montgomery Blair ML",
+            "names": "Derek Mu & Jacen Li"
+        },
+        {
+            "pos": 330,
+            "score": 0.214,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Palo Alto TS",
+            "names": "Jeffrey Tu & Rohan Suvarna"
+        },
+        {
+            "pos": 331,
+            "score": 0.212,
+            "golds": 0,
+            "silvers": 0,
+            "code": "West Windsor Plainsboro South SA",
+            "names": "Carol Sun & Deepti Athreya"
+        },
+        {
+            "pos": 332,
+            "score": 0.212,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Los Altos SB",
+            "names": "Aman Shah & Kaavya Butaney"
+        },
+        {
+            "pos": 333,
+            "score": 0.212,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas S Wootton MW",
+            "names": "James Mu & Kristen Wang"
+        },
+        {
+            "pos": 334,
+            "score": 0.21,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Poly Prep Country Day SS",
+            "names": "Bailie Schaefer & Rory Schoenberger"
+        },
+        {
+            "pos": 335,
+            "score": 0.207,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Dougherty Valley NN",
+            "names": "Pujitha Nachuri & Sandhya Nayar"
+        },
+        {
+            "pos": 336,
+            "score": 0.207,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Strake HH",
+            "names": "Beck Hassen & Bond Hassen"
+        },
+        {
+            "pos": 337,
+            "score": 0.204,
+            "golds": 0,
+            "silvers": 0,
+            "code": "St Thomas Aquinas AC",
+            "names": "Davis Abrams & Krish Chaturvedi"
+        },
+        {
+            "pos": 338,
+            "score": 0.203,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Leland FS",
+            "names": "Benson Fang & Devon Shao"
+        },
+        {
+            "pos": 339,
+            "score": 0.203,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Montgomery ZZ",
+            "names": "Melanie Zhang & Eugenie Zhu"
+        },
+        {
+            "pos": 340,
+            "score": 0.202,
+            "golds": 0,
+            "silvers": 0,
+            "code": "College Prep PZ",
+            "names": "Angelina Peng & May Zhang"
+        },
+        {
+            "pos": 341,
+            "score": 0.201,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Miramo BF",
+            "names": "Grayson Broderick & Alexander Filonov"
+        },
+        {
+            "pos": 342,
+            "score": 0.2,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lincoln East LW",
+            "names": "Joshua Lee & Kai Waddell"
+        },
+        {
+            "pos": 343,
+            "score": 0.199,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Bronx Science KM",
+            "names": "Asuka Koda & Elizabeth Matta"
+        },
+        {
+            "pos": 344,
+            "score": 0.195,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Dougherty Valley SW",
+            "names": "Eshal Sandhu & Jade Wang"
+        },
+        {
+            "pos": 345,
+            "score": 0.195,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Elkins JE",
+            "names": "Naman Janga & Rithvik Edupuganti"
+        },
+        {
+            "pos": 346,
+            "score": 0.194,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Leland LL",
+            "names": "Jonathan Levitsky & Daphne Lu"
+        },
+        {
+            "pos": 347,
+            "score": 0.192,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Montville BL",
+            "names": "Nhean Baynes & Anli Liu"
+        },
+        {
+            "pos": 348,
+            "score": 0.192,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas Jefferson HSST ZL",
+            "names": "Brian Zhou & David Li"
+        },
+        {
+            "pos": 349,
+            "score": 0.191,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Belvidere North KK",
+            "names": "Joseph Kallal & Kai Kozlov"
+        },
+        {
+            "pos": 350,
+            "score": 0.19,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Loyola AV",
+            "names": "Jared Aimone & Mark Valenzuela"
+        },
+        {
+            "pos": 351,
+            "score": 0.187,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Brookfield East CS",
+            "names": "Akshat Channashetti & Muthu Sundar"
+        },
+        {
+            "pos": 352,
+            "score": 0.187,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Clover Hill RW",
+            "names": "Tiana Richardson & Shenan Worrel"
+        },
+        {
+            "pos": 353,
+            "score": 0.186,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS Phoenix JY",
+            "names": "Siddarth Jandhyala & Andrew Yuan"
+        },
+        {
+            "pos": 354,
+            "score": 0.186,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westwood NQ",
+            "names": "Inesh Nambiar & Jessamine Qu"
+        },
+        {
+            "pos": 355,
+            "score": 0.183,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Sharon BC",
+            "names": "Craig Blatte & Ethan Cooperman"
+        },
+        {
+            "pos": 356,
+            "score": 0.183,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Millard North BB",
+            "names": "Purannan Balakrishnan & Amuda Balu"
+        },
+        {
+            "pos": 357,
+            "score": 0.182,
+            "golds": 1,
+            "silvers": 0,
+            "code": "Lincoln-Sudbury GS",
+            "names": "Niccolo Gabrielli & Tyler Saklad"
+        },
+        {
+            "pos": 358,
+            "score": 0.182,
+            "golds": 0,
+            "silvers": 1,
+            "code": "William P Clements CD",
+            "names": "Matthew Cupich & Apurva Desai"
+        },
+        {
+            "pos": 359,
+            "score": 0.18,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Bellaire HP",
+            "names": "Amy He & Kalina Peneva"
+        },
+        {
+            "pos": 360,
+            "score": 0.177,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Harker PL",
+            "names": "Vienna Parnell & Melody Luo"
+        },
+        {
+            "pos": 361,
+            "score": 0.177,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Delbarton MG",
+            "names": "Pierce Munsey & Sachin Gulati"
+        },
+        {
+            "pos": 362,
+            "score": 0.175,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Strath Haven BB",
+            "names": "Justin Bi & Quentin Burdette"
+        },
+        {
+            "pos": 363,
+            "score": 0.174,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Sequoyah LE",
+            "names": "Dalton Luedke & Alison Eltz"
+        },
+        {
+            "pos": 364,
+            "score": 0.173,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas S Wootton SW",
+            "names": "Varun Sharma & Brandon Wang"
+        },
+        {
+            "pos": 365,
+            "score": 0.173,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Colleyville Heritage LS",
+            "names": "Hannah Lewis & Clint Stalnaker"
+        },
+        {
+            "pos": 366,
+            "score": 0.173,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Flintridge Prep KG",
+            "names": "Lauren Kim & Eliza Gunter"
+        },
+        {
+            "pos": 367,
+            "score": 0.172,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Lake Highland Prep NA",
+            "names": "Rhea Nandwani & Naina Aggarwal"
+        },
+        {
+            "pos": 368,
+            "score": 0.172,
+            "golds": 0,
+            "silvers": 0,
+            "code": "American Heritage Broward KZ",
+            "names": "Jin Kwon & Christina Zhang"
+        },
+        {
+            "pos": 369,
+            "score": 0.171,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Edina MS",
+            "names": "Ashwin Maheshwari & Jay Shapiro"
+        },
+        {
+            "pos": 370,
+            "score": 0.171,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oakwood GS",
+            "names": "Miles Gardner-Berg & Ben Slovin"
+        },
+        {
+            "pos": 371,
+            "score": 0.17,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BC Academy YY",
+            "names": "Sam Yan & Frank Yan"
+        },
+        {
+            "pos": 372,
+            "score": 0.17,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Livingston WS",
+            "names": "Eric Wang & Neel Sahni"
+        },
+        {
+            "pos": 373,
+            "score": 0.17,
+            "golds": 0,
+            "silvers": 0,
+            "code": "SEHS RR",
+            "names": "Haylee Ann Ramsey-Code & Leo Reeves"
+        },
+        {
+            "pos": 374,
+            "score": 0.17,
+            "golds": 0,
+            "silvers": 1,
+            "code": "WesHS MS",
+            "names": "Lydia May & Sharayu Senthilkumar"
+        },
+        {
+            "pos": 375,
+            "score": 0.169,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Great Neck South CW",
+            "names": "Brayden Chien & Rachel Woo"
+        },
+        {
+            "pos": 376,
+            "score": 0.168,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Montville GP",
+            "names": "Nikhil Ganesh & Dev Patel"
+        },
+        {
+            "pos": 377,
+            "score": 0.167,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Vista Ridge KN",
+            "names": "Nayeon Kim & Ramya Nambala"
+        },
+        {
+            "pos": 378,
+            "score": 0.164,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Flanagan HJ",
+            "names": "Chelsea Hernandez & Catalina Jaramillo"
+        },
+        {
+            "pos": 379,
+            "score": 0.164,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Phoenix Country Day KM",
+            "names": "Sedona Korzay & Sammy Marks"
+        },
+        {
+            "pos": 380,
+            "score": 0.163,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Livingston RY",
+            "names": "Aarush Raj & Franklin Yiu"
+        },
+        {
+            "pos": 381,
+            "score": 0.162,
+            "golds": 0,
+            "silvers": 0,
+            "code": "New Jersey Independent KS",
+            "names": "Yash Khanna & Amiel Shah"
+        },
+        {
+            "pos": 382,
+            "score": 0.161,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hawken VV",
+            "names": "Ishan Vyas & Daniel van Heeckeren"
+        },
+        {
+            "pos": 383,
+            "score": 0.161,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westridge HE",
+            "names": "Layla Hoffman & Katie Evenfield"
+        },
+        {
+            "pos": 384,
+            "score": 0.16,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Archbishop Mitty BM",
+            "names": "Sanay Bordia & Rohan Menon"
+        },
+        {
+            "pos": 385,
+            "score": 0.16,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Middleton JL",
+            "names": "Aarush Jain & Michael Lee"
+        },
+        {
+            "pos": 386,
+            "score": 0.159,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Washto EN",
+            "names": "Katherine Escalante & Riley Nold"
+        },
+        {
+            "pos": 387,
+            "score": 0.159,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Elkins AI",
+            "names": "Femi Aderinto & Armaan Idrees"
+        },
+        {
+            "pos": 388,
+            "score": 0.158,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Denver East SG",
+            "names": "Jaxson Sharpe & Harrison Getches"
+        },
+        {
+            "pos": 389,
+            "score": 0.157,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS Scottsdale GJ",
+            "names": "Rachana Gurudu & Catherine Jiang"
+        },
+        {
+            "pos": 390,
+            "score": 0.156,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas S Wootton CW",
+            "names": "Runzhe Cui & Jason Wang"
+        },
+        {
+            "pos": 391,
+            "score": 0.153,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Summit RN",
+            "names": "Ian Ritter & Ravi Naidu"
+        },
+        {
+            "pos": 392,
+            "score": 0.153,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Regis HS",
+            "names": "Charles Hannafey & Christopher Smith"
+        },
+        {
+            "pos": 393,
+            "score": 0.153,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lake Travis CL",
+            "names": "Cory Chang & Kai Levy"
+        },
+        {
+            "pos": 394,
+            "score": 0.15,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas Jefferson HSST GD",
+            "names": "Alyssa Gorbaneva & Riya Dev"
+        },
+        {
+            "pos": 395,
+            "score": 0.15,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Northview BW",
+            "names": "Adya Bhatta & Ashley Wang"
+        },
+        {
+            "pos": 396,
+            "score": 0.149,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Millard North KM",
+            "names": "Abhi Karri & Aanya Mishra"
+        },
+        {
+            "pos": 397,
+            "score": 0.149,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hunter KG",
+            "names": "Maya Karri & Leo Greenberg"
+        },
+        {
+            "pos": 398,
+            "score": 0.148,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS Scottsdale SS",
+            "names": "Enaya Shareef & Sahil Sud"
+        },
+        {
+            "pos": 399,
+            "score": 0.148,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Albuquerque WJ",
+            "names": "Sofia Wolinski & Ankit Jaiswal"
+        },
+        {
+            "pos": 400,
+            "score": 0.147,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Corona Del Sol PH",
+            "names": "Siri Pattipati & Anisha Hossain"
+        },
+        {
+            "pos": 401,
+            "score": 0.146,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Montgomery Blair FL",
+            "names": "Jonathan Fan & Alex Liu"
+        },
+        {
+            "pos": 402,
+            "score": 0.145,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS Scottsdale SR",
+            "names": "Madhura Shembekar & Gina Ryu"
+        },
+        {
+            "pos": 403,
+            "score": 0.142,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Bergen County Academies DS",
+            "names": "Rachel Disler & Lea Smolyanskiy"
+        },
+        {
+            "pos": 404,
+            "score": 0.138,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Fairmont Prep MM",
+            "names": "Ara Mehran & Kion Manesh"
+        },
+        {
+            "pos": 405,
+            "score": 0.138,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oakton WZ",
+            "names": "Alex Wang & Grant Zou"
+        },
+        {
+            "pos": 406,
+            "score": 0.137,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Boston Latin YZ",
+            "names": "Mira Yu & Michelle Zhang"
+        },
+        {
+            "pos": 407,
+            "score": 0.136,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lynbrook DR",
+            "names": "Sanchitha Dinesh & Mihika Rajadnya"
+        },
+        {
+            "pos": 408,
+            "score": 0.136,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Notre Dame San Jose CB",
+            "names": "Parnika Chaturvedi & Anchal Bhardwaj"
+        },
+        {
+            "pos": 409,
+            "score": 0.134,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Honor NT",
+            "names": "Sanath Nair & Ivan Tsou"
+        },
+        {
+            "pos": 410,
+            "score": 0.134,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Stuyvesant PC",
+            "names": "Anagha Purohit & Aaron Contreras"
+        },
+        {
+            "pos": 411,
+            "score": 0.133,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lincoln-Sudbury SN",
+            "names": "Aria Shi & Heather Naum"
+        },
+        {
+            "pos": 412,
+            "score": 0.132,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Los Altos CK",
+            "names": "Cedric Chan & Kaley Kwan"
+        },
+        {
+            "pos": 413,
+            "score": 0.132,
+            "golds": 0,
+            "silvers": 0,
+            "code": "St Andrew's Episcopal BC",
+            "names": "Austin Brown & Abhirup Chatterjee"
+        },
+        {
+            "pos": 414,
+            "score": 0.131,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Pine View BP",
+            "names": "Max Banach & Shailan Patel"
+        },
+        {
+            "pos": 415,
+            "score": 0.131,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Honor LS",
+            "names": "Jenna Lea & Sam Semcheshen"
+        },
+        {
+            "pos": 416,
+            "score": 0.131,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Delbarton WS",
+            "names": "Warren Wu & Oliver St John"
+        },
+        {
+            "pos": 417,
+            "score": 0.13,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Park City BO",
+            "names": "Natalie Best & Alex O'Brien"
+        },
+        {
+            "pos": 418,
+            "score": 0.129,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Waring CM",
+            "names": "Arion Carraher-Kang & Jack Martin"
+        },
+        {
+            "pos": 419,
+            "score": 0.128,
+            "golds": 0,
+            "silvers": 0,
+            "code": "William P Clements JR",
+            "names": "Abel John & Abhay Rao"
+        },
+        {
+            "pos": 420,
+            "score": 0.128,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Ardrey Kell PA",
+            "names": "Anna Pinkerton & Mikaela Anthony"
+        },
+        {
+            "pos": 421,
+            "score": 0.127,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cranbrook WK",
+            "names": "Ben Walter & David Kwon"
+        },
+        {
+            "pos": 422,
+            "score": 0.127,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westborough YV",
+            "names": "Sujith Yeruva & Eshaan Vaikunth"
+        },
+        {
+            "pos": 423,
+            "score": 0.127,
+            "golds": 0,
+            "silvers": 0,
+            "code": "ParCit GO",
+            "names": "Jack Goodman & Michael O'Brien"
+        },
+        {
+            "pos": 424,
+            "score": 0.126,
+            "golds": 0,
+            "silvers": 0,
+            "code": "National Cathedral CL",
+            "names": "Rania Chowdhury & Anita Li"
+        },
+        {
+            "pos": 425,
+            "score": 0.126,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Walt Whitman BB",
+            "names": "Aksel Bell & Pascal Bell"
+        },
+        {
+            "pos": 426,
+            "score": 0.126,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Westborough MP",
+            "names": "Jay Mekala & Aagam Prakash"
+        },
+        {
+            "pos": 427,
+            "score": 0.124,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Archbishop Mitty MN",
+            "names": "Pranay Macherla & Siddharth Nair"
+        },
+        {
+            "pos": 428,
+            "score": 0.123,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Carmel Valley ZZ",
+            "names": "Benjamin Zhao & Steven Zheng"
+        },
+        {
+            "pos": 429,
+            "score": 0.123,
+            "golds": 0,
+            "silvers": 0,
+            "code": "ParCit OB",
+            "names": "Max O'Reilly & Isabella Crockett"
+        },
+        {
+            "pos": 430,
+            "score": 0.122,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Charlotte Latin CO",
+            "names": "Davis Cary & Erik Oldre"
+        },
+        {
+            "pos": 431,
+            "score": 0.122,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Quarry Lane WS",
+            "names": "Aarav Wattal & Amrit Sharma"
+        },
+        {
+            "pos": 432,
+            "score": 0.121,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Horace Mann BK",
+            "names": "Rohan Buluswar & Brett Karpf"
+        },
+        {
+            "pos": 433,
+            "score": 0.12,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Harker SV",
+            "names": "Vinay Sudarsaman & Andrew Vodinh-Ho"
+        },
+        {
+            "pos": 434,
+            "score": 0.116,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Miami Beach Sr GT",
+            "names": "Max Gelber & Sebastian Toole"
+        },
+        {
+            "pos": 435,
+            "score": 0.116,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Loyola SM",
+            "names": "John Soza & Georgio Maroun"
+        },
+        {
+            "pos": 436,
+            "score": 0.116,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Evergreen Valley KM",
+            "names": "Japleen Kaur & Ridhima Morampudi"
+        },
+        {
+            "pos": 437,
+            "score": 0.115,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lamber DD",
+            "names": "Vishnu Dontu & Amrutha Dhulipudi"
+        },
+        {
+            "pos": 438,
+            "score": 0.114,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cranbrook BL",
+            "names": "Neema Baddam & Andrew Li"
+        },
+        {
+            "pos": 439,
+            "score": 0.114,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Winston Churchill NZ",
+            "names": "Catherine Nan & Allison Zhang"
+        },
+        {
+            "pos": 440,
+            "score": 0.113,
+            "golds": 0,
+            "silvers": 0,
+            "code": "RowHal HS",
+            "names": "Ella Houden & Kit Stevens"
+        },
+        {
+            "pos": 441,
+            "score": 0.113,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oxbridge Academy of the Palm Beaches HF",
+            "names": "James Hoffman & Zach Fenster"
+        },
+        {
+            "pos": 442,
+            "score": 0.112,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Charlotte Latin HR",
+            "names": "Jack Hollingsworth & Vivek Rao"
+        },
+        {
+            "pos": 443,
+            "score": 0.112,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hendrickson MN",
+            "names": "Afsaneh Masoumi & Kaitlyn Nash"
+        },
+        {
+            "pos": 444,
+            "score": 0.111,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Newport KL",
+            "names": "Katelyn Kim & Cynthia Lei"
+        },
+        {
+            "pos": 445,
+            "score": 0.111,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Trinity HB",
+            "names": "Farah Husain & Molly Bordoff"
+        },
+        {
+            "pos": 446,
+            "score": 0.111,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Brophy SMc",
+            "names": "Davis McHenry & Joey Schillinger"
+        },
+        {
+            "pos": 447,
+            "score": 0.111,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westwood SP",
+            "names": "Anand Singh & Sidh Pandit"
+        },
+        {
+            "pos": 448,
+            "score": 0.111,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Thomas S Wootton DS",
+            "names": "Ruth Dai & Sophia Shiu"
+        },
+        {
+            "pos": 449,
+            "score": 0.11,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Brookline SM",
+            "names": "Olivia Sheehan & Valeriya Mesquita"
+        },
+        {
+            "pos": 450,
+            "score": 0.11,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Eagan NA",
+            "names": "Sriram Nutulapati & Abhilash Ari"
+        },
+        {
+            "pos": 451,
+            "score": 0.11,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Strake Jesuit KK",
+            "names": "Christopher Karmonik & Jackie Ku"
+        },
+        {
+            "pos": 452,
+            "score": 0.108,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Scarsdale RB",
+            "names": "Jacob Rosewater & Nolan Bansal"
+        },
+        {
+            "pos": 453,
+            "score": 0.107,
+            "golds": 0,
+            "silvers": 0,
+            "code": "American Heritage Broward WN",
+            "names": "Toby Winick & Philip Nenov"
+        },
+        {
+            "pos": 454,
+            "score": 0.107,
+            "golds": 0,
+            "silvers": 1,
+            "code": "Sioux Falls Lincoln DF",
+            "names": "Abbie DeKramer & Emma Forster"
+        },
+        {
+            "pos": 455,
+            "score": 0.106,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lexington HC",
+            "names": "Charles Huang & Eeshan Chakrabarti"
+        },
+        {
+            "pos": 456,
+            "score": 0.106,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS Scottsdale YE",
+            "names": "Cayla Younger & Candice Estrada"
+        },
+        {
+            "pos": 457,
+            "score": 0.104,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BC Academy PY",
+            "names": "David Paik & Akira Yoshiyama"
+        },
+        {
+            "pos": 458,
+            "score": 0.103,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lincoln East KS",
+            "names": "Andrzej Korlacki & Ellie Saksena"
+        },
+        {
+            "pos": 459,
+            "score": 0.103,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Boston Latin CJ",
+            "names": "Sam Chen & Neil Jin"
+        },
+        {
+            "pos": 460,
+            "score": 0.102,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Newton North MT",
+            "names": "Evan Morgan & Yahel Tamir"
+        },
+        {
+            "pos": 461,
+            "score": 0.101,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Milton CC",
+            "names": "Tamsin Connerly & Timothy Colledge"
+        },
+        {
+            "pos": 462,
+            "score": 0.099,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Sequoyah BR",
+            "names": "Audrey Brown & Elyse Robbins"
+        },
+        {
+            "pos": 463,
+            "score": 0.099,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Unionville ZV",
+            "names": "Aria Zutshi & Pranavh Vallabhaneni"
+        },
+        {
+            "pos": 464,
+            "score": 0.099,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Champion SK",
+            "names": "Sahil Sudhani & Ashar Kazmi"
+        },
+        {
+            "pos": 465,
+            "score": 0.099,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Harker WY",
+            "names": "Aimee Wang & Alina Yuan"
+        },
+        {
+            "pos": 466,
+            "score": 0.097,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Iowa City West YD",
+            "names": "Catherine Yang & Alice Doresca"
+        },
+        {
+            "pos": 467,
+            "score": 0.095,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Bronx Science KN",
+            "names": "Ava Kawamura & Emelia Nacos"
+        },
+        {
+            "pos": 468,
+            "score": 0.095,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Chelmsford AM",
+            "names": "Rishi Ajmera & Avaneesh Mallela"
+        },
+        {
+            "pos": 469,
+            "score": 0.093,
+            "golds": 0,
+            "silvers": 0,
+            "code": "VDA - Vancouver WZ",
+            "names": "Johnson Wu & Andrew Zhang"
+        },
+        {
+            "pos": 470,
+            "score": 0.092,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Riverside GB",
+            "names": "Arjun Gramopadhye & Rohan Bafna"
+        },
+        {
+            "pos": 471,
+            "score": 0.091,
+            "golds": 0,
+            "silvers": 0,
+            "code": "College Prep LS",
+            "names": "Kayla Long & Erin Suh"
+        },
+        {
+            "pos": 472,
+            "score": 0.09,
+            "golds": 0,
+            "silvers": 0,
+            "code": "North Broward Prep TS",
+            "names": "Lea Toledano & Fabian Salvador"
+        },
+        {
+            "pos": 473,
+            "score": 0.09,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Brooklyn Technical EO",
+            "names": "Emily Eppel & Shoshannah Odinyayeva"
+        },
+        {
+            "pos": 474,
+            "score": 0.089,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Strake Jesuit VM",
+            "names": "Nicolas Valladolid & Joshua Martinez"
+        },
+        {
+            "pos": 475,
+            "score": 0.088,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Archbishop Mitty BK",
+            "names": "Gabriel Brenner & Jeffrey Ke"
+        },
+        {
+            "pos": 476,
+            "score": 0.088,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Baton Rouge AT",
+            "names": "Hannah Anderson & Lillian Thibaut"
+        },
+        {
+            "pos": 477,
+            "score": 0.087,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oak Grove HK",
+            "names": "Susom Hait & Ayaan Kamal"
+        },
+        {
+            "pos": 478,
+            "score": 0.087,
+            "golds": 0,
+            "silvers": 0,
+            "code": "East Ridge BM",
+            "names": "Matthew Bi & Caleb Moon"
+        },
+        {
+            "pos": 479,
+            "score": 0.087,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mission San Jose LJ",
+            "names": "Esther Lau & Meher Jain"
+        },
+        {
+            "pos": 480,
+            "score": 0.085,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Oakton HZ",
+            "names": "Teresa Huang & Rebecca Zhang"
+        },
+        {
+            "pos": 481,
+            "score": 0.085,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Providence MR",
+            "names": "Aditya Mehta & Naveen Ramasamy"
+        },
+        {
+            "pos": 482,
+            "score": 0.084,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Leland XL",
+            "names": "Sterling Xie & Kenny Luu"
+        },
+        {
+            "pos": 483,
+            "score": 0.084,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Horace Mann LK",
+            "names": "Henry Levinson & Sam Korff"
+        },
+        {
+            "pos": 484,
+            "score": 0.084,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Northwood TB",
+            "names": "Anthara Thirupathi & Ananya Badari"
+        },
+        {
+            "pos": 485,
+            "score": 0.084,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westwood GW",
+            "names": "Sharanya Gupta & Hanyu Wei"
+        },
+        {
+            "pos": 486,
+            "score": 0.082,
+            "golds": 0,
+            "silvers": 0,
+            "code": "West Broward PL",
+            "names": "Hassan Palanpurwala & Ethan Lawrence"
+        },
+        {
+            "pos": 487,
+            "score": 0.082,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Boston Latin YM",
+            "names": "Lem Yu & Cinly Mo"
+        },
+        {
+            "pos": 488,
+            "score": 0.082,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Half Hollow Hills HS East PK",
+            "names": "Rohan Patel & Chase Keskinyan"
+        },
+        {
+            "pos": 489,
+            "score": 0.079,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lexington FS",
+            "names": "Annie Fan & Ambalatharasu Sivabalan"
+        },
+        {
+            "pos": 490,
+            "score": 0.079,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mountain Brook LS",
+            "names": "Sophia Li & Sophia Self"
+        },
+        {
+            "pos": 491,
+            "score": 0.078,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Myers Park Unaffiliated SB",
+            "names": "Walker Smith & Griffin Bohmfalk"
+        },
+        {
+            "pos": 492,
+            "score": 0.078,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Dougherty Valley HS",
+            "names": "Yifei Han & Rishit Srinivas"
+        },
+        {
+            "pos": 493,
+            "score": 0.077,
+            "golds": 0,
+            "silvers": 0,
+            "code": "SFRoo KZ",
+            "names": "JaLeigha Kambeitz & Torr Zielenski"
+        },
+        {
+            "pos": 494,
+            "score": 0.075,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Riverdale Country KB",
+            "names": "Sam Karsch & Michael Blitzer"
+        },
+        {
+            "pos": 495,
+            "score": 0.075,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Eagan MN",
+            "names": "Nina Mirfakhraie & Akeela Naqvi"
+        },
+        {
+            "pos": 496,
+            "score": 0.071,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Los Altos MH",
+            "names": "Anjali Mathew & Apurva Hanwadikar"
+        },
+        {
+            "pos": 497,
+            "score": 0.07,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Taipei American CY",
+            "names": "Jonathan Chen & Derrick Yang"
+        },
+        {
+            "pos": 498,
+            "score": 0.07,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mission San Jose SB",
+            "names": "Shameet Sharma & Pranav Batra"
+        },
+        {
+            "pos": 499,
+            "score": 0.07,
+            "golds": 0,
+            "silvers": 0,
+            "code": "BASIS San Antonio Shavano JS",
+            "names": "Ansh Jakatimath & Suran Somawardana"
+        },
+        {
+            "pos": 500,
+            "score": 0.07,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Torrey Pines AP",
+            "names": "Sophia Ai & Megan Peng"
+        },
+        {
+            "pos": 501,
+            "score": 0.069,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Leland Aniket Mittal & Rayan Sengupta",
+            "names": "Aniket Mittal & Rayan Sengupta"
+        },
+        {
+            "pos": 502,
+            "score": 0.068,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Exeter TR",
+            "names": "Kevin Treehan & Achyuta Rajaram"
+        },
+        {
+            "pos": 503,
+            "score": 0.068,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Taiwan Senior High Independent LL",
+            "names": "Benson Lin & Cynthia Lin"
+        },
+        {
+            "pos": 504,
+            "score": 0.068,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Montgomery Blair PP",
+            "names": "Anushka Poddar & Arnav Poddar"
+        },
+        {
+            "pos": 505,
+            "score": 0.067,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Marist HN",
+            "names": "Lianna Homrich & Maggie Nahas"
+        },
+        {
+            "pos": 506,
+            "score": 0.067,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Walt Whitman AB",
+            "names": "Sahana Ashley & Sasha Blake"
+        },
+        {
+            "pos": 507,
+            "score": 0.067,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Wayland JW",
+            "names": "Tully Jay & Aditya Weling"
+        },
+        {
+            "pos": 508,
+            "score": 0.067,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Milton JS",
+            "names": "Sneha Jaiswal & Zoe Shleifer"
+        },
+        {
+            "pos": 509,
+            "score": 0.066,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hawken BY",
+            "names": "Sam Bowen & Ellie Yang"
+        },
+        {
+            "pos": 510,
+            "score": 0.064,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Mount Si HW",
+            "names": "Nathan Holmes & Gunnar Wooldridge"
+        },
+        {
+            "pos": 511,
+            "score": 0.064,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cinco Ranch CW",
+            "names": "Charles Chen & Ethan Wang"
+        },
+        {
+            "pos": 512,
+            "score": 0.064,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cambridge FH",
+            "names": "Isaiah Francisco & Brandon Hom"
+        },
+        {
+            "pos": 513,
+            "score": 0.063,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Riverdale Country LN",
+            "names": "Alexandra Luskin & Ella Neuwirth"
+        },
+        {
+            "pos": 514,
+            "score": 0.063,
+            "golds": 0,
+            "silvers": 0,
+            "code": "SFRoo JH",
+            "names": "Jordan Johnson & Nicholas Hillberg"
+        },
+        {
+            "pos": 515,
+            "score": 0.063,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westridge CL",
+            "names": "Claire Chen & Celine Li"
+        },
+        {
+            "pos": 516,
+            "score": 0.062,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Milton DT",
+            "names": "Lorenzo DeSimone & Nancy Tao"
+        },
+        {
+            "pos": 517,
+            "score": 0.062,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Riverside HR",
+            "names": "Leo Hu & Neeharika Ramasubramanian"
+        },
+        {
+            "pos": 518,
+            "score": 0.062,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Del Norte Independent AC",
+            "names": "Aarav Arora & Shefali Chaubey"
+        },
+        {
+            "pos": 519,
+            "score": 0.061,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Concord Carlisle LB",
+            "names": "Richard Li & Molly Branigan"
+        },
+        {
+            "pos": 520,
+            "score": 0.06,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Unionville KQ",
+            "names": "Austin Krautzel & Winston Qiu"
+        },
+        {
+            "pos": 521,
+            "score": 0.06,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Potomac IB",
+            "names": "Rohan Iyer & Matthew Brow"
+        },
+        {
+            "pos": 522,
+            "score": 0.059,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Horace Mann ZL",
+            "names": "Jake Ziman & Zach Ludwig"
+        },
+        {
+            "pos": 523,
+            "score": 0.057,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Folsom DS",
+            "names": "Puja Devarasetty & Manya Sharma"
+        },
+        {
+            "pos": 524,
+            "score": 0.057,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Trinity UE",
+            "names": "Oscar Uzdelewicz & Nathaniel Edelson"
+        },
+        {
+            "pos": 525,
+            "score": 0.056,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Pine View KG",
+            "names": "Rafeh Khan & James Gray"
+        },
+        {
+            "pos": 526,
+            "score": 0.056,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Gunn HC",
+            "names": "Angeline Hu & Julie Chen"
+        },
+        {
+            "pos": 527,
+            "score": 0.056,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Duchesne Academy Of The Sacred Heart HS",
+            "names": "Sophia Hellman & Julianne Sellers"
+        },
+        {
+            "pos": 528,
+            "score": 0.055,
+            "golds": 0,
+            "silvers": 0,
+            "code": "GeoWas AS",
+            "names": "Annika Abramson & Ry Sherman"
+        },
+        {
+            "pos": 529,
+            "score": 0.054,
+            "golds": 0,
+            "silvers": 0,
+            "code": "ParCit AR",
+            "names": "Jack Allison & Cody Rutkowski"
+        },
+        {
+            "pos": 530,
+            "score": 0.054,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Evanston Twp PP",
+            "names": "Anna Phillips & Noa Polish"
+        },
+        {
+            "pos": 531,
+            "score": 0.052,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Ravenwood MB",
+            "names": "Frank Moser & Ishita Bhatia"
+        },
+        {
+            "pos": 532,
+            "score": 0.051,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lynbrook CP",
+            "names": "Aakash Choudhary & Rohan Patel"
+        },
+        {
+            "pos": 533,
+            "score": 0.05,
+            "golds": 0,
+            "silvers": 0,
+            "code": "McDowell LF",
+            "names": "Nora Lane & Gabriella Farrell"
+        },
+        {
+            "pos": 534,
+            "score": 0.05,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Clovis North WS",
+            "names": "Luke Wong & Neil Shah"
+        },
+        {
+            "pos": 535,
+            "score": 0.048,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Middleton PP",
+            "names": "Dhruv Prakash & Dheeraj Pasikanti"
+        },
+        {
+            "pos": 536,
+            "score": 0.048,
+            "golds": 0,
+            "silvers": 0,
+            "code": "AandM Consolidated LW",
+            "names": "Melinda Li & Claire Wang"
+        },
+        {
+            "pos": 537,
+            "score": 0.047,
+            "golds": 0,
+            "silvers": 0,
+            "code": "JR Masterman AC",
+            "names": "Henry Anastasi & Lily Chancey"
+        },
+        {
+            "pos": 538,
+            "score": 0.044,
+            "golds": 0,
+            "silvers": 0,
+            "code": "North Broward Prep KC",
+            "names": "Heather Kalaf & Gabriella Cardozo"
+        },
+        {
+            "pos": 539,
+            "score": 0.044,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Hendrickson GN",
+            "names": "Melanie Garza & Ethan Nguyen"
+        },
+        {
+            "pos": 540,
+            "score": 0.043,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Archbishop Mitty CV",
+            "names": "Jaanya Chawla & Emily Vu"
+        },
+        {
+            "pos": 541,
+            "score": 0.039,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Westborough AS",
+            "names": "Vishu Agarwal & Mehtabh Sidhu"
+        },
+        {
+            "pos": 542,
+            "score": 0.038,
+            "golds": 0,
+            "silvers": 0,
+            "code": "James Logan DZ",
+            "names": "Anuj Dharmendran & Luqman Zaceria"
+        },
+        {
+            "pos": 543,
+            "score": 0.038,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lexington DK",
+            "names": "Tanay Dalmia & Parth Kocheta"
+        },
+        {
+            "pos": 544,
+            "score": 0.034,
+            "golds": 0,
+            "silvers": 0,
+            "code": "John F Kennedy KT",
+            "names": "Vishnu Kompella & Bridger Tack"
+        },
+        {
+            "pos": 545,
+            "score": 0.034,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Bronx Science GL",
+            "names": "Mia Goldberg & Olivia Lin"
+        },
+        {
+            "pos": 546,
+            "score": 0.034,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Lexington BH",
+            "names": "Kunal Botla & Alex Hristov"
+        },
+        {
+            "pos": 547,
+            "score": 0.03,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Academy at Palumbo TK",
+            "names": "Tatyana Turner & Marcilla Kollie"
+        },
+        {
+            "pos": 548,
+            "score": 0.028,
+            "golds": 0,
+            "silvers": 0,
+            "code": "University Independent GR",
+            "names": "Arjun Gupta & Jonathon Rho"
+        },
+        {
+            "pos": 549,
+            "score": 0.025,
+            "golds": 0,
+            "silvers": 0,
+            "code": "SF Roosevelt DN",
+            "names": "Valarie Dixon & Linus Ng"
+        },
+        {
+            "pos": 550,
+            "score": 0.023,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Ramsay HW",
+            "names": "DeRenn Hollman & Kaila Wood"
+        },
+        {
+            "pos": 551,
+            "score": 0.021,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Cupertino CP",
+            "names": "Norman Chow & Praneel Pantula"
+        },
+        {
+            "pos": 552,
+            "score": 0.021,
+            "golds": 0,
+            "silvers": 0,
+            "code": "Loyola GG",
+            "names": "Alexander Grigorian & Adrian Gonzalez"
+        }
+    ]
+}
