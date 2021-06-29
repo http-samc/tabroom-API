@@ -71,7 +71,7 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16513",
         "meta": "2020 Online, TX/US - 9/26 to 10/4 "
     },
-    "!*Bethel Park Black Hawk Invitational": {
+    "!Bethel Park Black Hawk Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18530",
@@ -401,10 +401,22 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17809",
         "meta": "2021 San Antonio, TX/US - 1/6 to 1/9 "
     },
-    "Yale University Invitational": {
+    "!Yale University Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16790",
         "meta": "2020 Online, US - 10/1 to 10/4 "
+    },
+    "!Mid America Cup": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16799",
+        "meta": "2020 — West Des Moines, IA/US "
+    },
+    "Tournament of Champions": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Quadruple Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=16714",
+        "meta": "2021 — Lexington, KY/US "
     }
 }

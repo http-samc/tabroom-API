@@ -24,6 +24,4 @@ def scrapeAll():
         print(Fore.GREEN + "Scraped: " + tournament)
 
 if __name__ == "__main__":
-    ...
-    #print(len(onlyfiles))
-    #scrapeAll()
+    scrapeAll()

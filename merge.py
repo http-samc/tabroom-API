@@ -6,7 +6,8 @@ def merge():
     "Merges each individual tournament result into the master file."
 
     onlyfiles = [f for f in listdir('data/tournaments') if isfile(join('data/tournaments', f))]
-    master = {} # should be reading from file
+    print(len(onlyfiles))
+    master = {}
 
     for P in onlyfiles:
         PATH = 'data/tournaments/' + P
@@ -72,8 +73,11 @@ def merge():
             if team not in teamData["codes"]: teamData["codes"].append(team)
 
             # Updating bids score
-            teamData["goldBids"] += 1 if newData["goldBid"] else 0
-            teamData["silverBids"] += 1 if newData["silverBid"] else 0
+            try:
+                teamData["goldBids"] += 1 if newData["goldBid"] else 0
+                teamData["silverBids"] += 1 if newData["silverBid"] else 0
+            except Exception:
+                print(team)
 
             # Updating records
             teamData["prelimRecord"][0] += newData["prelimRecord"][0]

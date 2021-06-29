@@ -38,7 +38,13 @@ def calcBid(data: dict) -> dict:
             data[tournName][team]["silverBid"] = False
             continue
 
-        elim = breakNames.index(data[tournName][team]["eliminated"][3])
+        try: 
+            elim = breakNames.index(data[tournName][team]["eliminated"][3])
+        except Exception: # Handles unknown round names (eg. International Silver TOC breakout) and defaults to no bid
+            data[tournName][team]["goldBid"] = False
+            data[tournName][team]["silverBid"] = False
+            data[tournName][team]["eliminated"].insert(3, data[tournName][team]["eliminated"][2]) # no std for unknown rd name
+            continue
 
         if elim <= gold: # Broke w/ gold
             data[tournName][team]["goldBid"] = True

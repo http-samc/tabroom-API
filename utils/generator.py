@@ -103,7 +103,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
         resultData = None
-
+    tournamentBoost = 2
     rawData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
         "entryData": entryData, "resultData": resultData}
     with open(f'data/tournaments/{NAME}.json', 'w') as f:
