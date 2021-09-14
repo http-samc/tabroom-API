@@ -3,10 +3,10 @@ from os.path import isfile, join
 import json
 
 def merge():
-    "Merges each individual tournament result into the master file."
+    "Merges each individual tournament result from ./data/tournaments into the master file."
 
     onlyfiles = [f for f in listdir('data/tournaments') if isfile(join('data/tournaments', f))]
-    print(len(onlyfiles))
+    print(f"Merging {len(onlyfiles)} tournament(s).")
     master = {}
 
     for P in onlyfiles:
@@ -112,7 +112,7 @@ def merge():
 
             master[target] = teamData
 
-    with open("m.json", 'w') as f:
+    with open("data/MASTER_NEW.json", 'w') as f: # preventing errors from causing bad overwrites
         json.dump(master, f)
 
 merge()
