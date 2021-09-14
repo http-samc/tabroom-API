@@ -16,6 +16,15 @@ breakNames = [
     "Quadruple Octafinals"
 ]
 
+"""This dictionary holds the bidlevels and their associated tournament
+boost factors"""
+BOOSTS = {
+    "Octafinals": 2,
+    "Quarterfinals": 1.55,
+    "Semifinals": 1.25,
+    "Finals": 1
+}
+
 "Accepted decisions for a round"
 WIN = ["W", "w"]
 LOSS = ["L", "l"]
