@@ -1,6 +1,6 @@
 import json
 
-with open('data/2020-21 Master.json', 'r') as f:
+with open('data/2021-22 Master.json', 'r') as f:
     data = json.loads(f.read())
 
 sorted = sorted(data.keys(), key = lambda x: data[x]['otrScore'], reverse=True) # get teams by OTR score high to low
@@ -11,7 +11,7 @@ p = 1
 for team in sorted:
     teamData = data[team]
     tournaments = teamData["tournaments"]
-    if len(tournaments) < 4: continue # they didn't have enough experience to be acc indexed
+    #if len(tournaments) < 4: continue # they didn't have enough experience to be acc indexed TODO remove @ end of season
 
     score = teamData["otrScore"]
     golds = teamData["goldBids"]

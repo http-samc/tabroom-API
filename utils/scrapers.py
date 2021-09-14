@@ -8,7 +8,7 @@ from utils.const import CON, LOSS, PRO, WIN, breakNames
 of the Tabroom.com website
 """
 
-def _clean(string: str, stripNum: bool = False, stripPeriods: bool = True) -> str | None:
+def _clean(string: str, stripNum: bool = False, stripPeriods: bool = True) -> str:
     """Removes tabs, periods, newlines, nums (opt) from a string
 
     Args:
