@@ -3,6 +3,15 @@
         "acceptsUnaffiliated": true,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20446",
-        "meta": "2021 NSDA Campus, KY/US - 9/11 to 9/13"
+        "meta": "2021 NSDA Campus, KY/US - 9/11 to 9/13",
+        "done": true
+    },
+
+    "Grapevine Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20620",
+        "meta": "2021 NSDA Campus, US - 9/10 to 9/12",
+        "done": true
     }
 }

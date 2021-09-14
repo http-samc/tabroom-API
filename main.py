@@ -9,7 +9,7 @@ def scrapeAll():
     with open("data/tournInfo.json", 'r') as f:
         data = json.loads(f.read())
     for tournament in data:
-        if tournament.startswith("!"): continue # skip tournaments
+        if data[tournament]["done"]: continue # skip scraped tournaments
 
         # find boost factor
         bidLevel = data[tournament]["bidLevel"]
