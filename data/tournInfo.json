@@ -13,5 +13,22 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20620",
         "meta": "2021 NSDA Campus, US - 9/10 to 9/12",
         "done": true
+    },
+
+    "Yale University Invitational 2021": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20393",
+        "meta": "2021 NSDA Campus, US - 9/17 to 9/19",
+        "done": false
+    },
+
+    "Jack Howe Memorial Tournament ": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20620",
+        "meta": "2021 NSDA Campus, CA/US - 9/18 to 9/20",
+        "done": false
     }
+    
 }
