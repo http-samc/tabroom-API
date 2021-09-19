@@ -2,7 +2,7 @@ import numpy as np
 import requests
 from bs4 import BeautifulSoup, NavigableString
 
-from utils.const import CON, LOSS, PRO, WIN, breakNames
+#from utils.const import CON, LOSS, PRO, WIN, breakNames
 
 """This file contains various functions used to scrape parts
 of the Tabroom.com website
@@ -480,6 +480,56 @@ def prelims(URL: str) -> dict:
 
     return data
 
+def prelimSeeds(URL: str) -> dict:
+    """Parses the prelim seeds page of a tournament
+
+    Args:
+        URL (str): the URL of the prelim seeds page of a certain division
+
+    Returns:
+        dict: a dict containing the parsed prelim data
+
+        RETURN SCHEMA:
+        {
+            <(str) team code> : [
+                <(int) prelim rank>,
+                <(int) total # of prelim teams>
+            ],
+            ...
+        }
+    """
+    data = {}
+
+    # Getting page and setting up parser
+    r = requests.get(URL)
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    # Getting all rows except for the first header
+    rawData = soup.find_all("tr")
+    rawData = rawData[1:len(rawData)]
+
+    # Getting number of entries
+    numEntries = len(rawData)
+
+    for r, element in enumerate(rawData, start = 1):
+
+        rawEntryData = element.find_all("td")
+        textData = []
+
+        for node in rawEntryData:
+            nodeText = node.get_text().replace('\t','').split('\n')
+            textData.append(nodeText)
+        try:
+            pos = textData[0][1]
+            code = textData[1][1]
+            data[code] = [pos, numEntries]
+
+
+        except Exception as e:
+            print(e)
+
+    return data
+
 def name(URL: str) -> str:
     """Scrapes the name of a tournament
 
@@ -498,4 +548,5 @@ def name(URL: str) -> str:
     return _clean(name)[:-1]
 
 if __name__ == "__main__":
-    print(name("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991"))
+    prelimData = prelimSeeds("https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=20446&result_id=187440")
+    print(prelimData)
