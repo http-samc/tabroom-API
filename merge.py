@@ -16,24 +16,24 @@ def merge():
 
         name = list(data.keys())[0]
 
-    #     """"""
-    #     for team in data[name]:
-    #         if data[name][team]["eliminated"]:
-    #             d = data[name][team]["eliminated"]
-    #             if d[0] == 0 and d[1] == 0:
-    #                 print(team, d)
-    #                 c = int(input("1 -> championship 2 -> (esc) regular bye 3 -> school bye: "))
-    #                 if c == 2:
-    #                     continue
-    #                 elif c == 1:
-    #                     data[name][team]["eliminated"] = None
-    #                 elif c == 3:
-    #                     data[name][team]["eliminated"][0] = None
-    #                     data[name][team]["eliminated"][1] = None
+        # <-- begin bye checker -->
+        # for team in data[name]:
+        #     if data[name][team]["eliminated"]:
+        #         d = data[name][team]["eliminated"]
+        #         if d[0] == 0 and d[1] == 0:
+        #             print(team, d)
+        #             c = int(input("1 -> championship 2 -> (esc) regular bye 3 -> school bye: "))
+        #             if c == 2:
+        #                 continue
+        #             elif c == 1:
+        #                 data[name][team]["eliminated"] = None
+        #             elif c == 3:
+        #                 data[name][team]["eliminated"][0] = None
+        #                 data[name][team]["eliminated"][1] = None
 
-    #     with open(PATH, 'w') as f:
-    #         json.dump(data, f)
-    # """"""
+        # with open(PATH, 'w') as f:
+        #     json.dump(data, f)
+        # <-- end bye checker -->
 
         for team in data[name]: # all teams in tourn
             names = data[name][team]["lastNames"]

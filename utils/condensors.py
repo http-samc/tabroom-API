@@ -24,7 +24,8 @@ def condense(data: dict) -> dict:
             "tournamentBoost" : <(float) tournament-wide difficulty booster"
             "prelimData" : <(dict) output from prelim() scraper>,
             "entryData" : <(dict) output from entry() scraper for all teams>,
-            "resultData" : <(dict) output from either breaks() or final() scraper for all teams>
+            "resultData" : <(dict) output from either breaks() or final() scraper for all teams>,
+            "seedData": <(dict) output from prelimSeeds()>
         }
 
     Returns:
@@ -193,6 +194,16 @@ def condense(data: dict) -> dict:
 
     # Calculating tournamentComp
     condensed = calcTournamentComp(condensed)
+
+    # Overwriting w/ more precise seed calculation if published
+    for team in data["seedData"]:
+        try:
+            condensed[name][team.replace('.', '').replace('  ', ' ')]["prelimRank"] = [
+                data["seedData"][team][0],
+                data["seedData"][team][1]
+            ]
+        except Exception as e:
+            print(e)
 
     # Organizing
     condensed = orderCond(condensed)

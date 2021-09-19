@@ -2,7 +2,7 @@ import numpy as np
 import requests
 from bs4 import BeautifulSoup, NavigableString
 
-#from utils.const import CON, LOSS, PRO, WIN, breakNames
+from utils.const import CON, LOSS, PRO, WIN, breakNames
 
 """This file contains various functions used to scrape parts
 of the Tabroom.com website
@@ -520,7 +520,7 @@ def prelimSeeds(URL: str) -> dict:
             nodeText = node.get_text().replace('\t','').split('\n')
             textData.append(nodeText)
         try:
-            pos = textData[0][1]
+            pos = int(textData[0][1])
             code = textData[1][1]
             data[code] = [pos, numEntries]
 

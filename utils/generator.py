@@ -84,6 +84,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     resultsURLs = getResultsURLs(divisionURL)
     finalsURL = resultsURLs[0]
     bracketURL = resultsURLs[1]
+    prelimSeedsURL = resultsURLs[2]
 
     # Parsing prelims
     prelimData = prelims(prelimURL)
@@ -93,19 +94,22 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     for team in prelimData:
         entryData[team] = entry(prelimData[team]["entryPage"])
 
-    # Choosing either bracket or final places page
+    # Choosing either bracket or final places page (prefer finalsURL over bracket)
     if finalsURL:
         resultData = breaks(finalsURL)
-        print("Using final places page")
     elif bracketURL:
         resultData = bracket(bracketURL)
-        print("Using bracket page")
     else:
         print(Fore.YELLOW + f"Error scraping {URL}: No result URL found!")
         resultData = None
-    tournamentBoost = 2
+    
+    # Parsing prelim seeds page
+    seedData = {}
+    if prelimSeedsURL:
+        seedData = prelimSeeds(prelimSeedsURL)
+
     rawData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
-        "entryData": entryData, "resultData": resultData}
+        "entryData": entryData, "resultData": resultData, "seedData": seedData}
     with open(f'data/tournaments/{NAME}.json', 'w') as f:
         json.dump(rawData, f)
     data = condense(rawData)

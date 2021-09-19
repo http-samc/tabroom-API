@@ -27,52 +27,6 @@ def getDivision(URL: str) -> str:
     for division in divisions:
         divisionData[division.get_text()] = division['value']
 
-    # for name in divisionData:
-    #     # Storing orignal divisionName for return reference
-    #     originalDivisionName = name
-
-    #     # Lowering divisionName
-    #     name = name.lower()
-
-    #     # Checking autoreject
-    #     autoreject = False
-    #     for keyword in REJECT:
-    #         if keyword in name: autoreject = True
-    #     if autoreject: continue
-
-    #     # Iterating through all combos of keywords
-    #     for keywordSet in DIVISIONS:
-
-    #         # Setting counter to 0
-    #         i = 0
-
-    #         # Adding every positive keyword to counter
-    #         for keyword in keywordSet:
-
-    #             if not keyword.startswith("-"):
-    #                 i += 1
-
-    #         # Iterating through all keywords
-    #         for keyword in keywordSet:
-
-    #             # Lowering keyword (to match divisionName)
-    #             keyword = keyword.lower()
-
-    #             # If negative keyword in name -> make it impossible to get counter back to 0
-    #             if keyword.startswith("-") and keyword[1:len(keyword)] in name:
-    #                 i += 69420
-
-    #             # If keyword in name, lowering counter by 1
-    #             elif keyword in name:
-    #                 print(keyword)
-    #                 i -= 1
-
-    #             # If all keywords in name and no negative keywords -> return the original name
-    #             if i == 0:
-    #                 print(Fore.LIGHTMAGENTA_EX + "Found division: " + originalDivisionName)
-    #                 return divisionData[originalDivisionName]
-
-    # Manual scraping if not found
     i = 0
     print(Fore.WHITE + "Choose Division: ")
     for name in divisionData:
@@ -98,10 +52,11 @@ def getResultsURLs(URL: str) -> list:
         RETURN SCHEMA:
         [
             <(str) URL of final places page | None if null>,
-            <(str) URL of the brackets page | None if null>
+            <(str) URL of the brackets page | None if null>,
+            <(str) URL of the prelim seeds page | None if null>,
         ]
     """
-    retURIs = [None, None]
+    retURIs = [None, None, None]
     BASE = "https://www.tabroom.com"
 
     r = requests.get(URL)
@@ -113,8 +68,9 @@ def getResultsURLs(URL: str) -> list:
         if "round results" in name: continue
         if "final places" in name: retURIs[0] = BASE + category["href"]
         elif "bracket" in name: retURIs[1] = BASE + category["href"]
+        elif "seed" in name: retURIs[2] = BASE + category["href"]
 
     return retURIs
 
-if __name__ == "__main__": ...
-    #print(rounds("https://www.tabroom.com/index/tourn/results/round_results.mhtml?tourn_id=14991&round_id=620969"))
+if __name__ == "__main__":
+    ...
