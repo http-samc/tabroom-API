@@ -1,5 +1,5 @@
 # Tabroom API
-This API is designed to scrape [tabroom](https://tabroom.com) in order to curate
+This API is designed to scrape [tabroom](https://www.tabroom.com/index/index.mhtml) in order to curate
 information about high school debate, specifically National Circuit Public Forum.
 
 There is a corresponding frontend at [tournaments.tech](http://tournaments.tech)
