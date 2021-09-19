@@ -3,6 +3,7 @@
 
 ## Considered Factors
 Here are several components that go into determining the compensation for any given tournament.
+
 | Term | Description |
 | --- | --- |
 | `breakBoost` | an integer that starts at 0 and increases by 1 for every elimination round debated; max is the total number of break rounds. designed to benefit teams who do well in outrounds. | 
