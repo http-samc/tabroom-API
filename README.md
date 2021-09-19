@@ -12,6 +12,8 @@ We created this resource in order to, for once and for all, bring a clear and co
 dataset to high school debate. Though perfection is hard to reach with data on this scale,
 we can confidently say we are the most accurate ranking/results site.
 
+## Ranking
+We use a custom factor, the `OTR Score` to rank thousands of debaters across the nation. For information about this factor and how it is calculated, please refer to [RANKING METHODOLOGY.md](g/RANKING_METHODOLOGY.md)
 ## Usage
 The primary purpose of this repository is to provide the raw JSON datasets for people looking
 to create their own projects, as our frontend [tournaments.tech](http://tournaments.tech) already
