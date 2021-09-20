@@ -1,4 +1,3 @@
-
 ## Fully Qualified Teams (3)
 | Code | Names | 🥇 | 🥈 | 
 | --- | --- | --- | --- |
