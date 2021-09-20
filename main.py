@@ -24,6 +24,7 @@ if __name__ == "__main__":
     import merge # check for bye conflicts and merge
     
     import db 
-    # this is only available on Sam's local machine
-    # it's used to push to the MongoDB that runs the frontend, so the keys within
-    # it are kept private to prevent trolls from manipulating the rankings
+    import utils.makeBidList
+    # these are only available on Sam's local machine
+    # it's used to push to the MongoDB that runs the frontend and update the Bid List
+    # , so the keys within it are kept private to keep trolls out
