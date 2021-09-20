@@ -112,7 +112,7 @@ def merge():
 
             master[target] = teamData
 
-    with open("data/MASTER_NEW.json", 'w') as f: # preventing errors from causing bad overwrites
+    with open("data/2021-22 MASTER.json", 'w') as f: # preventing errors from causing bad overwrites
         json.dump(master, f)
 
 merge()

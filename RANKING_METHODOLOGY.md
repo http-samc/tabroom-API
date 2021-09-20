@@ -6,7 +6,7 @@ Here are several components that go into determining the compensation for any gi
 
 | Term | Description |
 | --- | --- |
-| `breakBoost` | an integer that starts at 0 and increases by 1 for every elimination round debated; max is the total number of break rounds. designed to benefit teams who do well in outrounds. | 
+| `breakBoost` | an integer that starts at 1 and increases by 1 for every elimination round debated; max is the total number of break rounds + 1. designed to benefit teams who do well in outrounds. |
 | `tournamentBoost` | an integer ranging from 1 to 2 that corresponds to the tournament of difficulty. initially, this is calculated by the bid level of the tournament. at the end of the season, it is recalculated based off the number of bids in the competitor pool. designed to benefit teams who do harder tournaments. |
 | `OPwpm` | a decimal ranging from 0 to the total number of prelim rounds. represents the average amount of wins of your prelim opponents. recalculated by the API (tab's values are inconsistently published). designed to benefit teams who performed against dificult opponents in prelims. |
 | `numPrelimWins` | the total number of prelim rounds won, byes included. designed to benefit teams who perform well in prelims. |
