@@ -67,7 +67,7 @@ def getResultsURLs(URL: str) -> list:
         name = category.get_text().lower()
         if "round results" in name: continue
         if "final places" in name: retURIs[0] = BASE + category["href"]
-        elif "bracket" in name: retURIs[1] = BASE + category["href"]
+        elif "bracket" in name and "int'l" not in name: retURIs[1] = BASE + category["href"]
         elif "seed" in name: retURIs[2] = BASE + category["href"]
 
     return retURIs

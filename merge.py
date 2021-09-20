@@ -16,25 +16,6 @@ def merge():
 
         name = list(data.keys())[0]
 
-        # <-- begin bye checker -->
-        # for team in data[name]:
-        #     if data[name][team]["eliminated"]:
-        #         d = data[name][team]["eliminated"]
-        #         if d[0] == 0 and d[1] == 0:
-        #             print(team, d)
-        #             c = int(input("1 -> championship 2 -> (esc) regular bye 3 -> school bye: "))
-        #             if c == 2:
-        #                 continue
-        #             elif c == 1:
-        #                 data[name][team]["eliminated"] = None
-        #             elif c == 3:
-        #                 data[name][team]["eliminated"][0] = None
-        #                 data[name][team]["eliminated"][1] = None
-
-        # with open(PATH, 'w') as f:
-        #     json.dump(data, f)
-        # <-- end bye checker -->
-
         for team in data[name]: # all teams in tourn
             names = data[name][team]["lastNames"]
             if len(names) < 2:
@@ -115,4 +96,36 @@ def merge():
     with open("data/2021-22 MASTER.json", 'w') as f: # preventing errors from causing bad overwrites
         json.dump(master, f)
 
+def checkConflicts():
+    "Checks for same-team and other bye-related conflicts"
+
+    onlyfiles = [f for f in listdir('data/tournaments') if isfile(join('data/tournaments', f))]
+    print(f"Merging {len(onlyfiles)} tournament(s).")
+    master = {}
+
+    for P in onlyfiles:
+        PATH = 'data/tournaments/' + P
+        with open(PATH, 'r') as f:
+            data = json.loads(f.read())
+
+        name = list(data.keys())[0]
+
+        for team in data[name]:
+            if data[name][team]["eliminated"]:
+                d = data[name][team]["eliminated"]
+                if d[0] == 0 and d[1] == 0:
+                    print(team, d)
+                    c = int(input("1 -> championship 2 -> (esc) regular bye 3 -> school bye: "))
+                    if c == 2:
+                        continue
+                    elif c == 1:
+                        data[name][team]["eliminated"] = None
+                    elif c == 3:
+                        data[name][team]["eliminated"][0] = None
+                        data[name][team]["eliminated"][1] = None
+
+        with open(PATH, 'w') as f:
+            json.dump(data, f)
+
+checkConflicts()
 merge()
