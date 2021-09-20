@@ -95,5 +95,4 @@
 | [Winston Churchill SZ](http://tournaments.tech/?team=61490adee6c29c2e8762c060) | Yucheng Shao & Faith Zhang | 0 | 1 |
 | [Elkins BN](http://tournaments.tech/?team=61490adee6c29c2e8762c063) | Sayok Bose & Tharun Nayar | 0 | 1 |
 
-<br><p>Last Updated: 2021-09-20 18:19:18<p>
-<p><em>Ghost Bids <b>not</b> included</em></p>
+<br><p style="color: var(--bs-warning);">Last Updated: 2021-09-20 18:19:18<br><em>Ghost Bids <b>not</b> included</em></p>
