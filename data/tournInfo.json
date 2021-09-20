@@ -20,7 +20,7 @@
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20393",
         "meta": "2021 NSDA Campus, US - 9/17 to 9/19",
-        "done": false
+        "done": true
     },
 
     "Jack Howe Memorial Tournament ": {
@@ -28,7 +28,6 @@
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20620",
         "meta": "2021 NSDA Campus, CA/US - 9/18 to 9/20",
-        "done": true
+        "done": false
     }
-    
 }
