@@ -1,6 +1,4 @@
 
-Last Updated: 2021-09-20 17:27:43<br>
-*Ghost Bids **not** included*
 ## Fully Qualified Teams (3)
 | Code | Names | 🥇 | 🥈 | 
 | --- | --- | --- | --- |
@@ -97,3 +95,6 @@ Last Updated: 2021-09-20 17:27:43<br>
 | [Bergen County Academies DC](http://tournaments.tech/?team=61490adee6c29c2e8762c05e) | Madhav Dua & Jason Chae | 0 | 1 |
 | [Winston Churchill SZ](http://tournaments.tech/?team=61490adee6c29c2e8762c060) | Yucheng Shao & Faith Zhang | 0 | 1 |
 | [Elkins BN](http://tournaments.tech/?team=61490adee6c29c2e8762c063) | Sayok Bose & Tharun Nayar | 0 | 1 |
+
+Last Updated: 2021-09-20 18:19:18<br>
+*Ghost Bids **not** included*
