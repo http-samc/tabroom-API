@@ -1,5 +1,5 @@
 
-`Last Updated: 2021-09-20 17:27:43`<br>
+Last Updated: 2021-09-20 17:27:43<br>
 *Ghost Bids **not** included*
 ## Fully Qualified Teams (3)
 | Code | Names | 🥇 | 🥈 | 
