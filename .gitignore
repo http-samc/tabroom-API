@@ -115,3 +115,4 @@ dmypy.json
 db.py
 
 utils/makeBidList.py
+utils/refreshServersideLeaderboard.py
