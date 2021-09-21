@@ -6,6 +6,8 @@ PATH = "data/2021-22 MASTER.json"
 def getSchool(code: str):
     return code[0:code.rfind(" ")]
 
+print("Adding ghost bids.")
+
 with open(PATH, "r") as f:
     data = json.loads(f.read())
 
@@ -61,3 +63,5 @@ for t in data:
 
 with open(PATH, "w") as f:
     json.dump(data, f)
+
+print("Added ghost bids.")
