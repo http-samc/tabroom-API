@@ -59,7 +59,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.967,
@@ -171,7 +172,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.445,
@@ -284,7 +286,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.444,
@@ -387,7 +390,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.667,
@@ -500,7 +504,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.815,
@@ -612,7 +617,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.629,
@@ -724,7 +730,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jared Aimone & Mark Valenzuela",
@@ -785,7 +792,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.6,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tushar Dalmia & Selina Kao",
@@ -852,7 +860,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Eugenie Zhu & Flora Xia",
@@ -919,7 +928,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.417,
@@ -1022,7 +1032,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.984,
@@ -1134,7 +1145,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.241,
@@ -1237,7 +1249,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jeffrey Ke & Rohan Bharadwaj",
@@ -1304,7 +1317,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.528,
@@ -1408,7 +1422,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.667,
@@ -1520,7 +1535,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Arjun Ramprasad & Kartike Chowla",
@@ -1587,7 +1603,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.8,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.259,
@@ -1699,7 +1716,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.555,
@@ -1802,7 +1820,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Brooke Blanton & Mimi Bhalla",
@@ -1869,7 +1888,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Lauren Kim & Eliza Gunter",
@@ -1936,7 +1956,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Neel Sadda & Colin Ng",
@@ -2003,7 +2024,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Adithya Vaidyanathan & Gabe Seidman",
@@ -2070,7 +2092,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Joseph Nahas & Isabel Wong",
@@ -2137,7 +2160,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alexis Minvielle & Allison Trinh",
@@ -2204,7 +2228,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Daniel Xie & Leon Huang",
@@ -2271,7 +2296,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nina Pan & Aadharsh Rajkumar",
@@ -2332,7 +2358,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.445,
@@ -2444,7 +2471,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Leavy Hu & Ellen Liu",
@@ -2511,7 +2539,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.481,
@@ -2624,7 +2653,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.521,
@@ -2728,7 +2758,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.488,
@@ -2840,7 +2871,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.232,
@@ -2952,7 +2984,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Caden Lin & Vedant Kenkare",
@@ -3019,7 +3052,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.555,
@@ -3122,7 +3156,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jonathan Rho & Arjun Gupta",
@@ -3189,7 +3224,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.29,
@@ -3292,7 +3328,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.315,
@@ -3385,7 +3422,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Avital Nozic & Noah Kim",
@@ -3442,7 +3480,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.136,
@@ -3535,7 +3574,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Oliver Pozil & Francesca Tyberg",
@@ -3592,7 +3632,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aminda Zou & Madison Damus",
@@ -3650,7 +3691,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.148,
@@ -3743,7 +3785,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Claire Myers & Olivia Stradley",
@@ -3800,7 +3843,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kaden Hyatt & Kenzo Hannah",
@@ -3857,7 +3901,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gautam Mohandas & Ishan Rao",
@@ -3914,7 +3959,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 5.962,
@@ -4017,7 +4063,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.417,
@@ -4110,7 +4157,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.555,
@@ -4203,7 +4251,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.296,
@@ -4296,7 +4345,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mohit Agarwal & Akhil Perla",
@@ -4353,7 +4403,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kaitlyn Tapia & Gauri Todur",
@@ -4410,7 +4461,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -4503,7 +4555,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rayan Sengupta & Aniket Mittal",
@@ -4560,7 +4613,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Georgio Maroun & Thomas Catalano",
@@ -4617,7 +4671,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.194,
@@ -4720,7 +4775,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jenna Lea & Sam Semcheshen",
@@ -4777,7 +4833,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Everett Gordon & Violet Freeney",
@@ -4834,7 +4891,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rebecca Tang & Ramsey Hauanio",
@@ -4891,7 +4949,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shaurya Baruah & Ming Wang",
@@ -4948,7 +5007,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gabriela Ogando Ortega & Juan Jim\u00c3\u00a9nez",
@@ -5006,7 +5066,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.667,
@@ -5099,7 +5160,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Roshan Amurthur & Kairui Sun",
@@ -5156,7 +5218,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Max Xing & Carol Wininger",
@@ -5213,7 +5276,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sanjana Bajaj & Michelle Pan",
@@ -5270,7 +5334,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rohan Menon & Sanay Bordia",
@@ -5327,7 +5392,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Edward Son & Michael Grinberg",
@@ -5384,7 +5450,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tanishq Bhatnagar & Ethan Kabatchnik",
@@ -5441,7 +5508,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.444,
@@ -5534,7 +5602,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.136,
@@ -5627,7 +5696,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Audrey De Groot & Carissa Klaus",
@@ -5685,7 +5755,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.67,
@@ -5778,7 +5849,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Monish Muralicharan & Yash Kaushik",
@@ -5835,7 +5907,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.407,
@@ -5928,7 +6001,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Isaiah Jung & Mackenzie Mauldin",
@@ -5985,7 +6059,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shriya Bidani & Tanishka Joshi",
@@ -6042,7 +6117,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Cristian Rojas & Luke Skinner",
@@ -6099,7 +6175,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Arnav Singhal & Ashwin Kamchetty",
@@ -6157,7 +6234,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.333,
@@ -6250,7 +6328,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sanath Nair & Ivan Tsou",
@@ -6307,7 +6386,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Claire Chen & Ryan Rong",
@@ -6364,7 +6444,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ben Diasio & Pirum Ung",
@@ -6421,7 +6502,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.0,
@@ -6514,7 +6596,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Raina Kella & Mary Kim",
@@ -6571,7 +6654,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Julia Rojkov & Michelle Hashem",
@@ -6628,7 +6712,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Harris Matheson & Zachary Bahna",
@@ -6685,7 +6770,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Andrew Eppich & Jazmin Parra",
@@ -6742,7 +6828,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kushal Kodnad & Aarav Wattal",
@@ -6799,7 +6886,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Angelina Alkhouri & Bridget Brodie",
@@ -6856,7 +6944,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mathan Liu & Edward Shi",
@@ -6914,7 +7003,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.093,
@@ -7007,7 +7097,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ava Zhang & Isabella Zirn",
@@ -7064,7 +7155,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.241,
@@ -7157,7 +7249,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Carson Donnelly & Eric Zhang",
@@ -7214,7 +7307,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nathan Lewis & Eliana Mahooti",
@@ -7271,7 +7365,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rohan Bajpai & Nathan Fang",
@@ -7328,7 +7423,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jacob Budner & Keaton Bunker",
@@ -7385,7 +7481,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Jack Howe Memorial Tournament"
+                "name": "Jack Howe Memorial Tournament",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sofia Penttila & Aparna Bhaskar",
@@ -7451,7 +7548,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.074,
@@ -7563,7 +7661,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.583,
@@ -7666,7 +7765,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Carson Michel & Vivian Yellen",
@@ -7727,7 +7827,8 @@
                 "breakBoost": 8,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.259,
@@ -7839,7 +7940,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.111,
@@ -7951,7 +8053,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Pranav Saravanan & Mateen Sekandari",
@@ -8018,7 +8121,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Andrew Chun & Neil Kreibich",
@@ -8086,7 +8190,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.111,
@@ -8199,7 +8304,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.222,
@@ -8311,7 +8417,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 7.13,
@@ -8423,7 +8530,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.778,
@@ -8535,7 +8643,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 6.666,
@@ -8647,7 +8756,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.889,
@@ -8759,7 +8869,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Daniel Choi & Ava Ye",
@@ -8827,7 +8938,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.444,
@@ -8939,7 +9051,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sean Lee & Maeve Goldman",
@@ -9006,7 +9119,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Santiago Calderon & Zeal Patel",
@@ -9073,7 +9187,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 4.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Matthew Zhang & Rahul Shah",
@@ -9140,7 +9255,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Lorenzo DeSimone & Yaman Habip",
@@ -9207,7 +9323,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shiloh Liu & Can (Jon) Yildirim",
@@ -9274,7 +9391,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.889,
@@ -9386,7 +9504,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Noah Gold & Zach Marcus",
@@ -9453,7 +9572,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 4.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Cecilia Granda-Scott & Nicole Rodriguez",
@@ -9520,7 +9640,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Eva Tariko & Sophia Rubinstein",
@@ -9587,7 +9708,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Johnathan Sun & Amanda Wu",
@@ -9654,7 +9776,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 4.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.488,
@@ -9766,7 +9889,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Simon Bloesch & Ben Goldin",
@@ -9833,7 +9957,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Claire Guo & Jeremiah Cohn",
@@ -9900,7 +10025,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 4.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Katia Anastas & Sela Emery",
@@ -9967,7 +10093,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.8,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Grace Hu & Justin Li",
@@ -10035,7 +10162,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.667,
@@ -10147,7 +10275,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Advay Goel & Ankith Bharadwaj",
@@ -10214,7 +10343,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anirudh Manoj & Samuel Liu",
@@ -10281,7 +10411,8 @@
                 "breakBoost": 7,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Odin Farkas & Evan Burkeen",
@@ -10348,7 +10479,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ethan Roytman & Sharvaa Selvan",
@@ -10415,7 +10547,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aaditya Malapati & Vamsi Palukuri",
@@ -10482,7 +10615,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Samuel Parau & Pranav Penmatcha",
@@ -10549,7 +10683,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.79,
@@ -10661,7 +10796,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Caroline Brown & Hannah Wilks",
@@ -10729,7 +10865,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.611,
@@ -10832,7 +10969,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Duaa Ali & Jenna Lee",
@@ -10899,7 +11037,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.322,
@@ -11002,7 +11141,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Veer Prakash & Ada Catherine Hays",
@@ -11069,7 +11209,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 8.889,
@@ -11175,7 +11316,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Matthew Bi & Caleb Moon",
@@ -11242,7 +11384,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.333,
@@ -11345,7 +11488,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.333,
@@ -11449,7 +11593,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.728,
@@ -11562,7 +11707,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.778,
@@ -11674,7 +11820,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Parker O'Keefe & Sam Bowen",
@@ -11741,7 +11888,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.518,
@@ -11853,7 +12001,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gaang Choi & Joseph Karaganis",
@@ -11920,7 +12069,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 4.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.571,
@@ -12032,7 +12182,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Zia Patel & Sanvi Belani",
@@ -12100,7 +12251,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.157,
@@ -12203,7 +12355,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Varnica Basavaraj & Brian Yoo",
@@ -12270,7 +12423,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sahil Sood & Prajwal Saokar",
@@ -12337,7 +12491,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aashna Gandhi & Ipek Kendircioglu",
@@ -12404,7 +12559,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sorin Caldararu & Charlie Grabois",
@@ -12471,7 +12627,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tannvi Banerjee & Yuvraj Walia",
@@ -12538,7 +12695,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jiya Gupta & Krisha Bhat",
@@ -12605,7 +12763,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anushka Poddar & Viveka Sinha",
@@ -12672,7 +12831,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Walker Smith & Griffin Bohmfalk",
@@ -12739,7 +12899,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jasper Datta & Theo Datta",
@@ -12806,7 +12967,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Natalie Jones & Wasan Rafat",
@@ -12873,7 +13035,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.518,
@@ -12985,7 +13148,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.315,
@@ -13089,7 +13253,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.409,
@@ -13193,7 +13358,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.579,
@@ -13305,7 +13471,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.861,
@@ -13418,7 +13585,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.583,
@@ -13521,7 +13689,8 @@
                 "breakBoost": 7,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nicholas Budny & Chris Shen",
@@ -13588,7 +13757,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alexander Margulis & Ishaan Banerjee",
@@ -13655,7 +13825,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Hugh Kane & Shane Stesner",
@@ -13722,7 +13893,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alex O'Donnell & Julian Zeitlinger",
@@ -13789,7 +13961,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Lily Peng & Eric Tang",
@@ -13856,7 +14029,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.889,
@@ -13969,7 +14143,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.8,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.521,
@@ -14072,7 +14247,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.488,
@@ -14185,7 +14361,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.125,
@@ -14297,7 +14474,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.583,
@@ -14394,7 +14572,8 @@
                 "breakBoost": 8,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.389,
@@ -14506,7 +14685,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jay Gulati & Nikko Kim",
@@ -14573,7 +14753,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.533,
@@ -14676,7 +14857,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 3.333,
@@ -14788,7 +14970,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jessica Singh & Samantha Zaino",
@@ -14855,7 +15038,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.8,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shreya Saravanan & Leonardo Yu",
@@ -14923,7 +15107,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.528,
@@ -15026,7 +15211,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.472,
@@ -15129,7 +15315,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Abigail Hill & Allison Moon",
@@ -15187,7 +15374,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.777,
@@ -15290,7 +15478,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sivapriya Marimuthu & Alicia Gu",
@@ -15347,7 +15536,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anna Pinkerton & Mikaela Anthony",
@@ -15405,7 +15595,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.778,
@@ -15508,7 +15699,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.259,
@@ -15611,7 +15803,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.259,
@@ -15704,7 +15897,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Akira Yoshiyama & David Paik",
@@ -15761,7 +15955,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -15854,7 +16049,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.555,
@@ -15947,7 +16143,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alexa Balodis & Oliver Katzman",
@@ -16004,7 +16201,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -16097,7 +16295,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -16190,7 +16389,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.19,
@@ -16293,7 +16493,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Selina Tang & Cinly Mo",
@@ -16350,7 +16551,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Evan Violette & John Schwendinger",
@@ -16407,7 +16609,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shrey Jhalani & Connor Kim",
@@ -16464,7 +16667,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jacob Markman & Amartya Shri",
@@ -16521,7 +16725,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Lily Hu & Ben Walter",
@@ -16578,7 +16783,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.19,
@@ -16681,7 +16887,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Pete Crowley & Owen Brent-Levenstein",
@@ -16738,7 +16945,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Faith Hanson & JP Dilweg",
@@ -16795,7 +17003,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Matthew Koretsky & Aagam Kothari",
@@ -16853,7 +17062,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.296,
@@ -16946,7 +17156,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.778,
@@ -17050,7 +17261,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.639,
@@ -17143,7 +17355,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Faz Zaidi & Jose Montalvo",
@@ -17200,7 +17413,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Henry Levinson & Sam Korff",
@@ -17257,7 +17471,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Giselle Paulson & Celine Kiriscioglu",
@@ -17314,7 +17529,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jake Ziman & Zach Ludwig",
@@ -17371,7 +17587,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Naina Aggarwal & Rhea Nandwani",
@@ -17429,7 +17646,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.445,
@@ -17532,7 +17750,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 5.093,
@@ -17635,7 +17854,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.389,
@@ -17728,7 +17948,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tyler Saklad & Trevor Cope",
@@ -17785,7 +18006,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 2.445,
@@ -17888,7 +18110,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Arhan Singh & Ted Wu",
@@ -17945,7 +18168,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jonathan Fan & Alex Liu",
@@ -18002,7 +18226,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Calli Recck & Melica Zekavat",
@@ -18059,7 +18284,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sarang Arun & Emma Bennett",
@@ -18116,7 +18342,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Caitlin Ang & Lily Smith",
@@ -18173,7 +18400,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Saakshi Challa & Wendy Li",
@@ -18230,7 +18458,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.136,
@@ -18323,7 +18552,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.417,
@@ -18416,7 +18646,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.339,
@@ -18519,7 +18750,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anna Liu & Alexandra (Sasha) Caracalos",
@@ -18576,7 +18808,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Andrew Zhao & Alex Ghiuvea",
@@ -18633,7 +18866,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Haddon Barth & Andrew Kwok",
@@ -18690,7 +18924,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aidan Gouley & Aidan Moran",
@@ -18747,7 +18982,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Andy Deng & Leon Wang",
@@ -18804,7 +19040,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gia Iyer & Ana Hodges",
@@ -18861,7 +19098,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.259,
@@ -18954,7 +19192,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.667,
@@ -19047,7 +19286,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Elijah Adu & Miriam Ruback",
@@ -19104,7 +19344,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Phoebe He & Erica Lung",
@@ -19161,7 +19402,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Cynthia Tan & Daniel Yu",
@@ -19218,7 +19460,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Scott Au-Yeung & Andrew Cheung",
@@ -19275,7 +19518,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ravi Naidu & Ian Ritter",
@@ -19332,7 +19576,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Amanda Huang & David Wang",
@@ -19389,7 +19634,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Reid Dalton & Elijah Patti",
@@ -19446,7 +19692,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mia Tavares & Daniel Rosario",
@@ -19503,7 +19750,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Molly Bordoff & Farah Husain",
@@ -19560,7 +19808,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.278,
@@ -19653,7 +19902,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.296,
@@ -19746,7 +19996,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ruth Dai & Varun Sharma",
@@ -19803,7 +20054,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.204,
@@ -19896,7 +20148,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.667,
@@ -20000,7 +20253,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 5.555,
@@ -20103,7 +20357,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 4.074,
@@ -20206,7 +20461,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.512,
@@ -20300,7 +20556,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 5.333,
@@ -20403,7 +20660,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -20496,7 +20754,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ashwin Telang & Eeshaan Chaudhuri",
@@ -20553,7 +20812,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.273,
@@ -20646,7 +20906,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.356,
@@ -20739,7 +21000,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Katherine Lee & Emma Chen",
@@ -20796,7 +21058,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Srijan Deoraj & Clayton Zipperian",
@@ -20853,7 +21116,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Charlotte Wu & Taeyoung Kim",
@@ -20910,7 +21174,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Christina Zhang & Jin Kwon",
@@ -20967,7 +21232,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "William Mayville & Samer Elhoushy",
@@ -21024,7 +21290,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aarthi Raghavan & Miraya Jain",
@@ -21081,7 +21348,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Miaomiao Zi & Yixuan Ling",
@@ -21138,7 +21406,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Haris Kurspahic & Ajay Taduri",
@@ -21195,7 +21464,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nathan Qi & Jessica Zhang",
@@ -21252,7 +21522,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.446,
@@ -21345,7 +21616,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Evan Chang & Nash Brown",
@@ -21402,7 +21674,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ayan Jung & Adam Levin",
@@ -21459,7 +21732,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sam Friedman & Henry Choi",
@@ -21516,7 +21790,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Felix Odenthal & Alexander Vidra",
@@ -21574,7 +21849,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.333,
@@ -21667,7 +21943,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.352,
@@ -21760,7 +22037,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ashna Gandhi & Esha Bindlish",
@@ -21817,7 +22095,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Satwik Panigrahi & Shikha Kathrani",
@@ -21874,7 +22153,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Harini Ganapathy & Kelly Yang",
@@ -21931,7 +22211,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.124,
@@ -22024,7 +22305,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.417,
@@ -22117,7 +22399,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ella Kronman & Ariela Lopez",
@@ -22174,7 +22457,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.867,
@@ -22277,7 +22561,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Priyanka Agarwal & Era Shah",
@@ -22334,7 +22619,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jonathan Hong & Faizan Ghaznavi",
@@ -22391,7 +22677,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Niyathi Gorantla & NIPUN GORANTLA",
@@ -22448,7 +22735,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sneha Jaiswal & Zoe Shleifer",
@@ -22505,7 +22793,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Florence Zhu & Vedesh Kodnani",
@@ -22562,7 +22851,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mihika Anjoo & Aadya Holla",
@@ -22619,7 +22909,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ethan Jacobs & Camden Baskerville",
@@ -22676,7 +22967,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alex Naper & Douglas Daniel",
@@ -22733,7 +23025,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "William Lock & Robby Zhang",
@@ -22790,7 +23083,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.19,
@@ -22893,7 +23187,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Diem Linh Dang & Ella Guzman",
@@ -22950,7 +23245,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sammy Marks & Sedona Korzay",
@@ -23007,7 +23303,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ray Chu & Byron Li",
@@ -23064,7 +23361,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nicholas Menegatos & Myrtle Bonjean-Alpart",
@@ -23121,7 +23419,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Donovan Barcelona & Alexander Greene",
@@ -23178,7 +23477,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Meggie Chang & Christopher Tu",
@@ -23235,7 +23535,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.5,
@@ -23328,7 +23629,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aniket Rai & Akhil Khade",
@@ -23385,7 +23687,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jai Malhotra & Jake Craner",
@@ -23442,7 +23745,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Roni Reindel & Eliana Weinsaft",
@@ -23499,7 +23803,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aarush Kaboo & Arnav Mehta",
@@ -23556,7 +23861,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 1.364,
@@ -23659,7 +23965,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sanjana Yadav & Daniel Kalashian",
@@ -23716,7 +24023,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.2,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ryder Hebert & Abhirup Chatterjee",
@@ -23773,7 +24081,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.278,
@@ -23866,7 +24175,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anagha Purohit & Aaron Contreras",
@@ -23923,7 +24233,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Asuka Koda & Elizabeth Matta",
@@ -23980,7 +24291,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anysa Bickici & Arav Mehta",
@@ -24037,7 +24349,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sofia Cipriano & Brynn Martin",
@@ -24094,7 +24407,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Zach Fleesler & Julia Kostin",
@@ -24151,7 +24465,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.289,
@@ -24244,7 +24559,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Digonto Chatterjee & Sreejato Chatterjee",
@@ -24301,7 +24617,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Adam Han & Aiden Han",
@@ -24358,7 +24675,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.148,
@@ -24451,7 +24769,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shawn Kapersaud & Roodarnley Pierre-Louis",
@@ -24508,7 +24827,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Xinrui Chen & Ruiqi Yang",
@@ -24565,7 +24885,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tianwen Wang & Jing Liu",
@@ -24622,7 +24943,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Isabelle Tseng & Timmy Li",
@@ -24679,7 +25001,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Logan Viera & Brendan Kenny",
@@ -24736,7 +25059,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ikem Okoh & Aryan Sawant",
@@ -24793,7 +25117,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Justen Pippens & Sinniyah Parks",
@@ -24850,7 +25175,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kevin Yang & Caroline Xiong",
@@ -24907,7 +25233,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nathan Sammons & Webb Storer",
@@ -24964,7 +25291,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ashley Ding & Maya Venkatraman",
@@ -25021,7 +25349,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sophia Hou & Hannah Zachariah",
@@ -25078,7 +25407,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Leyan Jin & Jiangjiang Huang",
@@ -25136,7 +25466,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.417,
@@ -25229,7 +25560,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Meiqi Yuan & Yimo Guo",
@@ -25286,7 +25618,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Laura Bouzinier & Noya Stessel",
@@ -25343,7 +25676,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shatavia Bellmon & Destiny Patton",
@@ -25400,7 +25734,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "DeRenn Hollman & Lauryn Brown",
@@ -25457,7 +25792,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Siddharth Pasupuleti & Sameer Naik",
@@ -25514,7 +25850,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aria Patel & Zaara Merchant",
@@ -25571,7 +25908,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maya Dombroskie & Mathes Miller-Priddy",
@@ -25628,7 +25966,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Edward Kemelmakher & Karen Zhang",
@@ -25685,7 +26024,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Orlando Mazzoleni & Jason Xia",
@@ -25742,7 +26082,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Wesley Zhou & Caroline Zhu",
@@ -25799,7 +26140,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             },
             {
                 "tournamentComp": 0.333,
@@ -25892,7 +26234,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.4,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Juan Deverines-Perez Garcia & Antonio Capella",
@@ -25949,7 +26292,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jocelyn Gao & Soumya Yadav",
@@ -26006,7 +26350,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ayaan Sheikh & Luca DiFelice",
@@ -26063,7 +26408,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aryav Tampi & Annabelle Eng",
@@ -26120,7 +26466,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "Yale University Invitational 2021"
+                "name": "Yale University Invitational 2021",
+                "ghostBids": false
             }
         ],
         "fullNames": "Carter Hood & Marianne Pouliot",
@@ -26186,7 +26533,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Hannah Shakarov & Jainam Shah",
@@ -26253,7 +26601,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Katie Cheng & Shrey Raj",
@@ -26320,7 +26669,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Varnica Basavaraj & Bobby Missell",
@@ -26381,7 +26731,8 @@
                 "breakBoost": 8,
                 "tournamentBoost": 2,
                 "OPwpm": 4.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Vinayak Menon & Brian Yoo",
@@ -26448,7 +26799,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Josh Escayg & Claire Lauterbach",
@@ -26515,7 +26867,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Milind Muthiah & Daniel Chen",
@@ -26582,7 +26935,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Milan Chander & Irene Zhao",
@@ -26649,7 +27003,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Asmi Pareek & Sean Wallace",
@@ -26716,7 +27071,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Victor Xie & Rithika Goli",
@@ -26783,7 +27139,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ethan Schenker & Jack Sherling",
@@ -26850,7 +27207,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gina Ryu & Madhura Shembekar",
@@ -26917,7 +27275,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maeve Goldman & Rizaa Fazal",
@@ -26984,7 +27343,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Zermina Khan & Izzy Sampere",
@@ -27051,7 +27411,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Prateek Motagi & Arjun Lingala",
@@ -27118,7 +27479,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jai Bhatia & Roshni Koduri",
@@ -27185,7 +27547,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ishan Vyas & Daniel van Heeckeren",
@@ -27252,7 +27615,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Noah Yoon & Gene Yoon",
@@ -27319,7 +27683,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Garav Agarwal & Alanalee Hughes",
@@ -27386,7 +27751,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Marco Sciamanda & Tejas Nenneman",
@@ -27453,7 +27819,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Patton Hahn & Sophia Li",
@@ -27520,7 +27887,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Matthew Metzner & Karina Samuel",
@@ -27587,7 +27955,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nicholas Shinghal & Kabir Bhatia",
@@ -27654,7 +28023,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ellen Liu & Ethan Qian",
@@ -27721,7 +28091,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Christine Kim & Lily Peng",
@@ -27788,7 +28159,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Georgia Levine & Edric Lei",
@@ -27855,7 +28227,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Emery Bahna & Mahit Dagar",
@@ -27922,7 +28295,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jonathan Chen & Jennifer Yen",
@@ -27989,7 +28363,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Wesley Sudarshan & Pranav Goli",
@@ -28056,7 +28431,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Wyatt Dayhoff & Keaton Rannow",
@@ -28123,7 +28499,8 @@
                 "breakBoost": 5,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Davin Khan & Sofia Perri",
@@ -28190,7 +28567,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Zach Berg & Jasper Karlson",
@@ -28257,7 +28635,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anya Levin & Annika Jha",
@@ -28324,7 +28703,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shlok Dubey & Srujan Gopalam",
@@ -28391,7 +28771,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ethan Ho & Andrew Paulson",
@@ -28449,7 +28830,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Keshav Warrier & Suchir Baradwaj",
@@ -28506,7 +28888,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Noor Ali & Sophia Liem",
@@ -28563,7 +28946,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Garrett Crouch & Katherine Mize",
@@ -28620,7 +29004,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Chris Stockburger & Arnav Mohnot",
@@ -28677,7 +29062,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Melinda Synn & Ishan Deshpande",
@@ -28734,7 +29120,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Arjun Ramprasad & Kartike Chawla",
@@ -28791,7 +29178,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rohan Gaikwad & Shefali Chaubey",
@@ -28848,7 +29236,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Julia Huynh & Emma Shen",
@@ -28905,7 +29294,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aniket Dey & Eshal Sandhu",
@@ -28962,7 +29352,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ananya Pinnamaneni & Ashwin Anand",
@@ -29019,7 +29410,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Michael Hansen & Alex Huang",
@@ -29076,7 +29468,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Stacey Kang & Paul Wang",
@@ -29133,7 +29526,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sam Bowen & Kevin Jin",
@@ -29190,7 +29584,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Parker O'Keefe & Tim Toliver",
@@ -29247,7 +29642,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aahaan Bandopadhyay & Anshul Singh",
@@ -29304,7 +29700,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sanchitha Dinesh & Mihika Rajadnya",
@@ -29361,7 +29758,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maggie Nahas & Melissa Valencia",
@@ -29418,7 +29816,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Khadijah Atthar & Neha Suri",
@@ -29475,7 +29874,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kushal Chebiyam & Srivishal Sudharsan",
@@ -29532,7 +29932,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Luke Jones & Holden Carrillo",
@@ -29589,7 +29990,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Fallon Sullivan & Yameen Sekandari",
@@ -29646,7 +30048,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Matthew Kim & Stella Xu",
@@ -29703,7 +30106,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rebecca Zhang & Teresa Huang",
@@ -29760,7 +30164,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Riya Lakhani & Varun Patel",
@@ -29817,7 +30222,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 4.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Emma Bennett & Lindsey Wu",
@@ -29874,7 +30280,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "James Chen & Leavy Hu",
@@ -29931,7 +30338,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mahilan Guha & Matthew Nam",
@@ -29988,7 +30396,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Myles King & Finn Peters",
@@ -30045,7 +30454,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Derrick Yang & Stella Wu",
@@ -30102,7 +30512,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sophia Atwell & Anna Ivanov",
@@ -30159,7 +30570,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Lucas Ribadeneira & Sam Schollenberger",
@@ -30216,7 +30628,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sahana Nellian & Aditya Goel",
@@ -30273,7 +30686,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sara Willhauck & Diya Bhattacharjee",
@@ -30330,7 +30744,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ethan Lawrence & Hassan Palanpurwala",
@@ -30387,7 +30802,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Romeer Pillay & Adeel Syed",
@@ -30444,7 +30860,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Brian Shim & Aneesh Kondagunturi",
@@ -30501,7 +30918,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Claire Abrams & Leah Braden",
@@ -30558,7 +30976,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Audrey Bae & Isaiah Jung",
@@ -30615,7 +31034,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mackenzie Mauldin & Grace Yo",
@@ -30672,7 +31092,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sahil Sud & Enaya Shareef",
@@ -30729,7 +31150,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Erica Chen & Yeonsoo Chloe Kang",
@@ -30786,7 +31208,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jessica Zhang & Daniel Minseong Choi",
@@ -30843,7 +31266,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ali Sidiqyar & Arjun Nayagadurai",
@@ -30900,7 +31324,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Emma Chi & Fiona Shen",
@@ -30957,7 +31382,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nimish Jain & Rikin Patel",
@@ -31014,7 +31440,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shikha Kathrani & Sandhya Nayar",
@@ -31071,7 +31498,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.8,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Viraj Nautiyal & Gavin Minni",
@@ -31128,7 +31556,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Karson Whitley & Justine Lofwall",
@@ -31185,7 +31614,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aalif Biswas & Aiden Kim",
@@ -31242,7 +31672,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jonathan Levitsky & Sunny Vinay",
@@ -31299,7 +31730,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Aakash Choudhary & Rohan Patel",
@@ -31356,7 +31788,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ian Chung & Elly Kang",
@@ -31413,7 +31846,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Pranav Pradeep & Arnav Mahendra",
@@ -31470,7 +31904,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ilan Arias & Logan Bratter",
@@ -31527,7 +31962,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Payton Shen & Zachary Apel",
@@ -31584,7 +32020,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tina Gao & Lena Song",
@@ -31641,7 +32078,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "John Joseph & Haohan Sima",
@@ -31698,7 +32136,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mewenn Le Guellec & Christopher Tu",
@@ -31755,7 +32194,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shiv Mehta & Eli Bullock-Papa",
@@ -31812,7 +32252,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Anant Gautam & Prakhar Gupta",
@@ -31869,7 +32310,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Erik Hsu & Brendon Chen",
@@ -31926,7 +32368,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sophia Sultan & Iman Zuberi",
@@ -31983,7 +32426,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Dennis Eum & Leon Xue",
@@ -32040,7 +32484,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Angel Aquino & Kyle Tianshi",
@@ -32097,7 +32542,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Will Mayo & Harper Barnowski",
@@ -32154,7 +32600,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Shikhar Kaul & Joshua Kou",
@@ -32211,7 +32658,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ella Davis & Rebecca Khoury",
@@ -32268,7 +32716,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kiwon Ryan Kang & Allison Yi",
@@ -32325,7 +32774,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Eli Gripenstraw & Sohan Challa",
@@ -32382,7 +32832,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sanjana Sitaram & Ananya Varshney",
@@ -32439,7 +32890,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Tony Wu & Yue Yi (Ella) Chi",
@@ -32496,7 +32948,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Christopher Pierson & Zachary Harnden",
@@ -32553,7 +33006,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kenny Luu & Sterling Xie",
@@ -32610,7 +33064,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.6,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Frederick Yip & Shane Masterson",
@@ -32667,7 +33122,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Emily Jang & Riya Vyas",
@@ -32724,7 +33180,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.167,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Reva Sharma & Leo Guo",
@@ -32781,7 +33238,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Yasmina Muradova & Chase Whitehouse",
@@ -32838,7 +33296,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 1.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sreeja Gudiseva & Siri Lalukota",
@@ -32895,7 +33354,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.2,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Carolyn Fu & Eric Zhang",
@@ -32952,7 +33412,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.667,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Emi Maeda & Zayd Patel",
@@ -33009,7 +33470,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 3.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nathan Gay & Neil Khedkar",
@@ -33066,7 +33528,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Alexandra Saavedra & Marley Sowah",
@@ -33123,7 +33586,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.833,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rishi Kawediya & Aryan Nagpal",
@@ -33180,7 +33644,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.333,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Pascal Bell & Aksel Bell",
@@ -33237,7 +33702,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.0,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Advait Pandit & Sathyanarayanan Padmanabhan",
@@ -33294,7 +33760,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 2,
                 "OPwpm": 2.5,
-                "name": "National Speech and Debate Season Opener hosted by UK"
+                "name": "National Speech and Debate Season Opener hosted by UK",
+                "ghostBids": false
             }
         ],
         "fullNames": "Khalil Spight & David Gibek",
@@ -33360,7 +33827,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Hannah Lewis & Clint Stalnaker",
@@ -33421,7 +33889,8 @@
                 "breakBoost": 6,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Haley Clawsie & Cherie Wang",
@@ -33488,7 +33957,8 @@
                 "breakBoost": 4,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rishi Francis & Manas Erramilli",
@@ -33555,7 +34025,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Allen Liang & Aryaman Chhawcharia",
@@ -33622,7 +34093,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Hetva Joshi & Catherine Chu",
@@ -33689,7 +34161,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nathan Laude & Alex Rodgers",
@@ -33756,7 +34229,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Madhav Dua & Jason Chae",
@@ -33823,7 +34297,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sayok Bose & Tharun Nayar",
@@ -33890,7 +34365,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Melanie Garza & Afsaneh Masoumi",
@@ -33957,7 +34433,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Cristian Abarca & Nikihil Weerakoon",
@@ -34015,7 +34492,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Piper Domsch & Kaavya Yalamanchili",
@@ -34081,7 +34559,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gus Gladstein & Joseph Nahas",
@@ -34139,7 +34618,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Hemanth Nagubhai & Varun Rao",
@@ -34196,7 +34676,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Grace Hu & Elizabeth Xu",
@@ -34253,7 +34734,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Harrison Hastings & Walker Turley",
@@ -34310,7 +34792,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sujith Yeruva & Eshaan Vaikunth",
@@ -34322,7 +34805,7 @@
         ],
         "otrScore": 0.052,
         "goldBids": 0,
-        "silverBids": 0,
+        "silverBids": 1,
         "prelimRecord": [
             3,
             2
@@ -34372,11 +34855,13 @@
                     }
                 ],
                 "goldBid": false,
-                "silverBid": false,
+                "silverBid": true,
                 "breakBoost": 2,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false,
+                "ghostBid": true
             }
         ],
         "fullNames": "Jawad Bataineh & Morgan Burkhardt",
@@ -34443,7 +34928,8 @@
                 "breakBoost": 2,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Zain Syed & Daniel Yang",
@@ -34510,7 +34996,8 @@
                 "breakBoost": 3,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Yucheng Shao & Faith Zhang",
@@ -34568,7 +35055,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 3.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Cailyn Min & Christine Seo",
@@ -34625,7 +35113,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Chloe Pineda & Katherine Yue",
@@ -34682,7 +35171,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maggie Yuan & Laurice Duan",
@@ -34739,7 +35229,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.5,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Enow Tanyi & Johnathan Varghese",
@@ -34796,7 +35287,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maya Perkash & Antonia Minion",
@@ -34853,7 +35345,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 1.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Joshua Ninan & Beomjun Kim",
@@ -34910,7 +35403,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 1.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Kaitlyn Nash & Maya Hay",
@@ -34967,7 +35461,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ananshi Patel & Sanjana Kumar",
@@ -35024,7 +35519,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Christopher Coleman & Ellie Crowe",
@@ -35081,7 +35577,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Gavin Hussain & Andrew Lai",
@@ -35138,7 +35635,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Michelle Giovinazzo & Kokomi Banerjee",
@@ -35195,7 +35693,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.75,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rick Yang & Janghee Lee",
@@ -35252,7 +35751,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Maggie Haggerty & Taryn Mareau",
@@ -35309,7 +35809,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Autumn Carpenter & Arfa Momin",
@@ -35366,7 +35867,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Nicolas Valladolid & Joshua Martinez",
@@ -35423,7 +35925,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Charlie Yang & Cody Han",
@@ -35480,7 +35983,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Veronica Ma & Kathleen Chen",
@@ -35537,7 +36041,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Mehtabh Sidhu & Vishu Agarwal",
@@ -35594,7 +36099,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Jyotsna Arunkumar & Ariel Sun",
@@ -35651,7 +36157,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ava Dasari & Kate Ren",
@@ -35708,7 +36215,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Winston Zhang & Aamir Kutianawala",
@@ -35765,7 +36273,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Yash Saboo & Cyrus Aly",
@@ -35822,7 +36331,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Rohan Palavali & Sathvika Masina",
@@ -35879,7 +36389,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Monish Muralicharan & Milan Suresh",
@@ -35936,7 +36447,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Avy Caputo-Espinosa & Grant Barden",
@@ -35993,7 +36505,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 1.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Darya Rytova & Aidan Hedman",
@@ -36050,7 +36563,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.0,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Karl Li & Maxwell Zhang",
@@ -36107,7 +36621,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.6,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Katherine Nelson & Christina Wang",
@@ -36164,7 +36679,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ryan Panjwani & Daniel Guo",
@@ -36221,7 +36737,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 1.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Ryder Tang & Wenzhuo Zhang",
@@ -36278,7 +36795,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.5,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Sripad Yadagiri & Saarang Ramabhadran",
@@ -36335,7 +36853,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.4,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Andrew Li & Rishik Boddeti",
@@ -36392,7 +36911,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 2.2,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Eliyel Abera & Aathrey Ramesh",
@@ -36449,7 +36969,8 @@
                 "breakBoost": 1,
                 "tournamentBoost": 1.55,
                 "OPwpm": 1.8,
-                "name": "Grapevine Classic"
+                "name": "Grapevine Classic",
+                "ghostBids": false
             }
         ],
         "fullNames": "Samantha Gerber & Dash Gilrain-Lennond",
