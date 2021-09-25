@@ -29,6 +29,30 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20058",
         "meta": "2021 NSDA Campus, CA/US - 9/18 to 9/20",
         "done": true
+    },
+
+    "Stephen Stewart Middle and High School Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20497",
+        "meta": "2021 NSDA Campus, CA/US - 9/24 to 9/26",
+        "done": false
+    },
+
+    "Holy Cross Navy and Old Gold Debate and Speech Exhibition": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20444",
+        "meta": "2021 NSDA Campus, LA/US - 9/24 to 9/26",
+        "done": false
+    },
+
+    "Mid America Cup": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20873",
+        "meta": "2021 NSDA Campus, LA/US - 9/24 to 9/27",
+        "done": false
     }
     
 }
