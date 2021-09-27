@@ -2,6 +2,9 @@ from os import listdir
 from os.path import isfile, join
 import json
 
+with open("data/tournInfo.json", "r") as f:
+    tInfo = json.loads(f.read())
+
 def merge():
     "Merges each individual tournament result from ./data/tournaments into the master file."
 
@@ -101,10 +104,12 @@ def checkConflicts():
 
     onlyfiles = [f for f in listdir('data/tournaments') if isfile(join('data/tournaments', f))]
     print(f"Merging {len(onlyfiles)} tournament(s).")
-    master = {}
 
     for P in onlyfiles:
         PATH = 'data/tournaments/' + P
+        
+        if tInfo[P.replace('.json', '')]["done"]: continue # We've already done this for the tournament, so continue
+
         with open(PATH, 'r') as f:
             data = json.loads(f.read())
 

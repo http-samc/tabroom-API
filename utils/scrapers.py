@@ -213,6 +213,44 @@ def breaks(URL: str) -> dict:
 
     return data
 
+def manualResultData(entryData: dict, numBreaks: int) -> dict:
+    """Creates result data using only information from the
+    entry data, but requires some manual intervention.
+
+    Args:
+        entryData (dict): entry data for all teams
+        numBreaks (int): how many break rounds there are
+    
+    Returns:
+        dict: resultData matching the schema of bracket() and breaks()
+
+        RETURN SCHEMA:
+        {
+            <(str) team code> : [
+                <(int) roundPrestige [num of break rounds debated]>,
+                <(str) name of final break round debated as provided>,
+                <(str) name of final break round debated, standardized>
+            ],
+            ...
+        }
+    """
+
+    data = {}
+
+    for team in entryData:
+        roundPrestige = len(entryData[team]["breaks"])
+        finalBreak = entryData[team]["breaks"][0]["round"]
+        finalBreakSTD = breakNames[numBreaks - roundPrestige]
+
+        data[team] = [
+            roundPrestige,
+            finalBreak,
+            finalBreakSTD
+        ]
+    
+    return data
+
+
 def entry(URL: str) -> dict:
     """Returns the results from a team's individual entry page
 
