@@ -4,6 +4,10 @@ from utils.const import *
 PATH = "data/2021-22 MASTER.json"
 
 def getSchool(code: str):
+    if "&" in code:
+        code = code[0: code.rfind("&")]
+        code = code[0:code.rfind(" ")]
+
     return code[0:code.rfind(" ")]
 
 print("Adding ghost bids.")
@@ -16,7 +20,7 @@ for t in data:
 
     i = 0
     for tournament in team["tournaments"]:
-        data[t]["tournaments"][i]["ghostBids"] = False
+        data[t]["tournaments"][i]["ghostBid"] = False
     
         teamConflict = False
         ghostSilver = None
@@ -49,11 +53,16 @@ for t in data:
         elif tBoost == 1 and (elimRd == breakNames[1] or elimRd == breakNames[2]):
             if elimRd == breakNames[2]: ghostSilver = True
             elif elimRd == breakNames[1]: ghostGold = True
-        
+    
         if ghostGold == True: 
             data[t]["tournaments"][i]["goldBid"] = True 
             data[t]["goldBids"] = data[t]["goldBids"] + 1
-        if ghostSilver == True:
+
+            # remove the silver bid they got
+            data[t]["tournaments"][i]["silverBid"] = False 
+            data[t]["silverBids"] = data[t]["silverBids"] - 1
+
+        elif ghostSilver == True:
             data[t]["tournaments"][i]["silverBid"] = True 
             data[t]["silverBids"] = data[t]["silverBids"] + 1
 
