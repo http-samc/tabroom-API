@@ -499,7 +499,7 @@ def prelims(URL: str) -> dict:
 
         rawEntryData = element.find_all("td")
         textData = []
-
+    
         entryPage = "https://www.tabroom.com" + rawEntryData[1].find("a")['href']
 
         for node in rawEntryData:

@@ -2,9 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from colorama import Fore
 
-from utils.const import DIVISIONS, REJECT
-
-
 def getDivision(URL: str) -> str:
     """Finds the target division from the
     tournament results homepage
