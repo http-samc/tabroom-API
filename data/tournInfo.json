@@ -53,6 +53,13 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20873",
         "meta": "2021 NSDA Campus, LA/US - 9/24 to 9/27",
         "done": true
+    },
+
+    "Bellaire Forensic Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20423",
+        "meta": "2021 Hopin, TX/US - 9/25 to 10/3",
+        "done": true
     }
-    
 }
