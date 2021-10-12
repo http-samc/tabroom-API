@@ -26,7 +26,7 @@ def findJudgePoolURL(URL: str) -> str:
         if divisionName == 'PF' or divisionName == 'PF VARSITY' or divisionName == 'VARSITY PF' or divisionName == 'PF CHAMP' or divisionName == 'CHAMP PF':
             paradigmURL += str(division.find('span', attrs={'class': 'third nospace padvertless'}).find('a').get('href')).replace('judges', 'paradigms')
             return paradigmURL
-    return "URL NOT FOUND"
+    return None
 
 def getParadigms(URL: str) -> list:
     """Gets the paradigms for all judges in a pool.
@@ -63,6 +63,5 @@ def getParadigms(URL: str) -> list:
     return returnData
 
 if __name__ == "__main__":
-    getParadigms("https://www.tabroom.com/index/tourn/paradigms.mhtml?category_id=53735&tourn_id=21009")
-
-print(findJudgePoolURL("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009"))
+    judgePoolURL = findJudgePoolURL("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009")
+    print(getParadigms(judgePoolURL))
