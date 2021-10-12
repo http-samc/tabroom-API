@@ -16,14 +16,14 @@ def findJudgePoolURL(URL: str) -> str:
     """
     ... # TODO implement
 
-def getParadigms(URL: str) -> str:
+def getParadigms(URL: str) -> list:
     """Gets the paradigms for all judges in a pool.
 
     Args:
         URL (str): The division-specific judge pool url.
 
     Returns:
-        str: A list containing all judges' names, schools, and paradigms.
+        list: A list containing all judges' names, schools, and paradigms.
 
         SCHEMA:
         [
