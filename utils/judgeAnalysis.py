@@ -14,7 +14,19 @@ def findJudgePoolURL(URL: str) -> str:
         str: A judge pool url to be used with getParadigms().
             eg. https://www.tabroom.com/index/tourn/paradigms.mhtml?category_id=53735&tourn_id=21009
     """
-    ... # TODO implement
+    judgesURL = URL[::-1].replace('xedni', 'segduj', 1)[::-1]
+    paradigmURL = "http://tabroom.com"
+
+    r = requests.get(judgesURL)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    sideNote = soup.find('div', attrs={'class': 'sidenote'}).find_all('div', attrs={'title': 'name'})
+
+    for division in sideNote:
+        divisionName = str(division.find('span', attrs={'class': 'third semibold bluetext'}).text).replace('\t', '').replace('\n', '').upper()
+        if divisionName == 'PF' or divisionName == 'PF VARSITY' or divisionName == 'VARSITY PF' or divisionName == 'PF CHAMP' or divisionName == 'CHAMP PF':
+            paradigmURL += str(division.find('span', attrs={'class': 'third nospace padvertless'}).find('a').get('href')).replace('judges', 'paradigms')
+            return paradigmURL
+    return "URL NOT FOUND"
 
 def getParadigms(URL: str) -> list:
     """Gets the paradigms for all judges in a pool.
@@ -52,3 +64,5 @@ def getParadigms(URL: str) -> list:
 
 if __name__ == "__main__":
     getParadigms("https://www.tabroom.com/index/tourn/paradigms.mhtml?category_id=53735&tourn_id=21009")
+
+print(findJudgePoolURL("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009"))
