@@ -27,7 +27,7 @@ def findJudgePoolURL(URL: str) -> str:
         for divisionKWs in DIVISIONS:
             if divisionName in divisionKWs:
                 divisionParadigmsURL = BASE + str(division.find('span', attrs={'class': 'third nospace padvertless'}).find('a').get('href'))
-                return divisionParadigmsURL
+                return divisionParadigmsURL.replace('judges', 'paradigms')
     return None
 
 def getParadigms(URL: str) -> list:
@@ -67,5 +67,6 @@ def getParadigms(URL: str) -> list:
 if __name__ == "__main__":
     from const import DIVISIONS
     ... # run tests inside this block ONLY
+    print(findJudgePoolURL("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009"))
 else:
     from utils.const import DIVISIONS
