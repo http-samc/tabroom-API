@@ -220,7 +220,7 @@ def manualResultData(entryData: dict, numBreaks: int) -> dict:
     Args:
         entryData (dict): entry data for all teams
         numBreaks (int): how many break rounds there are
-    
+
     Returns:
         dict: resultData matching the schema of bracket() and breaks()
 
@@ -247,7 +247,7 @@ def manualResultData(entryData: dict, numBreaks: int) -> dict:
             finalBreak,
             finalBreakSTD
         ]
-    
+
     return data
 
 
@@ -335,7 +335,7 @@ def entry(URL: str) -> dict:
         roundName = _clean(meta[0].get_text())
         isBreak = False if "round" in roundName.lower() else True# or "R" == roundName[0:1] else True
         isIntlRound = True if "intl" in roundName.lower() else False
-    
+
         # Getting side and standardizing it
         side = _clean(meta[1].get_text())
         if side in PRO: side = "PRO"
@@ -499,7 +499,7 @@ def prelims(URL: str) -> dict:
 
         rawEntryData = element.find_all("td")
         textData = []
-    
+
         entryPage = "https://www.tabroom.com" + rawEntryData[1].find("a")['href']
 
         for node in rawEntryData:

@@ -41,6 +41,7 @@ DIVISIONS = [
         ['varsity', 'public'],
         ['Varsity', 'PF'],
         ['Open', 'PF'],
+        ['Open', 'Public'],
         ['O', 'PF'],
         ['PF'],
         ['Public', 'Forum']
