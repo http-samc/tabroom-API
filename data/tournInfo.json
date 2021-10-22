@@ -61,5 +61,45 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20423",
         "meta": "2021 Hopin, TX/US - 9/25 to 10/3",
         "done": true
+    },
+
+    "Nano Nagle Classic and Nano Nagle RR": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009",
+        "meta": "2021 NSDA Campus, CA/US - 10/8 to 10/11",
+        "done": true
+    },
+    
+    "Raymond B Furlong Tournament at Saint James": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21158",
+        "meta": "2021 NSDA Campus, AL/US - 9/25 to 10/3",
+        "done": true
+    },
+
+    "Nova Titan Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20450",
+        "meta": "2021 — NSDA Campus, FL/US - 9/25 to 10/3",
+        "done": true
+    },
+
+    "New York City Invitational Debate and Speech Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20399",
+        "meta": "2021 — NSDA Campus, NY/US - 9/25 to 10/3",
+        "done": true
+    },
+
+    "The CSUF Invitational": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20033",
+        "meta": "2021 — NSDA Campus, US - 9/25 to 10/3",
+        "done": true
     }
 }
