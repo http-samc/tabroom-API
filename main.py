@@ -24,7 +24,7 @@ if __name__ == "__main__":
     import utils.merge # check for bye conflicts and merge
     import utils.checkGhostBid # check for ghost bids
 
-    import utils.db 
+    import utils.db
     import utils.makeBidList
     # these are only available on Sam's local machine
     # it's used to push to the MongoDB that runs the frontend and update the Bid List
