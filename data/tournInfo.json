@@ -101,5 +101,21 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20033",
         "meta": "2021 — NSDA Campus, US - 9/25 to 10/3",
         "done": true
+    },
+
+    "Fall Tournament": {
+        "acceptsUnaffiliated": true,
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20572",
+        "meta": "2021 Online, NY/US - 10/8 to 10/10",
+        "done": true
+    },
+
+    "Plano West Classic": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21319",
+        "meta": "2021 NSDA Campus, US - 10/22 to 10/24",
+        "done": true
     }
 }

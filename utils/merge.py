@@ -107,7 +107,7 @@ def checkConflicts():
 
     for P in onlyfiles:
         PATH = 'data/tournaments/' + P
-        
+
         if tInfo[P.replace('.json', '')]["done"]: continue # We've already done this for the tournament, so continue
 
         with open(PATH, 'r') as f:
