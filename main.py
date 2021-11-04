@@ -21,6 +21,7 @@ def scrapeAll():
 
 if __name__ == "__main__":
     scrapeAll()
+    input("Any key to merge and update site, quit terminal if you see an error. . .")
     import utils.merge # check for bye conflicts and merge
     import utils.checkGhostBid # check for ghost bids
 

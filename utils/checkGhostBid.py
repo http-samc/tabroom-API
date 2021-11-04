@@ -72,6 +72,15 @@ for t in data:
 
         i += 1
 
+# Manual overrides
+for i, t in enumerate(data["Malihi & Krishnamoorthy"]["tournaments"]):
+    if not "Tim" in t["name"]: continue
+    data["Malihi & Krishnamoorthy"]["tournaments"][i]["goldBid"] = True
+    data["Malihi & Krishnamoorthy"]["tournaments"][i]["silverBid"] = False
+    data["Malihi & Krishnamoorthy"]["tournaments"][i]["ghostBid"] = True
+    data["Malihi & Krishnamoorthy"]["goldBids"] += 1
+    data["Malihi & Krishnamoorthy"]["silverBids"] -= 1
+
 with open(PATH, "w") as f:
     json.dump(data, f)
 
