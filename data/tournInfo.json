@@ -133,5 +133,21 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19937",
         "meta": "2021 NSDA Campus, MA/US - 10/29 to 10/31",
         "done": true
+    },
+
+    "Apple Valley MinneApple Debate Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20874",
+        "meta": "2021 NSDA Campus, MN/US - 11/5 to 11/7",
+        "done": true
+    },
+
+    "University of Michigan HS Debate Tournament": {
+        "acceptsUnaffiliated": false,
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20831",
+        "meta": "2021 NSDA Campus, MI/US - 11/4 to 11/8",
+        "done": true
     }
 }

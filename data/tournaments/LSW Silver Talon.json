@@ -1,0 +1,1466 @@
+{
+    "tournamentName": "LSW Silver Talon",
+    "tournamentBoost": 1,
+    "prelimData": {
+        "Lincoln FT": {
+            "names": [
+                "Foss",
+                "Tran"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3767258",
+            "wins": 4,
+            "prelimRank": [
+                1,
+                14
+            ]
+        },
+        "Millard North BB": {
+            "names": [
+                "Balakrishnan",
+                "Balu"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3740756",
+            "wins": 4,
+            "prelimRank": [
+                2,
+                14
+            ]
+        },
+        "Millard North MK": {
+            "names": [
+                "Mishra",
+                "Karri"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3740757",
+            "wins": 4,
+            "prelimRank": [
+                3,
+                14
+            ]
+        },
+        "Lincoln Southwest WW": {
+            "names": [
+                "Watermolen",
+                "Walter"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3703429",
+            "wins": 3,
+            "prelimRank": [
+                4,
+                14
+            ]
+        },
+        "Marian HB": {
+            "names": [
+                "Hovey",
+                "Birkel"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3738247",
+            "wins": 3,
+            "prelimRank": [
+                5,
+                14
+            ]
+        },
+        "SF Roosevelt KN": {
+            "names": [
+                "Kathner",
+                "Ness"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3706026",
+            "wins": 3,
+            "prelimRank": [
+                6,
+                14
+            ]
+        },
+        "SF Roosevelt SG": {
+            "names": [
+                "Skelton",
+                "Grismer"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3706020",
+            "wins": 3,
+            "prelimRank": [
+                7,
+                14
+            ]
+        },
+        "SF Roosevelt ZK": {
+            "names": [
+                "Zielenski",
+                "Kambeitz"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3706023",
+            "wins": 3,
+            "prelimRank": [
+                8,
+                14
+            ]
+        },
+        "Millard North BW": {
+            "names": [
+                "Bodepudi",
+                "Warren"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3761333",
+            "wins": 2,
+            "prelimRank": [
+                9,
+                14
+            ]
+        },
+        "Millard South CH": {
+            "names": [
+                "Constantino",
+                "Hickman"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3759322",
+            "wins": 2,
+            "prelimRank": [
+                10,
+                14
+            ]
+        },
+        "SF Roosevelt ND": {
+            "names": [
+                "Ng",
+                "Dixon"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3706024",
+            "wins": 2,
+            "prelimRank": [
+                11,
+                14
+            ]
+        },
+        "Lincoln Southeast CW": {
+            "names": [
+                "Chasek",
+                "White"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3763818",
+            "wins": 1,
+            "prelimRank": [
+                12,
+                14
+            ]
+        },
+        "Millard North MA": {
+            "names": [
+                "Mishra",
+                "Arunprasad"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3766750",
+            "wins": 1,
+            "prelimRank": [
+                13,
+                14
+            ]
+        },
+        "Lincoln Southwest AE": {
+            "names": [
+                "Azucena",
+                "Evans"
+            ],
+            "entryPage": "https://www.tabroom.com/index/tourn/postings/entry_record.mhtml?tourn_id=21403&entry_id=3703430",
+            "wins": 0,
+            "prelimRank": [
+                14,
+                14
+            ]
+        }
+    },
+    "entryData": {
+        "Lincoln FT": {
+            "code": "Lincoln FT",
+            "names": "Mikil Foss & Kevin Tran",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "SEMI",
+            "speaks": [
+                {
+                    "name": "Foss Mikil",
+                    "rawAVG": 29.24,
+                    "adjAVG": 29.24
+                },
+                {
+                    "name": "Tran Kevin",
+                    "rawAVG": 28.16,
+                    "adjAVG": 28.16
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "SEMI",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "round": "QUAR",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ND",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest AE",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "Millard North BB": {
+            "code": "Millard North BB",
+            "names": "Purannan Balakrishnan & Amuda Balu",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "QUAR",
+            "speaks": [
+                {
+                    "name": "Balakrishnan Purannan",
+                    "rawAVG": 27.9,
+                    "adjAVG": 28.62
+                },
+                {
+                    "name": "Balu Amuda",
+                    "rawAVG": 29.54,
+                    "adjAVG": 29.54
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "QUAR",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard South CH",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Lincoln Southeast CW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ND",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "Millard North MK": {
+            "code": "Millard North MK",
+            "names": "Aanya Mishra & Abhi Karri",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "FINAL",
+            "speaks": [
+                {
+                    "name": "Mishra Aanya",
+                    "rawAVG": 29.1,
+                    "adjAVG": 29.1
+                },
+                {
+                    "name": "Karri Abhi",
+                    "rawAVG": 29.54,
+                    "adjAVG": 29.54
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "FINAL",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "round": "SEMI",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "round": "QUAR",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard South CH",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Marian HB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "Lincoln Southwest WW": {
+            "code": "Lincoln Southwest WW",
+            "names": "Jack Watermolen & Joey Walter",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "QUAR",
+            "speaks": [
+                {
+                    "name": "Watermolen Jack",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.9
+                },
+                {
+                    "name": "Walter Joey",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.6
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "QUAR",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        0,
+                        3
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard North BW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "Marian HB": {
+            "code": "Marian HB",
+            "names": "Olivia Hovey & Malerie Birkel",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "QUAR",
+            "speaks": [
+                {
+                    "name": "Hovey Olivia",
+                    "rawAVG": 28.5,
+                    "adjAVG": 29.38
+                },
+                {
+                    "name": "Birkel Malerie",
+                    "rawAVG": 28.72,
+                    "adjAVG": 29.65
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "QUAR",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "SF Roosevelt ND",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North MA",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "SF Roosevelt KN": {
+            "code": "SF Roosevelt KN",
+            "names": "Vaughn Kathner & Norah Ness",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "SEMI",
+            "speaks": [
+                {
+                    "name": "Kathner Vaughn",
+                    "rawAVG": 28.8,
+                    "adjAVG": 28.8
+                },
+                {
+                    "name": "Ness Norah",
+                    "rawAVG": 29.2,
+                    "adjAVG": 29.2
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "SEMI",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "round": "QUAR",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Marian HB",
+                    "decision": [
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard North MA",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Marian HB",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southeast CW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "SF Roosevelt SG": {
+            "code": "SF Roosevelt SG",
+            "names": "Jonathan Skelton & Michael Grismer",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "FINAL",
+            "speaks": [
+                {
+                    "name": "Skelton Jonathan",
+                    "rawAVG": 28.2,
+                    "adjAVG": 28.2
+                },
+                {
+                    "name": "Grismer Michael",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.62
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "FINAL",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        3
+                    ]
+                },
+                {
+                    "round": "SEMI",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "round": "QUAR",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southeast CW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard North BW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest AE",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "SF Roosevelt ZK": {
+            "code": "SF Roosevelt ZK",
+            "names": "Torr Zielenski & JaLeigha Kambeitz",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "QUAR",
+            "speaks": [
+                {
+                    "name": "Zielenski Torr",
+                    "rawAVG": 27.8,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Kambeitz JaLeigha",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "QUAR",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        3
+                    ]
+                },
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North MA",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North BW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Marian HB",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "Millard North BW": {
+            "code": "Millard North BW",
+            "names": "Charitha Bodepudi & Kheely Warren",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Bodepudi Charitha",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.75
+                },
+                {
+                    "name": "Warren Kheely",
+                    "rawAVG": 27.9,
+                    "adjAVG": 28.17
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest AE",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard South CH",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest WW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "Millard South CH": {
+            "code": "Millard South CH",
+            "names": "Quinn Constantino & Vivian Hickman",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Constantino Quinn",
+                    "rawAVG": 29.02,
+                    "adjAVG": 29.0
+                },
+                {
+                    "name": "Hickman Vivian",
+                    "rawAVG": 27.64,
+                    "adjAVG": 28.07
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North MK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North BW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt ND",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Millard North MA",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                }
+            ]
+        },
+        "SF Roosevelt ND": {
+            "code": "SF Roosevelt ND",
+            "names": "Linus Ng & Valarie Dixon",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Ng Linus",
+                    "rawAVG": 28.3,
+                    "adjAVG": 28.17
+                },
+                {
+                    "name": "Dixon Valarie",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Marian HB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Lincoln Southeast CW",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "PRO",
+                    "opp": "Millard South CH",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "Lincoln Southeast CW": {
+            "code": "Lincoln Southeast CW",
+            "names": "Kaleb Chasek & Victoria White",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Chasek Kaleb",
+                    "rawAVG": 26.4,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "White Victoria",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.2
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest AE",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt ND",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "Millard North BB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "Millard North MA": {
+            "code": "Millard North MA",
+            "names": "Ansh Mishra & Vishaal Arunprasad",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Mishra Ansh",
+                    "rawAVG": 27.64,
+                    "adjAVG": 28.3
+                },
+                {
+                    "name": "Arunprasad Vishaal",
+                    "rawAVG": 28.1,
+                    "adjAVG": 28.88
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "CON",
+                    "opp": "SF Roosevelt KN",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Marian HB",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt ZK",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": true,
+                    "side": "CON",
+                    "opp": "Lincoln Southwest AE",
+                    "decision": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard South CH",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        "Lincoln Southwest AE": {
+            "code": "Lincoln Southwest AE",
+            "names": "Kyzz Azucena & Samantha Evans",
+            "prelimRecord": [
+                0,
+                0
+            ],
+            "debatedPrelims": 0,
+            "elimIn": "R5",
+            "speaks": [
+                {
+                    "name": "Azucena Kyzz",
+                    "rawAVG": 28.22,
+                    "adjAVG": 28.22
+                },
+                {
+                    "name": "Evans Samantha",
+                    "rawAVG": 29.04,
+                    "adjAVG": 29.04
+                }
+            ],
+            "prelims": [],
+            "breaks": [
+                {
+                    "round": "R5",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North BW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R4",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Lincoln Southeast CW",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R3",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "SF Roosevelt SG",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R2",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Millard North MA",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "round": "R1",
+                    "win": false,
+                    "side": "PRO",
+                    "opp": "Lincoln FT",
+                    "decision": [
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    },
+    "resultData": {
+        "Millard North MK": [
+            3,
+            "1st",
+            "Finals"
+        ],
+        "SF Roosevelt SG": [
+            3,
+            "2nd",
+            "Finals"
+        ],
+        "SF Roosevelt KN": [
+            2,
+            "SEMI",
+            "Semifinals"
+        ],
+        "Lincoln FT": [
+            2,
+            "SEMI",
+            "Semifinals"
+        ],
+        "SF Roosevelt ZK": [
+            1,
+            "QUAR",
+            "Quarterfinals"
+        ],
+        "Millard North BB": [
+            1,
+            "QUAR",
+            "Quarterfinals"
+        ],
+        "Lincoln Southwest WW": [
+            1,
+            "QUAR",
+            "Quarterfinals"
+        ],
+        "Marian HB": [
+            1,
+            "QUAR",
+            "Quarterfinals"
+        ]
+    },
+    "seedData": {
+        "Millard North MK": [
+            1,
+            14
+        ],
+        "Millard North BB": [
+            2,
+            14
+        ],
+        "Lincoln FT": [
+            3,
+            14
+        ],
+        "Marian HB": [
+            4,
+            14
+        ],
+        "SF Roosevelt KN": [
+            5,
+            14
+        ],
+        "Lincoln Southwest WW": [
+            6,
+            14
+        ],
+        "SF Roosevelt SG": [
+            7,
+            14
+        ],
+        "SF Roosevelt ZK": [
+            8,
+            14
+        ],
+        "Millard South CH": [
+            9,
+            14
+        ],
+        "SF Roosevelt ND": [
+            10,
+            14
+        ],
+        "Millard North BW": [
+            11,
+            14
+        ],
+        "Millard North MA": [
+            12,
+            14
+        ],
+        "Lincoln Southeast CW": [
+            13,
+            14
+        ],
+        "Lincoln Southwest AE": [
+            14,
+            14
+        ]
+    }
+}
