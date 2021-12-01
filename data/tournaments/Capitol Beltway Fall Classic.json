@@ -1,0 +1,839 @@
+{
+    "Capitol Beltway Fall Classic": {
+        "Winston Churchill ZM": {
+            "tournamentComp": 1.833,
+            "fullNames": "Faaris Zuberi & Raymond Ma",
+            "lastNames": [
+                "Zuberi",
+                "Ma"
+            ],
+            "prelimRecord": [
+                6,
+                0
+            ],
+            "prelimRank": [
+                1,
+                22
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Semifinals",
+                "Semifinals",
+                "Upper St Clair BK"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 3.667
+        },
+        "Chelmsford ML": {
+            "tournamentComp": 1.157,
+            "fullNames": "Prateek Motagi & Arjun Lingala",
+            "lastNames": [
+                "Motagi",
+                "Lingala"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                3,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Potomac CV"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 4.167
+        },
+        "Winston Churchill SZ": {
+            "tournamentComp": 1.065,
+            "fullNames": "Yucheng Shao & Faith Zhang",
+            "lastNames": [
+                "Shao",
+                "Zhang"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                2,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Quarters",
+                "Quarterfinals",
+                "East Potomac DM"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.833
+        },
+        "BergenTech KN": {
+            "tournamentComp": 0.667,
+            "fullNames": "Noah Kim & Avital Nozic",
+            "lastNames": [
+                "Kim",
+                "Nozic"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                4,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Upper St Clair BK"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "East Potomac DM": {
+            "tournamentComp": 1.0,
+            "fullNames": "Ava Datta & Ayan K Mahajan",
+            "lastNames": [
+                "Datta",
+                "Mahajan"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                7,
+                22
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                0,
+                5,
+                "Semifinals",
+                "Semifinals",
+                "Potomac CV"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "North Potomac CQ": {
+            "tournamentComp": 0.741,
+            "fullNames": "James Chen & Carissa Qin",
+            "lastNames": [
+                "Chen",
+                "Qin"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                8,
+                22
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Quarters",
+                "Quarterfinals",
+                "Winston Churchill ZM"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.333
+        },
+        "Potomac CV": {
+            "tournamentComp": 1.63,
+            "fullNames": "Digonto Chatterjee & Dhira Vadlamudi",
+            "lastNames": [
+                "Chatterjee",
+                "Vadlamudi"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                6,
+                22
+            ],
+            "breakRecord": [
+                2,
+                1
+            ],
+            "eliminated": [
+                3,
+                4,
+                "Finals",
+                "Finals",
+                "Upper St Clair BK"
+            ],
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 3.667
+        },
+        "Upper St Clair BK": {
+            "tournamentComp": 1.333,
+            "fullNames": "William Bacdayan & Ammar Kethavath",
+            "lastNames": [
+                "Bacdayan",
+                "Kethavath"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                5,
+                22
+            ],
+            "breakRecord": [
+                3,
+                0
+            ],
+            "eliminated": null,
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "East Potomac BD": {
+            "tournamentComp": 0.208,
+            "fullNames": "Roselyn Bi & Zara Doshi",
+            "lastNames": [
+                "Bi",
+                "Doshi"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                13,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "East Potomac WW": {
+            "tournamentComp": 0.283,
+            "fullNames": "Harrison Wong & Paul Wang",
+            "lastNames": [
+                "Wong",
+                "Wang"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                11,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.4
+        },
+        "North Potomac AM": {
+            "tournamentComp": 0.236,
+            "fullNames": "Austin Moon",
+            "lastNames": [
+                "AustinMoon"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                10,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.833
+        },
+        "Potomac MP": {
+            "tournamentComp": 0.278,
+            "fullNames": "Emi Maeda & Zayd Patel",
+            "lastNames": [
+                "Maeda",
+                "Patel"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                12,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.333
+        },
+        "Potomac QZ": {
+            "tournamentComp": 0.25,
+            "fullNames": "Ethan Qian & Jenny Zhao",
+            "lastNames": [
+                "Qian",
+                "Zhao"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                9,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "North Potomac LZ": {
+            "tournamentComp": 0.139,
+            "fullNames": "Carol Li & Zachary Zhao",
+            "lastNames": [
+                "Li",
+                "Zhao"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                15,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "South Potomac AS": {
+            "tournamentComp": 0.139,
+            "fullNames": "Abhinav Ajish & Urja Saha",
+            "lastNames": [
+                "Ajish",
+                "Saha"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                14,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "South Potomac LR": {
+            "tournamentComp": 0.139,
+            "fullNames": "Mason Liu & Rohan Rai",
+            "lastNames": [
+                "Liu",
+                "Rai"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                19,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "West Potomac AY": {
+            "tournamentComp": 0.139,
+            "fullNames": "Akshat Athale & Siddharth Yerapotini",
+            "lastNames": [
+                "Athale",
+                "Yerapotini"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                17,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.5
+        },
+        "West Potomac PS": {
+            "tournamentComp": 0.167,
+            "fullNames": "Swarnarup Paria & Samuel Snitkovsky",
+            "lastNames": [
+                "Paria",
+                "Snitkovsky"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                20,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "West Potomac SV": {
+            "tournamentComp": 0.157,
+            "fullNames": "Alexei Stickney & Agastya Vissa",
+            "lastNames": [
+                "Stickney",
+                "Vissa"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                16,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.833
+        },
+        "Winston Churchill HT": {
+            "tournamentComp": 0.12,
+            "fullNames": "Liam Halliburton & Benjamin Tang",
+            "lastNames": [
+                "Halliburton",
+                "Tang"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                18,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.167
+        },
+        "South Potomac CN": {
+            "tournamentComp": 0.083,
+            "fullNames": "Cleo Cochran & Sofia Ng",
+            "lastNames": [
+                "Cochran",
+                "Ng"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                21,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "Lake Washington CG": {
+            "tournamentComp": 0.0,
+            "fullNames": "Amelie Calamia & addison goldberg",
+            "lastNames": [
+                "Calamia",
+                "goldberg"
+            ],
+            "prelimRecord": [
+                0,
+                6
+            ],
+            "prelimRank": [
+                22,
+                22
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                },
+                {
+                    "name": null,
+                    "rawAVG": null,
+                    "adjAVG": null
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.333
+        }
+    }
+}

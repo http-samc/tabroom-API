@@ -1,0 +1,630 @@
+{
+    "SF Roosevelt Sweetstakes": {
+        "SFW Stanek & Downing": {
+            "tournamentComp": 2.04,
+            "fullNames": "Julia Stanek & Ryan Downing",
+            "lastNames": [
+                "Stanek",
+                "Downing"
+            ],
+            "prelimRecord": [
+                5,
+                0
+            ],
+            "prelimRank": [
+                1,
+                16
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Semis",
+                "Semifinals",
+                "BRK Tummala & Manzer"
+            ],
+            "speaks": [
+                {
+                    "name": "Stanek Julia",
+                    "rawAVG": 28.98,
+                    "adjAVG": 29.18
+                },
+                {
+                    "name": "Downing Ryan",
+                    "rawAVG": 28.72,
+                    "adjAVG": 28.72
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 3.4
+        },
+        "ABC Fleckenstein & Herceg": {
+            "tournamentComp": 1.344,
+            "fullNames": "Madyson Fleckenstein & Fiala Herceg",
+            "lastNames": [
+                "Fleckenstein",
+                "Herceg"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                3,
+                16
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Semis",
+                "Semifinals",
+                "ABC Johnson & Buchele"
+            ],
+            "speaks": [
+                {
+                    "name": "Fleckenstein Madyson",
+                    "rawAVG": 28.46,
+                    "adjAVG": 28.46
+                },
+                {
+                    "name": "Herceg Fiala",
+                    "rawAVG": 28.74,
+                    "adjAVG": 28.74
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "ABC Johnson & Buchele": {
+            "tournamentComp": 1.792,
+            "fullNames": "Olivia Johnson & Haylee Buchele",
+            "lastNames": [
+                "Johnson",
+                "Buchele"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                2,
+                16
+            ],
+            "breakRecord": [
+                0,
+                3
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Finals",
+                "Finals",
+                "BRK Tummala & Manzer"
+            ],
+            "speaks": [
+                {
+                    "name": "Johnson Olivia",
+                    "rawAVG": 28.96,
+                    "adjAVG": 28.96
+                },
+                {
+                    "name": "Buchele Haylee",
+                    "rawAVG": 29.14,
+                    "adjAVG": 29.43
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "BRK Tummala & Manzer": {
+            "tournamentComp": 1.76,
+            "fullNames": "Aditya Tummala & Elijah Manzer",
+            "lastNames": [
+                "Tummala",
+                "Manzer"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                4,
+                16
+            ],
+            "breakRecord": [
+                3,
+                0
+            ],
+            "eliminated": null,
+            "speaks": [
+                {
+                    "name": "Tummala Aditya",
+                    "rawAVG": 28.48,
+                    "adjAVG": 28.48
+                },
+                {
+                    "name": "Manzer Elijah",
+                    "rawAVG": 28.38,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 2.75
+        },
+        "ABC Aberle & Van Steenwyk": {
+            "tournamentComp": 0.576,
+            "fullNames": "Grant Aberle & Drake Van Steenwyk",
+            "lastNames": [
+                "Aberle",
+                "VanSteenwyk"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                8,
+                16
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Quarters",
+                "Quarterfinals",
+                "SFW Stanek & Downing"
+            ],
+            "speaks": [
+                {
+                    "name": "Aberle Grant",
+                    "rawAVG": 28.46,
+                    "adjAVG": 28.46
+                },
+                {
+                    "name": "Van Steenwyk Drake",
+                    "rawAVG": 28.84,
+                    "adjAVG": 29.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.4
+        },
+        "ABC Hegge & George": {
+            "tournamentComp": 0.54,
+            "fullNames": "Samantha Hegge & Abiah George",
+            "lastNames": [
+                "Hegge",
+                "George"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                7,
+                16
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Quarters",
+                "Quarterfinals",
+                "ABC Johnson & Buchele"
+            ],
+            "speaks": [
+                {
+                    "name": "Hegge Samantha",
+                    "rawAVG": 28.76,
+                    "adjAVG": 29.0
+                },
+                {
+                    "name": "George Abiah",
+                    "rawAVG": 28.54,
+                    "adjAVG": 28.54
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.25
+        },
+        "BRK Hua & Nepal": {
+            "tournamentComp": 0.27,
+            "fullNames": "Emily Hua & Sampada Nepal",
+            "lastNames": [
+                "Hua",
+                "Nepal"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                9,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Hua Emily",
+                    "rawAVG": 27.7,
+                    "adjAVG": 27.7
+                },
+                {
+                    "name": "Nepal Sampada",
+                    "rawAVG": 27.64,
+                    "adjAVG": 27.64
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.25
+        },
+        "SFR Kambeitz & Zielenski": {
+            "tournamentComp": 0.528,
+            "fullNames": "JaLeigha Kambeitz & Torr Zielenski",
+            "lastNames": [
+                "Kambeitz",
+                "Zielenski"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                6,
+                16
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "ABC Fleckenstein & Herceg"
+            ],
+            "speaks": [
+                {
+                    "name": "Kambeitz JaLeigha",
+                    "rawAVG": 28.68,
+                    "adjAVG": 28.68
+                },
+                {
+                    "name": "Zielenski Torr",
+                    "rawAVG": 28.96,
+                    "adjAVG": 29.2
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "SFC Kobes & Weiner": {
+            "tournamentComp": 0.624,
+            "fullNames": "Bethany Kobes & Carson Weiner",
+            "lastNames": [
+                "Kobes",
+                "Weiner"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                5,
+                16
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Quarters",
+                "Quarterfinals",
+                "BRK Tummala & Manzer"
+            ],
+            "speaks": [
+                {
+                    "name": "Kobes Bethany",
+                    "rawAVG": 29.14,
+                    "adjAVG": 29.02
+                },
+                {
+                    "name": "Weiner Carson",
+                    "rawAVG": 29.3,
+                    "adjAVG": 29.12
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "MIT Boehmer & Korzan": {
+            "tournamentComp": 0.224,
+            "fullNames": "Shawn Boehmer & Alexis Julia",
+            "lastNames": [
+                "Boehmer",
+                "Korzan"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                12,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Boehmer Shawn",
+                    "rawAVG": 27.06,
+                    "adjAVG": 28.32
+                },
+                {
+                    "name": "Julia Alexis",
+                    "rawAVG": 27.84,
+                    "adjAVG": 28.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "SFO Buus & Brennan": {
+            "tournamentComp": 0.14,
+            "fullNames": "Riley Buus & Gillian Brennan",
+            "lastNames": [
+                "Buus",
+                "Brennan"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                10,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Buus Riley",
+                    "rawAVG": 29.0,
+                    "adjAVG": 29.0
+                },
+                {
+                    "name": "Brennan Gillian",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 1.75
+        },
+        "SFR Ness & Kathner": {
+            "tournamentComp": 0.26,
+            "fullNames": "Norah Ness & Vaughn Kathner",
+            "lastNames": [
+                "Ness",
+                "Kathner"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                13,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Ness Norah",
+                    "rawAVG": 28.1,
+                    "adjAVG": 28.1
+                },
+                {
+                    "name": "Kathner Vaughn",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.25
+        },
+        "SFL Deak & Bethke": {
+            "tournamentComp": 0.256,
+            "fullNames": "Al Deak & Daniel Bethke",
+            "lastNames": [
+                "Deak",
+                "Bethke"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                11,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Deak Al",
+                    "rawAVG": 28.48,
+                    "adjAVG": 28.47
+                },
+                {
+                    "name": "Bethke Daniel",
+                    "rawAVG": 28.36,
+                    "adjAVG": 28.36
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.2
+        },
+        "SFW Seon & Kloster": {
+            "tournamentComp": 0.22,
+            "fullNames": "Meshachlen Seon & Savannah Kloster",
+            "lastNames": [
+                "Seon",
+                "Kloster"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                14,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Seon Meshachlen",
+                    "rawAVG": 26.38,
+                    "adjAVG": 27.83
+                },
+                {
+                    "name": "Kloster Savannah",
+                    "rawAVG": 25.45,
+                    "adjAVG": 25.45
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.75
+        },
+        "RCS Haar & Haar": {
+            "tournamentComp": 0.104,
+            "fullNames": "Evelyn Haar & Thomas Haar",
+            "lastNames": [
+                "Haar",
+                "Haar"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                15,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Haar Evelyn",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.5
+                },
+                {
+                    "name": "Haar Thomas",
+                    "rawAVG": 27.5,
+                    "adjAVG": 27.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "SFC Van Den Top & Ackerman": {
+            "tournamentComp": 0.0,
+            "fullNames": "Connor Van Den Top & Owen Ackerman",
+            "lastNames": [
+                "VanDenTop",
+                "Ackerman"
+            ],
+            "prelimRecord": [
+                0,
+                5
+            ],
+            "prelimRank": [
+                16,
+                16
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Van Den Top Connor",
+                    "rawAVG": 27.56,
+                    "adjAVG": 27.56
+                },
+                {
+                    "name": "Ackerman Owen",
+                    "rawAVG": 27.84,
+                    "adjAVG": 27.84
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        }
+    }
+}
