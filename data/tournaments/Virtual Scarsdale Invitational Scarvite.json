@@ -1,0 +1,1752 @@
+{
+    "Virtual Scarsdale Invitational Scarvite": {
+        "Milton DY": {
+            "tournamentComp": 2.917,
+            "fullNames": "Lorenzo DeSimone & Can (Jon) Yildirim",
+            "lastNames": [
+                "DeSimone",
+                "Yildirim"
+            ],
+            "prelimRecord": [
+                6,
+                0
+            ],
+            "prelimRank": [
+                1,
+                46
+            ],
+            "breakRecord": [
+                2,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Semis",
+                "Semifinals",
+                "Prince MB"
+            ],
+            "speaks": [
+                {
+                    "name": "DeSimone Lorenzo",
+                    "rawAVG": 28.65,
+                    "adjAVG": 28.65
+                },
+                {
+                    "name": "Yildirim Can (Jon)",
+                    "rawAVG": 29.12,
+                    "adjAVG": 29.12
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.5
+        },
+        "HorMan MR": {
+            "tournamentComp": 1.331,
+            "fullNames": "Jojo Mignone & Athena Rem",
+            "lastNames": [
+                "Mignone",
+                "Rem"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                3,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Octas",
+                "Octafinals",
+                "Stuyve PC"
+            ],
+            "speaks": [
+                {
+                    "name": "Mignone Jojo",
+                    "rawAVG": 29.03,
+                    "adjAVG": 29.03
+                },
+                {
+                    "name": "Rem Athena",
+                    "rawAVG": 29.02,
+                    "adjAVG": 29.02
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.833
+        },
+        "Prince MB": {
+            "tournamentComp": 3.183,
+            "fullNames": "Alexander Margulis & Nicholas Budny",
+            "lastNames": [
+                "Margulis",
+                "Budny"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                4,
+                46
+            ],
+            "breakRecord": [
+                4,
+                0
+            ],
+            "eliminated": null,
+            "speaks": [
+                {
+                    "name": "Margulis Alexander",
+                    "rawAVG": 28.88,
+                    "adjAVG": 28.88
+                },
+                {
+                    "name": "Budny Nicholas",
+                    "rawAVG": 29.18,
+                    "adjAVG": 29.18
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 5,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "Regis BG": {
+            "tournamentComp": 2.893,
+            "fullNames": "Donovan Barcelona & Alexander Greene",
+            "lastNames": [
+                "Barcelona",
+                "Greene"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                6,
+                46
+            ],
+            "breakRecord": [
+                1,
+                3
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Finals",
+                "Finals",
+                "Prince MB"
+            ],
+            "speaks": [
+                {
+                    "name": "Barcelona Donovan",
+                    "rawAVG": 28.95,
+                    "adjAVG": 28.95
+                },
+                {
+                    "name": "Greene Alexander",
+                    "rawAVG": 28.97,
+                    "adjAVG": 28.97
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 5,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.333
+        },
+        "Regis KB": {
+            "tournamentComp": 1.157,
+            "fullNames": "Kai-Shan Kwek-Rupp & David Biviano",
+            "lastNames": [
+                "Biviano",
+                "Kwek-Rupp"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                2,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Octas",
+                "Octafinals",
+                "Regis CR"
+            ],
+            "speaks": [
+                {
+                    "name": "Kwek-Rupp Kai-Shan",
+                    "rawAVG": 29.2,
+                    "adjAVG": 29.2
+                },
+                {
+                    "name": "Biviano David",
+                    "rawAVG": 29.02,
+                    "adjAVG": 29.14
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.333
+        },
+        "Regis OZ": {
+            "tournamentComp": 2.662,
+            "fullNames": "Alex O'Donnell & Julian Zeitlinger",
+            "lastNames": [
+                "O'Donnell",
+                "Zeitlinger"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                7,
+                46
+            ],
+            "breakRecord": [
+                1,
+                2
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Semis",
+                "Semifinals",
+                "Regis BG"
+            ],
+            "speaks": [
+                {
+                    "name": "O'Donnell Alex",
+                    "rawAVG": 28.93,
+                    "adjAVG": 28.93
+                },
+                {
+                    "name": "Zeitlinger Julian",
+                    "rawAVG": 28.78,
+                    "adjAVG": 28.78
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.833
+        },
+        "Stuyve KL": {
+            "tournamentComp": 1.91,
+            "fullNames": "Edward Kemelmakher & Erica Lung",
+            "lastNames": [
+                "Kemelmakher",
+                "Lung"
+            ],
+            "prelimRecord": [
+                5,
+                1
+            ],
+            "prelimRank": [
+                5,
+                46
+            ],
+            "breakRecord": [
+                0,
+                2
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Prince MB"
+            ],
+            "speaks": [
+                {
+                    "name": "Kemelmakher Edward",
+                    "rawAVG": 29.13,
+                    "adjAVG": 29.13
+                },
+                {
+                    "name": "Lung Erica",
+                    "rawAVG": 28.92,
+                    "adjAVG": 28.92
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "HorMan FG": {
+            "tournamentComp": 1.0,
+            "fullNames": "Rizaa Fazal & Maeve Goldman",
+            "lastNames": [
+                "Fazal",
+                "Goldman"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                9,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Octas",
+                "Octafinals",
+                "Prince LC"
+            ],
+            "speaks": [
+                {
+                    "name": "Fazal Rizaa",
+                    "rawAVG": 28.88,
+                    "adjAVG": 28.88
+                },
+                {
+                    "name": "Goldman Maeve",
+                    "rawAVG": 29.32,
+                    "adjAVG": 29.15
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.6
+        },
+        "Prince LC": {
+            "tournamentComp": 1.042,
+            "fullNames": "Anna Liu & Emily Choi",
+            "lastNames": [
+                "Liu",
+                "Choi"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                8,
+                46
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Milton DY"
+            ],
+            "speaks": [
+                {
+                    "name": "Liu Anna",
+                    "rawAVG": 29.17,
+                    "adjAVG": 29.06
+                },
+                {
+                    "name": "Choi Emily",
+                    "rawAVG": 29.12,
+                    "adjAVG": 28.98
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.5
+        },
+        "Regis CR": {
+            "tournamentComp": 1.25,
+            "fullNames": "Andrew Cimmino & Carlton Roe",
+            "lastNames": [
+                "Cimmino",
+                "Roe"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                15,
+                46
+            ],
+            "breakRecord": [
+                0,
+                2
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Quarters",
+                "Quarterfinals",
+                "Regis OZ"
+            ],
+            "speaks": [
+                {
+                    "name": "Cimmino Andrew",
+                    "rawAVG": 28.83,
+                    "adjAVG": 28.83
+                },
+                {
+                    "name": "Roe Carlton",
+                    "rawAVG": 28.8,
+                    "adjAVG": 28.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.0
+        },
+        "Regis FJ": {
+            "tournamentComp": 0.532,
+            "fullNames": "Jack Flanigan & Reece Jones",
+            "lastNames": [
+                "Flanigan",
+                "Jones"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                17,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Flanigan Jack",
+                    "rawAVG": 28.77,
+                    "adjAVG": 28.88
+                },
+                {
+                    "name": "Jones Reece",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.5
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.833
+        },
+        "Regis GM": {
+            "tournamentComp": 1.019,
+            "fullNames": "Aidan Gouley & Aidan Moran",
+            "lastNames": [
+                "Gouley",
+                "Moran"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                11,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Octas",
+                "Octafinals",
+                "Regis BG"
+            ],
+            "speaks": [
+                {
+                    "name": "Gouley Aidan",
+                    "rawAVG": 29.08,
+                    "adjAVG": 29.08
+                },
+                {
+                    "name": "Moran Aidan",
+                    "rawAVG": 29.02,
+                    "adjAVG": 29.02
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "Shrews VA": {
+            "tournamentComp": 0.741,
+            "fullNames": "Vidyut Veedgav & Sidney Adams",
+            "lastNames": [
+                "Veedgav",
+                "Adams"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                13,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Octas",
+                "Octafinals",
+                "Prince MB"
+            ],
+            "speaks": [
+                {
+                    "name": "Veedgav Vidyut",
+                    "rawAVG": 28.95,
+                    "adjAVG": 29.1
+                },
+                {
+                    "name": "Adams Sidney",
+                    "rawAVG": 28.73,
+                    "adjAVG": 28.73
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.667
+        },
+        "Stuyve PC": {
+            "tournamentComp": 1.111,
+            "fullNames": "Anagha Purohit & Aaron Contreras",
+            "lastNames": [
+                "Purohit",
+                "Contreras"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                14,
+                46
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Quarters",
+                "Quarterfinals",
+                "Regis BG"
+            ],
+            "speaks": [
+                {
+                    "name": "Purohit Anagha",
+                    "rawAVG": 28.82,
+                    "adjAVG": 28.98
+                },
+                {
+                    "name": "Contreras Aaron",
+                    "rawAVG": 28.68,
+                    "adjAVG": 28.68
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.667
+        },
+        "Stuyve TY": {
+            "tournamentComp": 0.833,
+            "fullNames": "Cynthia Tan & Daniel Yu",
+            "lastNames": [
+                "Tan",
+                "Yu"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                12,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                0,
+                "Octas",
+                "Octafinals",
+                "Stuyve KL"
+            ],
+            "speaks": [
+                {
+                    "name": "Tan Cynthia",
+                    "rawAVG": 28.92,
+                    "adjAVG": 28.92
+                },
+                {
+                    "name": "Yu Daniel",
+                    "rawAVG": 28.92,
+                    "adjAVG": 28.92
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.0
+        },
+        "BrxSci PW": {
+            "tournamentComp": 0.648,
+            "fullNames": "Tamar Padwa & Griffin Weiss",
+            "lastNames": [
+                "Padwa",
+                "Weiss"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                10,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "Octas",
+                "Octafinals",
+                "Regis OZ"
+            ],
+            "speaks": [
+                {
+                    "name": "Padwa Tamar",
+                    "rawAVG": 28.82,
+                    "adjAVG": 28.82
+                },
+                {
+                    "name": "Weiss Griffin",
+                    "rawAVG": 29.12,
+                    "adjAVG": 29.12
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.333
+        },
+        "Dalton JM": {
+            "tournamentComp": 0.88,
+            "fullNames": "Annika Jha & Arav Mehta",
+            "lastNames": [
+                "Jha",
+                "Mehta"
+            ],
+            "prelimRecord": [
+                4,
+                2
+            ],
+            "prelimRank": [
+                16,
+                46
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "Octas",
+                "Octafinals",
+                "Milton DY"
+            ],
+            "speaks": [
+                {
+                    "name": "Jha Annika",
+                    "rawAVG": 28.85,
+                    "adjAVG": 28.85
+                },
+                {
+                    "name": "Mehta Arav",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.6
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.167
+        },
+        "Byram PR": {
+            "tournamentComp": 0.243,
+            "fullNames": "Margaret Pollack & Leeza Reichenbaum",
+            "lastNames": [
+                "Pollack",
+                "Reichenbaum"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                28,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Pollack Margaret",
+                    "rawAVG": 28.62,
+                    "adjAVG": 28.62
+                },
+                {
+                    "name": "Reichenbaum Leeza",
+                    "rawAVG": 28.32,
+                    "adjAVG": 28.32
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.333
+        },
+        "HorMan YS": {
+            "tournamentComp": 0.365,
+            "fullNames": "Joann Yu & Hanzhang Swen",
+            "lastNames": [
+                "Yu",
+                "Swen"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                22,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Yu Joann",
+                    "rawAVG": 28.82,
+                    "adjAVG": 28.82
+                },
+                {
+                    "name": "Swen Hanzhang",
+                    "rawAVG": 28.88,
+                    "adjAVG": 28.88
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.5
+        },
+        "Lexton FM": {
+            "tournamentComp": 0.375,
+            "fullNames": "Annie Fan & Amy Ma",
+            "lastNames": [
+                "Fan",
+                "Ma"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                27,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Fan Annie",
+                    "rawAVG": 28.8,
+                    "adjAVG": 28.8
+                },
+                {
+                    "name": "Ma Amy",
+                    "rawAVG": 28.44,
+                    "adjAVG": 28.44
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.6
+        },
+        "Prince HP": {
+            "tournamentComp": 0.382,
+            "fullNames": "Nick Hagedorn & Will Pittman",
+            "lastNames": [
+                "Hagedorn",
+                "Pittman"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                29,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Hagedorn Nick",
+                    "rawAVG": 28.62,
+                    "adjAVG": 28.62
+                },
+                {
+                    "name": "Pittman Will",
+                    "rawAVG": 28.3,
+                    "adjAVG": 28.3
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "Regis HT": {
+            "tournamentComp": 0.312,
+            "fullNames": "Mac Healey & William Tinson",
+            "lastNames": [
+                "Healey",
+                "Tinson"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                19,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Healey Mac",
+                    "rawAVG": 28.85,
+                    "adjAVG": 28.9
+                },
+                {
+                    "name": "Tinson William",
+                    "rawAVG": 28.8,
+                    "adjAVG": 28.82
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.0
+        },
+        "Regis KS": {
+            "tournamentComp": 0.382,
+            "fullNames": "Hugh Kane & Shane Stesner",
+            "lastNames": [
+                "Kane",
+                "Stesner"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                21,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Kane Hugh",
+                    "rawAVG": 28.93,
+                    "adjAVG": 28.72
+                },
+                {
+                    "name": "Stesner Shane",
+                    "rawAVG": 28.85,
+                    "adjAVG": 28.85
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "RivCou KB": {
+            "tournamentComp": 0.347,
+            "fullNames": "Sam Karsch & Michael Blitzer",
+            "lastNames": [
+                "Karsch",
+                "Blitzer"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                20,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Karsch Sam",
+                    "rawAVG": 28.85,
+                    "adjAVG": 28.85
+                },
+                {
+                    "name": "Blitzer Michael",
+                    "rawAVG": 28.85,
+                    "adjAVG": 28.85
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.333
+        },
+        "RivCou LN": {
+            "tournamentComp": 0.295,
+            "fullNames": "Alexandra Luskin & Ella Neuwirth",
+            "lastNames": [
+                "Luskin",
+                "Neuwirth"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                23,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Luskin Alexandra",
+                    "rawAVG": 28.72,
+                    "adjAVG": 28.75
+                },
+                {
+                    "name": "Neuwirth Ella",
+                    "rawAVG": 28.78,
+                    "adjAVG": 28.77
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.833
+        },
+        "RivCou PM": {
+            "tournamentComp": 0.25,
+            "fullNames": "Savannah Phillips & Macey Miller",
+            "lastNames": [
+                "Phillips",
+                "Miller"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                25,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Phillips Savannah",
+                    "rawAVG": 28.7,
+                    "adjAVG": 28.7
+                },
+                {
+                    "name": "Miller Macey",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.76
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.4
+        },
+        "Stuyve CL": {
+            "tournamentComp": 0.292,
+            "fullNames": "Allen Chao & Mikayla Lin",
+            "lastNames": [
+                "Chao",
+                "Lin"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                26,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Chao Allen",
+                    "rawAVG": 28.76,
+                    "adjAVG": 28.76
+                },
+                {
+                    "name": "Lin Mikayla",
+                    "rawAVG": 28.52,
+                    "adjAVG": 28.52
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.8
+        },
+        "Stuyve MG": {
+            "tournamentComp": 0.382,
+            "fullNames": "Kikyo Makino-Siller & David Glick",
+            "lastNames": [
+                "Makino-Siller",
+                "Glick"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                24,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Makino-Siller Kikyo",
+                    "rawAVG": 28.52,
+                    "adjAVG": 28.68
+                },
+                {
+                    "name": "Glick David",
+                    "rawAVG": 28.88,
+                    "adjAVG": 28.88
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "Stuyve MX": {
+            "tournamentComp": 0.365,
+            "fullNames": "Orlando Mazzoleni & Jason Xia",
+            "lastNames": [
+                "Mazzoleni",
+                "Xia"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                30,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Mazzoleni Orlando",
+                    "rawAVG": 28.42,
+                    "adjAVG": 28.42
+                },
+                {
+                    "name": "Xia Jason",
+                    "rawAVG": 28.4,
+                    "adjAVG": 28.4
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.5
+        },
+        "BrxSci BC": {
+            "tournamentComp": 0.382,
+            "fullNames": "Acadia Bost & Ava Conner",
+            "lastNames": [
+                "Bost",
+                "Conner"
+            ],
+            "prelimRecord": [
+                3,
+                3
+            ],
+            "prelimRank": [
+                18,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Bost Acadia",
+                    "rawAVG": 28.95,
+                    "adjAVG": 28.95
+                },
+                {
+                    "name": "Conner Ava",
+                    "rawAVG": 28.92,
+                    "adjAVG": 28.95
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "EdgJun JM": {
+            "tournamentComp": 0.174,
+            "fullNames": "Guillaume Jost & Ronik Malik",
+            "lastNames": [
+                "Malik",
+                "Jost"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                36,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Jost Guillaume",
+                    "rawAVG": 28.5,
+                    "adjAVG": 28.36
+                },
+                {
+                    "name": "Malik Ronik",
+                    "rawAVG": 28.73,
+                    "adjAVG": 28.73
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.5
+        },
+        "HorMan WM": {
+            "tournamentComp": 0.22,
+            "fullNames": "Josh Winiarsky & Alex Ment",
+            "lastNames": [
+                "Winiarsky",
+                "Ment"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                33,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Winiarsky Josh",
+                    "rawAVG": 28.68,
+                    "adjAVG": 28.82
+                },
+                {
+                    "name": "Ment Alex",
+                    "rawAVG": 28.67,
+                    "adjAVG": 28.67
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.167
+        },
+        "Lexton BJ": {
+            "tournamentComp": 0.162,
+            "fullNames": "Atreyi Basu & Anaya Joshi",
+            "lastNames": [
+                "Basu",
+                "Joshi"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                34,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Basu Atreyi",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.6
+                },
+                {
+                    "name": "Joshi Anaya",
+                    "rawAVG": 28.7,
+                    "adjAVG": 28.7
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.333
+        },
+        "Regis AQ": {
+            "tournamentComp": 0.22,
+            "fullNames": "Adhyatman Agarwala & Mark Quaglia",
+            "lastNames": [
+                "Agarwala",
+                "Quaglia"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                31,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Agarwala Adhyatman",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.78
+                },
+                {
+                    "name": "Quaglia Mark",
+                    "rawAVG": 28.97,
+                    "adjAVG": 28.86
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.167
+        },
+        "RivCou MB": {
+            "tournamentComp": 0.255,
+            "fullNames": "Will Moller & Brady Beal",
+            "lastNames": [
+                "Moller",
+                "Beal"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                37,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Moller Will",
+                    "rawAVG": 28.58,
+                    "adjAVG": 28.57
+                },
+                {
+                    "name": "Beal Brady",
+                    "rawAVG": 28.32,
+                    "adjAVG": 28.32
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.667
+        },
+        "RivCou SG": {
+            "tournamentComp": 0.194,
+            "fullNames": "Maxwell Steinberg & Casey Gottlieb",
+            "lastNames": [
+                "Steinberg",
+                "Gottlieb"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                39,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Steinberg Maxwell",
+                    "rawAVG": 28.54,
+                    "adjAVG": 28.54
+                },
+                {
+                    "name": "Gottlieb Casey",
+                    "rawAVG": 27.76,
+                    "adjAVG": 27.76
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.8
+        },
+        "Shrews SS": {
+            "tournamentComp": 0.15,
+            "fullNames": "Arjun Sivagaminathan & Eeman Saud",
+            "lastNames": [
+                "Sivagaminathan",
+                "Saud"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                38,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Sivagaminathan Arjun",
+                    "rawAVG": 28.32,
+                    "adjAVG": 28.14
+                },
+                {
+                    "name": "Saud Eeman",
+                    "rawAVG": 28.52,
+                    "adjAVG": 28.52
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.167
+        },
+        "Stuyve RV": {
+            "tournamentComp": 0.167,
+            "fullNames": "Amrisha Roy & Philip Virata",
+            "lastNames": [
+                "Roy",
+                "Virata"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                35,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Roy Amrisha",
+                    "rawAVG": 28.57,
+                    "adjAVG": 28.68
+                },
+                {
+                    "name": "Virata Philip",
+                    "rawAVG": 28.4,
+                    "adjAVG": 28.4
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.4
+        },
+        "BrxSci LZ": {
+            "tournamentComp": 0.208,
+            "fullNames": "Emilie\u00c2\u00a0 Lin\u00c2\u00a0 & Rayna Zhang",
+            "lastNames": [
+                "Lin\u00c2\u00a0",
+                "Zhang"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                40,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Lin\u00c2\u00a0 Emilie\u00c2\u00a0",
+                    "rawAVG": 28.02,
+                    "adjAVG": 28.02
+                },
+                {
+                    "name": "Zhang Rayna",
+                    "rawAVG": 28.18,
+                    "adjAVG": 28.18
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.0
+        },
+        "Dalton CL": {
+            "tournamentComp": 0.208,
+            "fullNames": "Lucas Chen & Anya Levin",
+            "lastNames": [
+                "Chen",
+                "Levin"
+            ],
+            "prelimRecord": [
+                2,
+                4
+            ],
+            "prelimRank": [
+                32,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Chen Lucas",
+                    "rawAVG": 28.47,
+                    "adjAVG": 28.76
+                },
+                {
+                    "name": "Levin Anya",
+                    "rawAVG": 28.75,
+                    "adjAVG": 28.9
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.0
+        },
+        "EdgJun IP": {
+            "tournamentComp": 0.075,
+            "fullNames": "George Ishak & Valentino Preldakaj",
+            "lastNames": [
+                "Ishak",
+                "Preldakaj"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                44,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Ishak George",
+                    "rawAVG": 27.9,
+                    "adjAVG": 27.9
+                },
+                {
+                    "name": "Preldakaj Valentino",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.167
+        },
+        "HorMan SK": {
+            "tournamentComp": 0.093,
+            "fullNames": "Jackson Schreiber & Spencer Kolker",
+            "lastNames": [
+                "Schreiber",
+                "Kolker"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                41,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Schreiber Jackson",
+                    "rawAVG": 28.88,
+                    "adjAVG": 28.88
+                },
+                {
+                    "name": "Kolker Spencer",
+                    "rawAVG": 28.58,
+                    "adjAVG": 28.58
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.667
+        },
+        "Regis CD": {
+            "tournamentComp": 0.069,
+            "fullNames": "Sebastian Cardena & Vincent D'Addona",
+            "lastNames": [
+                "Cardena",
+                "D'Addona"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                43,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Cardena Sebastian",
+                    "rawAVG": 28.72,
+                    "adjAVG": 28.72
+                },
+                {
+                    "name": "D'Addona Vincent",
+                    "rawAVG": 28.48,
+                    "adjAVG": 28.48
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.0
+        },
+        "RivCou ML": {
+            "tournamentComp": 0.093,
+            "fullNames": "Spencer Myers & Jacob Loeb",
+            "lastNames": [
+                "Myers",
+                "Loeb"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                45,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Myers Spencer",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Loeb Jacob",
+                    "rawAVG": 27.48,
+                    "adjAVG": 27.18
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.667
+        },
+        "Stuyve LB": {
+            "tournamentComp": 0.111,
+            "fullNames": "Tracey Lin & Rebecca Bao",
+            "lastNames": [
+                "Lin",
+                "Bao"
+            ],
+            "prelimRecord": [
+                1,
+                5
+            ],
+            "prelimRank": [
+                42,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Lin Tracey",
+                    "rawAVG": 28.52,
+                    "adjAVG": 28.52
+                },
+                {
+                    "name": "Bao Rebecca",
+                    "rawAVG": 28.68,
+                    "adjAVG": 28.77
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 3.2
+        },
+        "RivCou CW": {
+            "tournamentComp": 0.0,
+            "fullNames": "Soren Cabinte & Sebastian Weise",
+            "lastNames": [
+                "Cabinte",
+                "Weise"
+            ],
+            "prelimRecord": [
+                0,
+                6
+            ],
+            "prelimRank": [
+                46,
+                46
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Cabinte Soren",
+                    "rawAVG": 27.63,
+                    "adjAVG": 27.65
+                },
+                {
+                    "name": "Weise Sebastian",
+                    "rawAVG": 27.8,
+                    "adjAVG": 27.8
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1.25,
+            "OPwpm": 2.333
+        }
+    }
+}
