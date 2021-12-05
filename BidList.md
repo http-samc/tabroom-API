@@ -1,5 +1,5 @@
 ## Fully Qualified Teams (46)
-| Code | Names | 🥇 | 🥈 |
+| ### Code | ### Names | 🥇 | 🥈 |
 | --- | --- | --- | --- |
 | [Plano West MZ](http://tournaments.tech/?team=61abfd9ae7fb0a2ae6bf40e8) | Satvik Mahendra & Brady Zeng | 6 | 2 |
 | [Flintridge Prep ZV](http://tournaments.tech/?team=61abfd9ae7fb0a2ae6bf40ea) | Daniel Zhao & Sienna Vaughn | 4 | 2 |
