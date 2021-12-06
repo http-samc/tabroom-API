@@ -8,6 +8,7 @@ from utils.const import CON, LOSS, PRO, WIN, breakNames
 of the Tabroom.com website
 """
 
+
 def _clean(string: str, stripNum: bool = False, stripPeriods: bool = True) -> str:
     """Removes tabs, periods, newlines, nums (opt) from a string
 
@@ -19,12 +20,15 @@ def _clean(string: str, stripNum: bool = False, stripPeriods: bool = True) -> st
         str: cleaned version of string
         None: if string had no characters
     """
-    if stripNum: string = ''.join([i for i in string if not i.isdigit()])
+    if stripNum:
+        string = ''.join([i for i in string if not i.isdigit()])
     string = string.replace('\n', '').replace('\t', '').replace('(', ' (')
-    if stripPeriods: string = string.replace('.', '')
+    if stripPeriods:
+        string = string.replace('.', '')
     string = string.replace('  ', ' ')
 
     return string if string != "" else None
+
 
 def _adjScores(x: list, outlierConstant: float = 2) -> list:
     """Filters a list by removing outliers
@@ -49,6 +53,7 @@ def _adjScores(x: list, outlierConstant: float = 2) -> list:
 
 # breaks() and bracket() return the same schema from different pages - use one or the other
 # depending on what the tournament has published (prefer breaks)
+
 
 def bracket(URL: str) -> dict:
     """Scrapes a Tabroom bracket as an HTML table & returns
@@ -79,11 +84,12 @@ def bracket(URL: str) -> dict:
     r = requests.get(URL)
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    table = soup.find("table") # Bracket
+    table = soup.find("table")  # Bracket
 
     # Get round names
     roundNames = []
-    rounds = table.find("tr") # There are multiple rows, but 1st one is the header w/ names
+    # There are multiple rows, but 1st one is the header w/ names
+    rounds = table.find("tr")
     for round in rounds:
         if not isinstance(round, NavigableString):
             roundNames.append(_clean(round.get_text()))
@@ -92,27 +98,32 @@ def bracket(URL: str) -> dict:
     numBreaks = len(roundNames)
 
     # Get all rows in table
-    rows = table.find_all("tr")[1:] # Skip idx 0 because it only has round names
+    # Skip idx 0 because it only has round names
+    rows = table.find_all("tr")[1:]
 
     # Calculate number of teams broken (used later to eliminate "champion" column)
     numBroken = len(rows)
 
     # Loop through all the rows
     for row in rows:
-        cols = row.find_all("td") # all the columns in the row
+        cols = row.find_all("td")  # all the columns in the row
 
         i = 0
-        for col in cols: # Not using enumerate() - more lines required
-            code = _clean(col.get_text(), stripNum=True) # get text & remove seed nums
-            if not code: continue # Skip if we don't have a team at this pos
+        for col in cols:  # Not using enumerate() - more lines required
+            # get text & remove seed nums
+            code = _clean(col.get_text(), stripNum=True)
+            if not code:
+                continue  # Skip if we don't have a team at this pos
 
             # If our rowspan is larger than our numBroken we have a "champion" col to skip
             if 'rowspan' in col.attrs and int(col['rowspan']) >= numBroken:
                 numBreaks -= 1
                 continue
 
-            if code not in data: data[code] = i # Create key if DNE
-            data[code] = i if i > data[code] else data[code] # Overwrite if current col >
+            if code not in data:
+                data[code] = i  # Create key if DNE
+            # Overwrite if current col >
+            data[code] = i if i > data[code] else data[code]
             i += 1
 
     # Condensing data & calculating additional information
@@ -128,6 +139,7 @@ def bracket(URL: str) -> dict:
         ]
 
     return data
+
 
 def breaks(URL: str) -> dict:
     """Parses the final places page of a tournament
@@ -155,7 +167,7 @@ def breaks(URL: str) -> dict:
     soup = BeautifulSoup(r.text, "html.parser")
 
     # Getting all rows except for the first header
-    table = soup.find('table') # only gets break rounds table
+    table = soup.find('table')  # only gets break rounds table
     rawData = table.find_all("tr")
     rawData = rawData[1:len(rawData)]
 
@@ -168,13 +180,13 @@ def breaks(URL: str) -> dict:
         textData = []
 
         for node in rawEntryData:
-            nodeText = node.get_text().replace('\t','').split('\n')
+            nodeText = node.get_text().replace('\t', '').split('\n')
             textData.append(nodeText)
 
         try:
             struct = {
-                'code' : _clean(textData[1][1]),
-                'break' : textData[0][1]
+                'code': _clean(textData[1][1]),
+                'break': textData[0][1]
             }
             teams.append(struct)
 
@@ -190,28 +202,30 @@ def breaks(URL: str) -> dict:
         # Get team data
         teamsElim = teams[prevIDX:roundEndIDX]
         for team in teamsElim:
-            if team["code"] is None: # Blank col
+            if team["code"] is None:  # Blank col
                 continue
             data[_clean(team["code"])] = [
-                i, # what break round it was (finals = 1, ...)
-                team["break"], # provided round name
-                breakNames[i-1] # std round name
+                i,  # what break round it was (finals = 1, ...)
+                team["break"],  # provided round name
+                breakNames[i-1]  # std round name
             ]
 
         # Break if we evenly filled the exponential growth
-        if roundEndIDX == len(teams): break
+        if roundEndIDX == len(teams):
+            break
 
         # Preparing for next iter
         i += 1
         prevIDX = roundEndIDX
 
-    currI = i + 1 # Helps us reorganize
+    currI = i + 1  # Helps us reorganize
 
     # Reorganizing to include roundPrestige
     for team in data:
         data[team][0] = currI - data[team][0]
 
     return data
+
 
 def manualResultData(entryData: dict, numBreaks: int) -> dict:
     """Creates result data using only information from the
@@ -322,8 +336,8 @@ def entry(URL: str) -> dict:
     breaks = []
 
     # Round counters
-    numPrelims = 0 # num of "real" non-bye prelims
-    prelimRecord = [0, 0] # running prelim record
+    numPrelims = 0  # num of "real" non-bye prelims
+    prelimRecord = [0, 0]  # running prelim record
 
     # Getting round names and appending to appropriate list
     rows = soup.find_all(class_="row")
@@ -333,25 +347,34 @@ def entry(URL: str) -> dict:
 
         # Getting round name and figuring out if it's a break round
         roundName = _clean(meta[0].get_text())
-        isBreak = False if "round" in roundName.lower() else True# or "R" == roundName[0:1] else True
+        isBreak = False if "round" in roundName.lower(
+        ) or "R" == roundName[0:1] else True
         isIntlRound = True if "intl" in roundName.lower() else False
 
         # Getting side and standardizing it
         side = _clean(meta[1].get_text())
-        if side in PRO: side = "PRO"
-        elif side in CON: side = "CON"
-        else: side = "BYE"
+        if side in PRO:
+            side = "PRO"
+        elif side in CON:
+            side = "CON"
+        else:
+            side = "BYE"
 
         # If we have a BYE -> append data with null values and go onto next iter
         if side == "BYE":
-            if not isBreak: prelimRecord[0] += 1
-            roundData = {"round":roundName,"win":True,"side":side,"opp":None,"decision":None}
-            if isBreak and not isIntlRound: breaks.append(roundData)
-            else: prelims.append(roundData)
+            if not isBreak:
+                prelimRecord[0] += 1
+            roundData = {"round": roundName, "win": True,
+                         "side": side, "opp": None, "decision": None}
+            if isBreak and not isIntlRound:
+                breaks.append(roundData)
+            else:
+                prelims.append(roundData)
             continue
 
         # Find opponent code
-        opp = _clean(row.find(class_="threetenths padno").get_text()).replace('vs ', '')
+        opp = _clean(row.find(class_="threetenths padno").get_text()
+                     ).replace('vs ', '')
 
         # Trimming to only include decisions
         meta = meta[2:]
@@ -360,38 +383,48 @@ def entry(URL: str) -> dict:
         decision = [0, 0]
         for node in meta:
             node = _clean(node.get_text())
-            if node not in WIN and node not in LOSS: continue
+            if node not in WIN and node not in LOSS:
+                continue
             decision[0] += 1 if node in WIN else 0
             decision[1] += 1 if node in LOSS else 0
 
         # Determining win/loss/draw
-        if decision[0] > decision[1]: win = True
-        elif decision[1] > decision[0]: win = False
-        else: win = None
+        if decision[0] > decision[1]:
+            win = True
+        elif decision[1] > decision[0]:
+            win = False
+        else:
+            win = None
 
         # Updating counters
         if not isBreak:
-            if win: prelimRecord[0] += 1
-            else: prelimRecord[1] += 1
+            if win:
+                prelimRecord[0] += 1
+            else:
+                prelimRecord[1] += 1
             numPrelims += 1
 
         roundData = {
-            "round" : roundName,
-            "win" : win,
-            "side" : side,
-            "opp" : opp,
-            "decision" : decision
+            "round": roundName,
+            "win": win,
+            "side": side,
+            "opp": opp,
+            "decision": decision
         }
 
         # Appending data (don't append intl rounds)
-        if isBreak and not isIntlRound: breaks.append(roundData)
-        elif not isBreak and not isIntlRound: prelims.append(roundData)
+        if isBreak and not isIntlRound:
+            breaks.append(roundData)
+        elif not isBreak and not isIntlRound:
+            prelims.append(roundData)
 
     # Polling speaker data
 
     speakerNames = soup.find_all(class_="threefifths")
-    speakerOne = _clean(speakerNames[0].get_text()) if len(speakerNames) > 1 else None
-    speakerTwo = _clean(speakerNames[1].get_text()) if len(speakerNames) > 1 else None
+    speakerOne = _clean(speakerNames[0].get_text()) if len(
+        speakerNames) > 1 else None
+    speakerTwo = _clean(speakerNames[1].get_text()) if len(
+        speakerNames) > 1 else None
     speakerOnePTS = []
     speakerTwoPTS = []
 
@@ -401,8 +434,10 @@ def entry(URL: str) -> dict:
     for score in speakerData:
         score = _clean(score.get_text(), stripPeriods=False)
 
-        if len(score) == 1: continue
-        else: score = float(score)
+        if len(score) == 1:
+            continue
+        else:
+            score = float(score)
 
         if i % 2 == 0:
             speakerOnePTS.append(score)
@@ -430,28 +465,29 @@ def entry(URL: str) -> dict:
         speakerTwoADJ = None
 
     data = {
-        "code" : code,
-        "names" : names,
-        "prelimRecord" : prelimRecord,
-        "debatedPrelims" : numPrelims,
-        "elimIn" : breaks[0]["round"] if breaks != [] else "Prelims",
-        "speaks" : [
+        "code": code,
+        "names": names,
+        "prelimRecord": prelimRecord,
+        "debatedPrelims": numPrelims,
+        "elimIn": breaks[0]["round"] if breaks != [] else "Prelims",
+        "speaks": [
             {
-                "name" : speakerOne,
-                "rawAVG" : speakerOneRAW,
-                "adjAVG" : speakerOneADJ
+                "name": speakerOne,
+                "rawAVG": speakerOneRAW,
+                "adjAVG": speakerOneADJ
             },
             {
-                "name" : speakerTwo,
-                "rawAVG" : speakerTwoRAW,
-                "adjAVG" : speakerTwoADJ
+                "name": speakerTwo,
+                "rawAVG": speakerTwoRAW,
+                "adjAVG": speakerTwoADJ
             }
         ],
-        "prelims" : prelims,
-        "breaks" : breaks
+        "prelims": prelims,
+        "breaks": breaks
     }
 
     return data
+
 
 def prelims(URL: str) -> dict:
     """Parses the prelims page of a tournament
@@ -495,29 +531,31 @@ def prelims(URL: str) -> dict:
     # Getting number of entries
     numEntries = len(rawData)
 
-    for r, element in enumerate(rawData, start = 1):
+    for r, element in enumerate(rawData, start=1):
 
         rawEntryData = element.find_all("td")
         textData = []
 
-        entryPage = "https://www.tabroom.com" + rawEntryData[1].find("a")['href']
+        entryPage = "https://www.tabroom.com" + \
+            rawEntryData[1].find("a")['href']
 
         for node in rawEntryData:
-            nodeText = node.get_text().replace('\t','').split('\n')
+            nodeText = node.get_text().replace('\t', '').split('\n')
             textData.append(nodeText)
         try:
             code = _clean(textData[2][2])
             data[code] = {
-                'names' : textData[1][2].replace(' ', '').split('&'),
-                'entryPage' : entryPage,
-                'wins' : int(textData[0][1]),
-                'prelimRank' : [r, numEntries]
+                'names': textData[1][2].replace(' ', '').split('&'),
+                'entryPage': entryPage,
+                'wins': int(textData[0][1]),
+                'prelimRank': [r, numEntries]
             }
 
         except Exception as e:
             print(e)
 
     return data
+
 
 def prelimSeeds(URL: str) -> dict:
     """Parses the prelim seeds page of a tournament
@@ -550,24 +588,24 @@ def prelimSeeds(URL: str) -> dict:
     # Getting number of entries
     numEntries = len(rawData)
 
-    for r, element in enumerate(rawData, start = 1):
+    for r, element in enumerate(rawData, start=1):
 
         rawEntryData = element.find_all("td")
         textData = []
 
         for node in rawEntryData:
-            nodeText = node.get_text().replace('\t','').split('\n')
+            nodeText = node.get_text().replace('\t', '').split('\n')
             textData.append(nodeText)
         try:
             pos = int(textData[0][1])
             code = textData[1][1]
             data[code] = [pos, numEntries]
 
-
         except Exception as e:
             print(e)
 
     return data
+
 
 def name(URL: str) -> str:
     """Scrapes the name of a tournament
@@ -586,6 +624,8 @@ def name(URL: str) -> str:
 
     return _clean(name)[:-1]
 
+
 if __name__ == "__main__":
-    prelimData = prelimSeeds("https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=20446&result_id=187440")
+    prelimData = prelimSeeds(
+        "https://www.tabroom.com/index/tourn/results/event_results.mhtml?tourn_id=20446&result_id=187440")
     print(prelimData)

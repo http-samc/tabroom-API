@@ -4,12 +4,14 @@ import json
 from utils.scrapers import *
 from utils.const import BOOSTS
 
+
 def scrapeAll():
     "Driver for the generator function - scrapes all listed tournaments"
     with open("data/tournInfo.json", 'r') as f:
         data = json.loads(f.read())
     for tournament in data:
-        if data[tournament]["done"]: continue # skip scraped tournaments
+        if data[tournament]["done"]:
+            continue  # skip scraped tournaments
 
         # find boost factor
         bidLevel = data[tournament]["bidLevel"]
@@ -19,19 +21,21 @@ def scrapeAll():
         getTournamentData(data[tournament]["link"], tournamentBoost)
         print(Fore.GREEN + "Scraped: " + tournament)
 
+
 if __name__ == "__main__":
     scrapeAll()
     input("Any key to merge and update site, quit terminal if you see an error. . .")
-    import utils.merge # check for bye conflicts and merge
-    import utils.checkGhostBid # check for ghost bids
+    import utils.merge  # check for bye conflicts and merge
+    import utils.checkGhostBid  # check for ghost bids
 
-    # import utils.db
-    # import utils.makeBidList
+    input("Ready to push? ")
+    import utils.db
+    import utils.makeBidList
     # these are only available on Sam's local machine
     # it's used to push to the MongoDB that runs the frontend and update the Bid List
     # , so the keys within it are kept private to keep trolls out
 
-    # import utils.refreshServersideLeaderboard
+    import utils.refreshServersideLeaderboard
     # this is also only available on Sam's local machine
     # it's used to hit a private endpoint to refresh the leaderboard rankings
     # this takes a lot of CPU power so it isn't made public to avoid trolls
