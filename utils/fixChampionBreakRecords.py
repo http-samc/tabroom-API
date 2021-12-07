@@ -11,6 +11,7 @@ for P in onlyfiles:
     PATH = 'data/tournaments/' + P
     with open(PATH, 'r') as f:
         data = json.loads(f.read())
+        initialData = data
 
     tourn = P.replace('.json', '')
 
@@ -23,5 +24,6 @@ for P in onlyfiles:
             data[tourn][team]["breakRecord"][0] += data[tourn][team]["breakRecord"][1]
             data[tourn][team]["breakRecord"][1] = 0
 
+    if data == initialData: continue
     with open(PATH, 'w') as f:
         json.dump(data, f)
