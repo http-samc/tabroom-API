@@ -603,8 +603,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Octos",
                 "Octafinals",
                 "Regis KS"
@@ -726,8 +726,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Quarters",
                 "Quarterfinals",
                 "Regis GM"
@@ -980,8 +980,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Semis",
                 "Semifinals",
                 "Walt Whitman WB"

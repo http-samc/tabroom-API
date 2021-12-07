@@ -190,8 +190,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Octas",
                 "Octafinals",
                 "Regis CR"
@@ -234,8 +234,8 @@
                 2
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Semis",
                 "Semifinals",
                 "Regis BG"
@@ -410,8 +410,8 @@
                 2
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Quarters",
                 "Quarterfinals",
                 "Regis OZ"
@@ -489,8 +489,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Octas",
                 "Octafinals",
                 "Regis BG"
@@ -621,8 +621,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "Octas",
                 "Octafinals",
                 "Stuyve KL"

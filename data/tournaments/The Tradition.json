@@ -20,8 +20,8 @@
                 2
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "PF Sems",
                 "Semifinals",
                 "Lake Highland Prep PC"
@@ -366,8 +366,8 @@
                 1
             ],
             "eliminated": [
-                0,
-                0,
+                null,
+                null,
                 "PF Oct",
                 "Octafinals",
                 "Lake Highland Prep KH"
