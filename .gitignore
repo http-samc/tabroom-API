@@ -116,5 +116,6 @@ db.py
 
 utils/makeBidList.py
 utils/refreshServersideLeaderboard.py
+utils/notifyMobileUsers.py
 training_data/
 Result Analysis/

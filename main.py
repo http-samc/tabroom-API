@@ -18,6 +18,7 @@ def scrapeAll():
         print(Fore.CYAN + "Scraping: " + tournament)
         getTournamentData(data[tournament]["link"], tournamentBoost)
         print(Fore.GREEN + "Scraped: " + tournament)
+        input("Any key to continue. . .")
 
 if __name__ == "__main__":
     scrapeAll()
@@ -35,3 +36,7 @@ if __name__ == "__main__":
     # this is also only available on Sam's local machine
     # it's used to hit a private endpoint to refresh the leaderboard rankings
     # this takes a lot of CPU power so it isn't made public to avoid trolls
+
+    # import utils.notifyMobileUsers
+    # this is only available on Sam's local machine, it generates the notifications
+    # for the mobile apps

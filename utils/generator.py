@@ -84,6 +84,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     resultsURLs = getResultsURLs(divisionURL)
     finalsURL = resultsURLs[0]
     bracketURL = resultsURLs[1]
+
     prelimSeedsURL = resultsURLs[2]
 
     # Parsing prelims
@@ -101,7 +102,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         resultData = bracket(bracketURL)
     else:
         raise Exception(f"Error scraping {URL}: No result URL found!")
-        #resultData = manualResultData(entryData, 3) # use appropriate num breaks
+        #esultData = manualResultData(entryData, 4) # use appropriate num breaks
 
     # Parsing prelim seeds page
     seedData = {}

@@ -1,0 +1,560 @@
+{
+    "LSW Silver Talon": {
+        "Lincoln FT": {
+            "tournamentComp": 1.152,
+            "fullNames": "Mikil Foss & Kevin Tran",
+            "lastNames": [
+                "Foss",
+                "Tran"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                3,
+                14
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "SEMI",
+                "Semifinals",
+                "SF Roosevelt SG"
+            ],
+            "speaks": [
+                {
+                    "name": "Foss Mikil",
+                    "rawAVG": 29.24,
+                    "adjAVG": 29.24
+                },
+                {
+                    "name": "Tran Kevin",
+                    "rawAVG": 28.16,
+                    "adjAVG": 28.16
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 2.4
+        },
+        "Millard North BB": {
+            "tournamentComp": 0.704,
+            "fullNames": "Purannan Balakrishnan & Amuda Balu",
+            "lastNames": [
+                "Balakrishnan",
+                "Balu"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                2,
+                14
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "QUAR",
+                "Quarterfinals",
+                "SF Roosevelt SG"
+            ],
+            "speaks": [
+                {
+                    "name": "Balakrishnan Purannan",
+                    "rawAVG": 27.9,
+                    "adjAVG": 28.62
+                },
+                {
+                    "name": "Balu Amuda",
+                    "rawAVG": 29.54,
+                    "adjAVG": 29.54
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Millard North MK": {
+            "tournamentComp": 1.92,
+            "fullNames": "Aanya Mishra & Abhi Karri",
+            "lastNames": [
+                "Mishra",
+                "Karri"
+            ],
+            "prelimRecord": [
+                4,
+                1
+            ],
+            "prelimRank": [
+                1,
+                14
+            ],
+            "breakRecord": [
+                3,
+                0
+            ],
+            "eliminated": null,
+            "speaks": [
+                {
+                    "name": "Mishra Aanya",
+                    "rawAVG": 29.1,
+                    "adjAVG": 29.1
+                },
+                {
+                    "name": "Karri Abhi",
+                    "rawAVG": 29.54,
+                    "adjAVG": 29.54
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 3.0
+        },
+        "Lincoln Southwest WW": {
+            "tournamentComp": 0.768,
+            "fullNames": "Jack Watermolen & Joey Walter",
+            "lastNames": [
+                "Watermolen",
+                "Walter"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                6,
+                14
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "QUAR",
+                "Quarterfinals",
+                "Lincoln FT"
+            ],
+            "speaks": [
+                {
+                    "name": "Watermolen Jack",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.9
+                },
+                {
+                    "name": "Walter Joey",
+                    "rawAVG": 28.6,
+                    "adjAVG": 28.6
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 3.2
+        },
+        "Marian HB": {
+            "tournamentComp": 0.624,
+            "fullNames": "Olivia Hovey & Malerie Birkel",
+            "lastNames": [
+                "Hovey",
+                "Birkel"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                4,
+                14
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "QUAR",
+                "Quarterfinals",
+                "SF Roosevelt KN"
+            ],
+            "speaks": [
+                {
+                    "name": "Hovey Olivia",
+                    "rawAVG": 28.5,
+                    "adjAVG": 29.38
+                },
+                {
+                    "name": "Birkel Malerie",
+                    "rawAVG": 28.72,
+                    "adjAVG": 29.65
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "SF Roosevelt KN": {
+            "tournamentComp": 0.864,
+            "fullNames": "Vaughn Kathner & Norah Ness",
+            "lastNames": [
+                "Kathner",
+                "Ness"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                5,
+                14
+            ],
+            "breakRecord": [
+                1,
+                1
+            ],
+            "eliminated": [
+                1,
+                2,
+                "SEMI",
+                "Semifinals",
+                "Millard North MK"
+            ],
+            "speaks": [
+                {
+                    "name": "Kathner Vaughn",
+                    "rawAVG": 28.8,
+                    "adjAVG": 28.8
+                },
+                {
+                    "name": "Ness Norah",
+                    "rawAVG": 29.2,
+                    "adjAVG": 29.2
+                }
+            ],
+            "goldBid": false,
+            "silverBid": true,
+            "breakBoost": 3,
+            "tournamentBoost": 1,
+            "OPwpm": 2.4
+        },
+        "SF Roosevelt SG": {
+            "tournamentComp": 0.96,
+            "fullNames": "Jonathan Skelton & Michael Grismer",
+            "lastNames": [
+                "Skelton",
+                "Grismer"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                7,
+                14
+            ],
+            "breakRecord": [
+                2,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "FINAL",
+                "Finals",
+                "Millard North MK"
+            ],
+            "speaks": [
+                {
+                    "name": "Skelton Jonathan",
+                    "rawAVG": 28.2,
+                    "adjAVG": 28.2
+                },
+                {
+                    "name": "Grismer Michael",
+                    "rawAVG": 28.9,
+                    "adjAVG": 28.62
+                }
+            ],
+            "goldBid": true,
+            "silverBid": false,
+            "breakBoost": 4,
+            "tournamentBoost": 1,
+            "OPwpm": 2.0
+        },
+        "SF Roosevelt ZK": {
+            "tournamentComp": 0.672,
+            "fullNames": "Torr Zielenski & JaLeigha Kambeitz",
+            "lastNames": [
+                "Zielenski",
+                "Kambeitz"
+            ],
+            "prelimRecord": [
+                3,
+                2
+            ],
+            "prelimRank": [
+                8,
+                14
+            ],
+            "breakRecord": [
+                0,
+                1
+            ],
+            "eliminated": [
+                0,
+                3,
+                "QUAR",
+                "Quarterfinals",
+                "Millard North MK"
+            ],
+            "speaks": [
+                {
+                    "name": "Zielenski Torr",
+                    "rawAVG": 27.8,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "Kambeitz JaLeigha",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 2,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Millard North BW": {
+            "tournamentComp": 0.176,
+            "fullNames": "Charitha Bodepudi & Kheely Warren",
+            "lastNames": [
+                "Bodepudi",
+                "Warren"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                11,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Bodepudi Charitha",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.75
+                },
+                {
+                    "name": "Warren Kheely",
+                    "rawAVG": 27.9,
+                    "adjAVG": 28.17
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Millard South CH": {
+            "tournamentComp": 0.208,
+            "fullNames": "Quinn Constantino & Vivian Hickman",
+            "lastNames": [
+                "Constantino",
+                "Hickman"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                9,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Constantino Quinn",
+                    "rawAVG": 29.02,
+                    "adjAVG": 29.0
+                },
+                {
+                    "name": "Hickman Vivian",
+                    "rawAVG": 27.64,
+                    "adjAVG": 28.07
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.6
+        },
+        "SF Roosevelt ND": {
+            "tournamentComp": 0.224,
+            "fullNames": "Linus Ng & Valarie Dixon",
+            "lastNames": [
+                "Ng",
+                "Dixon"
+            ],
+            "prelimRecord": [
+                2,
+                3
+            ],
+            "prelimRank": [
+                10,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Ng Linus",
+                    "rawAVG": 28.3,
+                    "adjAVG": 28.17
+                },
+                {
+                    "name": "Dixon Valarie",
+                    "rawAVG": 28.0,
+                    "adjAVG": 28.0
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.8
+        },
+        "Lincoln Southeast CW": {
+            "tournamentComp": 0.096,
+            "fullNames": "Kaleb Chasek & Victoria White",
+            "lastNames": [
+                "Chasek",
+                "White"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                13,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Chasek Kaleb",
+                    "rawAVG": 26.4,
+                    "adjAVG": 28.0
+                },
+                {
+                    "name": "White Victoria",
+                    "rawAVG": 27.2,
+                    "adjAVG": 27.2
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.4
+        },
+        "Millard North MA": {
+            "tournamentComp": 0.088,
+            "fullNames": "Ansh Mishra & Vishaal Arunprasad",
+            "lastNames": [
+                "Mishra",
+                "Arunprasad"
+            ],
+            "prelimRecord": [
+                1,
+                4
+            ],
+            "prelimRank": [
+                12,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Mishra Ansh",
+                    "rawAVG": 27.64,
+                    "adjAVG": 28.3
+                },
+                {
+                    "name": "Arunprasad Vishaal",
+                    "rawAVG": 28.1,
+                    "adjAVG": 28.88
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        },
+        "Lincoln Southwest AE": {
+            "tournamentComp": 0.0,
+            "fullNames": "Kyzz Azucena & Samantha Evans",
+            "lastNames": [
+                "Azucena",
+                "Evans"
+            ],
+            "prelimRecord": [
+                0,
+                5
+            ],
+            "prelimRank": [
+                14,
+                14
+            ],
+            "breakRecord": null,
+            "eliminated": "Prelims",
+            "speaks": [
+                {
+                    "name": "Azucena Kyzz",
+                    "rawAVG": 28.22,
+                    "adjAVG": 28.22
+                },
+                {
+                    "name": "Evans Samantha",
+                    "rawAVG": 29.04,
+                    "adjAVG": 29.04
+                }
+            ],
+            "goldBid": false,
+            "silverBid": false,
+            "breakBoost": 1,
+            "tournamentBoost": 1,
+            "OPwpm": 2.2
+        }
+    }
+}

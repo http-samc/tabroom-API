@@ -1,9 +1,7 @@
 {
     "National Speech and Debate Season Opener hosted by UK": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20446",
-        "meta": "2021 NSDA Campus, KY/US - 9/11 to 9/13",
         "done": true
     },
     "Grapevine Classic": {
@@ -14,80 +12,59 @@
         "done": true
     },
     "Yale University Invitational 2021": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20393",
-        "meta": "2021 NSDA Campus, US - 9/17 to 9/19",
-        "done": true
+        "done":true
     },
     "Jack Howe Memorial Tournament": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20058",
-        "meta": "2021 NSDA Campus, CA/US - 9/18 to 9/20",
         "done": true
     },
     "Stephen Stewart Middle and High School Invitational": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20497",
-        "meta": "2021 NSDA Campus, CA/US - 9/24 to 9/26",
         "done": true
     },
     "Holy Cross Navy and Old Gold Debate and Speech Exhibition": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20444",
-        "meta": "2021 NSDA Campus, LA/US - 9/24 to 9/26",
         "done": true
     },
     "Mid America Cup": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20873",
-        "meta": "2021 NSDA Campus, LA/US - 9/24 to 9/27",
         "done": true
     },
     "Bellaire Forensic Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20423",
-        "meta": "2021 Hopin, TX/US - 9/25 to 10/3",
         "done": true
     },
     "Nano Nagle Classic and Nano Nagle RR": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21009",
-        "meta": "2021 NSDA Campus, CA/US - 10/8 to 10/11",
         "done": true
     },
     "Raymond B Furlong Tournament at Saint James": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21158",
-        "meta": "2021 NSDA Campus, AL/US - 9/25 to 10/3",
         "done": true
     },
     "Nova Titan Invitational": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20450",
-        "meta": "2021 — NSDA Campus, FL/US - 9/25 to 10/3",
         "done": true
     },
     "New York City Invitational Debate and Speech Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20399",
-        "meta": "2021 — NSDA Campus, NY/US - 9/25 to 10/3",
         "done": true
     },
     "The CSUF Invitational": {
         "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20033",
-        "meta": "2021 — NSDA Campus, US - 9/25 to 10/3",
         "done": true
     },
     "Fall Tournament": {
@@ -98,10 +75,8 @@
         "done": true
     },
     "Plano West Classic": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21319",
-        "meta": "2021 NSDA Campus, US - 10/22 to 10/24",
         "done": true
     },
     "Tim Averill Invitational online": {
@@ -112,87 +87,98 @@
         "done": true
     },
     "Florida Blue Key Speech and Debate Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19937",
-        "meta": "2021 NSDA Campus, MA/US - 10/29 to 10/31",
         "done": true
     },
     "Apple Valley MinneApple Debate Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20874",
-        "meta": "2021 - NSDA Campus, MN/US - 11/5 to 11/7",
         "done": true
     },
     "University of Michigan HS Debate Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20831",
-        "meta": "2021 - NSDA Campus, MI/US - 11/4 to 11/8",
         "done": true
     },
     "The Ed Long Invitational at The Hockaday School": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20781",
-        "meta": "2021 - NSDA Campus, TX/US - 11/12 to 11/13",
         "done": true
     },
     "SF Roosevelt Sweetstakes": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20412",
-        "meta": "2021 - NSDA Campus, CA/US - 11/13 to 11/13",
         "done": true
     },
     "Peach State Classic": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21109",
-        "meta": "2021 - NSDA Campus, GA/US - 11/12 to 11/13",
         "done": true
     },
     "Badgerland Chung vitational": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21113",
-        "meta": "2021 - NSDA Campus, WI/US - 11/12 to 11/14",
         "done": true
     },
     "Virtual Scarsdale Invitational Scarvite": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21678",
-        "meta": "2021 - NSDA Campus, NY/US - 11/13 to 11/14",
         "done": true
     },
     "Capitol Beltway Fall Classic": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21328",
-        "meta": "2021 - NSDA Campus, US - 11/13 to 11/14",
         "done": true
     },
     "Katy Taylor TFA TOC NIETOC Fall Classic": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21366",
-        "meta": "2021 - NSDA Campus, IL/US - 11/11 to 11/13",
         "done": true
     },
     "Glenbrooks Speech and Debate Tournament": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20143",
-        "meta": "2021 - NSDA Campus, IL/US - 11/19 to 11/22",
         "done": true
     },
     "John Lewis SVUDL Invitational formerly SCU DempseyCronin": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20880",
-        "meta": "2021 - NSDA Campus, CA/US - 11/19 to 11/22",
+        "done": true
+    },
+    "LSW Silver Talon": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21403",
+        "done": true
+    },
+    "The Longhorn Classic": {
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=19420",
+        "done": true
+    },
+    "La Costa Canyon Winter Classic": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21287",
+        "done": true
+    },
+    "Princeton Classic": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20771",
+        "done": true
+    },
+    "Villiger 42 Saint Josephs University": {
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20529",
+        "done": true
+    },
+    "The Tradition": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21726",
+        "done": true
+    },
+    "Silver and Black": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20514",
         "done": true
     }
 }

@@ -239,8 +239,12 @@ def manualResultData(entryData: dict, numBreaks: int) -> dict:
 
     for team in entryData:
         roundPrestige = len(entryData[team]["breaks"])
-        finalBreak = entryData[team]["breaks"][0]["round"]
-        finalBreakSTD = breakNames[numBreaks - roundPrestige]
+        if roundPrestige == 0:
+            finalBreak = "prelims"
+            finalBreakSTD = "prelims"
+        else:
+            finalBreak = entryData[team]["breaks"][0]["round"]
+            finalBreakSTD = breakNames[numBreaks - roundPrestige]
 
         data[team] = [
             roundPrestige,
@@ -333,7 +337,8 @@ def entry(URL: str) -> dict:
 
         # Getting round name and figuring out if it's a break round
         roundName = _clean(meta[0].get_text())
-        isBreak = False if "round" in roundName.lower() else True# or "R" == roundName[0:1] else True
+        isBreak = False if roundName.lower()[0] == "r" else True
+        #isBreak = False if "round" in roundName.lower() else True# or "R" == roundName[0:1] else True
         isIntlRound = True if "intl" in roundName.lower() else False
 
         # Getting side and standardizing it
