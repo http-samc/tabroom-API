@@ -180,5 +180,20 @@
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20514",
         "done": true
+    },
+    "Isidore Newman School Invitational": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20794",
+        "done": false
+    },
+    "The Paradigm Dowling Catholic": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21780",
+        "done": false
+    },
+    "Ridge Debates": {
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21686",
+        "done": false
     }
 }
