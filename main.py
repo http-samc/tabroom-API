@@ -13,7 +13,7 @@ def scrapeAll():
 
         # find boost factor
         bidLevel = data[tournament]["bidLevel"]
-        tournamentBoost = BOOSTS[bidLevel]
+        tournamentBoost = tournament["tournamentBoost"] if bidLevel == "NoBid" else BOOSTS[bidLevel]
 
         print(Fore.CYAN + "Scraping: " + tournament)
         getTournamentData(data[tournament]["link"], tournamentBoost)
@@ -26,17 +26,17 @@ if __name__ == "__main__":
     import utils.merge # check for bye conflicts and merge
     import utils.checkGhostBid # check for ghost bids
 
-    # import utils.db
-    # import utils.makeBidList
+    import utils.db
+    import utils.makeBidList
     # these are only available on Sam's local machine
     # it's used to push to the MongoDB that runs the frontend and update the Bid List
     # , so the keys within it are kept private to keep trolls out
 
-    # import utils.refreshServersideLeaderboard
+    import utils.refreshServersideLeaderboard
     # this is also only available on Sam's local machine
     # it's used to hit a private endpoint to refresh the leaderboard rankings
     # this takes a lot of CPU power so it isn't made public to avoid trolls
 
-    # import utils.notifyMobileUsers
+    import utils.notifyMobileUsers
     # this is only available on Sam's local machine, it generates the notifications
     # for the mobile apps

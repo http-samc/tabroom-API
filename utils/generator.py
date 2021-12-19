@@ -76,7 +76,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         print(Fore.YELLOW + f"Error scraping {URL}: Division Not Found!")
         return None
 
-    # Getting const URLs
+    # Getting key URLs
     divisionURL = "https://www.tabroom.com/index/tourn/results/index.mhtml?tourn_id=" + ID + "&event_id=" + eventID
     prelimURL = "https://www.tabroom.com/index/tourn/results/ranked_list.mhtml?event_id=" + eventID + "&tourn_id=" + ID
 
@@ -102,7 +102,7 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         resultData = bracket(bracketURL)
     else:
         raise Exception(f"Error scraping {URL}: No result URL found!")
-        #esultData = manualResultData(entryData, 4) # use appropriate num breaks
+        #resultData = manualResultData(entryData, 5) # use appropriate num breaks
 
     # Parsing prelim seeds page
     seedData = {}
