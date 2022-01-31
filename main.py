@@ -13,7 +13,7 @@ def scrapeAll():
 
         # find boost factor
         bidLevel = data[tournament]["bidLevel"]
-        tournamentBoost = tournament["tournamentBoost"] if bidLevel == "NoBid" else BOOSTS[bidLevel]
+        tournamentBoost = data[tournament]["tournamentBoost"] if bidLevel == "No Bid" else BOOSTS[bidLevel]
 
         print(Fore.CYAN + "Scraping: " + tournament)
         getTournamentData(data[tournament]["link"], tournamentBoost)

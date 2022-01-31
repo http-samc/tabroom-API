@@ -14,7 +14,7 @@
     "Yale University Invitational 2021": {
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20393",
-        "done":true
+        "done": true
     },
     "Jack Howe Memorial Tournament": {
         "bidLevel": "Octafinals",
@@ -199,17 +199,11 @@
     "John Edie Holiday Debates Hosted by The Blake School": {
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21646",
-        "done": false
+        "done": true
     },
     "Holiday Classic": {
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21924",
-        "done": false
-    },
-    "Strake Jesuit Public Forum Round Robin": {
-        "bidLevel": "No Bid",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22108",
-        "done": false,
-        "tournamentBoost": 1.5
+        "done": true
     }
 }
