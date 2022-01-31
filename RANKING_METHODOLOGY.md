@@ -1,5 +1,5 @@
-# The OTR Score
-[tournaments.tech](http://tournaments.tech) uses a metric of ranking debaters, developed by Adithya Vaidyanathan, known as the OTR Score. It awards points based on tournament attendance, high performance (including deep elimination round runs), and success against difficult opponents. Every system has its flaws, but the OTR Score is currently the only scaled metric on the national circuit.
+## The OTR Score
+[tournaments.tech](http://tournaments.tech) uses a metric of ranking debaters known as the OTR Score. It awards points based on tournament attendance, high performance (including deep elimination round runs), and success against difficult opponents. Every system has its flaws, but the OTR Score is currently the only scaled metric on the national circuit.
 
 ## Considered Factors
 Here are several components that go into determining the compensation for any given tournament.
