@@ -63,12 +63,14 @@ def condense(data: dict) -> dict:
                         {
                             "name" : <(str) speaker's name>,
                             "rawAVG" : <(float) [round: 2 dec.] the mean of each prelims's speaks>,
-                            "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                            # removes outliers
+                            "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>,
                         },
                         {
                             "name" : <(str) speaker's name>,
                             "rawAVG" : <(float) [round: 2 dec.] the mean of each prelims's speaks>,
-                            "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>, # removes outliers
+                            # removes outliers
+                            "adjAVG" : <(float) [round: 2 dec.] the adjusted mean of each prelims's speaks>,
                         }
                     ],
                     "goldBid" : <(bool) whether or not a gold bid was acquired>,
@@ -91,26 +93,31 @@ def condense(data: dict) -> dict:
     # Adding all competitors
     prelimData = data["prelimData"]
     for team in prelimData:
+        if team == "Blake PV":
+            continue  # skip this one
 
         lastNames = prelimData[team]["names"]
         prelimWins = prelimData[team]["wins"]
         prelimRank = prelimData[team]["prelimRank"]
 
         condensed[name][team] = {
-            "lastNames" : lastNames,
-            "prelimRank" : prelimRank,
-            "prelimWins" : prelimWins, # used as an acc check, del later
-            "breakBoost" : 1, # base boost
-            "tournamentBoost" : tournamentBoost
+            "lastNames": lastNames,
+            "prelimRank": prelimRank,
+            "prelimWins": prelimWins,  # used as an acc check, del later
+            "breakBoost": 1,  # base boost
+            "tournamentBoost": tournamentBoost
         }
 
     # Getting advanced individual entry stats
     entryData = data["entryData"]
     for team in entryData:
-        teamData = condensed[name][team] # Shorthand for ref
+        if team == "Blake PV":
+            continue  # skip this one
+
+        teamData = condensed[name][team]  # Shorthand for ref
 
         # Getting quick meta
-        fullNames =  entryData[team]["names"]
+        fullNames = entryData[team]["names"]
         prelimRecord = entryData[team]["prelimRecord"]
         speaks = entryData[team]["speaks"]
 
@@ -132,35 +139,36 @@ def condense(data: dict) -> dict:
             breakRecord = [outWins, outLosses]
 
             # Getting final round stats
-            finalRound = entryData[team]["breaks"][0] # Shorthand for final rd
+            finalRound = entryData[team]["breaks"][0]  # Shorthand for final rd
 
             if finalRound["win"]:
-                eliminated = None # They won their last outround -> championed -> never elim'd
+                eliminated = None  # They won their last outround -> championed -> never elim'd
 
-            else: # They didn't win their final round
+            else:  # They didn't win their final round
 
-                decision = finalRound["decision"] # How much they lost by
+                decision = finalRound["decision"]  # How much they lost by
                 eliminated = [
-                    decision[0], # final ballots won
-                    decision[1], # final ballots lost
-                    finalRound["round"], # final round name non std
-                    finalRound["opp"] # final opponent
+                    decision[0],  # final ballots won
+                    decision[1],  # final ballots lost
+                    finalRound["round"],  # final round name non std
+                    finalRound["opp"]  # final opponent
                 ]
 
-        else: # If they don't have any breakrounds -> elim in prelims, no breakRecord
+        else:  # If they don't have any breakrounds -> elim in prelims, no breakRecord
             eliminated = "Prelims"
             breakRecord = None
 
-        if teamData["prelimWins"] == prelimRecord[0]: # check for accuracy
-            del teamData["prelimWins"] # if the two match -> delete the ref
+        if teamData["prelimWins"] == prelimRecord[0]:  # check for accuracy
+            del teamData["prelimWins"]  # if the two match -> delete the ref
 
         else:
             t = teamData["prelimWins"]
-            print(Fore.YELLOW + f"Error validating prelim wins for: {team} - {prelimRecord[0]} vs {t}")
-            if t > prelimRecord[0]: # unpublished rounds, prelim page will have them ALL
+            print(
+                Fore.YELLOW + f"Error validating prelim wins for: {team} - {prelimRecord[0]} vs {t}")
+            if t > prelimRecord[0]:  # unpublished rounds, prelim page will have them ALL
                 prelimRecord[0] = t
-                print(Fore.CYAN + f"Giving {team} benefit of doubt (likely unpublished round): {t} wins")
-
+                print(
+                    Fore.CYAN + f"Giving {team} benefit of doubt (likely unpublished round): {t} wins")
 
         # Updating team data
         teamData["fullNames"] = fullNames
@@ -179,14 +187,18 @@ def condense(data: dict) -> dict:
     # Getting breakBoost & std name of final round
     resultData = data["resultData"]
     for team in resultData:
-        #t = team.replace("Nova", "Nova 42")
-        teamData = condensed[name][team] # Shorthand for ref
+        if team == "Blake PV":
+            continue  # skip this one
 
-        breakBoost = resultData[team][0] + 1 # roundPrestige + 1 = breakBoost
+        # t = team.replace("Nova", "Nova 42")
+        teamData = condensed[name][team]  # Shorthand for ref
+
+        breakBoost = resultData[team][0] + 1  # roundPrestige + 1 = breakBoost
         finalRdSTD = resultData[team][2]
 
         teamData["breakBoost"] = breakBoost
-        if teamData["eliminated"] is not None and isinstance(teamData["eliminated"], list): # Champion was never elim
+        # Champion was never elim
+        if teamData["eliminated"] is not None and isinstance(teamData["eliminated"], list):
             teamData["eliminated"].insert(3, finalRdSTD)
 
     # Calculating bids
@@ -197,6 +209,9 @@ def condense(data: dict) -> dict:
 
     # Overwriting w/ more precise seed calculation if published
     for team in data["seedData"]:
+        if team == "Blake PV":
+            continue  # skip this one
+
         try:
             condensed[name][team.replace('.', '').replace('  ', ' ')]["prelimRank"] = [
                 data["seedData"][team][0],
@@ -209,6 +224,7 @@ def condense(data: dict) -> dict:
     condensed = orderCond(condensed)
 
     return condensed
+
 
 if __name__ == "__main__":
     data = condense()
