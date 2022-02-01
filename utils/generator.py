@@ -7,7 +7,7 @@ from utils.parsers import *
 from utils.scrapers import *
 
 
-def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
+def getTournamentData(URL: str, tournamentBoost: float) -> dict:  # TODO get name
     """Generates all available tournament data
 
     Args:
@@ -67,7 +67,8 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     """
     NAME = name(URL)
 
-    ID = URL.replace("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=", "")
+    ID = URL.replace(
+        "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=", "")
     RESULTS = "https://www.tabroom.com/index/tourn/results/index.mhtml?tourn_id=" + ID
 
     eventID = getDivision(RESULTS)
@@ -77,8 +78,10 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
         return None
 
     # Getting key URLs
-    divisionURL = "https://www.tabroom.com/index/tourn/results/index.mhtml?tourn_id=" + ID + "&event_id=" + eventID
-    prelimURL = "https://www.tabroom.com/index/tourn/results/ranked_list.mhtml?event_id=" + eventID + "&tourn_id=" + ID
+    divisionURL = "https://www.tabroom.com/index/tourn/results/index.mhtml?tourn_id=" + \
+        ID + "&event_id=" + eventID
+    prelimURL = "https://www.tabroom.com/index/tourn/results/ranked_list.mhtml?event_id=" + \
+        eventID + "&tourn_id=" + ID
 
     # Getting variable URLs
     resultsURLs = getResultsURLs(divisionURL)
@@ -101,24 +104,30 @@ def getTournamentData(URL: str, tournamentBoost: float) -> dict: # TODO get name
     elif bracketURL:
         resultData = bracket(bracketURL)
     else:
-        raise Exception(f"Error scraping {URL}: No result URL found!")
-        #resultData = manualResultData(entryData, 3) # use appropriate num breaks
+        #raise Exception(f"Error scraping {URL}: No result URL found!")
+        # use appropriate num breaks
+        resultData = manualResultData(entryData,
+                                      int(input(
+                                          "Error finding result URL. Enter number of breaks: "))
+                                      )
 
     # Parsing prelim seeds page
     seedData = {}
     if prelimSeedsURL:
         seedData = prelimSeeds(prelimSeedsURL)
 
-    rawData = {"tournamentName":NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
-        "entryData": entryData, "resultData": resultData, "seedData": seedData}
+    rawData = {"tournamentName": NAME, "tournamentBoost": tournamentBoost, "prelimData": prelimData,
+               "entryData": entryData, "resultData": resultData, "seedData": seedData}
     with open(f'data/tournaments/{NAME}.json', 'w') as f:
         json.dump(rawData, f)
     data = condense(rawData)
     with open(f'data/tournaments/{NAME}.json', 'w') as f:
         json.dump(data, f)
 
+
 if __name__ == "__main__":
     import time
     s = time.time()
-    print(getTournamentData("https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991", 1))
+    print(getTournamentData(
+        "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=14991", 1))
     print("Finished in " + str(time.time() - s)[0:5])
