@@ -205,5 +205,80 @@
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21924",
         "done": true
+    },
+    "The 46th Winston Churchill Classic TOC and NIETOC Qualifier": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=17809",
+        "done": false
+    },
+    "Arizona State HDSHC Invitational": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21540",
+        "done": false
+    },
+    "Sunvite": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20379",
+        "done": false
+    },
+    "Puget Sound High School Tournament": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22234",
+        "done": false
+    },
+    "Virtually the Saints Classic": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18465",
+        "done": false
+    },
+    "University of Houston Cougar Classic": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21811",
+        "done": false
+    },
+    "49th Annual Laird Lewis Invitational at Myers Park HS": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21974",
+        "done": false
+    },
+    "Cavalier Invitational at Durham Academy": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20454",
+        "done": false
+    },
+    "James Logan Martin Luther King Jr Invitational": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21849",
+        "done": false
+    },
+    "Lexington Winter Invitational": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21993",
+        "done": false
+    },
+    "MOUNT VERNON Invitational and NIETOC TOC Qualifier": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21364",
+        "done": false
+    },
+    "Jean Ward Invitational hosted by Lewis Clark College": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22283",
+        "done": false
+    },
+    "Columbia University Invitational": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22201",
+        "done": false
+    },
+    "Peninsula Invitational": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20474",
+        "done": false
+    },
+    "Barkley Forum for High Schools": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20621",
+        "done": false
     }
 }
