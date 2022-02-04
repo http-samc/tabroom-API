@@ -3593,10 +3593,10 @@
         },
         "SkyHigh JO": {
             "tournamentComp": 0.215,
-            "fullNames": "Juan Jim\u00c3\u00a9nez & Gabriela Ogando Ortega",
+            "fullNames": "Juan Jimenez & Gabriela Ogando",
             "lastNames": [
-                "Jim\u00c3\u00a9nez",
-                "OgandoOrtega"
+                "Jimenez",
+                "Ogando"
             ],
             "prelimRecord": [
                 2,
@@ -3610,12 +3610,12 @@
             "eliminated": "Prelims",
             "speaks": [
                 {
-                    "name": "Jim\u00c3\u00a9nez Juan",
+                    "name": "Jimenez Juan",
                     "rawAVG": 28.05,
                     "adjAVG": 28.05
                 },
                 {
-                    "name": "Ogando Ortega Gabriela",
+                    "name": "Ogando Gabriela",
                     "rawAVG": 27.83,
                     "adjAVG": 27.83
                 }
