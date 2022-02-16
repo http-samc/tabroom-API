@@ -5,7 +5,6 @@
         "done": true
     },
     "Grapevine Classic": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Quarterfinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20620",
         "meta": "2021 NSDA Campus, US - 9/10 to 9/12",
@@ -62,13 +61,11 @@
         "done": true
     },
     "The CSUF Invitational": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20033",
         "done": true
     },
     "Fall Tournament": {
-        "acceptsUnaffiliated": true,
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20572",
         "meta": "2021 Online, NY/US - 10/8 to 10/10",
@@ -80,7 +77,6 @@
         "done": true
     },
     "Tim Averill Invitational online": {
-        "acceptsUnaffiliated": false,
         "bidLevel": "Semifinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21177",
         "meta": "2021 NSDA Campus, MA/US - 10/29 to 10/30",
@@ -226,11 +222,6 @@
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22234",
         "done": true
     },
-    "Virtually the Saints Classic": {
-        "bidLevel": "Finals",
-        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=18465",
-        "done": true
-    },
     "University of Houston Cougar Classic": {
         "bidLevel": "Finals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21811",
@@ -279,6 +270,46 @@
     "Barkley Forum for High Schools": {
         "bidLevel": "Octafinals",
         "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20621",
+        "done": true
+    },
+    "Lewis and Clark Invitational": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22389",
+        "done": true
+    },
+    "Saints Classic": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21992",
+        "done": true
+    },
+    "Colleyville Heritage Winter Invitational": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=21913",
+        "done": true
+    },
+    "Pennsbury Falcon Invitational": {
+        "bidLevel": "Semifinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20488",
+        "done": true
+    },
+    "GOLDEN DESERT DEBATE TOURNAMENT AT UNLV": {
+        "bidLevel": "Quarterfinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22280",
+        "done": true
+    },
+    "47th University of Pennsylvania Tournament": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=20719",
+        "done": true
+    },
+    "Three Rivers TOC NIETOC at Upper St Clair": {
+        "bidLevel": "Finals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22718",
+        "done": true
+    },
+    "Palm Classic": {
+        "bidLevel": "Octafinals",
+        "link": "https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=22663",
         "done": true
     }
 }
