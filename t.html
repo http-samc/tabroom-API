@@ -1,0 +1,1469 @@
+
+
+	<!DOCTYPE html>
+
+	<meta
+		http-equiv = "Content-Type"
+		content    = "text/html; charset = utf-8"
+	/>
+
+	<html>
+
+		<head>
+			<link rel="stylesheet" type="text/css" href="/lib/css/reset.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/jqueryui.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/fonts/fonts.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/chosen.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/uniform.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/alertify.min.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/alertify-bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="/lib/css/tabroom.css">
+
+			<title>
+				  Tabroom.com
+			</title>
+
+				<script
+					type = "text/javascript"
+					src  = "/lib/javascript/tabroom.v27.min.js"
+				></script>
+
+
+			<script>
+
+				$(".alert").on('click', function(e){
+					e.preventDefault();
+					var href = this.href;
+					alertify.confirm("Are you sure?", function (e) {
+						if (e) {
+							window.location.href = href;
+						}
+					});
+				});
+
+				$(document).ready(function(){
+
+					// put the focus on the first editable element.
+					$('*:input:enabled:visible:not(.notfirst):first').focus();
+					$('.starthere').focus();
+
+					// Adds the searchable select menus to eligible elements
+					$("select:not(.plain)").chosen({
+						no_results_text: "Oops, nothing found!",
+						disable_search_threshold: 5
+					});
+
+					// Fixes the bug where selects in hidden divs would have
+					// zero width.
+					$(".chosen-container").each(function(i, chosenOne) {
+						if ($(chosenOne).width() == 0) {
+							$(chosenOne).width("100%");
+						}
+					});
+
+					// Control-s gives you the search box
+					Mousetrap.bind('mod+s', function(e) {
+						$('#searchtext').focus();
+						return false;
+					});
+
+					// Sets up the little arrows to close and open the sidebars
+					$(".menu").prepend("<div class='shade openshade fa fa-forward'></div>");
+					$("#content").prepend("<div class='hidden shade closedshade fa fa-backward'></div>");
+
+					$(".shade").click( function() {
+						$(".menu").toggleClass("hidden");
+						$(".closedshade").toggleClass("hidden");
+						$(".main").toggleClass("mainfull");
+						$(".tabad_carousel").toggleClass("tabad_full");
+					});
+
+					// Scales any text to the size of its parent element that wants that
+					$(".scalefont").bigtext();
+
+					// adds zebra striping to elements, and resizes inputs to
+					// the size of their parent
+
+					fixVisual();
+				});
+
+			<!-- This displays errors in a growl-like interface on the right when present. -->
+
+			$(document).ready(function() {
+
+				alertify.set('notifier','position', 'bottom-left');
+				alertify.defaults.transition = "slide";
+				alertify.defaults.theme.ok = "btn btn-primary";
+				alertify.defaults.theme.cancel = "btn btn-danger";
+				alertify.defaults.theme.input = "form-control";
+
+
+
+
+
+
+
+
+
+			});
+			</script>
+
+				<script>
+					var _paq = window._paq = window._paq || [];
+					/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+					_paq.push(['trackPageView']);
+					_paq.push(['enableLinkTracking']);
+					(function() {
+						var u="https://analytics.speechanddebate.org/";
+						_paq.push(['setTrackerUrl', u+'matomo.php']);
+						_paq.push(['setSiteId', '4']);
+						var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+						g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+					})();
+				</script>
+
+			<meta
+				property = "og:image"
+				content  = "http://www.tabroom.com/lib/images/nsda-blue.png"
+			/>
+	</head>
+	<body>
+
+	<div id="overlay">
+		<div id="header">
+			<span id="logo">
+				<a
+					tabindex = "-1"
+					href     = "/index/index.mhtml"
+				>
+					<img
+						src = "/lib/images/tabroom-logo.png"
+						alt = "Tabroom.com by the National Speech and Debate Association"
+					>
+				</a>
+			</span>
+
+			<span id="toprow">
+
+					
+	<span class="login">
+
+		<a href="#login-box" class="login-window">Login</a>
+
+		<div id="login-box" class="login-popup">
+
+			<div class="padbottomless marbottomless">
+				<h6 class="fivesixths semibold leftalign">
+					<span class="quarterspacer"></span>
+					Login to Tabroom
+				</h6>
+
+				<a href="#" class="sixth close fa fa-times-circle fa-lg bluetext">
+				</a>
+			</div>
+
+			<form
+				name   = "login"
+				action = "/user/login/login_save.mhtml"
+				method = "post"
+				class  = "signin"
+			>
+					<div class="full centeralign">
+						<span class="ninetenths centeralign marno padvertno">
+							<input
+								type         = "text"
+								id           = "username"
+								name         = "username"
+								value        = ""
+								autocomplete = "on"
+								placeholder  = "Email address"
+							>
+						</span>
+					</div>
+
+					<div class="full centeralign">
+						<span class="ninetenths centeralign marno padvertno">
+							<input
+								id          = "password"
+								name        = "password"
+								type        = "password"
+								value       = ""
+								placeholder = "Password"
+							>
+						</span>
+					</div>
+
+					<div class="full centeralign">
+						<span class="ninetenths nospace">
+							<input
+								type  = "submit"
+								value = "Login"
+								class = "full"
+							>
+						</span>
+					</div>
+			</form>
+
+			<a
+				class = "redtext italic martopmore rightalign full martopmore link-underline biggish"
+				href  = "/user/login/forgot.mhtml"
+
+			>Forgot your Password?</a>
+		</div>
+	</span>
+
+	<span class="signup">
+		<a tabindex="-1" href="/user/login/new_user.mhtml">
+			Sign Up
+		</a>
+	</span>
+
+
+
+
+					<span
+						id    = "search"
+						title = "Search for tournaments"
+					>
+						<form action="/index/search.mhtml">
+							<input
+								type           = "text"
+								maxlength      = "128"
+								name           = "search"
+								placeholder    = "SEARCH TOURNAMENTS"
+								autocomplete   = "off"
+								autocorrect    = "off"
+								autocapitalize = "off"
+								spellcheck     = "false"
+								id             = "searchtext"
+								class          = "notfirst"
+								tabindex       = "-1"
+							>
+
+							<input
+								type  = "hidden"
+								name  = "caller"
+								value = "/index/tourn/postings/judge.mhtml?tourn_id=29136&judge_id=2152833"
+							>
+
+							<button
+								type  = "submit"
+								class = "search notfirst"
+							>
+								<img src="/lib/images/search.png">
+							</button>
+						</form>
+					</span>
+
+
+				<span id="helpbutton" title="Tabroom Help">
+					<a
+						tabindex = "-1"
+						href     = "http://docs.tabroom.com"
+						target   = "_blank"
+						class    = "fa fa-question-circle"
+					>
+					</a>
+				</span>
+
+
+			</span>
+
+			<span id="menus">
+
+
+					
+	<ul id="nav">
+
+		<li class="top">
+
+			<a class="centeralign top_link" href="/">
+				<span class="down">
+					Home
+				</span>
+			</a>
+
+		</li>
+
+		<li class="top">
+
+			<a class="centeralign top_link" href="/index/circuits.mhtml">
+				<span class="down">
+					Circuits
+				</span>
+			</a>
+
+		</li>
+
+		<li class="top">
+
+			<a class="centeralign top_link" href="/index/results/">
+				<span class="down">
+					Results
+				</span>
+			</a>
+
+		</li>
+
+		<li class="top">
+			<a class="centeralign top_link" href="/index/paradigm.mhtml">
+				<span class="down">
+					Paradigms
+				</span>
+			</a>
+		</li>
+
+		<li class="top">
+			<a class="centeralign top_link" href="/index/help.mhtml">
+				<span class="down">
+					Help
+				</span>
+			</a>
+		</li>
+
+		<li class="top">
+			<a class="centeralign top_link" href="/index/about.mhtml">
+				<span class="down">
+					About
+				</span>
+			</a>
+		</li>
+
+	</ul>
+
+
+
+
+			<span>
+
+		</div>
+
+
+
+	<div id="wrapper">
+
+		<div id="content">
+			
+	
+	<div class="menu">
+
+		<div class="sidenote">
+
+			<h4>Schematics</h4>
+
+			<form action="index.mhtml" method="post">
+
+			<input
+				type  = "hidden"
+				name  = "tourn_id"
+				value = "29136"
+			>
+
+			<div class="even full centeralign">
+
+				<select
+					name     = "event_id"
+					class    = "fixedmed"
+					onchange = 'this.form.submit()'
+				>
+
+				<option value=""></option>
+
+
+					<option value="267141"
+						
+					>Novice LD</option>
+
+					<option value="267142"
+						
+					>Novice PF</option>
+
+					<option value="267143"
+						selected="selected"
+					>Novice Policy Open</option>
+
+					<option value="267144"
+						
+					>Novice Policy Packet</option>
+
+					<option value="267145"
+						
+					>Varsity LD</option>
+
+					<option value="267146"
+						
+					>Varsity PF</option>
+
+					<option value="267147"
+						
+					>Varsity Policy</option>
+
+				</select>
+			</div>
+
+			</form>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076363">
+								NPO
+								Finals
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076362">
+								NPO
+								Semis
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076361">
+								NPO
+								Quarters
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076360">
+								NPO
+								Round 6
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076359">
+								NPO
+								Round 5
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076358">
+								NPO
+								Round 4
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076357">
+								NPO
+								Round 3
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076356">
+								NPO
+								Round 2
+							</a>
+
+							<a
+								class="blue full nowrap"
+								href="/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076355">
+								NPO
+								Round 1
+							</a>
+
+					<h4>Judges</h4>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76810&tourn_id=29136"
+				>
+					Novice LD
+				</a>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76812&tourn_id=29136"
+				>
+					Novice PF
+				</a>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76809&tourn_id=29136"
+				>
+					Novice Policy
+				</a>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76811&tourn_id=29136"
+				>
+					Varsity LD
+				</a>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76808&tourn_id=29136"
+				>
+					Varsity PF
+				</a>
+
+				<a
+					class="blue full"
+					href="judge_list.mhtml?category_id=76807&tourn_id=29136"
+				>
+					Varsity Policy
+				</a>
+
+
+
+		</div>
+	</div>
+
+
+
+
+	<div class="main">
+
+		 
+
+	<h2 class="centeralign marno">
+		Lexington Winter Invitational 
+	</h2>
+
+	<h5 class="full centeralign marno">
+		2024 
+		&mdash;
+		Lexington,
+		MA/US  
+	</h5>
+
+
+
+
+        
+
+		<ul id="tabnav">
+
+			<li class="">
+				 <a href="/index/tourn/index.mhtml?tourn_id=29136"
+				 	>Invite</a>
+			</li>
+
+
+
+				<li class="">
+					 <a href="/index/tourn/fields.mhtml?tourn_id=29136"
+					 	>Entries</a>
+				</li>
+
+				<li class="
+				">
+					 <a href="/index/tourn/judges.mhtml?tourn_id=29136"
+					 	>Judges</a>
+				</li>
+
+
+				<li class="selected">
+					 <a href="/index/tourn/postings/index.mhtml?tourn_id=29136"
+					 	>Pairings</a>
+				</li>
+
+				<li class="">
+					 <a href="/index/tourn/updates/index.mhtml?tourn_id=29136"
+					 	>Live Updates</a>
+				</li>
+
+				<li class="">
+					 <a href="/index/tourn/results/index.mhtml?tourn_id=29136"
+					 >Results</a>
+				</li>
+
+
+		</ul>
+
+
+
+
+		<div class="full nospace martopmore">
+
+			<span class="threefifths nospace">
+				<h3 class="normalweight nospace">
+					
+					Alayah Tedder
+				</h3>
+
+				<h6 class="normalweight">DEARBORN STEM</h6>
+			</span>
+
+			<span class="twofifths nospace rightalign">
+
+						<a class   = "bluetext buttonwhite centeralign invert"
+						   onClick = "$('#paradigm').focus();"
+						>Paradigm &amp; Record</a>
+
+					<a
+						class = "redtext buttonwhite centeralign invert"
+						href  = "/index/tourn/updates/judge_follow.mhtml?tourn_id=29136&judge_id=2152833"
+					>Live Updates</a>
+
+			</span>
+		</div>
+
+		</table>
+
+
+			<h6>Decisions</h6>
+
+		<table>
+
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076365&tourn_id=29136">
+								Round 2
+							</a>
+						</td>
+
+						<td>
+							Aff
+							
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5468462"
+								>
+									Weequahic HG
+								</a>
+						</td>
+
+						<td>
+								L
+								
+								
+						</td>
+									<td>
+											Heirs
+									</td>
+
+
+									<td>
+										27.8
+									</td>
+									<td>
+											Gunter-Hiers
+									</td>
+
+
+									<td>
+										27
+									</td>
+
+					</tr>
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076365&tourn_id=29136">
+								Round 2
+							</a>
+						</td>
+
+						<td>
+							
+							Neg
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5495826"
+								>
+									Nashua HS South TS
+								</a>
+						</td>
+
+						<td>
+								W
+								
+								
+						</td>
+									<td>
+											Thiriveedi
+									</td>
+
+
+									<td>
+										28.3
+									</td>
+									<td>
+											Suresh
+									</td>
+
+
+									<td>
+										28.8
+									</td>
+
+					</tr>
+
+				<tr>
+					<td colspan="844" class="nospace">
+						<hr>
+					</td>
+				</tr>
+
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076358&tourn_id=29136">
+								Round 4
+							</a>
+						</td>
+
+						<td>
+							Aff
+							
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5492117"
+								>
+									Lexington SJ
+								</a>
+						</td>
+
+						<td>
+								W
+								
+								
+						</td>
+									<td>
+											Sanker
+									</td>
+
+
+									<td>
+										27.8
+									</td>
+									<td>
+											Jia
+									</td>
+
+
+									<td>
+										28.8
+									</td>
+
+					</tr>
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076358&tourn_id=29136">
+								Round 4
+							</a>
+						</td>
+
+						<td>
+							
+							Neg
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5424468"
+								>
+									Newark Science EM
+								</a>
+						</td>
+
+						<td>
+								L
+								
+								
+						</td>
+									<td>
+											Elias
+									</td>
+
+
+									<td>
+										27.4
+									</td>
+									<td>
+											Mercado
+									</td>
+
+
+									<td>
+										27.3
+									</td>
+
+					</tr>
+
+				<tr>
+					<td colspan="844" class="nospace">
+						<hr>
+					</td>
+				</tr>
+
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076369&tourn_id=29136">
+								Round 6
+							</a>
+						</td>
+
+						<td>
+							Aff
+							
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5428785"
+								>
+									Newark Tech OG
+								</a>
+						</td>
+
+						<td>
+								L
+								
+								
+						</td>
+									<td>
+											Olatunji
+									</td>
+
+
+									<td>
+										28.3
+									</td>
+									<td>
+											Guaman
+									</td>
+
+
+									<td>
+										27.3
+									</td>
+
+					</tr>
+
+					<tr class="row smallish">
+
+						<td class="nospace padleft">
+							<a
+								class = "white"
+								href  = "round.mhtml?round_id=1076369&tourn_id=29136">
+								Round 6
+							</a>
+						</td>
+
+						<td>
+							
+							Neg
+							
+						</td>
+
+						<td class="nospace padleft">
+								<a class = "white"
+									href = "entry_record.mhtml?tourn_id=29136&entry_id=5486915"
+								>
+									Nashua HS South UT
+								</a>
+						</td>
+
+						<td>
+								W
+								
+								
+						</td>
+									<td>
+											Udayakumar
+									</td>
+
+
+									<td>
+										29.1
+									</td>
+									<td>
+											Thomas
+									</td>
+
+
+									<td>
+										27.8
+									</td>
+
+					</tr>
+
+				<tr>
+					<td colspan="844" class="nospace">
+						<hr>
+					</td>
+				</tr>
+
+
+		</table>
+
+		<a href id="paradigm">&nbsp;</a>
+
+			
+		<div class="screens paradigm">
+			<div class="full nospace marbottom padbottom ltborderbottom">
+				<span class="half">
+					<h5>Paradigm Statement</h5>
+				</span>
+
+				<span class="half rightalign semibold bluetext">
+						Last changed 13 January 2024 3:36 AM EST
+				</span>
+			</div>
+
+			<div class="paradigm ltborderbottom">
+				<p>Hello! I am excited to judge Policy rounds today. I competed in speech in high school and have been judging speech for almost three years now. While I am familiar with how Policy rounds run, I am not as familiar with the jargon and more complex rules. I ask that you generally be patient with me and speak as clearly and smoothly as possible for me to be able to understand and judge you to the best of my abilities!</p>
+			</div>
+
+		</div>
+
+	<div class="screens record">
+
+		
+
+	<script type="text/javascript">
+
+        $(document).ready(function() {
+
+			$("#judgerecord").tablesorter({
+				cssAsc           : "sortup",
+				cssDesc          : "sortdown",
+				cssHeader        : "sortable",
+				sortInitialOrder : "desc",
+				saveFileName 	 : "judgerecord.csv",
+				widgets     : ['zebra', 'columns', 'stickyHeaders', 'print', 'output'],
+				initialized : function(table) {
+					// Tablesorter disrupts the focus auto feature inside itself.  This works around.
+					$(".focushere").focus();
+				},
+				widgetOptions : {
+					columns          : [ "primary", "secondary", "tertiary" ],
+					print_rows       : "f",
+					print_columns    : "v",
+					print_now        : true,
+					print_styleSheet : "/lib/css/print.css",
+					output_saveRows  : "visible",
+					output_delivery  : "download",
+				}
+			});
+
+
+
+				var printButtonHTML = "<button id='print_judgerecord' tabindex='-1' class='notfirst printbutton buttonwhite redtext fa fa-sm fa-print marleft'>";
+
+				var outputButtonHTML = "<button id='output_judgerecord' tabindex='-1' class='notfirst printbutton buttonwhite greentext fa fa-sm fa-file-excel-o marleft'>";
+
+				if ( $("#judgerecord_buttonarea").length) {
+
+						$("#judgerecord_buttonarea").append(printButtonHTML);
+
+					$("#judgerecord_buttonarea").append(outputButtonHTML);
+
+				} else {
+
+					var beginButtonRow = "<span id='judgerecord_buttonarea' class='nospace half rightalign right'>";
+					var endButtonRow = "</span>";
+
+					$("#judgerecord")
+						.before(beginButtonRow+outputButtonHTML+printButtonHTML+endButtonRow);
+
+				}
+
+				$("#judgerecord_buttonarea").on(
+					'click',
+					'#print_judgerecord',
+					function() {
+						$("#judgerecord").trigger("printTable");
+						return false;
+					}
+				);
+
+				$("#judgerecord_buttonarea").on(
+					'click',
+					'#output_judgerecord',
+					function() {
+
+						$(".hiddencsv").addClass('yo');
+						$(".hide_fromcsv").addClass('hiddencsv');
+						$(".yo").removeClass('hiddencsv');
+
+						$(".hidden_fromcsv .hiddencsv .yo").promise().done( function() {
+							$("#judgerecord").trigger("outputTable");
+						});
+
+						$(".hide_fromcsv").removeClass('hiddencsv');
+						$(".yo").addClass('hiddencsv');
+						$(".hiddencsv").removeClass('yo');
+
+						return false;
+					}
+				);
+
+
+			$("#judgerecord_buttonarea").addClass("martop");
+
+		});
+
+	</script>
+
+
+		<span class="twothirds nospace martop">
+			<h5>Full Judging Record</h5>
+		</span>
+
+		<span
+			id    = "judgerecord_buttonarea"
+			class = "third rightalign nospace"
+		>
+		</span>
+
+		<table id="judgerecord">
+
+			<thead>
+				<tr class="yellowrow">
+					<th class="smallish">Tournament</th>
+					<th class="smallish" title="High school, college, etc">Lv</th>
+					<th class="smallish">Date</th>
+					<th class="smallish">Ev</th>
+					<th class="smallish">Rd</th>
+					<th class="smallish">Aff</th>
+					<th class="smallish">Neg</th>
+					<th class="smallish">Vote</th>
+					<th class="smallish">Result</th>
+				</tr>
+			</thead>
+
+			<tbody class="smallish">
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=29136"
+							>Lexington Winter Invitational</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1705147200</span>
+							2024-01-13
+						</td>
+
+						<td>
+							NPP
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">6</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076369"
+							> R6 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5428785"
+							> Newark Tech OG </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5486915"
+							> Nashua HS South UT </a>
+						</td>
+
+
+						<td class="nowrap">
+							Neg
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=29136"
+							>Lexington Winter Invitational</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1705147200</span>
+							2024-01-13
+						</td>
+
+						<td>
+							NPO
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">4</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076358"
+							> R4 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5492117"
+							> Lexington SJ </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5424468"
+							> Newark Science EM </a>
+						</td>
+
+
+						<td class="nowrap">
+							Aff
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=29136"
+							>Lexington Winter Invitational</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1705147200</span>
+							2024-01-13
+						</td>
+
+						<td>
+							NPP
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">2</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=29136&round_id=1076365"
+							> R2 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5468462"
+							> Weequahic HG </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=29136&entry_id=5495826"
+							> Nashua HS South TS </a>
+						</td>
+
+
+						<td class="nowrap">
+							Neg
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=20143"
+							>Glenbrooks Speech and Debate Tournament</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1637330400</span>
+							2021-11-19
+						</td>
+
+						<td>
+							NPF
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">6</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=20143&round_id=707051"
+							> R6 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3644388"
+							> Ransom Everglades SP </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3635756"
+							> Blake CK </a>
+						</td>
+
+
+						<td class="nowrap">
+							Pro
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=20143"
+							>Glenbrooks Speech and Debate Tournament</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1637330400</span>
+							2021-11-19
+						</td>
+
+						<td>
+							NPF
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">4</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=20143&round_id=707049"
+							> R4 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3716255"
+							> NSU GT </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3634637"
+							> Dalton DW </a>
+						</td>
+
+
+						<td class="nowrap">
+							Con
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+					<tr>
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/index.mhtml?tourn_id=20143"
+							>Glenbrooks Speech and Debate Tournament</a>
+						</td>
+						<td class="nowrap centeralign">
+							HS
+						</td>
+
+						<td class="nowrap">
+							<span class="hidden">1637330400</span>
+							2021-11-19
+						</td>
+
+						<td>
+							NPF
+						</td>
+
+
+						<td class="nospace">
+							<span class="hidden">4</span>
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/round.mhtml?tourn_id=20143&round_id=707049"
+							> R4 </a>
+						</td>
+
+
+						<td class="nospace">
+							<a
+								class  = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3639515"
+							> Northview KG </a>
+						</td>
+
+
+						<td class="nospace">
+							<a class   = "button leftalign white"
+								target = "blank"
+								href   = "/index/tourn/postings/entry_record.mhtml?tourn_id=20143&entry_id=3709427"
+							> American Heritage Palm Beach LY </a>
+						</td>
+
+
+						<td class="nowrap">
+							Con
+						</td>
+
+						<td class="nowrap">
+						</td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+		</div>
+
+	</div>
+
+
+
+		</div>
+
+	</div>
+
+
+
+
+	<div id="footer">
+
+		<span class="leftlinks twothirds">
+
+			<a
+				tabindex = "-1"
+				href     = "https://www.speechanddebate.org/join"
+			>Join the NSDA</a>
+
+			<a
+				tabindex = "-1"
+				href     = "https://www.speechanddebate.org/mission"
+			>About</a>
+
+			<a
+				tabindex = "-1"
+				href     = "mailto:help@tabroom.com"
+			>Help</a>
+
+			<a
+				tabindex = "-1"
+				href     = "https://www.tabroom.com/index/about.mhtml"
+			>Contact</a>
+
+			<a
+				tabindex = "-1"
+				href     = "https://www.speechanddebate.org/privacy-policy"
+			>Privacy Policy</a>
+
+			<a
+				tabindex = "-1"
+				href     = "https://www.speechanddebate.org/terms-conditions"
+			>Terms</a>
+		</span>
+
+
+	</div>
+
+	</div>
+
+
+	</body>
+
+</html>
+
