@@ -1,3 +1,5 @@
+import time
+import math
 import statistics
 import requests
 from requests_cache import DO_NOT_CACHE, CachedSession
@@ -6,6 +8,32 @@ requests = CachedSession(expire_after=DO_NOT_CACHE)
 API_BASE = 'http://localhost:8080'
 
 # Update all indicies given a tab tourn id to get judges from
+
+
+def get_index_deflator(numRounds: int, initialIndex: float) -> float:
+    """Gets the amount to deflate a raw index by given the number of rounds judged.
+
+    Args:
+        numRounds (int): The number of rounds judged.
+        initialIndex (float): The initial index score.
+
+    Returns:
+        float: The proportion of the original Index that should be retained (from [0, 1)).
+    """
+    N = 0.8
+    Y0 = 0.1
+    K = 0.15
+
+    rnd_deflator = N/((N/Y0 - 1)*math.pow(math.e, -
+                      K*(numRounds - 1)) + 1) + 0.9
+
+    N = 2.2
+    Y0 = 0.2
+    K = 0.3
+
+    idx_deflator = N/((N/Y0 - 1)*math.pow(math.e, -K*(initialIndex - 3)) + 1)
+
+    return rnd_deflator*idx_deflator
 
 
 def update_indicies(tab_event_id: int):
@@ -42,6 +70,9 @@ def update_indicies(tab_event_id: int):
     circuits = list(map(lambda c: c['id'], event['circuits']))
     season = event['tournament']['seasonId']
 
+    # circuits = [34, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    # season = 16
+    # judges = requests.get(f"{API_BASE}/core/v1/judges").json()
     judges = requests.post(f'{API_BASE}/core/v1/judges/advanced/findMany', json={
         'where': {
             'results': {
@@ -54,9 +85,10 @@ def update_indicies(tab_event_id: int):
         }
     }).json()
 
-    # print(f"Found {len(judges)} who judged at {tab_event_id}")
+    print(f"Found {len(judges)} who judged at {tab_event_id}")
 
     for circuit in circuits:
+        print(f"Circuit {circuit}")
         speaking_aggregation = requests.post(f'{API_BASE}/core/v1/speaking/rounds/advanced/aggregate', json={
             "where": {
                 "round": {
@@ -81,7 +113,9 @@ def update_indicies(tab_event_id: int):
 
         scope_avg = speaking_aggregation['_avg']['points'] or 28.5
 
-        for judge in judges:
+        for i, judge in enumerate(judges):
+            time.sleep(0.05)
+            print(f"{i+1}/{len(judges)} {judge['id']}")
             # Get all of the judge's records in scope
             records = requests.post(f'{API_BASE}/core/v1/judge-records/advanced/findMany', json={
                 'where': {
@@ -133,6 +167,7 @@ def update_indicies(tab_event_id: int):
             pro_speaks = []
             con_speaks = []
             pro_ballots = 0
+            con_ballots = 0
             low_point_wins = 0
 
             for record in records:
@@ -159,8 +194,11 @@ def update_indicies(tab_event_id: int):
                         elif round['result']['teamId'] == team_2:
                             team_2_result = round['result']
 
-                        if round['side'] == "Pro":
-                            pro_ballots += 1
+                        if round['result']['teamId'] == record['winnerId']:
+                            if round['side'] == "Pro":
+                                pro_ballots += 1
+                            elif round['side'] == "Con":
+                                con_ballots += 1
 
                         # print(round['type'])
                         if round['type'] == "Prelim":
@@ -325,10 +363,15 @@ def update_indicies(tab_event_id: int):
             if not len(records):
                 continue
             index = 10 - (13 * squirrel_sum + 7 * screw_sum)/len(records)
-            if index < 0:
-                index = 0
-            elif index > 10:
-                index = 10
+            # if index < 0:
+            #     index = 0
+            # elif index > 10:
+            #     index = 10
+
+            # Update indicies
+            print(f"{len(records)} {index}")
+            index = get_index_deflator(len(records), index) * index
+            print(index)
 
             # print(screw_sum, squirrel_sum, len(records), index)
 
@@ -356,7 +399,7 @@ def update_indicies(tab_event_id: int):
                     'squirrelAndScrewPct': (squirrel_sum + screw_sum)/len(records),
                     'avgSpks': statistics.mean(speaks) if len(speaks) else None,
                     'stdSpks': statistics.stdev(speaks) if len(speaks) > 1 else None,
-                    'pctPro': pro_ballots/len(records),
+                    'pctPro': pro_ballots/(pro_ballots + con_ballots) if pro_ballots + con_ballots != 0 else None,
                     'lowPointWins': low_point_wins,
                     'lowPointWinPct': low_point_wins/len(records),
                     'avgProSpks': statistics.mean(pro_speaks) if len(pro_speaks) else None,
@@ -376,7 +419,7 @@ def update_indicies(tab_event_id: int):
                     'squirrelAndScrewPct': (squirrel_sum + screw_sum)/len(records),
                     'avgSpks': statistics.mean(speaks) if len(speaks) else None,
                     'stdSpks': statistics.stdev(speaks) if len(speaks) > 1 else None,
-                    'pctPro': pro_ballots/len(records),
+                    'pctPro': pro_ballots/(pro_ballots + con_ballots) if pro_ballots + con_ballots != 0 else None,
                     'lowPointWins': low_point_wins,
                     'lowPointWinPct': low_point_wins/len(records),
                     'avgProSpks': statistics.mean(pro_speaks) if len(pro_speaks) else None,
@@ -389,8 +432,10 @@ def update_indicies(tab_event_id: int):
 
 
 if __name__ == "__main__":
-    tourns = requests.get(
-        "http://localhost:8080/core/v1/tournament-divisions").json()
-    for tourn in tourns:
-        print(f"Updating {tourn['tabEventId']}")
-        update_indicies(tourn['tabEventId'])
+    # tourns = requests.get(
+    #     "http://localhost:8080/core/v1/tournament-divisions").json()
+    # for tourn in tourns:
+    #     print(f"Updating {tourn['tabEventId']}")
+    #     update_indicies(tourn['tabEventId'])
+    # print(get_index_deflator(20, 7.5))
+    update_indicies(1)

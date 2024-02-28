@@ -1,5 +1,6 @@
 import math
 import requests
+import lprint
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
 
@@ -16,11 +17,10 @@ def get_otr_deflator(numTourns: int) -> float:
         float: The proportion of the original OTR that should be retained (from [0, 1)).
     """
     N = 1
-    Y0 = 0.6
-    K = 0.4
-    M = 0.4986
+    Y0 = 0.15  # g
+    K = 1.3
 
-    return round(N/((N/Y0 - 1)*math.pow(math.e, -K*(numTourns - 2)) + 1) + M, 2)
+    return round(N/((N/Y0 - 1)*math.pow(math.e, -K*numTourns) + 1), 2)
 
 
 def update_otrs(tab_event_id: int) -> None:
@@ -31,38 +31,38 @@ def update_otrs(tab_event_id: int) -> None:
     """
 
     # Get all teamIds participating and the season + all circuits in scope
-    print("Getting teams")
-    teams = list(map(lambda t: t['id'], requests.get(
-        f"{API_BASE}/core/v1/teams").json()))
+    # lprint("Getting teams")
+    # teams = list(map(lambda t: t['id'], requests.get(
+    #     f"{API_BASE}/core/v1/teams").json()))
 
-    # event = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/findUnique', json={
-    # 'where': {
-    #     'tabEventId': tab_event_id
-    # },
-    #     'select': {
-    #         'teamResults': {
-    #             'select': {
-    #                 'teamId': True
-    #             }
-    #         },
-    #         'circuits': {
-    #             'select': {
-    #                 'id': True
-    #             }
-    #         },
-    #         'tournament': {
-    #             'select': {
-    #                 'seasonId': True
-    #             }
-    #         }
-    #     }
-    # }).json()
+    event = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/findUnique', json={
+        'where': {
+            'tabEventId': tab_event_id
+        },
+        'select': {
+            'teamResults': {
+                'select': {
+                    'teamId': True
+                }
+            },
+            'circuits': {
+                'select': {
+                    'id': True
+                }
+            },
+            'tournament': {
+                'select': {
+                    'seasonId': True
+                }
+            }
+        }
+    }).json()
 
-    # circuits = list(map(lambda c: c['id'], event['circuits']))
-    # season = event['tournament']['seasonId']
-    circuits = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
-    season = 16
-    # teams = list(map(lambda r: r['teamId'], event['teamResults']))
+    circuits = list(map(lambda c: c['id'], event['circuits']))
+    season = event['tournament']['seasonId']
+    # circuits = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+    # season = 16
+    teams = list(map(lambda r: r['teamId'], event['teamResults']))
 
     for circuit in circuits:
         print(f"Circuit {circuit}")

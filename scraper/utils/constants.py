@@ -9,14 +9,16 @@ PRO_SIDES = [
     "Govt",
     "Gov",
     "Prop",
-    "Proposition"
+    "Proposition",
+    "Affirmative"
 ]
 
 CON_SIDES = [
     "Con",
     "Neg",
     "Opp",
-    "Opposition"
+    "Opposition",
+    "Negative"
 ]
 
 """Standardized elimination round names"""

@@ -1,25 +1,31 @@
-mm/yy,resolution,classifications
-09/19,The European Union should join the Belt and Road Initiative.,ForeignAffairs;Economy
-11/19,The benefits of the United States federal government’s use of offensive cyber operations outweigh the harms.,Technology
-01/20,The United States should end its economic sanctions against Venezuela.,Economy;ForeignAffairs
-02/20,The United States should replace means-tested welfare programs with a universal basic income.,Civics;Economy
-03/20,The United States should increase its use of nuclear energy for commercial energy production.,Environmental
-04/20,The United States should remove nearly all of its military presence in the Arab States of the Persian Gulf.,ForeignAffairs
-09/20,The United States federal government should enact the Medicare-For-All Act of 2019.,Civics
-11/20,The United States should adopt a declaratory nuclear policy of no first use.,ForeignAffairs
-01/21,The National Security Agency should end its surveillance of U.S. citizens and lawful permanent residents.,Civics;Technology
-02/21,"On balance, the benefits of urbanization in West Africa outweigh the harms.",ForeignAffairs
-03/21,"On balance, the benefits of creating the United States Space Force outweigh the harms.",Technology;ForeignAffairs
-04/21,The benefits of the International Monetary Fund outweigh the harms.,ForeignAffairs;Economy
-09/21,The North Atlantic Treaty Organization should substantially increase its defense commitments to the Baltic states.,ForeignAffairs
-11/21,Increased United States federal regulation of cryptocurrency transactions and/or assets will produce more benefits than harms.,Technology;Economy
-01/22,The United States federal government should legalize all illicit drugs.,Civics
-02/22,"On balance, Turkey’s membership is beneficial to the North Atlantic Treaty Organization.",ForeignAffairs
-03/22,"In the United States, the benefits of increasing organic agriculture outweigh the harms.",Environmental
-04/22,Japan should revise Article 9 of its Constitution to develop offensive military capabilities.,ForeignAffairs
-09/22,The United States Federal Government should substantially increase its investment in high-speed rail.,Civics;Technology;Economy
-11/22,The United States’ strategy of Great Power Competition produces more benefits than harms.,ForeignAffairs
-01/23,The United States Federal Government should increase its diplomatic efforts to peacefully resolve internal armed conflicts in West Asia.,ForeignAffairs
-02/23,"In the United States, right-to-work laws do more harm than good.",Civics
-03/23,The Republic of India should sign the Artemis Accords.,ForeignAffairs;Technology
-04/23,The United States Federal Government should ban the collection of personal data through biometric recognition technology.,Civics;Technology
+09/19,The European Union should join the Belt and Road Initiative.,ForeignAffairs;Economy,PublicForum
+11/19,The benefits of the United States federal government’s use of offensive cyber operations outweigh the harms.,Technology,PublicForum
+01/20,The United States should end its economic sanctions against Venezuela.,Economy;ForeignAffairs,PublicForum
+02/20,The United States should replace means-tested welfare programs with a universal basic income.,Civics;Economy,PublicForum
+03/20,The United States should increase its use of nuclear energy for commercial energy production.,Environmental,PublicForum
+04/20,The United States should remove nearly all of its military presence in the Arab States of the Persian Gulf.,ForeignAffairs,PublicForum
+09/20,The United States federal government should enact the Medicare-For-All Act of 2019.,Civics,PublicForum
+11/20,The United States should adopt a declaratory nuclear policy of no first use.,ForeignAffairs,PublicForum
+01/21,The National Security Agency should end its surveillance of U.S. citizens and lawful permanent residents.,Civics;Technology,PublicForum
+02/21,On balance: the benefits of urbanization in West Africa outweigh the harms.,ForeignAffairs,PublicForum
+03/21,On balance: the benefits of creating the United States Space Force outweigh the harms.,Technology;ForeignAffairs,PublicForum
+04/21,The benefits of the International Monetary Fund outweigh the harms.,ForeignAffairs;Economy,PublicForum
+09/21,The North Atlantic Treaty Organization should substantially increase its defense commitments to the Baltic states.,ForeignAffairs,PublicForum
+11/21,Increased United States federal regulation of cryptocurrency transactions and/or assets will produce more benefits than harms.,Technology;Economy,PublicForum
+01/22,The United States federal government should legalize all illicit drugs.,Civics,PublicForum
+02/22,On balance: Turkey’s membership is beneficial to the North Atlantic Treaty Organization.,ForeignAffairs,PublicForum
+03/22,In the United States: the benefits of increasing organic agriculture outweigh the harms.,Environmental,PublicForum
+04/22,Japan should revise Article 9 of its Constitution to develop offensive military capabilities.,ForeignAffairs,PublicForum
+09/22,The United States Federal Government should substantially increase its investment in high-speed rail.,Civics;Technology;Economy,PublicForum
+11/22,The United States’ strategy of Great Power Competition produces more benefits than harms.,ForeignAffairs,PublicForum
+01/23,The United States Federal Government should increase its diplomatic efforts to peacefully resolve internal armed conflicts in West Asia.,ForeignAffairs,PublicForum
+02/23,In the United States: right-to-work laws do more harm than good.,Civics,PublicForum
+03/23,The Republic of India should sign the Artemis Accords.,ForeignAffairs;Technology,PublicForum
+04/23,The United States Federal Government should ban the collection of personal data through biometric recognition technology.,Civics;Technology,PublicForum
+9/23,The United States federal government should substantially increase its military presence in the Arctic.,ForeignAffairs,PublicForum
+11/23,The United States federal government should forgive all federal student loan debt.,Civics;Economy,PublicForum
+1/24,The United States federal government should repeal Section 230 of the Communications Decency Act.,Civics;Technology,PublicForum
+9/23,The United States ought to guarantee the right to housing.,Civics,LincolnDouglas
+11/23,The United States ought to prohibit the extraction of fossil fuels from federal public lands and waters.,Civics;Environmental,LincolnDouglas
+1/24,The United States ought to substantially reduce its military presence in the West Asia-North Africa region.,ForeignAffairs,LincolnDouglas
+9/23,The United States federal government should substantially increase fiscal redistribution in the United States by adopting a federal jobs guarantee: expanding Social Security: and/or providing a basic income.,Civics;Economy,Policy

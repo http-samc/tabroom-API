@@ -1,31 +1,77 @@
-# Event -> Geo -> Division -> Season
+import time
+import requests
+API_BASE = "http://localhost:8080/core/v1"
 
-def get_lookup(circuits):
-    event_2_geo = {}
-    event_geo_2_division = {}
-    event_geo_division_2_season = {}
+rankings = requests.post(f"{API_BASE}/rankings/teams/advanced/findMany", json={
+    "include": {
+        "team": {
+            "include": {
+                "bids": True
+            }
+        },
+        "circuit": True
+    }
+}).json()
 
-    for circuit in circuits:
-        event = circuit['event']
-        geo = circuit['geo']
-        division = circuit['division']
-        season = circuit['season']
+i = 0
 
-        if event not in event_2_geo:
-            event_2_geo[event] = []
+print(len(rankings))
 
-        event_2_geo[event].append(geo)
+for ranking in rankings:
+    print(i)
+    i += 1
+    level = (ranking['circuit']['classification'])
+    bids = ranking['team']['bids']
 
-        k = f"{event}_{geo}"
+    if len(bids) == 0 or level != "Varsity":
+        continue
+    total = 0
+    for bid in bids:
+        if bid['value'] == "Full":
+            total += 1
+        else:
+            total += 0.5
 
-        if k not in event_geo_2_division:
-            event_geo_2_division[k] = []
+    requests.patch(f"{API_BASE}/rankings/teams/{ranking['id']}", json={
+        "bids": total
+    })
 
-        event_geo_2_division[k].append(division)
+# print(len(rankings))
 
-        j = f"{k}_{division}"
+# rankings = requests.get(f"{API_BASE}/rankings/judges").json()
+# print(len(rankings))
+# for ranking in rankings:
+#     rounds = requests.post(f"{API_BASE}/judge-records/advanced/findMany", json={
+#         "where": {
+#             "result": {
+#                 "judgeId": ranking["judgeId"],
+#                 "division": {
+#                     "circuits": {
+#                         "some": {
+#                             "id": ranking['circuitId']
+#                         }
+#                     },
+#                     "tournament": {
+#                         "seasonId": ranking['seasonId']
+#                     }
+#                 }
+#             }
+#         },
+#         "select": {
+#             "decision": True,
+#             "id": True
+#         }
+#     }).json()
 
-        if j not in event_geo_division_2_season:
-            event_geo_division_2_season[j] = []
+#     if not len(rounds):
+#         continue
 
-        event_geo_division_2_season[j].append(season)
+#     numPro = len(list(filter(lambda r: r['decision'] == "Pro", rounds)))
+#     numCon = len(list(filter(lambda r: r['decision'] == "Con", rounds)))
+
+#     requests.patch(f"{API_BASE}/rankings/judges/{ranking['id']}", json={
+#         "pctPro": numPro/(numPro + numCon)
+#     })
+
+#     print(numPro/(numPro + numCon))
+#     time.sleep(0.1)

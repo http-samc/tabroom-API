@@ -141,7 +141,7 @@ def _update_scoped_stats(season: int, circuit: int):
             team_2_bids[result['teamId']] = 0
         if result['bid']:
             team_2_bids[result['teamId']
-                        ] += 1 if result['bid']['value'] == "Gold" else 0.5
+                        ] += 1 if result['bid']['value'] == "Full" else 0.5
 
         # Upsert result into map
         if result["teamId"] not in team_2_rounds:
@@ -356,7 +356,7 @@ def _update_scoped_stats(season: int, circuit: int):
                     print("!")
                     continue
                 for record in round['records']:
-                    if record['judgeId'] not in judge_2_speaks or record['judgeId'] not in judge_2_team_avg_points:
+                    if record['judgeId'] not in judge_2_speaks or record['judgeId'] not in judge_2_team_avg_points or not len(judge_2_speaks[record['judgeId']]):
                         continue
                     speaks_above_judging.append(
                         judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
@@ -513,3 +513,5 @@ def update_stats(tab_event_id: int):
 
 if __name__ == "__main__":
     update_stats(252446)
+
+"mysql://1dtqumz966wpk6hgmm58:pscale_pw_rdwKMhZjcW6zceigtp10undalmTmIif9torVutw6iue@aws.connect.psdb.cloud/debate-land?sslaccept=strict"

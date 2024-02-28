@@ -7,6 +7,9 @@ from scraper.lib.tournament import scrape_tournament
 from pipelines.post_upload.index import update_indicies
 from pipelines.post_upload.otr import update_otrs
 from pipelines.post_upload.stats import update_stats
+from lprint import lprint
+import traceback
+import datetime
 
 from scraper.lib.division import get_division_name
 import requests
@@ -20,6 +23,8 @@ requests_cache.install_cache("tabroom_cache")
 
 # clear()
 
+lprint(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+
 DATA = []
 
 start = time.perf_counter()
@@ -31,53 +36,59 @@ with open("data.csv", "r") as f:
         DATA.append(row)
 
 for tourn in DATA:
-    print(
-        f"Scraping {tourn[0]} {tourn[3]} {tourn[4]} at {round(time.perf_counter() - start, 1)}")
-    NICKNAME = tourn[0]
-    TOURN = int(tourn[1])
-    EVENT = int(tourn[2])
-    FORMAT = tourn[3]
-    CLASSIFICATION = tourn[4]
-    SEASON = int(tourn[5])
-    CIRCUITS = tourn[6].split(";")
-    FIRST_ELIM_ROUND = None if tourn[7] == "None" else tourn[7]
-    TOC_FULL_BID_LEVEL = None if tourn[8] == "None" else tourn[8]
-    BOOST = float(tourn[9])
-    HAS_PARTIAL_BIDS = True if FORMAT == "PublicForum" else False
+    try:
+        lprint(
+            f"Scraping {tourn[0]} {tourn[3]} {tourn[4]} at {round(time.perf_counter() - start, 1)}")
+        NICKNAME = tourn[0]
+        TOURN = int(tourn[1])
+        EVENT = int(tourn[2])
+        FORMAT = tourn[3]
+        CLASSIFICATION = tourn[4]
+        SEASON = int(tourn[5])
+        CIRCUITS = tourn[6].split(";")
+        FIRST_ELIM_ROUND = None if tourn[7] == "None" else tourn[7]
+        TOC_FULL_BID_LEVEL = None if tourn[8] == "None" else tourn[8]
+        BOOST = float(tourn[9])
+        HAS_PARTIAL_BIDS = True if FORMAT == "PublicForum" else False
 
-    tournament = scrape_tournament(TOURN)
-    division_name = get_division_name(TOURN, EVENT)
-    entries = []
+        tournament = scrape_tournament(TOURN)
+        division_name = get_division_name(TOURN, EVENT)
+        entries = []
 
-    for entryFragment in scrape_entries(TOURN, EVENT):
-        entry = scrape_entry(TOURN, entryFragment)
-        entries.append(entry)
-
-    unscraped_entries = get_unscraped_entries(entries)
-
-    while unscraped_entries:
-        print("Aggregating unscraped entries...")
-        for tab_entry_id in unscraped_entries:
-            entries.append(scrape_entry(TOURN, {
-                'code': None,
-                'location': None,
-                'school': None,
-                'tab_competitor_ids': [],
-                'tab_entry_id': tab_entry_id
-            }))
+        for entryFragment in scrape_entries(TOURN, EVENT):
+            entry = scrape_entry(TOURN, entryFragment)
+            entries.append(entry)
 
         unscraped_entries = get_unscraped_entries(entries)
 
-    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
-                          SEASON, BOOST, CLASSIFICATION, division_name, FIRST_ELIM_ROUND, TOC_FULL_BID_LEVEL, HAS_PARTIAL_BIDS)
+        while unscraped_entries:
+            lprint("Aggregating unscraped entries...")
+            for tab_entry_id in unscraped_entries:
+                entries.append(scrape_entry(TOURN, {
+                    'code': None,
+                    'location': None,
+                    'school': None,
+                    'tab_competitor_ids': [],
+                    'tab_entry_id': tab_entry_id
+                }))
 
-    # with open('t.json', 'w') as f:
-    #     json.dump(data, f)
-    upload_data(data)
-    print(f"Updating OTRs at {round(time.perf_counter() - start, 1)}")
-    update_otrs(EVENT)
-    print(f"Updating Indicies at {round(time.perf_counter() - start, 1)}")
-    update_indicies(EVENT)
-    print(f"Updating Stats at {round(time.perf_counter() - start, 1)}")
-    update_stats(EVENT)
-    print(f"Done at {round(time.perf_counter() - start, 1)}")
+            unscraped_entries = get_unscraped_entries(entries)
+
+        data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+                              SEASON, BOOST, CLASSIFICATION, division_name, FIRST_ELIM_ROUND, TOC_FULL_BID_LEVEL, HAS_PARTIAL_BIDS)
+
+        # with open('t.json', 'w') as f:
+        #     json.dump(data, f)
+        upload_data(data)
+        lprint(f"Updating OTRs at {round(time.perf_counter() - start, 1)}")
+        update_otrs(EVENT)
+        lprint(f"Updating Indicies at {round(time.perf_counter() - start, 1)}")
+        update_indicies(EVENT)
+        lprint(f"Updating Stats at {round(time.perf_counter() - start, 1)}")
+        update_stats(EVENT)
+        lprint(f"Done at {round(time.perf_counter() - start, 1)}")
+    except Exception as e:
+        lprint("ERROR")
+        lprint(traceback.format_exc())
+
+lprint(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))

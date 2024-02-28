@@ -453,9 +453,9 @@ def transform_data(tab_tourn_id: int, tab_event_id: int, nickname: str, event_na
 
         result['op_wp_m'] = statistics.mean(result['op_wp_m'])
         result['op_wp_m_winning'] = statistics.mean(
-            result['op_wp_m_winning']) if len(result['op_wp_m_winning']) else 0
+            result['op_wp_m_winning']) if type(result['op_wp_m_winning']) is list and len(result['op_wp_m_winning']) else 0
         result['op_wp_m_losing'] = statistics.mean(
-            result['op_wp_m_losing']) if len(result['op_wp_m_losing']) else 0
+            result['op_wp_m_losing']) if type(result['op_wp_m_losing']) is list and len(result['op_wp_m_losing']) else 0
         result['p_wp'] = p_wp
         result['bb'] = break_boost
         result['tb'] = tournament_boost

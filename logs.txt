@@ -1,0 +1,2076 @@
+04:36PM on February 06, 2024
+Scraping Michigan PublicForum Varsity at 0.0
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Michigan PublicForum Novice at 6.8
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Michigan Policy Varsity at 16.4
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Michigan Policy JuniorVarsity at 28.2
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Michigan Policy Novice at 32.7
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Michigan Policy JuniorVarsity at 38.9
+Updating OTRs at 82.6
+Updating Indicies at 84.4
+Updating Stats at 98.9
+Done at 102.2
+Scraping Michigan Policy Varsity at 102.2
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 264, in transform_data
+    result['elim_wins'] += 1
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'
+
+Scraping Blake PublicForum Varsity at 103.9
+Aggregating unscraped entries...
+Updating OTRs at 436.6
+Updating Indicies at 456.1
+Updating Stats at 593.1
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 88, in <module>
+    update_stats(EVENT)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 511, in update_stats
+    _update_scoped_stats(season, circuit)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 362, in _update_scoped_stats
+    judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/statistics.py", line 432, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+
+Scraping Blake PublicForum Varsity at 594.2
+Updating OTRs at 640.9
+Updating Indicies at 642.7
+Updating Stats at 692.1
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 88, in <module>
+    update_stats(EVENT)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 511, in update_stats
+    _update_scoped_stats(season, circuit)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 362, in _update_scoped_stats
+    judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/statistics.py", line 432, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+
+Scraping Blake LincolnDouglas Varsity at 693.1
+Aggregating unscraped entries...
+Updating OTRs at 982.3
+Updating Indicies at 1001.1
+Updating Stats at 1136.1
+Done at 1148.1
+Scraping Blake LincolnDouglas Varsity at 1148.1
+Updating OTRs at 1185.4
+Updating Indicies at 1187.1
+Updating Stats at 1244.1
+Done at 1255.6
+Scraping Blake Policy Varsity at 1255.6
+Aggregating unscraped entries...
+Updating OTRs at 1536.9
+Updating Indicies at 1549.9
+Updating Stats at 1683.9
+Done at 1700.5
+Scraping Peninsula PublicForum Varsity at 1700.5
+Updating OTRs at 1845.3
+Updating Indicies at 1853.0
+Updating Stats at 1912.4
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 88, in <module>
+    update_stats(EVENT)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 511, in update_stats
+    _update_scoped_stats(season, circuit)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 362, in _update_scoped_stats
+    judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/statistics.py", line 432, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+
+Scraping Peninsula PublicForum Novice at 1913.6
+Updating OTRs at 1996.9
+Updating Indicies at 2002.3
+Updating Stats at 2040.2
+Done at 2044.0
+Scraping Peninsula LincolnDouglas Varsity at 2044.0
+Aggregating unscraped entries...
+Updating OTRs at 2349.5
+Updating Indicies at 2370.2
+Updating Stats at 2523.8
+Done at 2546.3
+Scraping Peninsula LincolnDouglas Novice at 2546.3
+Aggregating unscraped entries...
+Updating OTRs at 2653.0
+Updating Indicies at 2662.1
+Updating Stats at 2709.1
+Done at 2715.0
+Scraping Peninsula Policy Varsity at 2715.0
+Aggregating unscraped entries...
+Updating OTRs at 2899.5
+Updating Indicies at 2909.4
+Updating Stats at 2992.4
+Done at 3014.6
+Scraping Peninsula Policy Novice at 3014.6
+Updating OTRs at 3117.8
+Updating Indicies at 3124.4
+Updating Stats at 3167.2
+Done at 3176.1
+Scraping Emory PublicForum Varsity at 3176.1
+Updating OTRs at 3665.1
+Updating Indicies at 3691.1
+Updating Stats at 3926.5
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 88, in <module>
+    update_stats(EVENT)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 511, in update_stats
+    _update_scoped_stats(season, circuit)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 362, in _update_scoped_stats
+    judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/statistics.py", line 432, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+
+Scraping Emory LincolnDouglas Varsity at 3928.2
+Aggregating unscraped entries...
+Updating OTRs at 4400.0
+Updating Indicies at 4426.9
+Updating Stats at 4719.0
+Done at 4754.2
+Scraping Columbia PublicForum Varsity at 4754.2
+Aggregating unscraped entries...
+Updating OTRs at 5372.9
+Updating Indicies at 5406.4
+Updating Stats at 5689.5
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 88, in <module>
+    update_stats(EVENT)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 511, in update_stats
+    _update_scoped_stats(season, circuit)
+  File "/Users/smrth/dev/tabroom-API/pipelines/post_upload/stats.py", line 362, in _update_scoped_stats
+    judge_2_team_avg_points[record['judgeId']] - statistics.mean(judge_2_speaks[record['judgeId']]))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/statistics.py", line 432, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+
+Scraping Columbia PublicForum Novice at 5691.9
+Aggregating unscraped entries...
+Updating OTRs at 5864.8
+Updating Indicies at 5873.1
+Updating Stats at 5940.3
+Done at 5948.7
+Scraping Columbia LincolnDouglas Varsity at 5948.7
+Aggregating unscraped entries...
+Updating OTRs at 6241.6
+Updating Indicies at 6256.0
+Updating Stats at 6374.6
+Done at 6417.4
+Scraping Columbia LincolnDouglas Novice at 6417.4
+Aggregating unscraped entries...
+Updating OTRs at 6543.5
+Updating Indicies at 6549.2
+Updating Stats at 6593.4
+Done at 6602.4
+06:26PM on February 06, 2024
+05:09PM on February 07, 2024
+Scraping University of Houston Policy Varsity at 0.0
+Aggregating unscraped entries...
+Updating OTRs at 131.4
+Updating Indicies at 137.6
+Updating Stats at 191.7
+Done at 225.3
+Scraping University of Houston LincolnDouglas Varsity at 225.3
+Aggregating unscraped entries...
+Updating OTRs at 554.1
+Updating Indicies at 565.4
+Updating Stats at 680.0
+Done at 733.6
+Scraping University of Houston LincolnDouglas Novice at 733.6
+Aggregating unscraped entries...
+Updating OTRs at 764.1
+Updating Indicies at 766.7
+Updating Stats at 783.4
+Done at 794.9
+Scraping University of Houston PublicForum Varsity at 794.9
+Aggregating unscraped entries...
+Updating OTRs at 905.1
+Updating Indicies at 910.8
+Updating Stats at 958.4
+Done at 1020.0
+Scraping Churchill Classic PublicForum Varsity at 1020.0
+Updating OTRs at 1185.0
+Updating Indicies at 1194.2
+Updating Stats at 1266.4
+Done at 1329.7
+Scraping Churchill Classic PublicForum Novice at 1329.7
+Updating OTRs at 1364.0
+Updating Indicies at 1365.9
+Updating Stats at 1380.2
+Done at 1391.2
+Scraping Churchill Classic LincolnDouglas Varsity at 1391.2
+Aggregating unscraped entries...
+Updating OTRs at 1617.3
+Updating Indicies at 1631.5
+07:17PM on February 07, 2024
+Scraping Churchill Classic LincolnDouglas Novice at 0.0
+Updating OTRs at 30.8
+Updating Indicies at 33.8
+Updating Stats at 53.4
+Done at 66.2
+Scraping Georgetown Fall PublicForum Varsity at 66.2
+Aggregating unscraped entries...
+Updating OTRs at 445.6
+Updating Indicies at 464.9
+Updating Stats at 655.9
+Done at 726.8
+Scraping Georgetown Fall PublicForum JuniorVarsity at 726.8
+Aggregating unscraped entries...
+Updating OTRs at 879.7
+Updating Indicies at 890.7
+Updating Stats at 979.3
+Done at 986.4
+Scraping Georgetown Fall PublicForum Novice at 986.4
+Aggregating unscraped entries...
+Updating OTRs at 1236.0
+Updating Indicies at 1250.8
+Updating Stats at 1356.1
+Done at 1376.0
+Scraping Georgetown Fall PublicForum MiddleSchool at 1376.0
+Updating OTRs at 1544.2
+Updating Indicies at 1551.2
+Updating Stats at 1615.1
+Done at 1620.0
+Scraping Georgetown Fall PublicForum MiddleSchool at 1620.0
+Updating OTRs at 1760.1
+Updating Indicies at 1770.6
+Updating Stats at 1891.8
+Done at 1901.7
+Scraping Nano Nagle PublicForum Varsity at 1901.8
+Updating OTRs at 2091.7
+Updating Indicies at 2103.2
+Updating Stats at 2210.7
+Done at 2277.4
+Scraping Nano Nagle LincolnDouglas Varsity at 2277.4
+Updating OTRs at 2471.3
+Updating Indicies at 2483.8
+Updating Stats at 2648.5
+Done at 2711.0
+Scraping Laird LincolnDouglas Varsity  at 2711.0
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Varsity  at 2733.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Novice at 2865.7
+Updating OTRs at 2958.8
+Updating Indicies at 2963.5
+Updating Stats at 2996.6
+Done at 3017.6
+Scraping Pennsbury LincolnDouglas Varsity  at 3017.6
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Varsity  at 3105.6
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Novice at 3191.0
+Updating OTRs at 3285.7
+Updating Indicies at 3291.4
+Updating Stats at 3327.3
+Done at 3340.3
+Scraping Arizona State PublicForum Varsity at 3340.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 429, in upload_data
+    judge_res = requests.post(f'{API_BASE}/core/v1/judges/advanced/upsert', json={
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 113, in post
+    return self.request('POST', url, data=data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 158, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 205, in send
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 229, in _send_and_cache
+    response = super().send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+Scraping Arizona State PublicForum Novice at 3519.9
+Aggregating unscraped entries...
+Updating OTRs at 3634.7
+Updating Indicies at 3641.1
+Updating Stats at 3699.0
+Done at 3723.6
+Scraping Arizona State LincolnDouglas Varsity at 3723.6
+Aggregating unscraped entries...
+Updating OTRs at 3987.4
+Updating Indicies at 4007.7
+Updating Stats at 4201.3
+Done at 4272.8
+Scraping Arizona State LincolnDouglas Novice at 4272.8
+Aggregating unscraped entries...
+Updating OTRs at 4405.7
+Updating Indicies at 4416.7
+Updating Stats at 4493.4
+Done at 4513.1
+Scraping Arizona State Policy Varsity at 4513.1
+Updating OTRs at 4737.0
+Updating Indicies at 4749.2
+Updating Stats at 4864.2
+Done at 4898.8
+Scraping Arizona State Policy JuniorVarsity at 4898.8
+Updating OTRs at 4935.3
+Updating Indicies at 4937.1
+Updating Stats at 4955.8
+Done at 4960.8
+Scraping Arizona State Policy Novice at 4960.8
+Updating OTRs at 5039.5
+Updating Indicies at 5044.6
+Updating Stats at 5088.0
+Done at 5104.0
+Scraping Puget Sound PublicForum Varsity at 5104.0
+Aggregating unscraped entries...
+Updating OTRs at 5253.1
+Updating Indicies at 5264.0
+Updating Stats at 5335.8
+Done at 5422.3
+Scraping Puget Sound PublicForum Novice at 5422.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 377, in transform_data
+    full_bid_idx = ELIM_ROUND_NAMES.index(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'Novice' is not in list
+
+Scraping Puget Sound LincolnDouglas Varsity at 5422.8
+Updating OTRs at 5598.6
+Updating Indicies at 5609.7
+Updating Stats at 5707.1
+Done at 5804.5
+Scraping Puget Sound LincolnDouglas Novice at 5804.5
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 377, in transform_data
+    full_bid_idx = ELIM_ROUND_NAMES.index(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'Novice' is not in list
+
+Scraping UNLV PublicForum Varsity at 5805.0
+Aggregating unscraped entries...
+Updating OTRs at 6048.8
+Updating Indicies at 6065.6
+Updating Stats at 6205.4
+Done at 6295.5
+Scraping UNLV LincolnDouglas Varsity at 6295.5
+Aggregating unscraped entries...
+Updating OTRs at 6504.6
+Updating Indicies at 6517.5
+Updating Stats at 6737.3
+Done at 6821.4
+Scraping UNLV LincolnDouglas Novice at 6821.4
+Updating OTRs at 6875.7
+Updating Indicies at 6879.5
+Updating Stats at 6912.3
+Done at 6933.2
+Scraping UNLV Policy Varsity at 6933.2
+Aggregating unscraped entries...
+Updating OTRs at 7159.2
+Updating Indicies at 7171.5
+Updating Stats at 7342.5
+Done at 7380.8
+Scraping UNLV Policy Novice at 7380.8
+Updating OTRs at 7467.6
+Updating Indicies at 7473.9
+Updating Stats at 7528.9
+Done at 7547.6
+09:23PM on February 07, 2024
+01:38AM on February 15, 2024
+Scraping Blake PublicForum Varsity at 0.0
+Aggregating unscraped entries...
+Updating OTRs at 239.5
+Updating Indicies at 253.9
+Updating Stats at 415.4
+Done at 427.0
+Scraping Blake PublicForum Varsity at 427.0
+Updating OTRs at 459.4
+Updating Indicies at 461.2
+Updating Stats at 519.6
+Done at 531.3
+Scraping Blake LincolnDouglas Varsity at 531.3
+Aggregating unscraped entries...
+Updating OTRs at 758.2
+Updating Indicies at 773.8
+Updating Stats at 918.8
+Done at 931.1
+Scraping Blake LincolnDouglas Varsity at 931.1
+Updating OTRs at 960.1
+Updating Indicies at 962.0
+Updating Stats at 1021.1
+Done at 1033.7
+Scraping Blake Policy Varsity at 1033.7
+Aggregating unscraped entries...
+Updating OTRs at 1232.7
+Updating Indicies at 1244.1
+Updating Stats at 1366.9
+Done at 1376.3
+Scraping Peninsula PublicForum Varsity at 1376.3
+Updating OTRs at 1476.7
+Updating Indicies at 1483.0
+Updating Stats at 1546.1
+Done at 1562.9
+Scraping Peninsula PublicForum Novice at 1562.9
+Updating OTRs at 1624.7
+Updating Indicies at 1629.4
+Updating Stats at 1670.2
+Done at 1674.0
+Scraping Peninsula LincolnDouglas Varsity at 1674.0
+Aggregating unscraped entries...
+Updating OTRs at 1915.2
+Updating Indicies at 1932.0
+Updating Stats at 2093.8
+Done at 2117.8
+Scraping Peninsula LincolnDouglas Novice at 2117.8
+Aggregating unscraped entries...
+Updating OTRs at 2203.4
+Updating Indicies at 2210.8
+Updating Stats at 2260.8
+Done at 2267.0
+Scraping Peninsula Policy Varsity at 2267.0
+Aggregating unscraped entries...
+Updating OTRs at 2402.2
+Updating Indicies at 2410.7
+Updating Stats at 2496.5
+Done at 2512.0
+Scraping Peninsula Policy Novice at 2512.0
+Updating OTRs at 2585.8
+Updating Indicies at 2591.5
+Updating Stats at 2636.8
+Done at 2641.6
+Scraping Emory PublicForum Varsity at 2641.6
+Updating OTRs at 2994.3
+Updating Indicies at 3016.5
+Updating Stats at 3265.2
+Done at 3296.2
+Scraping Emory LincolnDouglas Varsity at 3296.2
+Aggregating unscraped entries...
+Updating OTRs at 3647.2
+Updating Indicies at 3670.2
+Updating Stats at 3980.0
+Done at 4017.5
+Scraping Columbia PublicForum Varsity at 4017.5
+Aggregating unscraped entries...
+Updating OTRs at 4460.6
+Updating Indicies at 4488.3
+Updating Stats at 4792.7
+Done at 4843.8
+Scraping Columbia PublicForum Novice at 4843.8
+Aggregating unscraped entries...
+Updating OTRs at 4962.4
+Updating Indicies at 4971.4
+Updating Stats at 5043.0
+Done at 5051.8
+Scraping Columbia LincolnDouglas Varsity at 5051.8
+Aggregating unscraped entries...
+Updating OTRs at 5226.1
+Updating Indicies at 5240.2
+Updating Stats at 5364.0
+Done at 5409.5
+Scraping Columbia LincolnDouglas Novice at 5409.5
+Aggregating unscraped entries...
+Updating OTRs at 5478.5
+Updating Indicies at 5483.2
+Updating Stats at 5530.3
+Done at 5539.6
+Scraping Churchill Classic PublicForum Varsity at 5539.6
+Updating OTRs at 5642.2
+Updating Indicies at 5648.6
+Updating Stats at 5710.3
+Done at 5764.5
+Scraping Churchill Classic PublicForum Novice at 5764.5
+Updating OTRs at 5786.3
+Updating Indicies at 5787.6
+Updating Stats at 5801.2
+Done at 5810.8
+Scraping Churchill Classic LincolnDouglas Varsity at 5810.8
+Aggregating unscraped entries...
+Updating OTRs at 5968.2
+Updating Indicies at 5978.8
+Updating Stats at 6102.1
+Done at 6153.5
+Scraping Churchill Classic LincolnDouglas Novice at 6153.5
+Updating OTRs at 6181.7
+Updating Indicies at 6183.9
+Updating Stats at 6203.0
+Done at 6213.9
+Scraping Georgetown Fall PublicForum Varsity at 6213.9
+Aggregating unscraped entries...
+Updating OTRs at 6449.7
+Updating Indicies at 6463.9
+Updating Stats at 6633.5
+Done at 6695.9
+Scraping Georgetown Fall PublicForum JuniorVarsity at 6695.9
+Aggregating unscraped entries...
+Updating OTRs at 6826.5
+Updating Indicies at 6834.4
+Updating Stats at 6917.6
+Done at 6923.7
+Scraping Georgetown Fall PublicForum Novice at 6923.7
+Aggregating unscraped entries...
+Updating OTRs at 7088.9
+Updating Indicies at 7100.0
+Updating Stats at 7219.0
+Done at 7240.3
+Scraping Georgetown Fall PublicForum MiddleSchool at 7240.3
+Updating OTRs at 7341.0
+Updating Indicies at 7346.2
+Updating Stats at 7407.7
+Done at 7412.4
+Scraping Georgetown Fall PublicForum MiddleSchool at 7412.4
+Updating OTRs at 7536.5
+Updating Indicies at 7543.9
+Updating Stats at 7661.2
+Done at 7671.2
+Scraping Nano Nagle PublicForum Varsity at 7671.2
+Updating OTRs at 7828.4
+Updating Indicies at 7838.4
+Updating Stats at 7957.6
+Done at 8044.1
+Scraping Nano Nagle LincolnDouglas Varsity at 8044.1
+Updating OTRs at 8243.7
+Updating Indicies at 8259.5
+Updating Stats at 8449.0
+Done at 8504.0
+Scraping Laird LincolnDouglas Varsity  at 8504.0
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Varsity  at 8524.6
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Novice at 8559.2
+Updating OTRs at 8614.4
+Updating Indicies at 8618.3
+Updating Stats at 8652.2
+Done at 8672.8
+Scraping Pennsbury LincolnDouglas Varsity  at 8672.8
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Varsity  at 8701.8
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Novice at 8731.2
+Updating OTRs at 8790.7
+Updating Indicies at 8794.9
+Updating Stats at 8830.8
+Done at 8838.6
+Scraping Arizona State PublicForum Varsity at 8838.6
+Aggregating unscraped entries...
+Updating OTRs at 9190.4
+Updating Indicies at 9213.6
+Updating Stats at 9442.3
+Done at 9520.1
+Scraping Arizona State PublicForum Novice at 9520.1
+Aggregating unscraped entries...
+Updating OTRs at 9606.5
+Updating Indicies at 9611.3
+Updating Stats at 9668.1
+Done at 9691.9
+Scraping Arizona State LincolnDouglas Varsity at 9691.9
+Aggregating unscraped entries...
+Updating OTRs at 9933.9
+Updating Indicies at 9950.6
+Updating Stats at 10167.8
+Done at 10233.6
+Scraping Arizona State LincolnDouglas Novice at 10233.6
+Aggregating unscraped entries...
+Updating OTRs at 10351.2
+Updating Indicies at 10359.5
+Updating Stats at 10435.6
+Done at 10452.8
+Scraping Arizona State Policy Varsity at 10452.8
+Updating OTRs at 10595.9
+Updating Indicies at 10604.5
+Updating Stats at 10704.5
+Done at 10725.5
+Scraping Arizona State Policy JuniorVarsity at 10725.5
+Updating OTRs at 10750.5
+Updating Indicies at 10751.9
+Updating Stats at 10769.0
+Done at 10770.6
+Scraping Arizona State Policy Novice at 10770.6
+Updating OTRs at 10829.1
+Updating Indicies at 10832.7
+Updating Stats at 10872.9
+Done at 10883.1
+Scraping Puget Sound PublicForum Varsity at 10883.1
+Aggregating unscraped entries...
+Updating OTRs at 10979.6
+Updating Indicies at 10985.6
+Updating Stats at 11043.8
+Done at 11125.2
+Scraping Puget Sound PublicForum Novice at 11125.2
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 377, in transform_data
+    full_bid_idx = ELIM_ROUND_NAMES.index(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'Novice' is not in list
+
+Scraping Puget Sound LincolnDouglas Varsity at 11125.9
+Updating OTRs at 11231.0
+Updating Indicies at 11238.0
+Updating Stats at 11310.8
+Done at 11380.7
+Scraping Puget Sound LincolnDouglas Novice at 11380.7
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 377, in transform_data
+    full_bid_idx = ELIM_ROUND_NAMES.index(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'Novice' is not in list
+
+Scraping UNLV PublicForum Varsity at 11381.2
+Aggregating unscraped entries...
+Updating OTRs at 11537.0
+Updating Indicies at 11547.1
+Updating Stats at 11659.3
+Done at 11744.4
+Scraping UNLV LincolnDouglas Varsity at 11744.4
+Aggregating unscraped entries...
+Updating OTRs at 11897.6
+Updating Indicies at 11908.1
+Updating Stats at 12103.5
+Done at 12175.3
+Scraping UNLV LincolnDouglas Novice at 12175.3
+Updating OTRs at 12214.7
+Updating Indicies at 12217.4
+Updating Stats at 12248.5
+Done at 12266.6
+Scraping UNLV Policy Varsity at 12266.6
+Aggregating unscraped entries...
+Updating OTRs at 12422.8
+Updating Indicies at 12432.3
+Updating Stats at 12586.1
+Done at 12610.8
+Scraping UNLV Policy Novice at 12610.8
+Updating OTRs at 12674.3
+Updating Indicies at 12678.9
+Updating Stats at 12727.6
+Done at 12739.6
+05:10AM on February 15, 2024
+02:12PM on February 15, 2024
+Scraping Blake PublicForum Varsity at 0.0
+Aggregating unscraped entries...
+Updating OTRs at 275.7
+Updating Indicies at 293.2
+Updating Stats at 635.8
+Done at 910.4
+Scraping Blake PublicForum Varsity at 910.4
+Updating OTRs at 946.4
+Updating Indicies at 948.4
+Updating Stats at 1084.1
+Done at 1420.4
+Scraping Blake LincolnDouglas Varsity at 1420.4
+Aggregating unscraped entries...
+Updating OTRs at 1733.5
+Updating Indicies at 1755.3
+Updating Stats at 2205.9
+Done at 2410.3
+Scraping Blake LincolnDouglas Varsity at 2410.3
+Updating OTRs at 2447.0
+Updating Indicies at 2449.3
+Updating Stats at 2616.0
+Done at 2821.1
+Scraping Blake Policy Varsity at 2821.1
+Aggregating unscraped entries...
+Updating OTRs at 3102.2
+Updating Indicies at 3118.8
+Updating Stats at 3537.2
+Done at 3710.8
+Scraping Peninsula PublicForum Varsity at 3710.8
+Updating OTRs at 3854.7
+Updating Indicies at 3863.8
+Updating Stats at 4008.8
+Done at 4293.6
+Scraping Peninsula PublicForum Novice at 4293.6
+Updating OTRs at 4367.8
+Updating Indicies at 4373.8
+Updating Stats at 4416.3
+Done at 4528.5
+Scraping Peninsula LincolnDouglas Varsity at 4528.5
+Aggregating unscraped entries...
+Updating OTRs at 4818.5
+Updating Indicies at 4838.0
+Updating Stats at 5449.6
+Done at 5639.5
+Scraping Peninsula LincolnDouglas Novice at 5639.5
+Aggregating unscraped entries...
+Updating OTRs at 5741.1
+Updating Indicies at 5750.2
+Updating Stats at 5837.1
+Done at 5930.9
+Scraping Peninsula Policy Varsity at 5930.9
+Aggregating unscraped entries...
+Updating OTRs at 6122.5
+Updating Indicies at 6136.0
+Updating Stats at 6398.4
+Done at 6556.3
+Scraping Peninsula Policy Novice at 6556.3
+Updating OTRs at 6684.3
+Updating Indicies at 6693.1
+Updating Stats at 6755.3
+Done at 6842.0
+Scraping Emory PublicForum Varsity at 6842.0
+Updating OTRs at 7332.5
+Updating Indicies at 7358.0
+Updating Stats at 7949.7
+Done at 8247.3
+Scraping Emory LincolnDouglas Varsity at 8247.3
+Aggregating unscraped entries...
+Updating OTRs at 8728.2
+Updating Indicies at 8766.2
+Updating Stats at 9779.0
+Done at 10012.6
+Scraping Columbia PublicForum Varsity at 10012.7
+Aggregating unscraped entries...
+Updating OTRs at 10693.3
+Updating Indicies at 10733.1
+Updating Stats at 11367.2
+Done at 11663.7
+Scraping Columbia PublicForum Novice at 11663.7
+Aggregating unscraped entries...
+Updating OTRs at 11803.4
+Updating Indicies at 11812.6
+Updating Stats at 11900.2
+Done at 12028.9
+Scraping Columbia LincolnDouglas Varsity at 12028.9
+Aggregating unscraped entries...
+Updating OTRs at 12250.4
+Updating Indicies at 12263.1
+Updating Stats at 12599.3
+Done at 12802.4
+Scraping Columbia LincolnDouglas Novice at 12802.4
+Aggregating unscraped entries...
+Updating OTRs at 12904.4
+Updating Indicies at 12910.4
+Updating Stats at 12981.9
+Done at 13070.5
+Scraping Churchill Classic PublicForum Varsity at 13070.5
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Churchill Classic PublicForum Novice at 13076.3
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Churchill Classic LincolnDouglas Varsity at 13081.2
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Churchill Classic LincolnDouglas Novice at 13090.6
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Georgetown Fall PublicForum Varsity at 13094.8
+Aggregating unscraped entries...
+Updating OTRs at 13408.1
+Updating Indicies at 13425.3
+Updating Stats at 13803.3
+Done at 14128.2
+Scraping Georgetown Fall PublicForum JuniorVarsity at 14128.2
+Aggregating unscraped entries...
+Updating OTRs at 14263.0
+Updating Indicies at 14273.3
+Updating Stats at 14375.2
+Done at 14410.8
+Scraping Georgetown Fall PublicForum Novice at 14410.8
+Aggregating unscraped entries...
+Updating OTRs at 14593.4
+Updating Indicies at 14607.6
+Updating Stats at 14732.8
+Done at 14849.7
+Scraping Georgetown Fall PublicForum MiddleSchool at 14849.7
+Updating OTRs at 14960.3
+Updating Indicies at 14967.4
+Updating Stats at 15033.5
+Done at 15046.5
+Scraping Georgetown Fall PublicForum MiddleSchool at 15046.5
+Updating OTRs at 15172.1
+Updating Indicies at 15188.2
+Updating Stats at 15315.3
+Done at 15334.1
+Scraping Nano Nagle PublicForum Varsity at 15334.1
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Nano Nagle LincolnDouglas Varsity at 15342.5
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Laird LincolnDouglas Varsity  at 15349.7
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Varsity  at 15351.9
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury PublicForum Novice at 15385.8
+Updating OTRs at 15456.4
+Updating Indicies at 15461.5
+Updating Stats at 15498.4
+Done at 15617.6
+Scraping Pennsbury LincolnDouglas Varsity  at 15617.6
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Varsity  at 15642.9
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 269, in upload_data
+    tournament_division_id = tournament_division_res.json()['id']
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+
+Scraping Pennsbury Policy Novice at 15667.8
+Updating OTRs at 15737.2
+Updating Indicies at 15743.0
+Updating Stats at 15791.2
+Done at 15859.1
+Scraping Arizona State PublicForum Varsity at 15859.1
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State PublicForum Novice at 15871.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State LincolnDouglas Varsity at 15877.9
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State LincolnDouglas Novice at 15885.0
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State Policy Varsity at 15888.6
+Updating OTRs at 16051.5
+Updating Indicies at 16061.8
+Updating Stats at 16305.8
+Done at 16451.9
+Scraping Arizona State Policy JuniorVarsity at 16451.9
+Updating OTRs at 16479.4
+Updating Indicies at 16481.3
+Updating Stats at 16498.6
+Done at 16519.1
+Scraping Arizona State Policy Novice at 16519.1
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 429, in upload_data
+    judge_res = requests.post(f'{API_BASE}/core/v1/judges/advanced/upsert', json={
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 113, in post
+    return self.request('POST', url, data=data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 158, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 205, in send
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 229, in _send_and_cache
+    response = super().send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+Scraping Puget Sound PublicForum Varsity at 16549.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Puget Sound PublicForum Novice at 16554.5
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Puget Sound LincolnDouglas Varsity at 16559.4
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Puget Sound LincolnDouglas Novice at 16564.9
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping UNLV PublicForum Varsity at 16568.6
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 429, in upload_data
+    judge_res = requests.post(f'{API_BASE}/core/v1/judges/advanced/upsert', json={
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 113, in post
+    return self.request('POST', url, data=data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 158, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 205, in send
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 229, in _send_and_cache
+    response = super().send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+Scraping UNLV LincolnDouglas Varsity at 16638.9
+Aggregating unscraped entries...
+Updating OTRs at 16807.7
+Updating Indicies at 16819.7
+Updating Stats at 17221.0
+Done at 17398.3
+Scraping UNLV LincolnDouglas Novice at 17398.3
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Scraping UNLV Policy Varsity at 17401.9
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Scraping UNLV Policy Novice at 17406.4
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+07:02PM on February 15, 2024
+05:12PM on Feburary 21, 2024
+Scraping Arizona State PublicForum Novice at 15871.3
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State LincolnDouglas Varsity at 15877.9
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State LincolnDouglas Novice at 15885.0
+Aggregating unscraped entries...
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 401, in upload_data
+    team_id_to_result_id[result['team_id']] = result_res.json()['id']
+                                              ^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+Scraping Arizona State Policy Varsity at 15888.6
+Updating OTRs at 16051.5
+Updating Indicies at 16061.8
+Updating Stats at 16305.8
+Done at 16451.9
+Scraping Arizona State Policy JuniorVarsity at 16451.9
+Updating OTRs at 16479.4
+Updating Indicies at 16481.3
+Updating Stats at 16498.6
+Done at 16519.1
+Scraping Arizona State Policy Novice at 16519.1
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/.pyenv/versions/3.11.4/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 82, in <module>
+    upload_data(data)
+  File "/Users/smrth/dev/tabroom-API/pipelines/uploader.py", line 429, in upload_data
+    judge_res = requests.post(f'{API_BASE}/core/v1/judges/advanced/upsert', json={
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 113, in post
+    return self.request('POST', url, data=data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 158, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 205, in send
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests_cache/session.py", line 229, in _send_and_cache
+    response = super().send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))

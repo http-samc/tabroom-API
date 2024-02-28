@@ -88,7 +88,7 @@ def scrape_entry(tab_tourn_id: int, entry_fragment: EntryFragment) -> Entry:
         soup.find('h4', class_="nospace semibold")).split(' & ')
     if not entry['code']:
         entry['code'] = clean_element(soup.find('h6')).split(':')[-1].strip()
-    if not entry['school']:
+    if 'school' not in entry or not entry['school']:
         nodes = clean_element(soup.find('h6')).split(':')[0].strip()
         if '&' in nodes:
             nodes = nodes[0:nodes.index('&') - 1]
