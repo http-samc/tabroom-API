@@ -2074,3 +2074,415 @@ Traceback (most recent call last):
   File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
     raise ConnectionError(err, request=request)
 requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+07:37AM on March 15, 2024
+Scraping Schaumburg PublicForum Varsity at 0.0
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Scraping Schaumburg PublicForum JuniorVarsity at 4.2
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Scraping Schaumburg PublicForum Novice at 14.6
+07:40AM on March 15, 2024
+Scraping Schaumburg PublicForum Varsity at 0.0
+ERROR
+Traceback (most recent call last):
+  File "/Users/smrth/dev/tabroom-API/main.py", line 77, in <module>
+    data = transform_data(TOURN, EVENT, NICKNAME, FORMAT, tournament, entries, CIRCUITS,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/pipelines/transformer.py", line 582, in transform_data
+    result = paradigm.classify_paradigm(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/scraper/lib/paradigm.py", line 113, in classify_paradigm
+    response = chat([
+               ^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 600, in __call__
+    generation = self.generate(
+                 ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 349, in generate
+    raise e
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 339, in generate
+    self._generate_with_cache(
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/base.py", line 492, in _generate_with_cache
+    return self._generate(
+           ^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 422, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/langchain/chat_models/openai.py", line 344, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 299, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1063, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 842, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 873, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 933, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/smrth/dev/tabroom-API/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 885, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Scraping Schaumburg PublicForum JuniorVarsity at 3.5
+07:43AM on March 15, 2024
+Scraping Schaumburg PublicForum Varsity at 0.0
+Updating OTRs at 114.6
+Updating Indicies at 124.7
+Updating Stats at 171.4
+Done at 180.9
+Scraping Schaumburg PublicForum JuniorVarsity at 180.9
+Updating OTRs at 349.6
+Updating Indicies at 367.2
+Updating Stats at 450.8
+Done at 463.3
+Scraping Schaumburg PublicForum Novice at 463.3
+Updating OTRs at 667.6
+Updating Indicies at 687.3
+Updating Stats at 780.3
+Done at 793.8
+Scraping Schaumburg LincolnDouglas Varsity at 793.8
+Updating OTRs at 910.0
+Updating Indicies at 920.3
+Updating Stats at 973.1
+Done at 981.4
+Scraping Schaumburg LincolnDouglas JuniorVarsity at 981.4
+Updating OTRs at 1138.2
+Updating Indicies at 1154.2
+Updating Stats at 1233.3
+Done at 1244.8
+Scraping Schaumburg LincolnDouglas Novice at 1244.8
+Updating OTRs at 1356.8
+Updating Indicies at 1368.6
+Updating Stats at 1428.6
+Done at 1437.8
+Scraping Homewood Flossmoor PublicForum Varsity at 1437.8
+Updating OTRs at 1587.4
+Updating Indicies at 1598.9
+Updating Stats at 1671.7
+Done at 1684.0
+Scraping Homewood Flossmoor PublicForum JuniorVarsity at 1684.0
+Updating OTRs at 1890.0
+Updating Indicies at 1908.4
+Updating Stats at 2014.9
+Done at 2033.5
+Scraping Homewood Flossmoor PublicForum Novice at 2033.5
+Updating OTRs at 2362.6
+Updating Indicies at 2396.3
+Updating Stats at 2559.3
+Done at 2586.6
+Scraping Homewood Flossmoor LincolnDouglas Varsity at 2586.6
+Updating OTRs at 2712.0
+Updating Indicies at 2724.4
+Updating Stats at 2795.4
+Done at 2808.9
+Scraping Homewood Flossmoor LincolnDouglas JuniorVarsity at 2808.9
+Updating OTRs at 2959.9
+Updating Indicies at 2973.7
+Updating Stats at 3071.2
+Done at 3085.8
+Scraping Homewood Flossmoor LincolnDouglas Novice at 3085.8
+Updating OTRs at 3275.5
+Updating Indicies at 3297.1
+Updating Stats at 3398.4
+Done at 3417.4
+Scraping UHigh PublicForum Varsity at 3417.4
+Updating OTRs at 3537.8
+Updating Indicies at 3547.1
+Updating Stats at 3626.3
+Done at 3643.4
+Scraping UHigh PublicForum JuniorVarsity at 3643.4
+Updating OTRs at 3711.2
+Updating Indicies at 3716.3
+Updating Stats at 3763.1
+Done at 3783.9
+Scraping UHigh PublicForum Novice at 3783.9
+Updating OTRs at 3875.1
+Updating Indicies at 3882.5
+Updating Stats at 3930.5
+Done at 3960.8
+Scraping UHigh LincolnDouglas Varsity at 3960.8
+Updating OTRs at 4054.0
+Updating Indicies at 4060.9
+Updating Stats at 4129.3
+Done at 4145.6
+Scraping UHigh LincolnDouglas JuniorVarsity at 4145.6
+Updating OTRs at 4238.7
+Updating Indicies at 4246.7
+Updating Stats at 4304.9
+Done at 4321.9
+Scraping UHigh LincolnDouglas Novice at 4321.9
+Updating OTRs at 4524.4
+Updating Indicies at 4544.0
+Updating Stats at 4685.6
+Done at 4711.7
+Scraping Blue Thunder PublicForum Varsity at 4711.7
+Updating OTRs at 4831.4
+Updating Indicies at 4840.4
+Updating Stats at 4924.4
+Done at 4944.5
+Scraping Blue Thunder PublicForum JuniorVarsity at 4944.5
+Updating OTRs at 5075.0
+Updating Indicies at 5085.3
+Updating Stats at 5188.1
+Done at 5211.7
+Scraping Blue Thunder PublicForum Novice at 5211.7
+Updating OTRs at 5381.5
+Updating Indicies at 5395.1
+Updating Stats at 5492.5
+Done at 5525.0
+Scraping Blue Thunder LincolnDouglas Varsity at 5525.0
+Updating OTRs at 5682.7
+Updating Indicies at 5695.1
+Updating Stats at 5800.9
+Done at 5820.3
+Scraping Blue Thunder LincolnDouglas JuniorVarsity at 5820.3
+Updating OTRs at 5984.9
+Updating Indicies at 5998.3
+Updating Stats at 6114.3
+Done at 6134.3
+Scraping Blue Thunder LincolnDouglas Novice at 6134.3
+Updating OTRs at 6324.8
+Updating Indicies at 6342.4
+Updating Stats at 6503.4
+Done at 6534.6
+Scraping Conant PublicForum Varsity at 6534.6
+Updating OTRs at 6705.5
+Updating Indicies at 6718.9
+Updating Stats at 6856.3
+Done at 6879.1
+Scraping Conant PublicForum JuniorVarsity at 6879.1
+Updating OTRs at 7028.1
+Updating Indicies at 7040.9
+Updating Stats at 7171.0
+Done at 7199.3
+Scraping Conant PublicForum Novice at 7199.3
+Updating OTRs at 7459.1
+Updating Indicies at 7482.8
+Updating Stats at 7638.4
+Done at 7678.4
+Scraping Conant LincolnDouglas Varsity at 7678.4
+Updating OTRs at 7837.3
+Updating Indicies at 7851.2
+Updating Stats at 7983.0
+Done at 8006.6
+Scraping Conant LincolnDouglas JuniorVarsity at 8006.6
+Updating OTRs at 8162.0
+Updating Indicies at 8176.1
+Updating Stats at 8324.9
+Done at 8347.7
+Scraping Conant LincolnDouglas Novice at 8347.7
+Updating OTRs at 8519.7
+Updating Indicies at 8540.5
+Updating Stats at 8680.8
+Done at 8715.8
+Scraping Palatine PublicForum Varsity at 8715.8
+Updating OTRs at 8842.5
+Updating Indicies at 8852.9
+Updating Stats at 8966.8
+Done at 8992.5
+Scraping Palatine PublicForum JuniorVarsity at 8992.5
+Updating OTRs at 9099.7
+Updating Indicies at 9108.0
+Updating Stats at 9190.6
+Done at 9220.0
+Scraping Palatine PublicForum Novice at 9220.0
+Updating OTRs at 9395.0
+Updating Indicies at 9408.8
+Updating Stats at 9530.6
+Done at 9573.4
+Scraping Palatine LincolnDouglas Varsity at 9573.4
+Updating OTRs at 9722.3
+Updating Indicies at 9734.0
+Updating Stats at 9854.5
+Done at 9879.6
+Scraping Palatine LincolnDouglas JuniorVarsity at 9879.6
+Updating OTRs at 9974.6
+Updating Indicies at 9981.9
+Updating Stats at 10070.3
+Done at 10093.7
+Scraping Palatine LincolnDouglas Novice at 10093.7
+Updating OTRs at 10287.2
+Updating Indicies at 10305.5
+Updating Stats at 10482.1
+Done at 10520.7
+Scraping Stagg PublicForum Varsity at 10520.7
+Updating OTRs at 10653.6
+Updating Indicies at 10664.7
+Updating Stats at 10800.2
+Done at 10829.2
+Scraping Stagg PublicForum JuniorVarsity at 10829.2
+Updating OTRs at 10910.8
+Updating Indicies at 10917.7
+Updating Stats at 10985.4
+Done at 11016.2
+Scraping Stagg PublicForum Novice at 11016.2
+Updating OTRs at 11186.7
+Updating Indicies at 11199.4
+Updating Stats at 11303.0
+Done at 11346.6
+Scraping Stagg LincolnDouglas Varsity at 11346.6
+Updating OTRs at 11412.6
+Updating Indicies at 11417.4
+Updating Stats at 11481.7
+Done at 11506.7
+Scraping Stagg LincolnDouglas JuniorVarsity at 11506.7
+Updating OTRs at 11626.0
+Updating Indicies at 11637.2
+Updating Stats at 11734.1
+Done at 11759.8
+Scraping Fremd PublicForum Varsity at 11759.8
+Updating OTRs at 11924.2
+Updating Indicies at 11936.8
+Updating Stats at 12059.6
+Done at 12093.3
+Scraping Fremd PublicForum JuniorVarsity at 12093.3
+Updating OTRs at 12233.2
+Updating Indicies at 12242.6
+Updating Stats at 12366.6
+Done at 12399.2
+Scraping Fremd PublicForum Novice at 12399.2
+Updating OTRs at 12572.6
+Updating Indicies at 12585.1
+Updating Stats at 12729.4
+Done at 12785.4
+Scraping Fremd LincolnDouglas Varsity at 12785.4
+Updating OTRs at 12876.9
+Updating Indicies at 12883.8
+Updating Stats at 12994.6
+Done at 13019.9
+Scraping Fremd LincolnDouglas JuniorVarsity at 13019.9
+Updating OTRs at 13160.0
+Updating Indicies at 13171.3
+Updating Stats at 13312.7
+Done at 13340.4
+Scraping Fremd LincolnDouglas Novice at 13340.4
+Aggregating unscraped entries...
+Updating OTRs at 13495.0
+Updating Indicies at 13506.8
+Updating Stats at 13669.4
+Done at 13709.9
+11:32AM on March 15, 2024
+05:50PM on March 20, 2024
+Scraping Schaumburg PublicForum Varsity at 0.0

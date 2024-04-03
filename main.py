@@ -29,7 +29,7 @@ DATA = []
 
 start = time.perf_counter()
 
-with open("data.csv", "r") as f:
+with open("data/data.csv", "r") as f:
     table = csv.reader(f)
 
     for row in table:

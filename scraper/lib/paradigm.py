@@ -1,4 +1,5 @@
 import re
+import os
 import requests
 from requests_cache import DO_NOT_CACHE, CachedSession
 from langchain.chat_models import ChatOpenAI
@@ -106,7 +107,7 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=FLOW_MODEL, api_key="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"
+        model=FLOW_MODEL, api_key=os.environ['OPENAI_KEY']
     )
 
     # Get classification
@@ -114,6 +115,8 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
         SystemMessage(content=FLOW_PROMPT),
         HumanMessage(content=f"Classify the following:\n\n{text}")
     ])
+
+    print(response.content)
 
     # Return result
     flow_result = None
@@ -125,7 +128,7 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=PROG_MODEL, api_key="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"
+        model=PROG_MODEL, api_key=os.environ['OPENAI_KEY']
     )
 
     # Get classification

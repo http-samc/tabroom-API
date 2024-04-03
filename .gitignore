@@ -156,3 +156,4 @@ data/
 .DS_Store
 *.sqlite
 *.sqlite
+logs.txt

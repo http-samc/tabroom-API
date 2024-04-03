@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 def get_soup(url: str) -> BeautifulSoup:
     """Get a BeautifulSoup object for a given URL.
 
@@ -15,8 +16,7 @@ def get_soup(url: str) -> BeautifulSoup:
     """
 
     res = requests.get(url)
-    with open('t.html', 'w') as f:
-        f.write(res.text)
+
     if not res.status_code >= 200 and not res.status_code < 300:
         raise Exception(f'Error fetching {url} [{res.status_code}]')
     else:

@@ -513,5 +513,3 @@ def update_stats(tab_event_id: int):
 
 if __name__ == "__main__":
     update_stats(252446)
-
-"mysql://1dtqumz966wpk6hgmm58:pscale_pw_rdwKMhZjcW6zceigtp10undalmTmIif9torVutw6iue@aws.connect.psdb.cloud/debate-land?sslaccept=strict"

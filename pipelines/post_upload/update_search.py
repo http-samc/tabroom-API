@@ -13,6 +13,8 @@ def configure_index(index):
         'scopes.circuitIdSeasonId'
     ])
 
+    index.delete_all_documents()
+
 
 def update_team_index():
     index = client.index("teams")
@@ -116,3 +118,9 @@ def update_competitor_index():
         })
 
     index.update_documents(competitors_fmt)
+
+
+if __name__ == "__main__":
+    update_team_index()
+    update_judge_index()
+    update_competitor_index()
