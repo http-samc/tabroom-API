@@ -9,6 +9,7 @@ from typing import Tuple
 from transformers import GPT2TokenizerFast
 from typing import List, TypedDict
 from datetime import datetime
+from shared.const import API_BASE
 from ..utils.soup import get_soup
 from ..utils.clean import clean_element
 from ..utils.id import get_id
@@ -82,7 +83,7 @@ def scrape_paradigm(tab_tourn_id: int, tab_judge_id: int) -> Paradigm | None:
 
 
 def check_paradigm_cache(hash: str) -> bool:
-    paradigm = requests.get(f"http://localhost:8080/core/v1/paradigms/{hash}")
+    paradigm = requests.get(f"{API_BASE}/paradigms/{hash}")
     return True if paradigm.status_code == 200 else False
 
 
@@ -115,8 +116,6 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
         SystemMessage(content=FLOW_PROMPT),
         HumanMessage(content=f"Classify the following:\n\n{text}")
     ])
-
-    print(response.content)
 
     # Return result
     flow_result = None

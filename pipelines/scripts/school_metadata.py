@@ -3,13 +3,12 @@ import json
 from typing import Tuple, List, TypedDict
 from scraper.utils.soup import get_soup
 from scraper.utils.clean import clean_element
+from shared.const import API_BASE
 import requests
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
 
 geolocator = Nominatim(user_agent="Debate Land")
-API_BASE = 'http://localhost:8080'
-
 
 def search_school(name: str) -> List[Tuple[str, str]]:
     soup = get_soup(
@@ -50,7 +49,7 @@ def scrape_school(url: str) -> SchoolData:
 
 def check_schools(division_id: int):
     division = requests.get(
-        f"{API_BASE}/core/v1/tournament-divisions/{division_id}?expand=schools").json()
+        f"{API_BASE}/tournaments/divisions/{division_id}?expand=schools").json()
 
     for school in division['schools']:
         if school['lat'] != None:
@@ -65,7 +64,7 @@ def check_schools(division_id: int):
         result = int(input("Select match: "))
         metadata = scrape_school(result[1])
 
-        requests.patch(f"{API_BASE}/core/v1/schools/{school['id']}", json={
+        requests.patch(f"{API_BASE}/schools/{school['id']}", json={
             "logo": metadata['logo'],
             "lat": metadata['location'][0],
             "long": metadata['location'][1],

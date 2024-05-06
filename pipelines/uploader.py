@@ -1,12 +1,11 @@
 import requests
+import shared.lprint as lprint
+from shared.const import API_BASE
 from typing import Mapping
 from .transformer import TransformedTournamentData
 from requests_cache import DO_NOT_CACHE, CachedSession
 from random import random
 requests = CachedSession(expire_after=DO_NOT_CACHE)
-
-API_BASE = 'http://localhost:8080'
-
 
 def clear():
     TABLES = [
@@ -34,7 +33,7 @@ def clear():
         'tabroom-emails',
         'event-metadatum',
         'schools',
-        'tournament-divisions',
+        'tournaments/divisions',
         'tournaments',
         'tournament-groups',
         'circuits',
@@ -44,7 +43,7 @@ def clear():
 
     for TABLE in TABLES:
         print("Deleting " + TABLE)
-        res = requests.delete(f'{API_BASE}/core/v1/{TABLE}')
+        res = requests.delete(f'{API_BASE}/{TABLE}')
 
         if res.status_code != 200:
             print("Error.")
@@ -190,7 +189,7 @@ def upload_data(data: TransformedTournamentData):
         }
     }
 
-    tournament_res = requests.post(f'{API_BASE}/core/v1/tournaments/advanced/upsert', json={
+    tournament_res = requests.post(f'{API_BASE}/tournaments/advanced/upsert', json={
         'where': {
             'tabTournId': tournament['tab_tourn_id']
         },
@@ -201,7 +200,7 @@ def upload_data(data: TransformedTournamentData):
     geography_2_id = {}
 
     for geography in tournament['circuits']:
-        res = requests.post(f'{API_BASE}/core/v1/geographies/advanced/upsert', json={
+        res = requests.post(f'{API_BASE}/geographies/advanced/upsert', json={
             'where': {
                 'name': geography
             },
@@ -258,7 +257,7 @@ def upload_data(data: TransformedTournamentData):
         'tournamentId': tournament_res.json()['id'],
     }
 
-    tournament_division_res = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/upsert', json={
+    tournament_division_res = requests.post(f'{API_BASE}/tournaments/divisions/advanced/upsert', json={
         'where': {
             'tabEventId': tournament['tab_event_id']
         },
@@ -314,7 +313,7 @@ def upload_data(data: TransformedTournamentData):
                 }
             }
         }
-        team_res = requests.post(f'{API_BASE}/core/v1/teams/advanced/upsert', json={
+        team_res = requests.post(f'{API_BASE}/teams/advanced/upsert', json={
             'where': {
                 'id': result['team_id']
             },
@@ -341,10 +340,10 @@ def upload_data(data: TransformedTournamentData):
         })
 
         school_id = requests.get(
-            f'{API_BASE}/core/v1/schools?where="name":"{result["school"]}"').json()[0]['id']
+            f'{API_BASE}/schools?where="name":"{result["school"]}"').json()[0]['id']
         # alias_id = requests.get(
-        #     f'{API_BASE}/core/v1/aliases?where="code":"{result["code"]}","teamId":"{result["team_id"]}"').json()[0]['id']
-        alias_id = requests.post(f'{API_BASE}/core/v1/aliases/advanced/findFirst', data={
+        #     f'{API_BASE}/aliases?where="code":"{result["code"]}","teamId":"{result["team_id"]}"').json()[0]['id']
+        alias_id = requests.post(f'{API_BASE}/aliases/advanced/findFirst', data={
             'where': {
                 'code': result['code'],
                 'teamId': result['team_id']
@@ -397,7 +396,7 @@ def upload_data(data: TransformedTournamentData):
             }
 
         result_res = requests.post(
-            f'{API_BASE}/core/v1/results/teams', json=result_body)
+            f'{API_BASE}/results/teams', json=result_body)
         team_id_to_result_id[result['team_id']] = result_res.json()['id']
 
         # Add schools to list if not already in
@@ -406,7 +405,7 @@ def upload_data(data: TransformedTournamentData):
 
     # TODO: connect all schools to the tournament event
     for school_id in competing_school_ids:
-        requests.patch(f"{API_BASE}/core/v1/schools/{school_id}", json={
+        requests.patch(f"{API_BASE}/schools/{school_id}", json={
             "divisions": {
                 "connect": {
                     "tabEventId": tournament_division_body['tabEventId']
@@ -417,7 +416,7 @@ def upload_data(data: TransformedTournamentData):
     #  Create all judges and their results
     for result in data['judge_results']:
         if result['judge_id'] in judge_id_to_result_id:
-            print("Already scraped" + result['judge_id'])
+            lprint("Already scraped" + result['judge_id'])
             continue
 
         judge_body = {
@@ -426,7 +425,7 @@ def upload_data(data: TransformedTournamentData):
         }
 
         # TODO: School affiliation
-        judge_res = requests.post(f'{API_BASE}/core/v1/judges/advanced/upsert', json={
+        judge_res = requests.post(f'{API_BASE}/judges/advanced/upsert', json={
             'where': {
                 'id': result['judge_id']
             },
@@ -450,7 +449,7 @@ def upload_data(data: TransformedTournamentData):
         }
 
         result_res = requests.post(
-            f'{API_BASE}/core/v1/results/judges', json=result_body)
+            f'{API_BASE}/results/judges', json=result_body)
         try:
             judge_id_to_result_id[result['judge_id']] = result_res.json()['id']
         except Exception:
@@ -476,7 +475,7 @@ def upload_data(data: TransformedTournamentData):
             }
         }
 
-        round_res = requests.post(f'{API_BASE}/core/v1/rounds/advanced/create', json={
+        round_res = requests.post(f'{API_BASE}/rounds/advanced/create', json={
             "data": round_body
         })
         if round_res.status_code != 200:
@@ -517,7 +516,7 @@ def upload_data(data: TransformedTournamentData):
         }
 
         record_res = requests.post(
-            f'{API_BASE}/core/v1/judge-records', json=record_body)
+            f'{API_BASE}/judge-records', json=record_body)
         if record_res.status_code != 200:
             # input("Err: ")
             ...
@@ -560,4 +559,4 @@ def upload_data(data: TransformedTournamentData):
         }
 
         paradigm_res = requests.post(
-            f'{API_BASE}/core/v1/paradigms', json=paradigm_body)
+            f'{API_BASE}/paradigms', json=paradigm_body)

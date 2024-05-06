@@ -1,7 +1,6 @@
 import requests
 from pprint import pprint
-
-API_BASE = "http://localhost:8080/core/v1"
+from shared.const import API_BASE
 
 
 def drop_division(division_id: int):
@@ -85,7 +84,7 @@ def drop_division(division_id: int):
 
     pprint(res.json())
 
-    res = requests.post(f"{API_BASE}/tournament-divisions/advanced/deleteMany", json={
+    res = requests.post(f"{API_BASE}/tournaments/divisions/advanced/deleteMany", json={
         "where": {
             "id": division_id
         }

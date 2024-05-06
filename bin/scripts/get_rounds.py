@@ -1,12 +1,13 @@
 import requests
 import json
+from shared.const import API_BASE
 
 i = 0
 
 rounds = []
 
 while i < 10:
-    rnds = requests.post("http://localhost:8080/core/v1/rounds/advanced/findMany", json={
+    rnds = requests.post(f"{API_BASE}/rounds/advanced/findMany", json={
         "where": {
             "result": {
                 "tournament": {

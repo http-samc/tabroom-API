@@ -1,11 +1,9 @@
 import statistics
 import requests
 from typing import List
+from shared.const import API_BASE
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
-
-API_BASE = 'http://localhost:8080'
-
 
 def _hi_lo_avg(speaks: List[float], trim: int) -> float | None:
     """Removes the high/low speaks from the given list after sorting
@@ -44,7 +42,7 @@ def _update_scoped_stats(season: int, circuit: int):
     """
 
     # Get all the team results in the scope
-    team_results = requests.post(f'{API_BASE}/core/v1/results/teams/advanced/findMany', json={
+    team_results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
         'where': {
             'division': {
                 'circuits': {
@@ -457,7 +455,7 @@ def _update_scoped_stats(season: int, circuit: int):
             'twp': ((prelim_wins / (prelim_wins + prelim_losses)) if prelim_wins + prelim_losses != 0 else 0) + ((0.1 * elim_wins / (elim_wins + elim_losses)) if elim_wins + elim_losses != 0 else 0)
         }
 
-        requests.post(f'{API_BASE}/core/v1/rankings/teams/advanced/update', json={
+        requests.post(f'{API_BASE}/rankings/teams/advanced/update', json={
             'where': {
                 'teamId_circuitId_seasonId': {
                     'teamId': teamId,
@@ -480,7 +478,7 @@ def update_stats(tab_event_id: int):
         tab_event_id (int): _description_
     """
 
-    event = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/findUnique', json={
+    event = requests.post(f'{API_BASE}/tournaments/divisions/advanced/findUnique', json={
         'where': {
             'tabEventId': tab_event_id
         },
@@ -512,4 +510,4 @@ def update_stats(tab_event_id: int):
 
 
 if __name__ == "__main__":
-    update_stats(252446)
+    update_stats(242828)

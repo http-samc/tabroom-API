@@ -1,10 +1,13 @@
-from pprint import pprint
+from shared.const import API_BASE
+
 import requests
 import meilisearch
+import os
 
 client = meilisearch.Client(
-    'https://meilisearch-production-6814.up.railway.app/', '03ng9o9hltoyw8kmaf1f19zaydiwq04b')
+    os.environ['MEILISEARCH_URL'], os.environ['MEILISEARCH_KEY'])
 
+# TODO: Add more indicies for Tournaments, Schools, etc.
 
 def configure_index(index):
     index.update_filterable_attributes([
@@ -21,7 +24,7 @@ def update_team_index():
 
     configure_index(index)
 
-    teams = requests.post("http://localhost:8080/core/v1/teams/advanced/findMany", json={
+    teams = requests.post(f"{API_BASE}/teams/advanced/findMany", json={
         "include": {
             "aliases": {
                 "select": {
@@ -55,7 +58,7 @@ def update_judge_index():
 
     configure_index(index)
 
-    judges = requests.post("http://localhost:8080/core/v1/judges/advanced/findMany", json={
+    judges = requests.post(f"{API_BASE}/judges/advanced/findMany", json={
         "include": {
             "rankings": {
                 "select": {
@@ -84,7 +87,7 @@ def update_competitor_index():
 
     configure_index(index)
 
-    competitors = requests.post("http://localhost:8080/core/v1/competitors/advanced/findMany", json={
+    competitors = requests.post(f"{API_BASE}/competitors/advanced/findMany", json={
         "include": {
             "teams": {
                 "select": {

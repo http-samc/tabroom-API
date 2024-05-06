@@ -2,10 +2,10 @@ import time
 import math
 import statistics
 import requests
+from shared.const import API_BASE
+
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
-
-API_BASE = 'http://localhost:8080'
 
 # Update all indicies given a tab tourn id to get judges from
 
@@ -44,7 +44,7 @@ def update_indicies(tab_event_id: int):
     """
 
     # TODO: Abstract
-    event = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/findUnique', json={
+    event = requests.post(f'{API_BASE}/tournaments/divisions/advanced/findUnique', json={
         'where': {
             'tabEventId': tab_event_id
         },
@@ -72,8 +72,8 @@ def update_indicies(tab_event_id: int):
 
     # circuits = [34, 25, 26, 27, 28, 29, 30, 31, 32, 33]
     # season = 16
-    # judges = requests.get(f"{API_BASE}/core/v1/judges").json()
-    judges = requests.post(f'{API_BASE}/core/v1/judges/advanced/findMany', json={
+    # judges = requests.get(f"{API_BASE}/judges").json()
+    judges = requests.post(f'{API_BASE}/judges/advanced/findMany', json={
         'where': {
             'results': {
                 'some': {
@@ -89,7 +89,7 @@ def update_indicies(tab_event_id: int):
 
     for circuit in circuits:
         print(f"Circuit {circuit}")
-        speaking_aggregation = requests.post(f'{API_BASE}/core/v1/speaking/rounds/advanced/aggregate', json={
+        speaking_aggregation = requests.post(f'{API_BASE}/speaking/rounds/advanced/aggregate', json={
             "where": {
                 "round": {
                     "result": {
@@ -117,7 +117,7 @@ def update_indicies(tab_event_id: int):
             time.sleep(0.05)
             print(f"{i+1}/{len(judges)} {judge['id']}")
             # Get all of the judge's records in scope
-            records = requests.post(f'{API_BASE}/core/v1/judge-records/advanced/findMany', json={
+            records = requests.post(f'{API_BASE}/judge-records/advanced/findMany', json={
                 'where': {
                     'result': {
                         'judgeId': judge['id'],
@@ -280,7 +280,7 @@ def update_indicies(tab_event_id: int):
                            #       team_2, team_1_e_wp, team_2_e_wp)
                            # input("Err: ")
 
-                        res = requests.post(f'{API_BASE}/core/v1/rounds/advanced/update', json={
+                        res = requests.post(f'{API_BASE}/rounds/advanced/update', json={
                             'where': {
                                 'id': round['id']
                             },
@@ -290,7 +290,7 @@ def update_indicies(tab_event_id: int):
                         })
 
                     # Update Judge Record with screw data
-                    res = requests.post(f'{API_BASE}/core/v1/judge-records/advanced/update', json={
+                    res = requests.post(f'{API_BASE}/judge-records/advanced/update', json={
                         'where': {
                             'id': record['id']
                         },
@@ -375,7 +375,7 @@ def update_indicies(tab_event_id: int):
 
             # print(screw_sum, squirrel_sum, len(records), index)
 
-            res = requests.post(f'{API_BASE}/core/v1/rankings/judges/advanced/upsert', json={
+            res = requests.post(f'{API_BASE}/rankings/judges/advanced/upsert', json={
                 'where': {
                     'judgeId_circuitId_seasonId': {
                         'judgeId': judge['id'],
@@ -433,9 +433,9 @@ def update_indicies(tab_event_id: int):
 
 if __name__ == "__main__":
     # tourns = requests.get(
-    #     "http://localhost:8080/core/v1/tournament-divisions").json()
+    #     f"{API_BASE}/tournaments/divisions").json()
     # for tourn in tourns:
     #     print(f"Updating {tourn['tabEventId']}")
     #     update_indicies(tourn['tabEventId'])
     # print(get_index_deflator(20, 7.5))
-    update_indicies(1)
+    update_indicies(242828)

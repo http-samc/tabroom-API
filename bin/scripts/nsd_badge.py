@@ -1,6 +1,6 @@
 import requests
 import csv
-API_BASE = "http://localhost:8080/core/v1"
+from shared.const import API_BASE
 
 competitors = []
 

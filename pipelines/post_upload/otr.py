@@ -1,11 +1,8 @@
 import math
 import requests
-import lprint
+from shared.const import API_BASE
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
-
-API_BASE = 'http://localhost:8080'
-
 
 def get_otr_deflator(numTourns: int) -> float:
     """Gets the amount to deflate a raw OTR average by given the number of tournaments attended.
@@ -33,9 +30,9 @@ def update_otrs(tab_event_id: int) -> None:
     # Get all teamIds participating and the season + all circuits in scope
     # lprint("Getting teams")
     # teams = list(map(lambda t: t['id'], requests.get(
-    #     f"{API_BASE}/core/v1/teams").json()))
+    #     f"{API_BASE}/teams").json()))
 
-    event = requests.post(f'{API_BASE}/core/v1/tournament-divisions/advanced/findUnique', json={
+    event = requests.post(f'{API_BASE}/tournaments/divisions/advanced/findUnique', json={
         'where': {
             'tabEventId': tab_event_id
         },
@@ -68,7 +65,7 @@ def update_otrs(tab_event_id: int) -> None:
         print(f"Circuit {circuit}")
         for i, team in enumerate(teams):
             print(f"{i+1}/{len(teams)} {team}")
-            results = requests.post(f'{API_BASE}/core/v1/results/teams/advanced/findMany', json={
+            results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
                 'where': {
                     'teamId': team,
                     'division': {
@@ -93,7 +90,7 @@ def update_otrs(tab_event_id: int) -> None:
             otrs = list(map(lambda r: r['otrComp'], results))
             updated_otr = get_otr_deflator(len(otrs)) * sum(otrs)/len(otrs)
 
-            rankings_res = requests.post(f'{API_BASE}/core/v1/rankings/teams/advanced/upsert', json={
+            rankings_res = requests.post(f'{API_BASE}/rankings/teams/advanced/upsert', json={
                 'where': {
                     'teamId_circuitId_seasonId': {
                         'teamId': team,
@@ -126,4 +123,4 @@ def update_otrs(tab_event_id: int) -> None:
 
 
 if __name__ == "__main__":
-    update_otrs(183907)
+    update_otrs(242828)

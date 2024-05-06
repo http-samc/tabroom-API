@@ -587,7 +587,6 @@ def transform_data(tab_tourn_id: int, tab_event_id: int, nickname: str, event_na
         raw_paradigm['progressive_confidence'] = result[1]
         paradigms.append(raw_paradigm)
 
-    print("Done")
     return {
         'tournament': tournament,
         'team_results': team_results,

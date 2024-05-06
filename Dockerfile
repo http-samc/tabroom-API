@@ -4,9 +4,10 @@ FROM python:3.11.4-slim
 # Set the working directory in the container
 WORKDIR /usr/src/app
 
-# Set environment variables (not currently used by scraper, but good for future reference)
-ENV API_URL="Your_API_URL_here"
-ENV OPENAI_KEY="Your_OPENAI_KEY_here"
+# Install the Infisical CLI
+RUN apt-get update && apt-get install -y bash curl && curl -1sLf \
+'https://dl.cloudsmith.io/public/infisical/infisical-cli/setup.deb.sh' | bash \
+&& apt-get update && apt-get install -y infisical
 
 # Copy the current directory contents into container
 COPY . .
@@ -15,4 +16,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Start the program
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["infisical", "run", "--projectId", "68c1acf7-5d47-425c-b608-46840bec9def", "--", "python", "main.py"]
