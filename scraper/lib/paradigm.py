@@ -2,11 +2,9 @@ import re
 import os
 import requests
 from requests_cache import DO_NOT_CACHE, CachedSession
-from langchain.chat_models import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
-from langchain.text_splitter import CharacterTextSplitter
 from typing import Tuple
-from transformers import GPT2TokenizerFast
 from typing import List, TypedDict
 from datetime import datetime
 from shared.const import API_BASE

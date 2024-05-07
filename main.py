@@ -1,5 +1,5 @@
 from typing import TypedDict, List
-from pipelines.transformer import transform_data
+from pipelines.transformer import TransformedTournamentData, transform_data
 from pipelines.uploader import upload_data, clear
 from scraper.utils.unscraped_entries import get_unscraped_entries
 from scraper.lib.entry import scrape_entry
@@ -12,6 +12,7 @@ from pipelines.post_upload.update_search import update_team_index, update_judge_
 from shared.lprint import lprint
 import traceback
 import datetime
+import re
 from bullmq import Worker, Job
 
 from scraper.lib.division import get_division_name
@@ -23,7 +24,11 @@ import time
 import sys
 import asyncio
 import csv
+
 requests_cache.install_cache("tabroom_cache")
+
+def enum_to_string(string: str) -> str:
+    return " ".join(re.findall('[A-Z][^A-Z]*', string))
 
 class ScrapingJobData(TypedDict):
     class Group(TypedDict):
@@ -82,8 +87,8 @@ async def processTournament(data: ScrapingJobData):
 
             unscraped_entries = get_unscraped_entries(entries)
 
-        data = transform_data(data['tabTournId'], division['tabEventId'], data['group']['nickname'], division['event'], tournament, entries, list(map(lambda c: c['geographyName'], division['circuits'])),
-                              data['season']['year'], division['tournBoost'], division['classification'], division_name, division['firstElimRound'], division['tocFullBidLevel'], division['event'] == "PublicForum")
+        data: TransformedTournamentData = transform_data(data['tabTournId'], division['tabEventId'], data['group']['nickname'], division['event'], tournament, entries, list(map(lambda c: c['geographyName'], division['circuits'])),
+                              data['season']['year'], division['tournBoost'], division['classification'], division_name, enum_to_string(division['firstElimRound']), enum_to_string(division['tocFullBidLevel']), division['event'] == "PublicForum")
 
         upload_data(data)
         lprint(f"[{round(time.perf_counter() - start, 1)}]: Updating OTRs")
@@ -156,8 +161,9 @@ async def startWorker():
     while True:
         await asyncio.sleep(1)
 
-if __name__ == "__main__":
-    if len(sys.argv) > 1 and '--file' in sys.argv and sys.argv.index('--file') > 0 and sys.argv.index('--file') < len(sys.argv) - 1:
-        asyncio.run(processCSV(sys.argv[sys.argv.index('--file') + 1]))
-    else:
-        asyncio.run(startWorker())
+# asyncio.run(processTournament({'group': {'id': 15, 'nickname': 'DL Test'}, 'season': {'id': 1, 'year': 2024}, 'tabTournId': 31649, 'divisions': [{'tabEventId': 293909, 'event': 'PublicForum', 'classification': 'Varsity', 'circuits': [{'id': 1, 'geographyName': 'Illinois'}], 'firstElimRound': 'Quarterfinals', 'tocFullBidLevel': 'Finals', 'tournBoost': 1}]}))
+
+if len(sys.argv) > 1 and '--file' in sys.argv and sys.argv.index('--file') > 0 and sys.argv.index('--file') < len(sys.argv) - 1:
+    asyncio.run(processCSV(sys.argv[sys.argv.index('--file') + 1]))
+else:
+    asyncio.run(startWorker())

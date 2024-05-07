@@ -293,9 +293,9 @@ def scrape_tournament(tab_tourn_id: int) -> Tournament:
     for row in soup.find_all(class_="row"):
         label, value = list(
             map(lambda element: clean_element(element), row.find_all()))
-        if label == "Tournament":
+        if label == "Tournament Dates":
             duration = list(map(lambda s: datetime.strptime(
-                f"{s}/{tournament['year']}", "%m/%d/%Y").isoformat() + "Z", value.split(' to ')))
+                f"{s} {tournament['year']}", "%b %d %Y").isoformat() + "Z", value.replace(f" {tournament['year']}", "").split(' to ')))
             if len(duration) == 2:
                 tournament['start'], tournament['end'] = duration
             else:  # One day tournament
@@ -303,25 +303,24 @@ def scrape_tournament(tab_tourn_id: int) -> Tournament:
                 tournament['end'] = duration[0]
         else:
             try:
-                nodes = value.split(' ')
-                date_string = f"{nodes[0]}/{tournament['year']} {nodes[1]}M"
+                date_string = f"{tournament['year']} {value}"
                 iso = datetime.strptime(
-                    date_string, "%m/%d/%Y %I:%M%p").isoformat() + "Z"
+                    date_string, "%Y %a %b %d at %I:%M %p").isoformat() + "Z"
             except Exception:
                 continue
 
             match label:
-                case "Reg Opens":
+                case "Registration Opens":
                     tournament['registration_opens'] = iso
-                case "Reg Close":
+                case "Registration Closes":
                     tournament['registration_closes'] = iso
-                case "Fees Frozen":
+                case "Fees Freeze After":
                     tournament['fees_frozen'] = iso
-                case "Judging Due":
+                case "Judge Information Due":
                     tournament['judging_due'] = iso
-                case "Drop online":
+                case "Drop online until":
                     tournament['drop_online'] = iso
-                case "Penalty fines":
+                case "Change fees apply after":
                     tournament['penalty_fines'] = iso
                 case _:
                     print(label)
