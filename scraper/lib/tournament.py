@@ -228,9 +228,6 @@ def scrape_tournament_site(tab_tourn_id: int, tab_site_id: int) -> TournamentSit
 
     return site
 
-# TODO: Timezones
-
-
 def scrape_tournament(tab_tourn_id: int) -> Tournament:
     """Scrapes a tournament for top-level metadata, including key dates, forms, locations, and contacts.
 

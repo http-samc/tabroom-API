@@ -54,14 +54,15 @@ class ScrapingJobData(TypedDict):
     tabTournId: int
     divisions: List[Division]
 
-async def processTournament(data: ScrapingJobData):
+async def processTournament(data: ScrapingJobData, id: int | None = None):
     start = time.perf_counter()
+    lprint(id, "Info", start, f"Started scraping tournament: {data['group']['nickname']} {data['season']['year']}")
 
     for i, division in enumerate(data['divisions']):
-        lprint(
-            f"[{round(time.perf_counter() - start, 1)}]: Scraping {i+1}/{len(data['divisions'])}: {data['season']['year']} {data['group']['nickname']} {division['classification']} {division['event']}")
+        lprint(id, "Info", start, f"Started scraping division {i+1}/{len(data['divisions'])}: {enum_to_string(division['classification'])} {division['event']}")
 
         tournament = scrape_tournament(data['tabTournId'])
+        print(tournament)
         division_name = get_division_name(data['tabTournId'], division['tabEventId'])
         entries = []
 
@@ -71,8 +72,8 @@ async def processTournament(data: ScrapingJobData):
 
         unscraped_entries = get_unscraped_entries(entries)
 
+        lprint(id, "Info", start, "Aggregating unscraped entries")
         while unscraped_entries:
-            lprint(f"[{round(time.perf_counter() - start, 1)}]: Aggregating unscraped entries")
             for tab_entry_id in unscraped_entries:
                 entries.append(scrape_entry(data['tabTournId'], {
                     'code': None,
@@ -84,32 +85,34 @@ async def processTournament(data: ScrapingJobData):
 
             unscraped_entries = get_unscraped_entries(entries)
 
-        data: TransformedTournamentData = transform_data(data['tabTournId'], division['tabEventId'], data['group']['nickname'], division['event'], tournament, entries, list(map(lambda c: c['geographyName'], division['circuits'])),
+        lprint(id, "Info", start, message="Transforming data")
+        data: TransformedTournamentData = transform_data(id, data['tabTournId'], division['tabEventId'], data['group']['nickname'], division['event'], tournament, entries, list(map(lambda c: c['geographyName'], division['circuits'])),
                               data['season']['year'], division['tournBoost'], division['classification'], division_name, enum_to_string(division['firstElimRound']), enum_to_string(division['tocFullBidLevel']), division['event'] == "PublicForum")
 
-        upload_data(data)
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Updating OTRs")
+        lprint(id, "Info", start, message="Uploading data")
+        upload_data(id, data)
+        lprint(id, "Info", start, "Updating OTRs")
         update_otrs(division['tabEventId'])
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Updating Indicies")
+        lprint(id, "Info", start, "Updating indicies")
         update_indicies(division['tabEventId'])
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Updating Stats")
+        lprint(id, "Info", start, "Updating stats")
         update_stats(division['tabEventId'])
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Re-indexing Search Database — Competitors")
+        lprint(id, "Info", start, "Re-indexing competitors")
         update_competitor_index()
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Re-indexing Search Database — Teams")
+        lprint(id, "Info", start, "Re-indexing teams")
         update_team_index()
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Re-indexing Search Database — Judges")
+        lprint(id, "Info", start, "Re-indexing judges")
         update_judge_index()
-        lprint(f"[{round(time.perf_counter() - start, 1)}]: Done")
+        lprint(id, "Info", start, "Completed division")
 
-async def processJob(job: Job, token: str):
-    lprint(f'Starting job #{job.id}: {job.name} {datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")}')
+    lprint(id, "Info", start, "Completed tournament")
+    return 1
 
+async def processJob(job: Job, _: str):
     try:
-        await processTournament(job.data)
+        return await processTournament(job.data, job.id)
     except Exception as e:
-        lprint("ERROR")
-        lprint(traceback.format_exc())
+        lprint(job.id, "Error", message=traceback.format_exc())
         raise Exception()
 
 async def processCSV(path: str):
@@ -147,12 +150,11 @@ async def processCSV(path: str):
                 }]
             })
         except Exception as e:
-            lprint("ERROR")
-            lprint(traceback.format_exc())
+            lprint(None, "Error", message=traceback.format_exc())
             continue
 
 async def startWorker():
-    lprint("Starting worker...")
+    lprint(None, "Info", message="Starting worker")
     worker = Worker("scraping", processJob, { "connection": os.environ['REDIS_URL'] })
 
     while True:

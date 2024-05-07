@@ -50,7 +50,7 @@ def clear():
             quit()
 
 
-def upload_data(data: TransformedTournamentData):
+def upload_data(job_id: int | None, data: TransformedTournamentData):
     # Process Tournament
     tournament = data['tournament']
 
@@ -416,7 +416,7 @@ def upload_data(data: TransformedTournamentData):
     #  Create all judges and their results
     for result in data['judge_results']:
         if result['judge_id'] in judge_id_to_result_id:
-            lprint("Already scraped" + result['judge_id'])
+            lprint(job_id, "Warning", message=f"Already scraped {result['judge_id']}")
             continue
 
         judge_body = {
