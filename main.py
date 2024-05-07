@@ -5,6 +5,7 @@ from scraper.utils.unscraped_entries import get_unscraped_entries
 from scraper.lib.entry import scrape_entry
 from scraper.lib.entries import scrape_entries
 from scraper.lib.tournament import scrape_tournament
+from shared.helpers import enum_to_string
 from pipelines.post_upload.index import update_indicies
 from pipelines.post_upload.otr import update_otrs
 from pipelines.post_upload.stats import update_stats
@@ -12,7 +13,6 @@ from pipelines.post_upload.update_search import update_team_index, update_judge_
 from shared.lprint import lprint
 import traceback
 import datetime
-import re
 from bullmq import Worker, Job
 
 from scraper.lib.division import get_division_name
@@ -26,9 +26,6 @@ import asyncio
 import csv
 
 requests_cache.install_cache("tabroom_cache")
-
-def enum_to_string(string: str) -> str:
-    return " ".join(re.findall('[A-Z][^A-Z]*', string))
 
 class ScrapingJobData(TypedDict):
     class Group(TypedDict):
@@ -106,7 +103,7 @@ async def processTournament(data: ScrapingJobData):
         lprint(f"[{round(time.perf_counter() - start, 1)}]: Done")
 
 async def processJob(job: Job, token: str):
-    lprint(f'Starting job: {job.name} {datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")}')
+    lprint(f'Starting job #{job.id}: {job.name} {datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")}')
 
     try:
         await processTournament(job.data)

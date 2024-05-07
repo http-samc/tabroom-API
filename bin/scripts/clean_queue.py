@@ -8,19 +8,13 @@ async def main(states: List[str]):
         "connection": os.environ['REDIS_URL']
     })
 
-    jobs = await queue.getJobs(states)
-    for job in jobs:
-        print(job.name)
-        print(job.data)
-        print()
+    total = 0
+    for state in states:
+        deleted = await queue.clean(10, 1000, 'completed')
+        print(f"Deleted {len(deleted)} jobs with state '{state}'")
+        total += len(deleted)
 
-    # total = 0
-    # for state in states:
-    #     deleted = await queue.clean(10, 1000, 'completed')
-    #     print(f"Deleted {len(deleted)} jobs with state '{state}'")
-    #     total += len(deleted)
-
-    # print(f"Deleted {total} total jobs.")
+    print(f"Deleted {total} total jobs.")
 
     await queue.close()
 
