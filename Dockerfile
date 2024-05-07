@@ -30,6 +30,5 @@ ENV REDIS_URL=${REDIS_URL}
 # Install from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-
 # Start the program
 ENTRYPOINT ["python", "main.py"]
