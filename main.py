@@ -62,7 +62,6 @@ async def processTournament(data: ScrapingJobData, id: int | None = None):
         lprint(id, "Info", start, f"Started scraping division {i+1}/{len(data['divisions'])}: {enum_to_string(division['classification'])} {division['event']}")
 
         tournament = scrape_tournament(data['tabTournId'])
-        print(tournament)
         division_name = get_division_name(data['tabTournId'], division['tabEventId'])
         entries = []
 
@@ -96,7 +95,7 @@ async def processTournament(data: ScrapingJobData, id: int | None = None):
         lprint(id, "Info", start, "Updating indicies")
         update_indicies(division['tabEventId'])
         lprint(id, "Info", start, "Updating stats")
-        update_stats(division['tabEventId'])
+        update_stats(id, division['tabEventId'])
         lprint(id, "Info", start, "Re-indexing competitors")
         update_competitor_index()
         lprint(id, "Info", start, "Re-indexing teams")
