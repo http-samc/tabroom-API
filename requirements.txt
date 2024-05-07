@@ -19,3 +19,4 @@ langchain-openai==0.1.6
 openai==1.26.0
 bullmq==2.7.5
 meilisearch==0.31.1
+posthog==3.5.0

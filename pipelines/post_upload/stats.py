@@ -2,6 +2,7 @@ import statistics
 import requests
 from typing import List
 from shared.const import API_BASE
+from shared.lprint import lprint
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
 
@@ -34,7 +35,7 @@ def _hi_lo_avg(speaks: List[float], trim: int) -> float | None:
         return None
 
 
-def _update_scoped_stats(season: int, circuit: int):
+def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     """_summary_
 
     Args:
@@ -163,7 +164,7 @@ def _update_scoped_stats(season: int, circuit: int):
                     judge_2_index[record['judgeId']
                                   ] = record['judge']['rankings'][0]['index']
                 else:
-                    print(f"No ranking found for {record['judgeId']}")
+                    lprint(job_id, event="Warning", message=f"No ranking found for judge {record['judgeId']} on season {season} and circuit {circuit}")
 
                 # Upsert judge speaks into map
                 if record['judgeId'] not in judge_2_speaks:
@@ -351,7 +352,6 @@ def _update_scoped_stats(season: int, circuit: int):
                     opp_speaker_impact.append(
                         opponent_round_avg - statistics.mean(team_2_speaks[round['opponentId']]))
                 if 'records' not in round:
-                    print("!")
                     continue
                 for record in round['records']:
                     if record['judgeId'] not in judge_2_speaks or record['judgeId'] not in judge_2_team_avg_points or not len(judge_2_speaks[record['judgeId']]):
@@ -471,7 +471,7 @@ def _update_scoped_stats(season: int, circuit: int):
     #     json.dump(lookup, f)
 
 
-def update_stats(tab_event_id: int):
+def update_stats(job_id: int | None, tab_event_id: int):
     """_summary_
 
     Args:
@@ -505,8 +505,8 @@ def update_stats(tab_event_id: int):
     season = event['tournament']['seasonId']
 
     for circuit in circuits:
-        # print(season, circuit)
-        _update_scoped_stats(season, circuit)
+        lprint(job_id, "Info", message=f"Updating stats for season {season} and circuit {circuit}")
+        _update_scoped_stats(job_id, season, circuit)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 from typing import TypedDict, List, Tuple, Mapping
 from enum import Enum
+from shared.lprint import lprint
 import statistics
 from .utils.deflator import get_deflator
 from .utils.id import get_id
@@ -132,7 +133,7 @@ class TransformedTournamentData(TypedDict):
     paradigms: List[TransformedParadigm]
 
 
-def transform_data(tab_tourn_id: int, tab_event_id: int, nickname: str, event_name: str, tournament: tournament.Tournament, entries: List[entry.Entry], circuits: List[str], season: int, tournament_boost: float, classification: str, division_name: str, first_elim_round: str | None = None, toc_full_bid_level: str | None = None, has_partial_bids: bool = False) -> TransformedTournamentData:
+def transform_data(job_id: int | None, tab_tourn_id: int, tab_event_id: int, nickname: str, event_name: str, tournament: tournament.Tournament, entries: List[entry.Entry], circuits: List[str], season: int, tournament_boost: float, classification: str, division_name: str, first_elim_round: str | None = None, toc_full_bid_level: str | None = None, has_partial_bids: bool = False) -> TransformedTournamentData:
     """Transforms raw Tabroom-native output from the scraper module into a format matching Debate Land's schema for API uploading.
     Adds in computed stats used by Debate Land.
 
@@ -363,13 +364,13 @@ def transform_data(tab_tourn_id: int, tab_event_id: int, nickname: str, event_na
         last_op_school = entry_uuid_to_school[last_elim['opponent_id']
                                               ] if last_elim['opponent_id'] in entry_uuid_to_school else None
         if not last_op_school:
-            print("Last school not detected")
+            lprint(job_id, "Info", message=f"Last school not detected for team '{entry['code']}'")
             continue
 
         idx = ELIM_ROUND_NAMES.index(last_elim['name_std'])
 
         if last_op_school == result['school']:
-            print("GHOST BID")
+            lprint(job_id, "Info", message=f"Ghost bid detected for {entry['code']} (Their school is {entry['school']} and their last opponent was from {last_op_school}).")
             is_ghost_bid = True
         else:
             is_ghost_bid = False
