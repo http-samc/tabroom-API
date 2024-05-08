@@ -106,13 +106,13 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=FLOW_MODEL, api_key=os.environ['OPENAI_KEY']
+        model=FLOW_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=100000
     )
 
     # Get classification
     response = chat([
         SystemMessage(content=FLOW_PROMPT),
-        HumanMessage(content=f"Classify the following:\n\n{text}")
+        HumanMessage(content=f"Classify the following:\n\n{text}"),
     ])
 
     # Return result
@@ -125,7 +125,7 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=PROG_MODEL, api_key=os.environ['OPENAI_KEY']
+        model=PROG_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=100000
     )
 
     # Get classification

@@ -19,4 +19,4 @@ async def main(states: List[str]):
     await queue.close()
 
 if __name__ == "__main__":
-    asyncio.run(main(["failed", "completed"]))
+    asyncio.run(main(["failed", "completed", "delayed", "active"]))
