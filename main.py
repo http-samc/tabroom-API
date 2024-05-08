@@ -61,7 +61,7 @@ async def processTournament(data: ScrapingJobData, id: int | None = None):
     for i, division in enumerate(data['divisions']):
         lprint(id, "Info", start, f"Started scraping division {i+1}/{len(data['divisions'])}: {enum_to_string(division['classification'])} {division['event']}")
 
-        tournament = scrape_tournament(data['tabTournId'])
+        tournament = scrape_tournament(id, data['tabTournId'])
         division_name = get_division_name(data['tabTournId'], division['tabEventId'])
         entries = []
 
@@ -105,11 +105,11 @@ async def processTournament(data: ScrapingJobData, id: int | None = None):
         lprint(id, "Info", start, "Completed division")
 
     lprint(id, "Info", start, "Completed tournament")
-    return 1
 
-async def processJob(job: Job, _: str):
+async def processJob(job: Job, token: str):
     try:
-        return await processTournament(job.data, job.id)
+        await processTournament(job.data, job.id)
+        await job.moveToWaitingChildren(token)
     except Exception as e:
         lprint(job.id, "Error", message=traceback.format_exc())
         raise Exception()
@@ -158,8 +158,6 @@ async def startWorker():
 
     while True:
         await asyncio.sleep(1)
-
-# asyncio.run(processTournament({'group': {'id': 15, 'nickname': 'DL Test'}, 'season': {'id': 1, 'year': 2024}, 'tabTournId': 31649, 'divisions': [{'tabEventId': 293909, 'event': 'PublicForum', 'classification': 'Varsity', 'circuits': [{'id': 1, 'geographyName': 'Illinois'}], 'firstElimRound': 'Quarterfinals', 'tocFullBidLevel': 'Finals', 'tournBoost': 1}]}))
 
 if len(sys.argv) > 1 and '--file' in sys.argv and sys.argv.index('--file') > 0 and sys.argv.index('--file') < len(sys.argv) - 1:
     asyncio.run(processCSV(sys.argv[sys.argv.index('--file') + 1]))

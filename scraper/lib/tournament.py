@@ -4,6 +4,7 @@ from ..utils.clean import clean_element
 from typing import TypedDict, List
 from urllib.parse import urlparse, parse_qs
 from datetime import datetime
+from shared.lprint import lprint
 
 
 class TournamentSite(TypedDict):
@@ -163,7 +164,6 @@ def scrape_event_metadata(tab_tourn_id: int, tab_event_id: int) -> tournamentDiv
                 constraints = []
                 for char in value:
                     if char.isnumeric():
-                        print
                         constraints.append(int(char))
                 constraints.sort()
                 metadata['competitors_per_entry'] = constraints
@@ -228,7 +228,7 @@ def scrape_tournament_site(tab_tourn_id: int, tab_site_id: int) -> TournamentSit
 
     return site
 
-def scrape_tournament(tab_tourn_id: int) -> Tournament:
+def scrape_tournament(job_id: int | None, tab_tourn_id: int) -> Tournament:
     """Scrapes a tournament for top-level metadata, including key dates, forms, locations, and contacts.
 
     Args:
@@ -320,7 +320,7 @@ def scrape_tournament(tab_tourn_id: int) -> Tournament:
                 case "Change fees apply after":
                     tournament['penalty_fines'] = iso
                 case _:
-                    print(label)
+                    lprint(job_id, "Warning",  message=f"Unhandled date field '{label}'")
 
     # Scrape sites and contacts
     tournament['sites'] = []
