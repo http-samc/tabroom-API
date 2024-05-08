@@ -106,7 +106,7 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=FLOW_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=100000
+        model=FLOW_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=1
     )
 
     # Get classification
@@ -125,7 +125,7 @@ def classify_paradigm(text: str) -> Tuple[int, int] | None:
 
     # Create new chat instance
     chat = ChatOpenAI(
-        model=PROG_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=100000
+        model=PROG_MODEL, api_key=os.environ['OPENAI_KEY'], max_retries=1
     )
 
     # Get classification

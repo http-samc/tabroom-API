@@ -580,12 +580,12 @@ def transform_data(job_id: int | None, tab_tourn_id: int, tab_event_id: int, nic
             continue
         raw_paradigm['tab_tourn_id'] = tab_tourn_id
         raw_paradigm['judge_id'] = result['judge_id']
-        result = paradigm.classify_paradigm(
-            raw_paradigm['text'])
-        if not result:
-            continue
-        raw_paradigm['flow_confidence'] = result[0]
-        raw_paradigm['progressive_confidence'] = result[1]
+        # result = paradigm.classify_paradigm(
+        #     raw_paradigm['text'])
+        # if not result:
+        #     continue
+        raw_paradigm['flow_confidence'] = -1 #result[0]
+        raw_paradigm['progressive_confidence'] = -1 #result[1]
         paradigms.append(raw_paradigm)
 
     return {
