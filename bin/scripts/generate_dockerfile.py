@@ -35,7 +35,7 @@ def generate_dockerfile(variables):
 
     # Append ENV lines for each variable, in a separate block
     dockerfile_content.append("\n# Environment Variables")
-    env_lines = [f"ENV {var}=${{{var}}}" for var in variables]
+    env_lines = [f"ENV {var}=${{{var}}}" if var != "RUNTIME" else "ENV RUNTIME=remote" for var in variables]
     dockerfile_content.extend(env_lines)
 
     # Additional Dockerfile commands

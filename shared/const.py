@@ -1,3 +1,3 @@
 import os
 
-API_BASE = "http://localhost:8080/core" if os.environ['ENVIRONMENT'] == "development" else "https://api.debate.land/core"
+API_BASE = "http://localhost:8080/core" if os.environ['RUNTIME'] == "local" else f"{os.environ['REMOTE_API_URL']}/core"

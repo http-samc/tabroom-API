@@ -31,7 +31,7 @@ dockerfile:
 docker-build:
 	make dockerfile
 	@echo "Building Docker Image"
-	infisical run --env=prod -- docker build -t backend .
+	infisical run -- docker build -t backend .
 
 # Target to start a new Docker container with the latest Image
 docker-run:
