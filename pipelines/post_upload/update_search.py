@@ -8,6 +8,7 @@ client = meilisearch.Client(
     os.environ['MEILISEARCH_URL'], os.environ['MEILISEARCH_KEY'])
 
 # TODO: Add more indicies for Tournaments, Schools, etc.
+optedOutUuids = list(map(lambda u: u['uuid'], requests.get(f"{API_BASE}/opted-out-uuids").json()))
 
 def configure_index(index):
     index.update_filterable_attributes([
@@ -48,9 +49,9 @@ def update_team_index():
             'seasonId': r['seasonId'],
             'circuitIdSeasonId': f"{r['circuitId']}_{r['seasonId']}"
         }, t['rankings']))
-    }, teams))
+    } if t['id'] not in optedOutUuids else None, teams))
 
-    index.update_documents(teams)
+    index.update_documents(list(filter(lambda t: t != None, teams)))
 
 
 def update_judge_index():
@@ -77,9 +78,9 @@ def update_judge_index():
             'seasonId': r['seasonId'],
             'circuitIdSeasonId': f"{r['circuitId']}_{r['seasonId']}"
         }, t['rankings']))
-    }, judges))
+    } if t['id'] not in optedOutUuids else None, judges))
 
-    index.update_documents(judges)
+    index.update_documents(list(filter(lambda t: t != None, judges)))
 
 
 def update_competitor_index():
@@ -105,6 +106,8 @@ def update_competitor_index():
     competitors_fmt = []
 
     for c in competitors:
+        if c['id'] in optedOutUuids:
+            continue
         scopes = []
         for r in c['teams']:
             for s in r['rankings']:

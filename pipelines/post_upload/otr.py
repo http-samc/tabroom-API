@@ -114,6 +114,7 @@ def update_otrs_for_team(team_id: str):
 
     for season in seasons:
         for circuit in circuits:
+            print("Updating", circuit, season)
             update_scoped_otr(team_id, circuit, season)
 
 def update_all_otrs(job_id: int | None = None):
@@ -171,4 +172,5 @@ def update_otrs(tab_event_id: int) -> None:
             update_scoped_otr(team, circuit, season)
 
 if __name__ == "__main__":
-    update_otrs(242828)
+    update_otrs_for_team("dfd0b582a4ef75895f07cb21")
+    # update_otrs(242828)
