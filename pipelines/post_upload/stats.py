@@ -121,7 +121,8 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     speaks = []
 
     # Iterate over all team results
-    for result in team_results:
+    for i, result in enumerate(team_results):
+        lprint(job_id, "INFO", message=f"Updating {i+1}/{len(team_results)}")
         # Upsert result into map
         if result['teamId'] not in team_2_results:
             team_2_results[result['teamId']] = []
@@ -470,6 +471,13 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     #     import json
     #     json.dump(lookup, f)
 
+def update_all_stats(job_id: int | None = None):
+    circuits = requests.get(f"{API_BASE}/circuits?expand=seasons").json()
+
+    for circuit in circuits:
+        for season in circuit['seasons']:
+            lprint(job_id, "INFO", message=f"Updating (circuit, season) = ({circuit['id']}, {season['id']})")
+            _update_scoped_stats(job_id, season['id'], circuit['id'])
 
 def update_stats(job_id: int | None, tab_event_id: int):
     """_summary_

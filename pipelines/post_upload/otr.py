@@ -1,6 +1,7 @@
 import math
 import requests
 from shared.const import API_BASE
+from shared.lprint import lprint
 from requests_cache import DO_NOT_CACHE, CachedSession
 requests = CachedSession(expire_after=DO_NOT_CACHE)
 
@@ -19,6 +20,108 @@ def get_otr_deflator(numTourns: int) -> float:
 
     return round(N/((N/Y0 - 1)*math.pow(math.e, -K*numTourns) + 1), 2)
 
+def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
+    results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
+        'where': {
+            'teamId': team_id,
+            'division': {
+                'circuits': {
+                    'some': {
+                        'id': circuit_id
+                    }
+                },
+                'tournament': {
+                    'seasonId': season_id
+                }
+            },
+        },
+        'select': {
+            'otrComp': True
+        }
+    }).json()
+
+    if not len(results):
+        return print(f"No results for team {team_id} on (circuit, season) = ({circuit_id}, {season_id})")
+
+    otrs = list(map(lambda r: r['otrComp'], results))
+    updated_otr = get_otr_deflator(len(otrs)) * sum(otrs)/len(otrs)
+
+    rankings_res = requests.post(f'{API_BASE}/rankings/teams/advanced/upsert', json={
+        'where': {
+            'teamId_circuitId_seasonId': {
+                'teamId': team_id,
+                'seasonId': season_id,
+                'circuitId': circuit_id
+            }
+        },
+        'create': {
+            'team': {
+                'connect': {
+                    'id': team_id
+                }
+            },
+            'season': {
+                'connect': {
+                    'id': season_id
+                }
+            },
+            'circuit': {
+                'connect': {
+                    'id': circuit_id
+                }
+            },
+            'otr': updated_otr
+        },
+        'update': {
+            'otr': updated_otr
+        }
+    })
+
+def update_otrs_for_team(team_id: str):
+    results = requests.post(f"{API_BASE}/results/teams/advanced/findMany", json={
+        "where": {
+            "teamId": team_id
+        },
+        "include": {
+            "division": {
+                "select": {
+                    "circuits": {
+                        "select": {
+                            "id": True
+                        }
+                    },
+                    "tournament": {
+                        "select": {
+                            "seasonId": True
+                        }
+                    }
+                }
+            }
+        }
+    }).json()
+
+    circuits = []
+    seasons = []
+
+    for result in results:
+        for circuit in result['division']['circuits']:
+            circuits.append(circuit['id'])
+
+        seasons.append(result['division']['tournament']['seasonId'])
+
+    circuits = list(set(circuits))
+    seasons = list(set(seasons))
+
+    for season in seasons:
+        for circuit in circuits:
+            update_scoped_otr(team_id, circuit, season)
+
+def update_all_otrs(job_id: int | None = None):
+    teams = requests.get(f"{API_BASE}/teams").json()
+
+    for i, team in enumerate(teams):
+        lprint(job_id, "INFO", message=f"Updating {i+1}/{len(teams)}")
+        update_otrs_for_team(team['id'])
 
 def update_otrs(tab_event_id: int) -> None:
     """Updates all OTRs for all entries in an event (tab_event_id).
@@ -65,62 +168,7 @@ def update_otrs(tab_event_id: int) -> None:
         print(f"Circuit {circuit}")
         for i, team in enumerate(teams):
             print(f"{i+1}/{len(teams)} {team}")
-            results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
-                'where': {
-                    'teamId': team,
-                    'division': {
-                        'circuits': {
-                            'some': {
-                                'id': circuit
-                            }
-                        },
-                        'tournament': {
-                            'seasonId': season
-                        }
-                    },
-                },
-                'select': {
-                    'otrComp': True
-                }
-            }).json()
-
-            if not len(results):
-                continue
-
-            otrs = list(map(lambda r: r['otrComp'], results))
-            updated_otr = get_otr_deflator(len(otrs)) * sum(otrs)/len(otrs)
-
-            rankings_res = requests.post(f'{API_BASE}/rankings/teams/advanced/upsert', json={
-                'where': {
-                    'teamId_circuitId_seasonId': {
-                        'teamId': team,
-                        'seasonId': season,
-                        'circuitId': circuit
-                    }
-                },
-                'create': {
-                    'team': {
-                        'connect': {
-                            'id': team
-                        }
-                    },
-                    'season': {
-                        'connect': {
-                            'id': season
-                        }
-                    },
-                    'circuit': {
-                        'connect': {
-                            'id': circuit
-                        }
-                    },
-                    'otr': updated_otr
-                },
-                'update': {
-                    'otr': updated_otr
-                }
-            })
-
+            update_scoped_otr(team, circuit, season)
 
 if __name__ == "__main__":
     update_otrs(242828)

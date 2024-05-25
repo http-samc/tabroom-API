@@ -6,9 +6,9 @@ from scraper.lib.entry import scrape_entry
 from scraper.lib.entries import scrape_entries
 from scraper.lib.tournament import scrape_tournament
 from shared.helpers import enum_to_string
-from pipelines.post_upload.index import update_indicies
-from pipelines.post_upload.otr import update_otrs
-from pipelines.post_upload.stats import update_stats
+from pipelines.post_upload.index import update_indicies, update_all_indicies
+from pipelines.post_upload.otr import update_otrs, update_all_otrs
+from pipelines.post_upload.stats import update_stats, update_all_stats
 from pipelines.post_upload.update_search import update_team_index, update_judge_index, update_competitor_index
 from shared.lprint import lprint
 import traceback
@@ -106,7 +106,22 @@ async def processTournament(data: ScrapingJobData, id: int | None = None):
 
     lprint(id, "Info", start, "Completed tournament")
 
-async def processJob(job: Job, token: str):
+async def processRetroactiveUpdate(id: int | None = None):
+    start = time.perf_counter()
+
+    lprint(id, "Info", start, f"Updating Indicies...")
+
+    update_all_indicies(id)
+
+    lprint(id, "Info", start, f"Updating OTRs...")
+
+    update_all_otrs(id)
+
+    lprint(id, "Info", start, f"Updating stats...")
+
+    update_all_stats(id)
+
+async def processScrapingJob(job: Job, token: str):
     try:
         await processTournament(job.data, job.id)
         await job.moveToWaitingChildren(token)
@@ -114,7 +129,15 @@ async def processJob(job: Job, token: str):
         lprint(job.id, "Error", message=traceback.format_exc())
         raise Exception()
 
-async def processCSV(path: str):
+async def processRetroactiveUpdateJob(job: Job, token: str):
+    try:
+        await processScrapingJob(job.id)
+        await job.moveToWaitingChildren(token)
+    except Exception as e:
+        lprint(job.id, "Error", message=traceback.format_exc())
+        raise Exception()
+
+async def processScrapingJobCSV(path: str):
     DATA = []
 
     with open(path, "r") as f:
@@ -154,12 +177,15 @@ async def processCSV(path: str):
 
 async def startWorker():
     lprint(None, "Info", message="Starting worker")
-    worker = Worker("scraping", processJob, { "connection": os.environ['REDIS_URL'] })
+    scraping_worker = Worker("scraping", processScrapingJob, { "connection": os.environ['REDIS_URL'] })
+    update_worker = Worker("retroactive_update", processRetroactiveUpdateJob, { "connection": os.environ['REDIS_URL'] })
 
     while True:
         await asyncio.sleep(1)
 
 if len(sys.argv) > 1 and '--file' in sys.argv and sys.argv.index('--file') > 0 and sys.argv.index('--file') < len(sys.argv) - 1:
-    asyncio.run(processCSV(sys.argv[sys.argv.index('--file') + 1]))
+    asyncio.run(processScrapingJobCSV(sys.argv[sys.argv.index('--file') + 1]))
+elif '--retroactiveUpdate' in sys.argv:
+    asyncio.run(processRetroactiveUpdate())
 else:
     asyncio.run(startWorker())
