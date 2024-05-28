@@ -8,7 +8,7 @@ client = meilisearch.Client(
     os.environ['MEILISEARCH_URL'], os.environ['MEILISEARCH_KEY'])
 
 # TODO: Add more indicies for Tournaments, Schools, etc.
-optedOutUuids = list(map(lambda u: u['uuid'], requests.get(f"{API_BASE}/opted-out-uuids").json()))
+optedOutUuids = [] #list(map(lambda u: u['uuid'], requests.get(f"{API_BASE}/opted-out-uuids").json()))
 
 def configure_index(index):
     index.update_filterable_attributes([
