@@ -376,6 +376,9 @@ def update_scoped_index(judge_id: str, circuit_id: int, season_id: int) -> float
         }
     })
 
+    if res.status_code != 200:
+        lprint(None, "Judge Ranking Error", None, res.text)
+
 def update_indicies_for_judge(judge_id: str):
     results = requests.post(f"{API_BASE}/results/judges/advanced/findMany", json={
         "where": {
