@@ -121,7 +121,7 @@ def update_all_otrs(job_id: int | None = None):
     teams = requests.get(f"{API_BASE}/teams").json()
 
     for i, team in enumerate(teams):
-        lprint(job_id, "INFO", message=f"Updating {i+1}/{len(teams)}")
+        lprint(job_id, "Info", message=f"Updating {i+1}/{len(teams)}")
         update_otrs_for_team(team['id'])
 
 def update_otrs(tab_event_id: int) -> None:

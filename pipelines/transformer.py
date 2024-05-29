@@ -369,7 +369,7 @@ def transform_data(job_id: int | None, tab_tourn_id: int, tab_event_id: int, nic
 
         idx = ELIM_ROUND_NAMES.index(last_elim['name_std'])
 
-        if last_op_school == result['school']:
+        if last_op_school == entry['school']:
             lprint(job_id, "Info", message=f"Ghost bid detected for {entry['code']} (Their school is {entry['school']} and their last opponent was from {last_op_school}).")
             is_ghost_bid = True
         else:

@@ -86,15 +86,23 @@ def scrape_entry(tab_tourn_id: int, entry_fragment: EntryFragment) -> Entry:
     entry['rounds'] = []
     entry['competitors'] = clean_element(
         soup.find('h4', class_="nospace semibold")).split(' & ')
+    h6s = soup.find_all('h6')
+    alias = None
+    for h6 in h6s:
+        if "Login" not in clean_element(h6):
+            alias = clean_element(h6).strip()
     if not entry['code']:
-        entry['code'] = clean_element(soup.find('h6')).split(':')[-1].strip()
+        entry['code'] = alias
     if 'school' not in entry or not entry['school']:
-        nodes = clean_element(soup.find('h6')).split(':')[0].strip()
-        if '&' in nodes:
-            nodes = nodes[0:nodes.index('&') - 1]
+        if ':' in alias:
+            entry['school'] = alias.split(':')[0]
         else:
-            nodes = nodes[0:-1]
-        entry['school'] = nodes.join(' ')
+            nodes = alias.split(' ')
+            if '&' in nodes:
+                nodes = nodes[0:nodes.index('&') - 1]
+            else:
+                nodes = nodes[0:-1]
+            entry['school'] = " ".join(nodes)
 
     for row in soup.find_all('div', class_="row"):
         round: Round = {}
