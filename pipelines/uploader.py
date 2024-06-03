@@ -9,35 +9,35 @@ requests = CachedSession(expire_after=DO_NOT_CACHE)
 
 def clear():
     TABLES = [
-        'speaking/rounds',
-        'speaking/tournaments',
-        'bids',
-        'competitors',
-        'rankings/teams',
-        'rankings/judges',
-        'judge-records',
-        'rounds',
-        'results/judges',
-        'results/teams',
-        'aliases',
-        'teams',
-        'paradigms/emails',
-        'paradigms/links',
-        'paradigms',
+        # 'speaking/rounds',
+        # 'speaking/tournaments',
+        # 'bids',
+        # 'competitors',
+        # 'rankings/teams',
+        # 'rankings/judges',
+        # 'judge-records',
+        # 'rounds',
+        # 'results/judges',
+        # 'results/teams',
+        # 'aliases',
+        # 'teams',
+        # 'paradigms/links',
+        # 'paradigms/emails',
+        # 'paradigms',
         'judge-notes',
-        'strikesheets'
+        'strikesheets',
         'judges',
-        'past-tournament-fragments',
+        'tournaments/fragments',
         'tabroom-circuits',
-        'tournament-assets',
-        'tournament-pages',
-        'tournament-sites',
+        'tournaments/assets',
+        'tournaments/pages',
+        'tournaments/sites',
         'tabroom-emails',
-        'event-metadatum',
+        'tournaments/event-metadata',
         'schools',
         'tournaments/divisions',
         'tournaments',
-        'tournament-groups',
+        'tournaments/groups',
         'circuits',
         'seasons',
 
@@ -199,6 +199,11 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
         'update': tournament_body
     })
 
+    if tournament_res.status_code != 200:
+        message = f"Could not upsert tournament. {tournament_res.text}"
+        lprint(job_id, "Error", message=message)
+        raise TypeError("Invalid API Response. " + message)
+
     geography_2_id = {}
 
     for geography in tournament['circuits']:
@@ -266,6 +271,11 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
         'create': tournament_division_body,
         'update': tournament_division_body
     })
+
+    if tournament_division_res.status_code != 200:
+        message = f"Could not upsert tournament division. {tournament_division_res.text}"
+        lprint(job_id, "Error", message=message)
+        raise TypeError("Invalid API Response. " + message)
 
     tournament_division_id = tournament_division_res.json()['id']
     competing_school_ids = []
@@ -399,6 +409,12 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
 
         result_res = requests.post(
             f'{API_BASE}/results/teams', json=result_body)
+
+        if result_res.status_code != 200:
+            message = f"Could not upsert team result. {result_res.text}"
+            lprint(job_id, "Error", message=message)
+            raise TypeError("Invalid API Response. " + message)
+
         team_id_to_result_id[result['team_id']] = result_res.json()['id']
 
         # Add schools to list if not already in
