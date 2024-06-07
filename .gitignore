@@ -152,7 +152,7 @@ cython_debug/
 
 .vscode/
 
-data/
+/data/
 .DS_Store
 *.sqlite
 *.sqlite

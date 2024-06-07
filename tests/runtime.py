@@ -1,16 +1,15 @@
 import unittest
+import requests
+import json
+from pipelines.transformer import TransformedTournamentData
+from shared.lprint import lprint
+from shared.const import API_BASE
 
 class TestTransformerRuntime(unittest.TestCase):
-    def setUp(self):
-        # Mock input data setup
-        self.mock_input = {
-            'entries': [...],  # list of input entries
-            'rounds': [...],   # list of input rounds
-            'judges': [...],   # list of input judges
-            'schools': [...],  # list of input schools
-        }
-        # Call the transform_data function with mock input
-        self.transformed_data = pipelines.transformer.transform_data(self.mock_input)
+    transformed: TransformedTournamentData
+
+    def setUp(self, transformed: TransformedTournamentData):
+        self.transformed = transformed
 
     def test_entry_count(self):
         input_count = len(self.mock_input['entries'])
@@ -69,5 +68,7 @@ class TestTransformerRuntime(unittest.TestCase):
         for entry in self.mock_input['entries']:
             self.assertNotIn('Login to Tabroom', entry['name'], "Entry name should not contain 'Login to Tabroom'")
 
-if __name__ == '__main__':
+def process_runtime_tests(job_id: str | None, transformed_data: TransformedTournamentData):
     unittest.main()
+    lprint(job_id, "Testing", None, str(unittest.result))
+

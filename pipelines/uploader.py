@@ -1,10 +1,11 @@
 import requests
-import shared.lprint as lprint
+from shared.lprint import lprint
 from shared.const import API_BASE
 from typing import Mapping
 from .transformer import TransformedTournamentData
 from requests_cache import DO_NOT_CACHE, CachedSession
 from random import random
+from tests.runtime import process_runtime_tests
 requests = CachedSession(expire_after=DO_NOT_CACHE)
 
 def clear():
@@ -578,3 +579,6 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
 
         paradigm_res = requests.post(
             f'{API_BASE}/paradigms', json=paradigm_body)
+
+    # Runtime tests
+    process_runtime_tests(job_id, data)
