@@ -121,8 +121,7 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     speaks = []
 
     # Iterate over all team results
-    for i, result in enumerate(team_results):
-        lprint(job_id, "Info", message=f"Updating {i+1}/{len(team_results)}")
+    for result in team_results:
         # Upsert result into map
         if result['teamId'] not in team_2_results:
             team_2_results[result['teamId']] = []
@@ -179,7 +178,18 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
 
     avg_speaks = statistics.mean(speaks) if len(speaks) else None
 
-    for teamId, rounds in team_2_rounds.items():
+    # with open("foo.json", "w") as f:
+    #     import json
+    #     json.dump({
+    #         'team_2_otr': team_2_otr,
+    #         'team_2_bids': team_2_bids,
+    #         'team_2_results': team_2_results,
+    #         'team_2_speaks': team_2_speaks,
+    #         'judge_2_speaks': judge_2_speaks,
+    #         'judge_2_index': judge_2_speaks,
+    #     }, f)
+    for i, (teamId, rounds) in enumerate(team_2_rounds.items()):
+        lprint(job_id, "Info", message=f"Updating {i+1}/{len(team_results)}")
         x_wp = []
         # We don't have an expWp for ALL rounds (eg. bye)
         wins_with_exp_wp_recorded = 0
@@ -375,9 +385,9 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
         x_wp = statistics.mean(x_wp)
 
         if len(speaks_above_average) and len(speaks_above_judging):
-            speaks_above_average = statistics.mean(speaks_above_average)
-            speaks_above_judging = statistics.mean(speaks_above_judging)
-            opp_speaker_impact = statistics.mean(opp_speaker_impact)
+            speaks_above_average = statistics.mean(speaks_above_average) if len(speaks_above_average) else None
+            speaks_above_judging = statistics.mean(speaks_above_judging) if len(speaks_above_judging) else None
+            opp_speaker_impact = statistics.mean(opp_speaker_impact) if len(opp_speaker_impact) else None
         else:
             speaks_above_average = None
             speaks_above_judging = None
@@ -456,7 +466,28 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
             'twp': ((prelim_wins / (prelim_wins + prelim_losses)) if prelim_wins + prelim_losses != 0 else 0) + ((0.1 * elim_wins / (elim_wins + elim_losses)) if elim_wins + elim_losses != 0 else 0)
         }
 
-        requests.post(f'{API_BASE}/rankings/teams/advanced/update', json={
+        create_body = statistics_body
+        create_body['team'] = {
+            'connect': {
+                'id': teamId
+            }
+        }
+        create_body['circuit'] = {
+            'connect': {
+                'id': circuit
+            }
+        }
+        create_body['season'] = {
+            'connect': {
+                'id': season
+            }
+        }
+        if teamId not in team_2_otr:
+            continue
+
+        create_body['otr'] = team_2_otr[teamId]
+
+        res = requests.post(f'{API_BASE}/rankings/teams/advanced/upsert', json={
             'where': {
                 'teamId_circuitId_seasonId': {
                     'teamId': teamId,
@@ -464,18 +495,23 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
                     'seasonId': season
                 }
             },
-            'data': statistics_body
+            'update': statistics_body,
+            'create': create_body,
         })
 
-    # with open('t.json', 'w') as f:
-    #     import json
-    #     json.dump(lookup, f)
+        if res.status_code != 200:
+            print({
+                    'teamId': teamId,
+                    'circuitId': circuit,
+                    'seasonId': season
+                })
 
 def update_all_stats(job_id: int | None = None):
     circuits = requests.get(f"{API_BASE}/circuits?expand=seasons").json()
 
     for circuit in circuits:
         for season in circuit['seasons']:
+            if season['id'] != 2: continue
             lprint(job_id, "Info", message=f"Updating (circuit, season) = ({circuit['id']}, {season['id']})")
             _update_scoped_stats(job_id, season['id'], circuit['id'])
 

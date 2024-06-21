@@ -111,7 +111,7 @@ async def processRetroactiveUpdate(id: int | None = None):
 
     lprint(id, "Info", start, f"Updating Indicies...")
 
-    # update_all_indicies(id)
+    update_all_indicies(id)
 
     lprint(id, "Info", start, f"Updating OTRs...")
 
@@ -119,7 +119,7 @@ async def processRetroactiveUpdate(id: int | None = None):
 
     lprint(id, "Info", start, f"Updating stats...")
 
-    # update_all_stats(id)
+    update_all_stats(id)
 
 async def processScrapingJob(job: Job, token: str):
     try:
@@ -131,7 +131,7 @@ async def processScrapingJob(job: Job, token: str):
 
 async def processRetroactiveUpdateJob(job: Job, token: str):
     try:
-        await processScrapingJob(job.id)
+        await processRetroactiveUpdate(job.id)
         await job.moveToWaitingChildren(token)
     except Exception as e:
         lprint(job.id, "Error", message=traceback.format_exc())
