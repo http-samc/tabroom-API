@@ -111,11 +111,11 @@ async def processRetroactiveUpdate(id: int | None = None):
 
     lprint(id, "Info", start, f"Updating Indicies...")
 
-    update_all_indicies(id)
+    # update_all_indicies(id)
 
     lprint(id, "Info", start, f"Updating OTRs...")
 
-    update_all_otrs(id)
+    # update_all_otrs(id)
 
     lprint(id, "Info", start, f"Updating stats...")
 
