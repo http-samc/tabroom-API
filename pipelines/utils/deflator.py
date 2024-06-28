@@ -11,7 +11,7 @@ def get_deflator(x: int) -> float:
     """
 
     N = 1
-    Y0 = 0.15
+    Y0 = 0.04
     K = 1.3
 
     return round(N/((N/Y0 - 1)*math.pow(math.e, -K*x) + 1), 2)

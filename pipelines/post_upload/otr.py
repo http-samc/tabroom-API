@@ -15,10 +15,18 @@ def get_otr_deflator(numTourns: int) -> float:
         float: The proportion of the original OTR that should be retained (from [0, 1)).
     """
     N = 1
-    Y0 = 0.15  # g
+    Y0 = 0.04  # g
     K = 1.3
 
     return round(N/((N/Y0 - 1)*math.pow(math.e, -K*numTourns) + 1), 2)
+
+# def get_break_boost(numElimRoundsWon: int) -> float:
+#     F = 5
+#     D = 0.8002
+#     C = 3.2
+#     B = 0.7
+
+#     return round(F/(1+math.pow(math.e, -B*numElimRoundsWon + C)) + D, 2)
 
 def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
     results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={

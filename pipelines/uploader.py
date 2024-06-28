@@ -203,7 +203,7 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
     if tournament_res.status_code != 200:
         message = f"Could not upsert tournament. {tournament_res.text}"
         lprint(job_id, "Error", message=message)
-        raise TypeError("Invalid API Response. " + message)
+        # raise TypeError("Invalid API Response. " + message)
 
     geography_2_id = {}
 
@@ -276,7 +276,7 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
     if tournament_division_res.status_code != 200:
         message = f"Could not upsert tournament division. {tournament_division_res.text}"
         lprint(job_id, "Error", message=message)
-        raise TypeError("Invalid API Response. " + message)
+        # raise TypeError("Invalid API Response. " + message)
 
     tournament_division_id = tournament_division_res.json()['id']
     competing_school_ids = []
@@ -414,7 +414,7 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
         if result_res.status_code != 200:
             message = f"Could not upsert team result. {result_res.text}"
             lprint(job_id, "Error", message=message)
-            raise TypeError("Invalid API Response. " + message)
+            # raise TypeError("Invalid API Response. " + message)
 
         team_id_to_result_id[result['team_id']] = result_res.json()['id']
 
