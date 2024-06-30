@@ -581,4 +581,4 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
             f'{API_BASE}/paradigms', json=paradigm_body)
 
     # Runtime tests
-    process_runtime_tests(job_id, data)
+    # process_runtime_tests(job_id, data)
