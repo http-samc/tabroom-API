@@ -44,7 +44,8 @@ def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
             },
         },
         'select': {
-            'otrComp': True
+            'otrComp': True,
+            'id': True
         }
     }).json()
 
@@ -53,7 +54,6 @@ def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
 
     otrs = list(map(lambda r: r['otrComp'], results))
     updated_otr = get_otr_deflator(len(otrs)) * sum(otrs)/len(otrs)
-
     rankings_res = requests.post(f'{API_BASE}/rankings/teams/advanced/upsert', json={
         'where': {
             'teamId_circuitId_seasonId': {

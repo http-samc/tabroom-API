@@ -13,10 +13,10 @@ def lprint(job_id: int | None, event: str, start: float | None = None, message: 
 
     # Only send actual job logs to Posthog
     if job_id is not None:
-        # posthog.capture(f"scraping_job-{job_id}", event=event, timestamp=datetime.now(), properties={
-        #     'elapsed': elapsed,
-        #     'message': message
-        # })
-        ...
+        posthog.capture(f"scraping_job-{job_id}", event=event, timestamp=datetime.now(), properties={
+            'elapsed': elapsed,
+            'message': message
+        })
+
     with open("logs.txt", "a") as f:
         f.write(log_string + "\n")
