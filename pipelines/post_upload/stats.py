@@ -189,7 +189,7 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     #         'judge_2_index': judge_2_speaks,
     #     }, f)
     for i, (teamId, rounds) in enumerate(team_2_rounds.items()):
-        lprint(job_id, "Info", message=f"Updating {i+1}/{len(team_2_rounds.items())}")
+        # lprint(job_id, "Info", message=f"Updating {i+1}/{len(team_2_rounds.items())}")
         x_wp = []
         # We don't have an expWp for ALL rounds (eg. bye)
         wins_with_exp_wp_recorded = 0
