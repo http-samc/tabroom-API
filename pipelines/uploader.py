@@ -284,6 +284,8 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
     team_id_to_result_id: Mapping[str, int] = {}
     judge_id_to_result_id: Mapping[str, int] = {}
 
+    team_upload_messages = []
+
     # Create teams & all schools/aliases
     for result in data['team_results']:
         # Create team and upsert and/or connect school and alias
@@ -412,15 +414,17 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
             f'{API_BASE}/results/teams', json=result_body)
 
         if result_res.status_code != 200:
-            message = f"Could not upsert team result. {result_res.text}"
-            lprint(job_id, "Error", message=message)
+            team_upload_messages.append(f"Could not upsert team result. {result_res.text}")
             # raise TypeError("Invalid API Response. " + message)
-
-        team_id_to_result_id[result['team_id']] = result_res.json()['id']
+        else:
+            team_id_to_result_id[result['team_id']] = result_res.json()['id']
 
         # Add schools to list if not already in
         if school_id not in competing_school_ids:
             competing_school_ids.append(school_id)
+
+    if len(team_upload_messages):
+        lprint(job_id, "Error", message="\n".join(team_upload_messages))
 
     # TODO: connect all schools to the tournament event
     for school_id in competing_school_ids:
@@ -541,7 +545,6 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
             ...
 
     # Create paradigms
-    # TODO: links/emails
     for paradigm in data['paradigms']:
         paradigm_body = {
             'id': paradigm['hash'],
