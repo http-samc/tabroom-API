@@ -12,6 +12,7 @@ from pipelines.post_upload.otr import update_otrs, update_all_otrs
 from pipelines.post_upload.stats import update_stats, update_all_stats
 from pipelines.post_upload.update_search import update_team_index, update_judge_index, update_competitor_index
 from shared.lprint import lprint
+from shared.const import API_BASE
 import traceback
 import datetime
 from bullmq import Worker, Job
@@ -180,7 +181,7 @@ async def processScrapingJobCSV(path: str):
             continue
 
 async def startWorker():
-    lprint(None, "Info", message="Starting worker")
+    lprint(None, "Info", message=f"Starting worker with API host `{API_BASE}`.")
     scraping_worker = Worker("scraping", processScrapingJob, { "connection": os.environ['REDIS_URL'] })
     update_worker = Worker("retroactive_update", processRetroactiveUpdateJob, { "connection": os.environ['REDIS_URL'] })
 
