@@ -511,7 +511,7 @@ def update_all_stats(job_id: int | None = None):
 
     for circuit in circuits:
         for season in circuit['seasons']:
-            # if season['id'] != 1 or circuit['id'] != 5: continue
+            if season['id'] != 1 or circuit['id'] != 5: continue
             lprint(job_id, "Info", message=f"Updating (circuit, season) = ({circuit['id']}, {season['id']})")
             try:
                 _update_scoped_stats(job_id, season['id'], circuit['id'])
