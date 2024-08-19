@@ -165,7 +165,7 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
                     judge_2_index[record['judgeId']
                                   ] = record['judge']['rankings'][0]['index']
                 else:
-                    lprint(job_id, event="Warning", message=f"No ranking found for judge {record['judgeId']} on season {season} and circuit {circuit}")
+                    lprint(None, event="Warning", message=f"No ranking found for judge {record['judgeId']} on season {season} and circuit {circuit}")
 
                 # Upsert judge speaks into map
                 if record['judgeId'] not in judge_2_speaks:
@@ -190,7 +190,7 @@ def _update_scoped_stats(job_id: int | None, season: int, circuit: int):
     #         'judge_2_index': judge_2_speaks,
     #     }, f)
     for i, (teamId, rounds) in enumerate(team_2_rounds.items()):
-        # lprint(job_id, "Info", message=f"Updating {i+1}/{len(team_2_rounds.items())}")
+        lprint(job_id if i % 250 == 0 else None, "Info", message=f"Updating {i+1}/{len(team_2_rounds.items())}")
         x_wp = []
         # We don't have an expWp for ALL rounds (eg. bye)
         wins_with_exp_wp_recorded = 0
