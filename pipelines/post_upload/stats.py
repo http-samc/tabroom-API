@@ -1,5 +1,6 @@
 import statistics
 import requests
+import time
 from typing import List
 from shared.const import API_BASE
 from shared.lprint import lprint
@@ -511,10 +512,10 @@ def update_all_stats(job_id: int | None = None):
 
     for circuit in circuits:
         for season in circuit['seasons']:
-            if season['id'] != 1 or circuit['id'] != 5: continue
             lprint(job_id, "Info", message=f"Updating (circuit, season) = ({circuit['id']}, {season['id']})")
             try:
                 _update_scoped_stats(job_id, season['id'], circuit['id'])
+                time.sleep(0.5)
             except Exception:
                 lprint(job_id, "Error", message=f"Failed updating (circuit, season) = ({circuit['id']}, {season['id']})")
 

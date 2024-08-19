@@ -1,4 +1,6 @@
 import math
+import otr
+import time
 import requests
 from shared.const import API_BASE
 from shared.lprint import lprint
@@ -29,6 +31,8 @@ def get_otr_deflator(numTourns: int) -> float:
 #     return round(F/(1+math.pow(math.e, -B*numElimRoundsWon + C)) + D, 2)
 
 def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
+    if circuit_id != 5 and season_id != 1:
+        return
     results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
         'where': {
             'teamId': team_id,
@@ -129,8 +133,9 @@ def update_all_otrs(job_id: int | None = None):
     teams = requests.get(f"{API_BASE}/teams").json()
 
     for i, team in enumerate(teams):
-        # lprint(job_id, "Info", message=f"Updating {i+1}/{len(teams)}")
+        lprint(job_id, "Info", message=f"Updating {i+1}/{len(teams)}")
         update_otrs_for_team(team['id'])
+        time.sleep(0.5)
 
 def update_otrs(tab_event_id: int) -> None:
     """Updates all OTRs for all entries in an event (tab_event_id).
