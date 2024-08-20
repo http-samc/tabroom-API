@@ -1,5 +1,4 @@
 import math
-import otr
 import time
 import requests
 from shared.const import API_BASE
