@@ -30,8 +30,6 @@ def get_otr_deflator(numTourns: int) -> float:
 #     return round(F/(1+math.pow(math.e, -B*numElimRoundsWon + C)) + D, 2)
 
 def update_scoped_otr(team_id: str, circuit_id: int, season_id: int):
-    if circuit_id != 5 and season_id != 1:
-        return
     results = requests.post(f'{API_BASE}/results/teams/advanced/findMany', json={
         'where': {
             'teamId': team_id,
