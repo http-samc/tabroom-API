@@ -229,8 +229,10 @@ def transform_data(job_id: int | None, tab_tourn_id: int, tab_event_id: int, nic
         for round in entry['rounds']:
             if round['type'] == "Prelim":
                 prelim_rounds.append(round)
-            else:
+            elif first_elim_round is not None:
                 elim_rounds.append(round)
+            else:
+                prelim_rounds.append(round)
 
         # Put rounds in chronological orer
         prelim_rounds.reverse()

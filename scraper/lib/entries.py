@@ -69,6 +69,8 @@ def scrape_entries(tab_tourn_id: int, tab_event_id: int) -> List[EntryFragment]:
                 case "Code":
                     fragment['code'] = text
                 case "Record":
+                    if not cell.find('a'):
+                        continue
                     query = parse_qs(
                         urlparse(f"https://www.tabroom.com{cell.find('a')['href']}").query)
                     fragment['tab_competitor_ids'] = list(

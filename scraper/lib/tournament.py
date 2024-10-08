@@ -145,28 +145,31 @@ def scrape_event_metadata(tab_tourn_id: int, tab_event_id: int) -> tournamentDiv
             continue
         elements = row.find_all('span')
         value = clean_element(elements[1])
-        match clean_element(elements[0]):
-            case 'Abbreviation':
-                metadata['abbreviation'] = value
-            case 'Format':
-                metadata['format'] = value
-            case 'Topic:':
-                # TODO: Test this
-                metadata['topic_classification'], metadata['topic'] = list(
-                    map(lambda element: clean_element(element), elements[1].find_all()))
-            case 'Entry Fee':
-                metadata['entry_fee'] = float(value[1:])
-            case 'Overall Entry Limit':
-                metadata['event_entry_limit'] = int(value)
-            case 'Entry Limit Per School':
-                metadata['school_entry_limit'] = int(value)
-            case 'Entry':
-                constraints = []
-                for char in value:
-                    if char.isnumeric():
-                        constraints.append(int(char))
-                constraints.sort()
-                metadata['competitors_per_entry'] = constraints
+        try:
+            match clean_element(elements[0]):
+                case 'Abbreviation':
+                    metadata['abbreviation'] = value
+                case 'Format':
+                    metadata['format'] = value
+                case 'Topic:':
+                    # TODO: Test this
+                    metadata['topic_classification'], metadata['topic'] = list(
+                        map(lambda element: clean_element(element), elements[1].find_all()))
+                case 'Entry Fee':
+                    metadata['entry_fee'] = float(value[1:])
+                case 'Overall Entry Limit':
+                    metadata['event_entry_limit'] = int(value)
+                case 'Entry Limit Per School':
+                    metadata['school_entry_limit'] = int(value)
+                case 'Entry':
+                    constraints = []
+                    for char in value:
+                        if char.isnumeric():
+                            constraints.append(int(char))
+                    constraints.sort()
+                    metadata['competitors_per_entry'] = constraints
+        except Exception:
+            pass
 
     return metadata
 
