@@ -235,4 +235,35 @@ def scrape_entry(tab_tourn_id: int, entry_fragment: EntryFragment) -> Entry:
                 record['was_squirrel'] = False
         entry['rounds'].append(round)
 
+    has_elim = False
+    first_panel = None
+
+    for i, round in enumerate(entry['rounds']):
+        if round['type'] == "Elim":
+            has_elim = True
+        if len(round['judge_records']) > 2:
+            first_panel = i
+
+    # print("Initial", list(map(lambda x: f"{x['name']} ({x['type']})", entry['rounds'])))
+    if has_elim == False and first_panel != None:
+        # No registered elim but has a panel
+        first_elim = first_panel
+        while True:
+            candidate_idx = first_elim + 1
+            if candidate_idx == len(entry['rounds']):
+                break
+            candidate = entry['rounds'][candidate_idx]
+            # Check if candidate round is also a bye
+            if candidate['side'] == 'Bye' or candidate['opponent'] == None or (candidate['ballots_lost'] == 0 and candidate['ballots_won'] == 0): #or (not candidate['judge_records'] or len(candidate['judge_records'] == 0)):
+                first_elim = candidate_idx
+            else:
+                break
+
+        # Update all rounds up to first elim round to be elims
+        i = 0
+        while i <= first_elim:
+            entry['rounds'][i]['type'] = "Elim"
+            i += 1
+    # print("After algo", list(map(lambda x: f"{x['name']} ({x['type']})", entry['rounds'])))
+    # print()
     return entry

@@ -27,7 +27,7 @@ def get_round_type(name: str) -> RoundType:
         raise Exception(
             f"Classified {name} as a novice elimination breakout round.")
 
-    if (name[0] == 'r' and name[1] != 'u') or 'round' in name or (any(c.isdigit() for c in name) and 'x' not in name):
+    if (name[0] == 'r' and name[1] != 'u') or 'round' in name or (any(c.isdigit() for c in name) and 'x' not in name and 'elim' not in name):
         return "Prelim"
 
     else:
