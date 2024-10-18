@@ -59,9 +59,6 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
 
     tournament_body = {
         'tabTournId': tournament['tab_tourn_id'],
-        'name': tournament['name'],
-        'start': tournament['start'],
-        'end': tournament['end'],
         'season': {
             'connectOrCreate': {
                 'where': {
@@ -191,7 +188,10 @@ def upload_data(job_id: int | None, data: TransformedTournamentData):
         }
     }
     tournament_body_create = tournament_body
+    tournament_body_create['name'] = tournament['name']
     tournament_body_create['location'] = tournament['location']
+    tournament_body_create['start'] = tournament['start']
+    tournament_body_create['end'] = tournament['end']
 
     tournament_res = requests.post(f'{API_BASE}/tournaments/advanced/upsert', json={
         'where': {
